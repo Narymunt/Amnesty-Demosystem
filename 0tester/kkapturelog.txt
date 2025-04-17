@@ -1,0 +1,21 @@
+main: initializing...
+main: all main components initialized.
+main: reading parameter block...
+main: video encoder initialized.
+main: initialization done
+video/d3d8: IDirect3D8 object created.
+video: capturing at 1024x768
+video/d3d8: CreateDevice successful.
+avi_vfw: opened video stream at 60.00 fps
+sound: emulating DirectSound 8 (created via CoCreateInstance)
+sound: buffer created
+sound: buffer created
+sound: play
+sound: play
+avi_vfw: opened audio stream at 44100 hz, 2 channels, 16 bits
+main: shutting down...
+main: hook thread exiting
+timing: 20.90 frames per second on average
+avi_vfw: stopped recording
+avi_vfw: avifile shutdown complete
+main: everything ok, closing log.
