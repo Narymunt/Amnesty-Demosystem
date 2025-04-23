@@ -1,0 +1,13 @@
+2010-08-27
+- nazwa pliku musi byc scene.3ds, nazwa wynikowa to flares.bin
+- system odczytuje trase z kamery o nazwie Camera01, wiec tak kamera musi sie nazywac w 3ds
+- na stale wpisane sa paremetry dla kamery 1024x768, aspect 0.75
+- jest taki defekt, ze jezeli w danej klatce nie ma obiektu do wyswietlenia to i tak raz zapisywany jest x,y,z,id
+- jezeli plik flares.bin dodany jest do scene.3d przy konwersji, to jezeli damy blur na scenke, to flary/particle tez beda sie multiplikowac tyle razy co scenka w jednej klatce
+- nazwa pliku dla flary w scence zawarta jest w skrypcie .ini po <FLARE>, jezeli flar nie ma w scence to i tak jest zawsze ladowane
+- WA¯NE! parametr <flare> musi byc w pliku .ini dla sceny
+- pierwsze dwa parametry po nazwie pliku flare definiuja nam tak naprawde centrum srodka obracania dla obiektow, jezeli chcemy aby np. obiekt obracal sie wokol swojego lewego gornego rogu to podajemy 0 0, jezeli tekstura ma np. rozmiar 256x256 i chcemy zeby sie obracal wokol swojego prawego dolnego rogu to podajemy 512 512 (srodek to x/2 i y/2)
+- nastepny parametr to scale factor, okresla wspolczynnik zwiekszania skali tekstury w stosunku do wspolrzednej <z> z pliku .3ds, 100 = 0,001
+- czwarty parametr to rotation factor, okresla predkosc obrotu wokol punktu podanego w pierwszych dwoch parametrach, 100 = 0,001
+- plik z textura dla flary/particle musi miec kanal alfa, czyli moze to byc .png lub .tga - .jpg odpada
+

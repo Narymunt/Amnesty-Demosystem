@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: flare_extractor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/flare_extractor.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Tools\prj\flare_extractor.points\main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSPEC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib flare_export.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/flare_extractor.pdb" /debug /machine:I386 /out:"Debug/flare_extractor.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSPEC.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+C:\Tools\prj\flare_extractor.points\main.c(97) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\Tools\prj\flare_extractor.points\main.c(98) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\Tools\prj\flare_extractor.points\main.c(115) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\Tools\prj\flare_extractor.points\main.c(116) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\Tools\prj\flare_extractor.points\main.c(22) : warning C4101: 'kn' : unreferenced local variable
+C:\Tools\prj\flare_extractor.points\main.c(27) : warning C4101: 'myscreen' : unreferenced local variable
+C:\Tools\prj\flare_extractor.points\main.c(26) : warning C4101: 'o1' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+flare_extractor.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

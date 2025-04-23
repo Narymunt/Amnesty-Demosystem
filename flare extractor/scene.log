@@ -1,0 +1,11447 @@
+ok!
+ok!
+frame #: 0.000000
+frame #: 1.000000
+frame #: 2.000000
+frame #: 3.000000
+frame #: 4.000000
+frame #: 5.000000
+frame #: 6.000000
+frame #: 7.000000
+frame #: 8.000000
+frame #: 9.000000
+frame #: 10.000000
+frame #: 11.000000
+frame #: 12.000000
+frame #: 13.000000
+frame #: 14.000000
+frame #: 15.000000
+frame #: 16.000000
+frame #: 17.000000
+frame #: 18.000000
+frame #: 19.000000
+frame #: 20.000000
+frame #: 21.000000
+frame #: 22.000000
+frame #: 23.000000
+frame #: 24.000000
+frame #: 25.000000
+frame #: 26.000000
+frame #: 27.000000
+frame #: 28.000000
+frame #: 29.000000
+frame #: 30.000000
+frame #: 31.000000
+frame #: 32.000000
+frame #: 33.000000
+frame #: 34.000000
+frame #: 35.000000
+frame #: 36.000000
+frame #: 37.000000
+frame #: 38.000000
+frame #: 39.000000
+frame #: 40.000000
+frame #: 41.000000
+frame #: 42.000000
+frame #: 43.000000
+frame #: 44.000000
+frame #: 45.000000
+frame #: 46.000000
+frame #: 47.000000
+frame #: 48.000000
+frame #: 49.000000
+frame #: 50.000000
+frame #: 51.000000
+frame #: 52.000000
+frame #: 53.000000
+frame #: 54.000000
+frame #: 55.000000
+frame #: 56.000000
+frame #: 57.000000
+frame #: 58.000000
+frame #: 59.000000
+frame #: 60.000000
+frame #: 61.000000
+frame #: 62.000000
+frame #: 63.000000
+frame #: 64.000000
+frame #: 65.000000
+frame #: 66.000000
+frame #: 67.000000
+frame #: 68.000000
+frame #: 69.000000
+frame #: 70.000000
+frame #: 71.000000
+frame #: 72.000000
+frame #: 73.000000
+frame #: 74.000000
+frame #: 75.000000
+frame #: 76.000000
+frame #: 77.000000
+frame #: 78.000000
+frame #: 79.000000
+frame #: 80.000000
+frame #: 81.000000
+frame #: 82.000000
+frame #: 83.000000
+frame #: 84.000000
+frame #: 85.000000
+frame #: 86.000000
+frame #: 87.000000
+frame #: 88.000000
+frame #: 89.000000
+frame #: 90.000000
+frame #: 91.000000
+frame #: 92.000000
+frame #: 93.000000
+frame #: 94.000000
+frame #: 95.000000
+frame #: 96.000000
+frame #: 97.000000
+frame #: 98.000000
+frame #: 99.000000
+frame #: 100.000000
+frame #: 101.000000
+frame #: 102.000000
+frame #: 103.000000
+frame #: 104.000000
+frame #: 105.000000
+frame #: 106.000000
+frame #: 107.000000
+frame #: 108.000000
+frame #: 109.000000
+frame #: 110.000000
+frame #: 111.000000
+ LIGHT AT frame 0 
+ - x : 2101
+ - y : 2202
+ - z : 1.152851
+ - id : 0
+frame #: 112.000000
+ LIGHT AT frame 0 
+ - x : 1405
+ - y : 1438
+ - z : 1.854217
+ - id : 0
+frame #: 113.000000
+ LIGHT AT frame 0 
+ - x : 1092
+ - y : 1096
+ - z : 2.549026
+ - id : 0
+frame #: 114.000000
+ LIGHT AT frame 0 
+ - x : 913
+ - y : 902
+ - z : 3.234582
+ - id : 0
+frame #: 115.000000
+ LIGHT AT frame 0 
+ - x : 798
+ - y : 778
+ - z : 3.908225
+ - id : 0
+frame #: 116.000000
+ LIGHT AT frame 0 
+ - x : 718
+ - y : 693
+ - z : 4.567314
+ - id : 0
+frame #: 117.000000
+ LIGHT AT frame 0 
+ - x : 658
+ - y : 630
+ - z : 5.209193
+ - id : 0
+frame #: 118.000000
+ LIGHT AT frame 0 
+ - x : 613
+ - y : 582
+ - z : 5.831246
+ - id : 0
+frame #: 119.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 545
+ - z : 6.430836
+ - id : 0
+frame #: 120.000000
+ LIGHT AT frame 0 
+ - x : 549
+ - y : 515
+ - z : 7.005371
+ - id : 0
+frame #: 121.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 491
+ - z : 7.552258
+ - id : 0
+frame #: 122.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 471
+ - z : 8.068912
+ - id : 0
+frame #: 123.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 455
+ - z : 8.552763
+ - id : 0
+frame #: 124.000000
+ LIGHT AT frame 0 
+ - x : 479
+ - y : 441
+ - z : 9.001259
+ - id : 0
+frame #: 125.000000
+ LIGHT AT frame 0 
+ - x : 468
+ - y : 429
+ - z : 9.411860
+ - id : 0
+frame #: 126.000000
+ LIGHT AT frame 0 
+ - x : 461
+ - y : 419
+ - z : 9.782036
+ - id : 0
+frame #: 127.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 410
+ - z : 10.109276
+ - id : 0
+frame #: 128.000000
+ LIGHT AT frame 0 
+ - x : 451
+ - y : 402
+ - z : 10.391074
+ - id : 0
+frame #: 129.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 396
+ - z : 10.624945
+ - id : 0
+frame #: 130.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 391
+ - z : 10.808425
+ - id : 0
+frame #: 131.000000
+ LIGHT AT frame 0 
+ - x : 450
+ - y : 386
+ - z : 10.939044
+ - id : 0
+frame #: 132.000000
+ LIGHT AT frame 0 
+ - x : 452
+ - y : 382
+ - z : 11.042737
+ - id : 0
+frame #: 133.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 378
+ - z : 11.147033
+ - id : 0
+frame #: 134.000000
+ LIGHT AT frame 0 
+ - x : 456
+ - y : 374
+ - z : 11.251904
+ - id : 0
+frame #: 135.000000
+ LIGHT AT frame 0 
+ - x : 458
+ - y : 370
+ - z : 11.357326
+ - id : 0
+frame #: 136.000000
+ LIGHT AT frame 0 
+ - x : 459
+ - y : 367
+ - z : 11.463269
+ - id : 0
+frame #: 137.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 364
+ - z : 11.569704
+ - id : 0
+frame #: 138.000000
+ LIGHT AT frame 0 
+ - x : 461
+ - y : 361
+ - z : 11.676605
+ - id : 0
+frame #: 139.000000
+ LIGHT AT frame 0 
+ - x : 462
+ - y : 358
+ - z : 11.783936
+ - id : 0
+frame #: 140.000000
+ LIGHT AT frame 0 
+ - x : 462
+ - y : 356
+ - z : 11.891676
+ - id : 0
+frame #: 141.000000
+ LIGHT AT frame 0 
+ - x : 462
+ - y : 354
+ - z : 11.999799
+ - id : 0
+frame #: 142.000000
+ LIGHT AT frame 0 
+ - x : 462
+ - y : 351
+ - z : 12.108274
+ - id : 0
+frame #: 143.000000
+ LIGHT AT frame 0 
+ - x : 461
+ - y : 350
+ - z : 12.217074
+ - id : 0
+frame #: 144.000000
+ LIGHT AT frame 0 
+ - x : 461
+ - y : 348
+ - z : 12.326181
+ - id : 0
+frame #: 145.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 346
+ - z : 12.435555
+ - id : 0
+frame #: 146.000000
+ LIGHT AT frame 0 
+ - x : 459
+ - y : 345
+ - z : 12.545181
+ - id : 0
+frame #: 147.000000
+ LIGHT AT frame 0 
+ - x : 458
+ - y : 343
+ - z : 12.655024
+ - id : 0
+frame #: 148.000000
+ LIGHT AT frame 0 
+ - x : 457
+ - y : 342
+ - z : 12.765079
+ - id : 0
+frame #: 149.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 341
+ - z : 12.875294
+ - id : 0
+frame #: 150.000000
+ LIGHT AT frame 0 
+ - x : 454
+ - y : 340
+ - z : 12.985662
+ - id : 0
+frame #: 151.000000
+ LIGHT AT frame 0 
+ - x : 452
+ - y : 340
+ - z : 13.096155
+ - id : 0
+frame #: 152.000000
+ LIGHT AT frame 0 
+ - x : 450
+ - y : 339
+ - z : 13.206757
+ - id : 0
+frame #: 153.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 338
+ - z : 13.317426
+ - id : 0
+frame #: 154.000000
+ LIGHT AT frame 0 
+ - x : 446
+ - y : 338
+ - z : 13.428166
+ - id : 0
+frame #: 155.000000
+ LIGHT AT frame 0 
+ - x : 444
+ - y : 338
+ - z : 13.538931
+ - id : 0
+frame #: 156.000000
+ LIGHT AT frame 0 
+ - x : 442
+ - y : 338
+ - z : 13.649709
+ - id : 0
+frame #: 157.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 338
+ - z : 13.760491
+ - id : 0
+frame #: 158.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 338
+ - z : 13.871243
+ - id : 0
+frame #: 159.000000
+ LIGHT AT frame 0 
+ - x : 435
+ - y : 338
+ - z : 13.981948
+ - id : 0
+frame #: 160.000000
+ LIGHT AT frame 0 
+ - x : 432
+ - y : 338
+ - z : 14.092594
+ - id : 0
+frame #: 161.000000
+ LIGHT AT frame 0 
+ - x : 430
+ - y : 339
+ - z : 14.203145
+ - id : 0
+frame #: 162.000000
+ LIGHT AT frame 0 
+ - x : 427
+ - y : 339
+ - z : 14.313595
+ - id : 0
+frame #: 163.000000
+ LIGHT AT frame 0 
+ - x : 424
+ - y : 340
+ - z : 14.423938
+ - id : 0
+frame #: 164.000000
+ LIGHT AT frame 0 
+ - x : 421
+ - y : 340
+ - z : 14.534139
+ - id : 0
+frame #: 165.000000
+ LIGHT AT frame 0 
+ - x : 419
+ - y : 341
+ - z : 14.644187
+ - id : 0
+frame #: 166.000000
+ LIGHT AT frame 0 
+ - x : 416
+ - y : 342
+ - z : 14.754072
+ - id : 0
+frame #: 167.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 342
+ - z : 14.863775
+ - id : 0
+frame #: 168.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 343
+ - z : 14.973270
+ - id : 0
+frame #: 169.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 344
+ - z : 15.082558
+ - id : 0
+frame #: 170.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 345
+ - z : 15.191637
+ - id : 0
+frame #: 171.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 346
+ - z : 15.300467
+ - id : 0
+frame #: 172.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 348
+ - z : 15.409045
+ - id : 0
+frame #: 173.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 349
+ - z : 15.517370
+ - id : 0
+frame #: 174.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 350
+ - z : 15.625419
+ - id : 0
+frame #: 175.000000
+ LIGHT AT frame 0 
+ - x : 388
+ - y : 351
+ - z : 15.733187
+ - id : 0
+frame #: 176.000000
+ LIGHT AT frame 0 
+ - x : 385
+ - y : 353
+ - z : 15.840664
+ - id : 0
+frame #: 177.000000
+ LIGHT AT frame 0 
+ - x : 382
+ - y : 354
+ - z : 15.947849
+ - id : 0
+frame #: 178.000000
+ LIGHT AT frame 0 
+ - x : 379
+ - y : 355
+ - z : 16.054712
+ - id : 0
+frame #: 179.000000
+ LIGHT AT frame 0 
+ - x : 376
+ - y : 357
+ - z : 16.161266
+ - id : 0
+frame #: 180.000000
+ LIGHT AT frame 0 
+ - x : 373
+ - y : 358
+ - z : 16.267485
+ - id : 0
+frame #: 181.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 360
+ - z : 16.373384
+ - id : 0
+frame #: 182.000000
+ LIGHT AT frame 0 
+ - x : 367
+ - y : 361
+ - z : 16.478935
+ - id : 0
+frame #: 183.000000
+ LIGHT AT frame 0 
+ - x : 364
+ - y : 363
+ - z : 16.584150
+ - id : 0
+frame #: 184.000000
+ LIGHT AT frame 0 
+ - x : 361
+ - y : 364
+ - z : 16.689011
+ - id : 0
+frame #: 185.000000
+ LIGHT AT frame 0 
+ - x : 357
+ - y : 366
+ - z : 16.793509
+ - id : 0
+frame #: 186.000000
+ LIGHT AT frame 0 
+ - x : 354
+ - y : 367
+ - z : 16.897648
+ - id : 0
+frame #: 187.000000
+ LIGHT AT frame 0 
+ - x : 351
+ - y : 369
+ - z : 17.001431
+ - id : 0
+frame #: 188.000000
+ LIGHT AT frame 0 
+ - x : 348
+ - y : 370
+ - z : 17.104841
+ - id : 0
+frame #: 189.000000
+ LIGHT AT frame 0 
+ - x : 346
+ - y : 372
+ - z : 17.207884
+ - id : 0
+frame #: 190.000000
+ LIGHT AT frame 0 
+ - x : 343
+ - y : 374
+ - z : 17.310562
+ - id : 0
+frame #: 191.000000
+ LIGHT AT frame 0 
+ - x : 340
+ - y : 375
+ - z : 17.412853
+ - id : 0
+frame #: 192.000000
+ LIGHT AT frame 0 
+ - x : 337
+ - y : 377
+ - z : 17.514771
+ - id : 0
+frame #: 193.000000
+ LIGHT AT frame 0 
+ - x : 334
+ - y : 379
+ - z : 17.616308
+ - id : 0
+frame #: 194.000000
+ LIGHT AT frame 0 
+ - x : 331
+ - y : 380
+ - z : 17.717470
+ - id : 0
+frame #: 195.000000
+ LIGHT AT frame 0 
+ - x : 329
+ - y : 382
+ - z : 17.818256
+ - id : 0
+frame #: 196.000000
+ LIGHT AT frame 0 
+ - x : 326
+ - y : 384
+ - z : 17.918657
+ - id : 0
+frame #: 197.000000
+ LIGHT AT frame 0 
+ - x : 323
+ - y : 385
+ - z : 18.018686
+ - id : 0
+frame #: 198.000000
+ LIGHT AT frame 0 
+ - x : 321
+ - y : 387
+ - z : 18.118340
+ - id : 0
+frame #: 199.000000
+ LIGHT AT frame 0 
+ - x : 318
+ - y : 388
+ - z : 18.217611
+ - id : 0
+frame #: 200.000000
+ LIGHT AT frame 0 
+ - x : 315
+ - y : 390
+ - z : 18.316509
+ - id : 0
+frame #: 201.000000
+ LIGHT AT frame 0 
+ - x : 313
+ - y : 392
+ - z : 18.415041
+ - id : 0
+frame #: 202.000000
+ LIGHT AT frame 0 
+ - x : 311
+ - y : 393
+ - z : 18.513199
+ - id : 0
+frame #: 203.000000
+ LIGHT AT frame 0 
+ - x : 308
+ - y : 395
+ - z : 18.610994
+ - id : 0
+frame #: 204.000000
+ LIGHT AT frame 0 
+ - x : 306
+ - y : 397
+ - z : 18.708431
+ - id : 0
+frame #: 205.000000
+ LIGHT AT frame 0 
+ - x : 304
+ - y : 398
+ - z : 18.805489
+ - id : 0
+frame #: 206.000000
+ LIGHT AT frame 0 
+ - x : 301
+ - y : 400
+ - z : 18.902214
+ - id : 0
+frame #: 207.000000
+ LIGHT AT frame 0 
+ - x : 299
+ - y : 401
+ - z : 18.998583
+ - id : 0
+frame #: 208.000000
+ LIGHT AT frame 0 
+ - x : 297
+ - y : 403
+ - z : 19.094597
+ - id : 0
+frame #: 209.000000
+ LIGHT AT frame 0 
+ - x : 295
+ - y : 404
+ - z : 19.190273
+ - id : 0
+frame #: 210.000000
+ LIGHT AT frame 0 
+ - x : 293
+ - y : 406
+ - z : 19.285616
+ - id : 0
+frame #: 211.000000
+ LIGHT AT frame 0 
+ - x : 291
+ - y : 407
+ - z : 19.380634
+ - id : 0
+frame #: 212.000000
+ LIGHT AT frame 0 
+ - x : 289
+ - y : 409
+ - z : 19.475317
+ - id : 0
+frame #: 213.000000
+ LIGHT AT frame 0 
+ - x : 287
+ - y : 410
+ - z : 19.569691
+ - id : 0
+frame #: 214.000000
+ LIGHT AT frame 0 
+ - x : 286
+ - y : 412
+ - z : 19.663748
+ - id : 0
+frame #: 215.000000
+ LIGHT AT frame 0 
+ - x : 284
+ - y : 413
+ - z : 19.757509
+ - id : 0
+frame #: 216.000000
+ LIGHT AT frame 0 
+ - x : 282
+ - y : 414
+ - z : 19.850958
+ - id : 0
+frame #: 217.000000
+ LIGHT AT frame 0 
+ - x : 281
+ - y : 416
+ - z : 19.944139
+ - id : 0
+frame #: 218.000000
+ LIGHT AT frame 0 
+ - x : 279
+ - y : 417
+ - z : 20.037025
+ - id : 0
+frame #: 219.000000
+ LIGHT AT frame 0 
+ - x : 278
+ - y : 419
+ - z : 20.129641
+ - id : 0
+frame #: 220.000000
+ LIGHT AT frame 0 
+ - x : 277
+ - y : 420
+ - z : 20.222000
+ - id : 0
+frame #: 221.000000
+ LIGHT AT frame 0 
+ - x : 275
+ - y : 421
+ - z : 20.314095
+ - id : 0
+frame #: 222.000000
+ LIGHT AT frame 0 
+ - x : 274
+ - y : 422
+ - z : 20.405949
+ - id : 0
+frame #: 223.000000
+ LIGHT AT frame 0 
+ - x : 273
+ - y : 424
+ - z : 20.497564
+ - id : 0
+frame #: 224.000000
+ LIGHT AT frame 0 
+ - x : 272
+ - y : 425
+ - z : 20.588957
+ - id : 0
+frame #: 225.000000
+ LIGHT AT frame 0 
+ - x : 271
+ - y : 426
+ - z : 20.680124
+ - id : 0
+frame #: 226.000000
+ LIGHT AT frame 0 
+ - x : 270
+ - y : 427
+ - z : 20.771090
+ - id : 0
+frame #: 227.000000
+ LIGHT AT frame 0 
+ - x : 269
+ - y : 428
+ - z : 20.861862
+ - id : 0
+frame #: 228.000000
+ LIGHT AT frame 0 
+ - x : 269
+ - y : 429
+ - z : 20.952438
+ - id : 0
+frame #: 229.000000
+ LIGHT AT frame 0 
+ - x : 268
+ - y : 430
+ - z : 21.042850
+ - id : 0
+frame #: 230.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 431
+ - z : 21.133099
+ - id : 0
+frame #: 231.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 432
+ - z : 21.223200
+ - id : 0
+frame #: 232.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 433
+ - z : 21.313162
+ - id : 0
+frame #: 233.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 434
+ - z : 21.402996
+ - id : 0
+frame #: 234.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 435
+ - z : 21.492716
+ - id : 0
+frame #: 235.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 436
+ - z : 21.582338
+ - id : 0
+frame #: 236.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 437
+ - z : 21.671883
+ - id : 0
+frame #: 237.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 437
+ - z : 21.761345
+ - id : 0
+frame #: 238.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 438
+ - z : 21.850754
+ - id : 0
+frame #: 239.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 439
+ - z : 21.940117
+ - id : 0
+frame #: 240.000000
+ LIGHT AT frame 0 
+ - x : 266
+ - y : 440
+ - z : 22.029453
+ - id : 0
+frame #: 241.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 440
+ - z : 22.118776
+ - id : 0
+frame #: 242.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 441
+ - z : 22.208099
+ - id : 0
+frame #: 243.000000
+ LIGHT AT frame 0 
+ - x : 268
+ - y : 441
+ - z : 22.297445
+ - id : 0
+frame #: 244.000000
+ LIGHT AT frame 0 
+ - x : 268
+ - y : 442
+ - z : 22.386816
+ - id : 0
+frame #: 245.000000
+ LIGHT AT frame 0 
+ - x : 269
+ - y : 442
+ - z : 22.476255
+ - id : 0
+frame #: 246.000000
+ LIGHT AT frame 0 
+ - x : 270
+ - y : 443
+ - z : 22.565742
+ - id : 0
+frame #: 247.000000
+ LIGHT AT frame 0 
+ - x : 271
+ - y : 443
+ - z : 22.655329
+ - id : 0
+frame #: 248.000000
+ LIGHT AT frame 0 
+ - x : 272
+ - y : 444
+ - z : 22.745018
+ - id : 0
+frame #: 249.000000
+ LIGHT AT frame 0 
+ - x : 273
+ - y : 444
+ - z : 22.834822
+ - id : 0
+frame #: 250.000000
+ LIGHT AT frame 0 
+ - x : 274
+ - y : 444
+ - z : 22.924774
+ - id : 0
+frame #: 251.000000
+ LIGHT AT frame 0 
+ - x : 275
+ - y : 445
+ - z : 23.014891
+ - id : 0
+frame #: 252.000000
+ LIGHT AT frame 0 
+ - x : 277
+ - y : 445
+ - z : 23.105173
+ - id : 0
+frame #: 253.000000
+ LIGHT AT frame 0 
+ - x : 278
+ - y : 445
+ - z : 23.195665
+ - id : 0
+frame #: 254.000000
+ LIGHT AT frame 0 
+ - x : 280
+ - y : 445
+ - z : 23.286373
+ - id : 0
+frame #: 255.000000
+ LIGHT AT frame 0 
+ - x : 281
+ - y : 446
+ - z : 23.377327
+ - id : 0
+frame #: 256.000000
+ LIGHT AT frame 0 
+ - x : 283
+ - y : 446
+ - z : 23.468534
+ - id : 0
+frame #: 257.000000
+ LIGHT AT frame 0 
+ - x : 285
+ - y : 446
+ - z : 23.560040
+ - id : 0
+frame #: 258.000000
+ LIGHT AT frame 0 
+ - x : 287
+ - y : 446
+ - z : 23.651846
+ - id : 0
+frame #: 259.000000
+ LIGHT AT frame 0 
+ - x : 289
+ - y : 446
+ - z : 23.743982
+ - id : 0
+frame #: 260.000000
+ LIGHT AT frame 0 
+ - x : 291
+ - y : 446
+ - z : 23.836473
+ - id : 0
+frame #: 261.000000
+ LIGHT AT frame 0 
+ - x : 293
+ - y : 446
+ - z : 23.929354
+ - id : 0
+frame #: 262.000000
+ LIGHT AT frame 0 
+ - x : 295
+ - y : 445
+ - z : 24.022619
+ - id : 0
+frame #: 263.000000
+ LIGHT AT frame 0 
+ - x : 298
+ - y : 445
+ - z : 24.116329
+ - id : 0
+frame #: 264.000000
+ LIGHT AT frame 0 
+ - x : 300
+ - y : 445
+ - z : 24.210957
+ - id : 0
+frame #: 265.000000
+ LIGHT AT frame 0 
+ - x : 303
+ - y : 445
+ - z : 24.306963
+ - id : 0
+frame #: 266.000000
+ LIGHT AT frame 0 
+ - x : 305
+ - y : 445
+ - z : 24.404371
+ - id : 0
+frame #: 267.000000
+ LIGHT AT frame 0 
+ - x : 308
+ - y : 444
+ - z : 24.503164
+ - id : 0
+frame #: 268.000000
+ LIGHT AT frame 0 
+ - x : 311
+ - y : 444
+ - z : 24.603350
+ - id : 0
+frame #: 269.000000
+ LIGHT AT frame 0 
+ - x : 314
+ - y : 444
+ - z : 24.704920
+ - id : 0
+frame #: 270.000000
+ LIGHT AT frame 0 
+ - x : 317
+ - y : 443
+ - z : 24.807888
+ - id : 0
+frame #: 271.000000
+ LIGHT AT frame 0 
+ - x : 321
+ - y : 443
+ - z : 24.912243
+ - id : 0
+frame #: 272.000000
+ LIGHT AT frame 0 
+ - x : 324
+ - y : 443
+ - z : 25.017982
+ - id : 0
+frame #: 273.000000
+ LIGHT AT frame 0 
+ - x : 328
+ - y : 442
+ - z : 25.125114
+ - id : 0
+frame #: 274.000000
+ LIGHT AT frame 0 
+ - x : 331
+ - y : 442
+ - z : 25.233635
+ - id : 0
+frame #: 275.000000
+ LIGHT AT frame 0 
+ - x : 335
+ - y : 442
+ - z : 25.343531
+ - id : 0
+frame #: 276.000000
+ LIGHT AT frame 0 
+ - x : 338
+ - y : 441
+ - z : 25.454803
+ - id : 0
+frame #: 277.000000
+ LIGHT AT frame 0 
+ - x : 342
+ - y : 441
+ - z : 25.567455
+ - id : 0
+frame #: 278.000000
+ LIGHT AT frame 0 
+ - x : 346
+ - y : 440
+ - z : 25.681475
+ - id : 0
+frame #: 279.000000
+ LIGHT AT frame 0 
+ - x : 350
+ - y : 440
+ - z : 25.796869
+ - id : 0
+frame #: 280.000000
+ LIGHT AT frame 0 
+ - x : 354
+ - y : 440
+ - z : 25.913618
+ - id : 0
+frame #: 281.000000
+ LIGHT AT frame 0 
+ - x : 358
+ - y : 439
+ - z : 26.031742
+ - id : 0
+frame #: 282.000000
+ LIGHT AT frame 0 
+ - x : 362
+ - y : 439
+ - z : 26.151203
+ - id : 0
+frame #: 283.000000
+ LIGHT AT frame 0 
+ - x : 366
+ - y : 438
+ - z : 26.272017
+ - id : 0
+frame #: 284.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 438
+ - z : 26.394173
+ - id : 0
+frame #: 285.000000
+ LIGHT AT frame 0 
+ - x : 374
+ - y : 437
+ - z : 26.517654
+ - id : 0
+frame #: 286.000000
+ LIGHT AT frame 0 
+ - x : 379
+ - y : 437
+ - z : 26.642475
+ - id : 0
+frame #: 287.000000
+ LIGHT AT frame 0 
+ - x : 383
+ - y : 436
+ - z : 26.768608
+ - id : 0
+frame #: 288.000000
+ LIGHT AT frame 0 
+ - x : 387
+ - y : 436
+ - z : 26.896051
+ - id : 0
+frame #: 289.000000
+ LIGHT AT frame 0 
+ - x : 391
+ - y : 435
+ - z : 27.024797
+ - id : 0
+frame #: 290.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 435
+ - z : 27.154833
+ - id : 0
+frame #: 291.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 434
+ - z : 27.286146
+ - id : 0
+frame #: 292.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 434
+ - z : 27.418730
+ - id : 0
+frame #: 293.000000
+ LIGHT AT frame 0 
+ - x : 409
+ - y : 433
+ - z : 27.552578
+ - id : 0
+frame #: 294.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 433
+ - z : 27.687670
+ - id : 0
+frame #: 295.000000
+ LIGHT AT frame 0 
+ - x : 417
+ - y : 433
+ - z : 27.823994
+ - id : 0
+frame #: 296.000000
+ LIGHT AT frame 0 
+ - x : 422
+ - y : 432
+ - z : 27.961544
+ - id : 0
+frame #: 297.000000
+ LIGHT AT frame 0 
+ - x : 426
+ - y : 432
+ - z : 28.100298
+ - id : 0
+frame #: 298.000000
+ LIGHT AT frame 0 
+ - x : 430
+ - y : 431
+ - z : 28.240238
+ - id : 0
+frame #: 299.000000
+ LIGHT AT frame 0 
+ - x : 434
+ - y : 431
+ - z : 28.381363
+ - id : 0
+frame #: 300.000000
+ LIGHT AT frame 0 
+ - x : 439
+ - y : 430
+ - z : 28.523647
+ - id : 0
+frame #: 301.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 430
+ - z : 28.667082
+ - id : 0
+frame #: 302.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 429
+ - z : 28.811636
+ - id : 0
+frame #: 303.000000
+ LIGHT AT frame 0 
+ - x : 451
+ - y : 429
+ - z : 28.957304
+ - id : 0
+frame #: 304.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 428
+ - z : 29.104059
+ - id : 0
+frame #: 305.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 428
+ - z : 29.251890
+ - id : 0
+frame #: 306.000000
+ LIGHT AT frame 0 
+ - x : 464
+ - y : 427
+ - z : 29.400782
+ - id : 0
+frame #: 307.000000
+ LIGHT AT frame 0 
+ - x : 468
+ - y : 427
+ - z : 29.550692
+ - id : 0
+frame #: 308.000000
+ LIGHT AT frame 0 
+ - x : 472
+ - y : 427
+ - z : 29.701616
+ - id : 0
+frame #: 309.000000
+ LIGHT AT frame 0 
+ - x : 476
+ - y : 426
+ - z : 29.853539
+ - id : 0
+frame #: 310.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 426
+ - z : 30.006418
+ - id : 0
+frame #: 311.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 425
+ - z : 30.160246
+ - id : 0
+frame #: 312.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 425
+ - z : 30.314987
+ - id : 0
+frame #: 313.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 424
+ - z : 30.470612
+ - id : 0
+frame #: 314.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 424
+ - z : 30.627110
+ - id : 0
+frame #: 315.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 424
+ - z : 30.784452
+ - id : 0
+frame #: 316.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 423
+ - z : 30.942602
+ - id : 0
+frame #: 317.000000
+ LIGHT AT frame 0 
+ - x : 506
+ - y : 423
+ - z : 31.101536
+ - id : 0
+frame #: 318.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 422
+ - z : 31.261234
+ - id : 0
+frame #: 319.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 422
+ - z : 31.421656
+ - id : 0
+frame #: 320.000000
+ LIGHT AT frame 0 
+ - x : 516
+ - y : 422
+ - z : 31.582771
+ - id : 0
+frame #: 321.000000
+ LIGHT AT frame 0 
+ - x : 520
+ - y : 421
+ - z : 31.744553
+ - id : 0
+frame #: 322.000000
+ LIGHT AT frame 0 
+ - x : 523
+ - y : 421
+ - z : 31.906969
+ - id : 0
+frame #: 323.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 421
+ - z : 32.069977
+ - id : 0
+frame #: 324.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 420
+ - z : 32.233559
+ - id : 0
+frame #: 325.000000
+ LIGHT AT frame 0 
+ - x : 533
+ - y : 420
+ - z : 32.397667
+ - id : 0
+frame #: 326.000000
+ LIGHT AT frame 0 
+ - x : 536
+ - y : 420
+ - z : 32.562283
+ - id : 0
+frame #: 327.000000
+ LIGHT AT frame 0 
+ - x : 539
+ - y : 419
+ - z : 32.727356
+ - id : 0
+frame #: 328.000000
+ LIGHT AT frame 0 
+ - x : 542
+ - y : 419
+ - z : 32.892853
+ - id : 0
+frame #: 329.000000
+ LIGHT AT frame 0 
+ - x : 545
+ - y : 419
+ - z : 33.058743
+ - id : 0
+frame #: 330.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 418
+ - z : 33.224976
+ - id : 0
+frame #: 331.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 418
+ - z : 33.391514
+ - id : 0
+frame #: 332.000000
+ LIGHT AT frame 0 
+ - x : 553
+ - y : 418
+ - z : 33.558334
+ - id : 0
+frame #: 333.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 417
+ - z : 33.725380
+ - id : 0
+frame #: 334.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 417
+ - z : 33.892616
+ - id : 0
+frame #: 335.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 417
+ - z : 34.059990
+ - id : 0
+frame #: 336.000000
+ LIGHT AT frame 0 
+ - x : 563
+ - y : 417
+ - z : 34.227486
+ - id : 0
+frame #: 337.000000
+ LIGHT AT frame 0 
+ - x : 565
+ - y : 416
+ - z : 34.395027
+ - id : 0
+frame #: 338.000000
+ LIGHT AT frame 0 
+ - x : 567
+ - y : 416
+ - z : 34.562595
+ - id : 0
+frame #: 339.000000
+ LIGHT AT frame 0 
+ - x : 570
+ - y : 416
+ - z : 34.730129
+ - id : 0
+frame #: 340.000000
+ LIGHT AT frame 0 
+ - x : 572
+ - y : 415
+ - z : 34.897594
+ - id : 0
+frame #: 341.000000
+ LIGHT AT frame 0 
+ - x : 574
+ - y : 415
+ - z : 35.064934
+ - id : 0
+frame #: 342.000000
+ LIGHT AT frame 0 
+ - x : 576
+ - y : 415
+ - z : 35.232109
+ - id : 0
+frame #: 343.000000
+ LIGHT AT frame 0 
+ - x : 578
+ - y : 415
+ - z : 35.399071
+ - id : 0
+frame #: 344.000000
+ LIGHT AT frame 0 
+ - x : 580
+ - y : 414
+ - z : 35.565769
+ - id : 0
+frame #: 345.000000
+ LIGHT AT frame 0 
+ - x : 581
+ - y : 414
+ - z : 35.732147
+ - id : 0
+frame #: 346.000000
+ LIGHT AT frame 0 
+ - x : 583
+ - y : 414
+ - z : 35.898170
+ - id : 0
+frame #: 347.000000
+ LIGHT AT frame 0 
+ - x : 585
+ - y : 414
+ - z : 36.063782
+ - id : 0
+frame #: 348.000000
+ LIGHT AT frame 0 
+ - x : 586
+ - y : 414
+ - z : 36.228920
+ - id : 0
+frame #: 349.000000
+ LIGHT AT frame 0 
+ - x : 588
+ - y : 413
+ - z : 36.393555
+ - id : 0
+frame #: 350.000000
+ LIGHT AT frame 0 
+ - x : 589
+ - y : 413
+ - z : 36.557617
+ - id : 0
+frame #: 351.000000
+ LIGHT AT frame 0 
+ - x : 591
+ - y : 413
+ - z : 36.721046
+ - id : 0
+frame #: 352.000000
+ LIGHT AT frame 0 
+ - x : 592
+ - y : 413
+ - z : 36.883812
+ - id : 0
+frame #: 353.000000
+ LIGHT AT frame 0 
+ - x : 593
+ - y : 413
+ - z : 37.045845
+ - id : 0
+frame #: 354.000000
+ LIGHT AT frame 0 
+ - x : 595
+ - y : 412
+ - z : 37.207096
+ - id : 0
+frame #: 355.000000
+ LIGHT AT frame 0 
+ - x : 596
+ - y : 412
+ - z : 37.367496
+ - id : 0
+frame #: 356.000000
+ LIGHT AT frame 0 
+ - x : 597
+ - y : 412
+ - z : 37.527008
+ - id : 0
+frame #: 357.000000
+ LIGHT AT frame 0 
+ - x : 598
+ - y : 412
+ - z : 37.685570
+ - id : 0
+frame #: 358.000000
+ LIGHT AT frame 0 
+ - x : 599
+ - y : 412
+ - z : 37.843113
+ - id : 0
+frame #: 359.000000
+ LIGHT AT frame 0 
+ - x : 600
+ - y : 411
+ - z : 37.999596
+ - id : 0
+frame #: 360.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 411
+ - z : 38.154945
+ - id : 0
+frame #: 361.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 411
+ - z : 38.309124
+ - id : 0
+frame #: 362.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 411
+ - z : 38.462044
+ - id : 0
+frame #: 363.000000
+ LIGHT AT frame 0 
+ - x : 603
+ - y : 411
+ - z : 38.613663
+ - id : 0
+frame #: 364.000000
+ LIGHT AT frame 0 
+ - x : 603
+ - y : 411
+ - z : 38.763924
+ - id : 0
+frame #: 365.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 411
+ - z : 38.912754
+ - id : 0
+frame #: 366.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 410
+ - z : 39.060108
+ - id : 0
+frame #: 367.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 410
+ - z : 39.205906
+ - id : 0
+frame #: 368.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 410
+ - z : 39.350105
+ - id : 0
+frame #: 369.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 410
+ - z : 39.492626
+ - id : 0
+frame #: 370.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 410
+ - z : 39.633415
+ - id : 0
+frame #: 371.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 410
+ - z : 39.772408
+ - id : 0
+frame #: 372.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 410
+ - z : 39.909546
+ - id : 0
+frame #: 373.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 410
+ - z : 40.044762
+ - id : 0
+frame #: 374.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 410
+ - z : 40.177986
+ - id : 0
+frame #: 375.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.309162
+ - id : 0
+frame #: 376.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.438221
+ - id : 0
+frame #: 377.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.565105
+ - id : 0
+frame #: 378.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.689743
+ - id : 0
+frame #: 379.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.812080
+ - id : 0
+frame #: 380.000000
+ LIGHT AT frame 0 
+ - x : 606
+ - y : 409
+ - z : 40.932037
+ - id : 0
+frame #: 381.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 409
+ - z : 41.049553
+ - id : 0
+frame #: 382.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 409
+ - z : 41.164562
+ - id : 0
+frame #: 383.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 409
+ - z : 41.277000
+ - id : 0
+frame #: 384.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 409
+ - z : 41.386803
+ - id : 0
+frame #: 385.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 409
+ - z : 41.493900
+ - id : 0
+frame #: 386.000000
+ LIGHT AT frame 0 
+ - x : 603
+ - y : 409
+ - z : 41.598232
+ - id : 0
+frame #: 387.000000
+ LIGHT AT frame 0 
+ - x : 603
+ - y : 409
+ - z : 41.699734
+ - id : 0
+frame #: 388.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 409
+ - z : 41.798336
+ - id : 0
+frame #: 389.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 409
+ - z : 41.893963
+ - id : 0
+frame #: 390.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 408
+ - z : 41.986557
+ - id : 0
+frame #: 391.000000
+ LIGHT AT frame 0 
+ - x : 600
+ - y : 408
+ - z : 42.076054
+ - id : 0
+frame #: 392.000000
+ LIGHT AT frame 0 
+ - x : 600
+ - y : 408
+ - z : 42.162384
+ - id : 0
+frame #: 393.000000
+ LIGHT AT frame 0 
+ - x : 599
+ - y : 408
+ - z : 42.245491
+ - id : 0
+frame #: 394.000000
+ LIGHT AT frame 0 
+ - x : 598
+ - y : 408
+ - z : 42.325283
+ - id : 0
+frame #: 395.000000
+ LIGHT AT frame 0 
+ - x : 597
+ - y : 408
+ - z : 42.402588
+ - id : 0
+frame #: 396.000000
+ LIGHT AT frame 0 
+ - x : 596
+ - y : 408
+ - z : 42.478249
+ - id : 0
+frame #: 397.000000
+ LIGHT AT frame 0 
+ - x : 596
+ - y : 408
+ - z : 42.552269
+ - id : 0
+frame #: 398.000000
+ LIGHT AT frame 0 
+ - x : 595
+ - y : 408
+ - z : 42.624653
+ - id : 0
+frame #: 399.000000
+ LIGHT AT frame 0 
+ - x : 594
+ - y : 408
+ - z : 42.695408
+ - id : 0
+frame #: 400.000000
+ LIGHT AT frame 0 
+ - x : 593
+ - y : 408
+ - z : 42.764530
+ - id : 0
+frame #: 401.000000
+ LIGHT AT frame 0 
+ - x : 592
+ - y : 408
+ - z : 42.832039
+ - id : 0
+frame #: 402.000000
+ LIGHT AT frame 0 
+ - x : 591
+ - y : 408
+ - z : 42.897930
+ - id : 0
+frame #: 403.000000
+ LIGHT AT frame 0 
+ - x : 590
+ - y : 408
+ - z : 42.962208
+ - id : 0
+frame #: 404.000000
+ LIGHT AT frame 0 
+ - x : 588
+ - y : 408
+ - z : 43.024876
+ - id : 0
+frame #: 405.000000
+ LIGHT AT frame 0 
+ - x : 587
+ - y : 408
+ - z : 43.085941
+ - id : 0
+frame #: 406.000000
+ LIGHT AT frame 0 
+ - x : 586
+ - y : 408
+ - z : 43.145409
+ - id : 0
+frame #: 407.000000
+ LIGHT AT frame 0 
+ - x : 585
+ - y : 408
+ - z : 43.203289
+ - id : 0
+frame #: 408.000000
+ LIGHT AT frame 0 
+ - x : 584
+ - y : 408
+ - z : 43.259579
+ - id : 0
+frame #: 409.000000
+ LIGHT AT frame 0 
+ - x : 582
+ - y : 408
+ - z : 43.314289
+ - id : 0
+frame #: 410.000000
+ LIGHT AT frame 0 
+ - x : 581
+ - y : 408
+ - z : 43.367420
+ - id : 0
+frame #: 411.000000
+ LIGHT AT frame 0 
+ - x : 580
+ - y : 408
+ - z : 43.418987
+ - id : 0
+frame #: 412.000000
+ LIGHT AT frame 0 
+ - x : 579
+ - y : 408
+ - z : 43.468979
+ - id : 0
+frame #: 413.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 408
+ - z : 43.517422
+ - id : 0
+frame #: 414.000000
+ LIGHT AT frame 0 
+ - x : 576
+ - y : 408
+ - z : 43.564308
+ - id : 0
+frame #: 415.000000
+ LIGHT AT frame 0 
+ - x : 575
+ - y : 408
+ - z : 43.609650
+ - id : 0
+frame #: 416.000000
+ LIGHT AT frame 0 
+ - x : 573
+ - y : 408
+ - z : 43.653446
+ - id : 0
+frame #: 417.000000
+ LIGHT AT frame 0 
+ - x : 572
+ - y : 408
+ - z : 43.695717
+ - id : 0
+frame #: 418.000000
+ LIGHT AT frame 0 
+ - x : 570
+ - y : 408
+ - z : 43.736450
+ - id : 0
+frame #: 419.000000
+ LIGHT AT frame 0 
+ - x : 569
+ - y : 408
+ - z : 43.775673
+ - id : 0
+frame #: 420.000000
+ LIGHT AT frame 0 
+ - x : 568
+ - y : 408
+ - z : 43.813377
+ - id : 0
+frame #: 421.000000
+ LIGHT AT frame 0 
+ - x : 566
+ - y : 408
+ - z : 43.849579
+ - id : 0
+frame #: 422.000000
+ LIGHT AT frame 0 
+ - x : 565
+ - y : 407
+ - z : 43.884277
+ - id : 0
+frame #: 423.000000
+ LIGHT AT frame 0 
+ - x : 563
+ - y : 407
+ - z : 43.917488
+ - id : 0
+frame #: 424.000000
+ LIGHT AT frame 0 
+ - x : 562
+ - y : 407
+ - z : 43.949215
+ - id : 0
+frame #: 425.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 407
+ - z : 43.979465
+ - id : 0
+frame #: 426.000000
+ LIGHT AT frame 0 
+ - x : 559
+ - y : 407
+ - z : 44.008251
+ - id : 0
+frame #: 427.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 407
+ - z : 44.035572
+ - id : 0
+frame #: 428.000000
+ LIGHT AT frame 0 
+ - x : 556
+ - y : 407
+ - z : 44.061447
+ - id : 0
+frame #: 429.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 407
+ - z : 44.085876
+ - id : 0
+frame #: 430.000000
+ LIGHT AT frame 0 
+ - x : 553
+ - y : 407
+ - z : 44.108868
+ - id : 0
+frame #: 431.000000
+ LIGHT AT frame 0 
+ - x : 552
+ - y : 407
+ - z : 44.130444
+ - id : 0
+frame #: 432.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 406
+ - z : 44.150593
+ - id : 0
+frame #: 433.000000
+ LIGHT AT frame 0 
+ - x : 549
+ - y : 406
+ - z : 44.169342
+ - id : 0
+frame #: 434.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 406
+ - z : 44.186691
+ - id : 0
+frame #: 435.000000
+ LIGHT AT frame 0 
+ - x : 546
+ - y : 406
+ - z : 44.202648
+ - id : 0
+frame #: 436.000000
+ LIGHT AT frame 0 
+ - x : 544
+ - y : 406
+ - z : 44.217224
+ - id : 0
+frame #: 437.000000
+ LIGHT AT frame 0 
+ - x : 543
+ - y : 406
+ - z : 44.230434
+ - id : 0
+frame #: 438.000000
+ LIGHT AT frame 0 
+ - x : 542
+ - y : 405
+ - z : 44.242283
+ - id : 0
+frame #: 439.000000
+ LIGHT AT frame 0 
+ - x : 540
+ - y : 405
+ - z : 44.252785
+ - id : 0
+frame #: 440.000000
+ LIGHT AT frame 0 
+ - x : 539
+ - y : 405
+ - z : 44.261940
+ - id : 0
+frame #: 441.000000
+ LIGHT AT frame 0 
+ - x : 537
+ - y : 405
+ - z : 44.269768
+ - id : 0
+frame #: 442.000000
+ LIGHT AT frame 0 
+ - x : 536
+ - y : 405
+ - z : 44.276272
+ - id : 0
+frame #: 443.000000
+ LIGHT AT frame 0 
+ - x : 534
+ - y : 404
+ - z : 44.281464
+ - id : 0
+frame #: 444.000000
+ LIGHT AT frame 0 
+ - x : 533
+ - y : 404
+ - z : 44.285366
+ - id : 0
+frame #: 445.000000
+ LIGHT AT frame 0 
+ - x : 532
+ - y : 404
+ - z : 44.287971
+ - id : 0
+frame #: 446.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 404
+ - z : 44.289295
+ - id : 0
+frame #: 447.000000
+ LIGHT AT frame 0 
+ - x : 529
+ - y : 404
+ - z : 44.289356
+ - id : 0
+frame #: 448.000000
+ LIGHT AT frame 0 
+ - x : 528
+ - y : 403
+ - z : 44.288155
+ - id : 0
+frame #: 449.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 403
+ - z : 44.285706
+ - id : 0
+frame #: 450.000000
+ LIGHT AT frame 0 
+ - x : 525
+ - y : 403
+ - z : 44.282017
+ - id : 0
+frame #: 451.000000
+ LIGHT AT frame 0 
+ - x : 524
+ - y : 403
+ - z : 44.277111
+ - id : 0
+frame #: 452.000000
+ LIGHT AT frame 0 
+ - x : 522
+ - y : 402
+ - z : 44.270981
+ - id : 0
+frame #: 453.000000
+ LIGHT AT frame 0 
+ - x : 521
+ - y : 402
+ - z : 44.263649
+ - id : 0
+frame #: 454.000000
+ LIGHT AT frame 0 
+ - x : 520
+ - y : 402
+ - z : 44.255119
+ - id : 0
+frame #: 455.000000
+ LIGHT AT frame 0 
+ - x : 519
+ - y : 401
+ - z : 44.245403
+ - id : 0
+frame #: 456.000000
+ LIGHT AT frame 0 
+ - x : 517
+ - y : 401
+ - z : 44.234528
+ - id : 0
+frame #: 457.000000
+ LIGHT AT frame 0 
+ - x : 516
+ - y : 401
+ - z : 44.222481
+ - id : 0
+frame #: 458.000000
+ LIGHT AT frame 0 
+ - x : 515
+ - y : 401
+ - z : 44.209286
+ - id : 0
+frame #: 459.000000
+ LIGHT AT frame 0 
+ - x : 514
+ - y : 400
+ - z : 44.194954
+ - id : 0
+frame #: 460.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 400
+ - z : 44.179489
+ - id : 0
+frame #: 461.000000
+ LIGHT AT frame 0 
+ - x : 512
+ - y : 400
+ - z : 44.162903
+ - id : 0
+frame #: 462.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 399
+ - z : 44.145222
+ - id : 0
+frame #: 463.000000
+ LIGHT AT frame 0 
+ - x : 509
+ - y : 399
+ - z : 44.126423
+ - id : 0
+frame #: 464.000000
+ LIGHT AT frame 0 
+ - x : 508
+ - y : 399
+ - z : 44.106552
+ - id : 0
+frame #: 465.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 398
+ - z : 44.085613
+ - id : 0
+frame #: 466.000000
+ LIGHT AT frame 0 
+ - x : 506
+ - y : 398
+ - z : 44.063587
+ - id : 0
+frame #: 467.000000
+ LIGHT AT frame 0 
+ - x : 505
+ - y : 398
+ - z : 44.040527
+ - id : 0
+frame #: 468.000000
+ LIGHT AT frame 0 
+ - x : 504
+ - y : 397
+ - z : 44.016415
+ - id : 0
+frame #: 469.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 397
+ - z : 43.991276
+ - id : 0
+frame #: 470.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 396
+ - z : 43.965107
+ - id : 0
+frame #: 471.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 396
+ - z : 43.937931
+ - id : 0
+frame #: 472.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 396
+ - z : 43.909752
+ - id : 0
+frame #: 473.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 395
+ - z : 43.880581
+ - id : 0
+frame #: 474.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 395
+ - z : 43.850426
+ - id : 0
+frame #: 475.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 394
+ - z : 43.819305
+ - id : 0
+frame #: 476.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 394
+ - z : 43.787220
+ - id : 0
+frame #: 477.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 394
+ - z : 43.754185
+ - id : 0
+frame #: 478.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 393
+ - z : 43.720211
+ - id : 0
+frame #: 479.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 393
+ - z : 43.685310
+ - id : 0
+frame #: 480.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 392
+ - z : 43.649479
+ - id : 0
+frame #: 481.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 392
+ - z : 43.612743
+ - id : 0
+frame #: 482.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 392
+ - z : 43.575108
+ - id : 0
+frame #: 483.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 391
+ - z : 43.536579
+ - id : 0
+frame #: 484.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 391
+ - z : 43.497166
+ - id : 0
+frame #: 485.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 390
+ - z : 43.456875
+ - id : 0
+frame #: 486.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 390
+ - z : 43.415722
+ - id : 0
+frame #: 487.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 389
+ - z : 43.373718
+ - id : 0
+frame #: 488.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 389
+ - z : 43.330860
+ - id : 0
+frame #: 489.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 388
+ - z : 43.287178
+ - id : 0
+frame #: 490.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 388
+ - z : 43.242664
+ - id : 0
+frame #: 491.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 387
+ - z : 43.197327
+ - id : 0
+frame #: 492.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 387
+ - z : 43.151176
+ - id : 0
+frame #: 493.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 387
+ - z : 43.104229
+ - id : 0
+frame #: 494.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 386
+ - z : 43.056488
+ - id : 0
+frame #: 495.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 386
+ - z : 43.007961
+ - id : 0
+frame #: 496.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 385
+ - z : 42.958656
+ - id : 0
+frame #: 497.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 385
+ - z : 42.908585
+ - id : 0
+frame #: 498.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 384
+ - z : 42.857746
+ - id : 0
+frame #: 499.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 384
+ - z : 42.806164
+ - id : 0
+frame #: 500.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 383
+ - z : 42.753834
+ - id : 0
+frame #: 501.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 383
+ - z : 42.700768
+ - id : 0
+frame #: 502.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 382
+ - z : 42.646965
+ - id : 0
+frame #: 503.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 382
+ - z : 42.592453
+ - id : 0
+frame #: 504.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 381
+ - z : 42.537220
+ - id : 0
+frame #: 505.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 381
+ - z : 42.481274
+ - id : 0
+frame #: 506.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 380
+ - z : 42.424637
+ - id : 0
+frame #: 507.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 380
+ - z : 42.367302
+ - id : 0
+frame #: 508.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 379
+ - z : 42.309288
+ - id : 0
+frame #: 509.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 379
+ - z : 42.250591
+ - id : 0
+frame #: 510.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 378
+ - z : 42.191223
+ - id : 0
+frame #: 511.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 378
+ - z : 42.131184
+ - id : 0
+frame #: 512.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 377
+ - z : 42.070496
+ - id : 0
+frame #: 513.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 377
+ - z : 42.009155
+ - id : 0
+frame #: 514.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 376
+ - z : 41.947163
+ - id : 0
+frame #: 515.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 376
+ - z : 41.884533
+ - id : 0
+frame #: 516.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 375
+ - z : 41.821274
+ - id : 0
+frame #: 517.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 375
+ - z : 41.757389
+ - id : 0
+frame #: 518.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 374
+ - z : 41.692879
+ - id : 0
+frame #: 519.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 374
+ - z : 41.627758
+ - id : 0
+frame #: 520.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 373
+ - z : 41.562027
+ - id : 0
+frame #: 521.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 373
+ - z : 41.495693
+ - id : 0
+frame #: 522.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 372
+ - z : 41.428768
+ - id : 0
+frame #: 523.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 372
+ - z : 41.361244
+ - id : 0
+frame #: 524.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 371
+ - z : 41.293137
+ - id : 0
+frame #: 525.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 371
+ - z : 41.224449
+ - id : 0
+frame #: 526.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 370
+ - z : 41.155186
+ - id : 0
+frame #: 527.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 370
+ - z : 41.084385
+ - id : 0
+frame #: 528.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 369
+ - z : 41.011105
+ - id : 0
+frame #: 529.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 368
+ - z : 40.935356
+ - id : 0
+frame #: 530.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 368
+ - z : 40.857178
+ - id : 0
+frame #: 531.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 367
+ - z : 40.776608
+ - id : 0
+frame #: 532.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 367
+ - z : 40.693665
+ - id : 0
+frame #: 533.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 366
+ - z : 40.608391
+ - id : 0
+frame #: 534.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 366
+ - z : 40.520809
+ - id : 0
+frame #: 535.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 365
+ - z : 40.430946
+ - id : 0
+frame #: 536.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 364
+ - z : 40.338837
+ - id : 0
+frame #: 537.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 364
+ - z : 40.244511
+ - id : 0
+frame #: 538.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 363
+ - z : 40.147991
+ - id : 0
+frame #: 539.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 362
+ - z : 40.049324
+ - id : 0
+frame #: 540.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 362
+ - z : 39.948528
+ - id : 0
+frame #: 541.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 361
+ - z : 39.845634
+ - id : 0
+frame #: 542.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 360
+ - z : 39.740677
+ - id : 0
+frame #: 543.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 360
+ - z : 39.633682
+ - id : 0
+frame #: 544.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 359
+ - z : 39.524681
+ - id : 0
+frame #: 545.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 358
+ - z : 39.413719
+ - id : 0
+frame #: 546.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 357
+ - z : 39.300808
+ - id : 0
+frame #: 547.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 357
+ - z : 39.185986
+ - id : 0
+frame #: 548.000000
+ LIGHT AT frame 0 
+ - x : 504
+ - y : 356
+ - z : 39.069286
+ - id : 0
+frame #: 549.000000
+ LIGHT AT frame 0 
+ - x : 505
+ - y : 355
+ - z : 38.950741
+ - id : 0
+frame #: 550.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 354
+ - z : 38.830376
+ - id : 0
+frame #: 551.000000
+ LIGHT AT frame 0 
+ - x : 508
+ - y : 353
+ - z : 38.708229
+ - id : 0
+frame #: 552.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 353
+ - z : 38.584324
+ - id : 0
+frame #: 553.000000
+ LIGHT AT frame 0 
+ - x : 512
+ - y : 352
+ - z : 38.458710
+ - id : 0
+frame #: 554.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 351
+ - z : 38.331402
+ - id : 0
+frame #: 555.000000
+ LIGHT AT frame 0 
+ - x : 515
+ - y : 350
+ - z : 38.202446
+ - id : 0
+frame #: 556.000000
+ LIGHT AT frame 0 
+ - x : 517
+ - y : 349
+ - z : 38.071861
+ - id : 0
+frame #: 557.000000
+ LIGHT AT frame 0 
+ - x : 518
+ - y : 348
+ - z : 37.939690
+ - id : 0
+frame #: 558.000000
+ LIGHT AT frame 0 
+ - x : 520
+ - y : 347
+ - z : 37.805965
+ - id : 0
+frame #: 559.000000
+ LIGHT AT frame 0 
+ - x : 522
+ - y : 347
+ - z : 37.670723
+ - id : 0
+frame #: 560.000000
+ LIGHT AT frame 0 
+ - x : 524
+ - y : 346
+ - z : 37.533985
+ - id : 0
+frame #: 561.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 345
+ - z : 37.395798
+ - id : 0
+frame #: 562.000000
+ LIGHT AT frame 0 
+ - x : 528
+ - y : 344
+ - z : 37.256184
+ - id : 0
+frame #: 563.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 343
+ - z : 37.115196
+ - id : 0
+frame #: 564.000000
+ LIGHT AT frame 0 
+ - x : 532
+ - y : 342
+ - z : 36.972847
+ - id : 0
+frame #: 565.000000
+ LIGHT AT frame 0 
+ - x : 534
+ - y : 341
+ - z : 36.829189
+ - id : 0
+frame #: 566.000000
+ LIGHT AT frame 0 
+ - x : 536
+ - y : 340
+ - z : 36.684250
+ - id : 0
+frame #: 567.000000
+ LIGHT AT frame 0 
+ - x : 539
+ - y : 339
+ - z : 36.538071
+ - id : 0
+frame #: 568.000000
+ LIGHT AT frame 0 
+ - x : 541
+ - y : 338
+ - z : 36.390678
+ - id : 0
+frame #: 569.000000
+ LIGHT AT frame 0 
+ - x : 543
+ - y : 337
+ - z : 36.242115
+ - id : 0
+frame #: 570.000000
+ LIGHT AT frame 0 
+ - x : 545
+ - y : 336
+ - z : 36.092422
+ - id : 0
+frame #: 571.000000
+ LIGHT AT frame 0 
+ - x : 548
+ - y : 335
+ - z : 35.941631
+ - id : 0
+frame #: 572.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 334
+ - z : 35.789776
+ - id : 0
+frame #: 573.000000
+ LIGHT AT frame 0 
+ - x : 552
+ - y : 333
+ - z : 35.636902
+ - id : 0
+frame #: 574.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 332
+ - z : 35.483044
+ - id : 0
+frame #: 575.000000
+ LIGHT AT frame 0 
+ - x : 557
+ - y : 331
+ - z : 35.328243
+ - id : 0
+frame #: 576.000000
+ LIGHT AT frame 0 
+ - x : 559
+ - y : 330
+ - z : 35.172539
+ - id : 0
+frame #: 577.000000
+ LIGHT AT frame 0 
+ - x : 562
+ - y : 328
+ - z : 35.015965
+ - id : 0
+frame #: 578.000000
+ LIGHT AT frame 0 
+ - x : 564
+ - y : 327
+ - z : 34.858566
+ - id : 0
+frame #: 579.000000
+ LIGHT AT frame 0 
+ - x : 567
+ - y : 326
+ - z : 34.700386
+ - id : 0
+frame #: 580.000000
+ LIGHT AT frame 0 
+ - x : 570
+ - y : 325
+ - z : 34.541458
+ - id : 0
+frame #: 581.000000
+ LIGHT AT frame 0 
+ - x : 572
+ - y : 324
+ - z : 34.381832
+ - id : 0
+frame #: 582.000000
+ LIGHT AT frame 0 
+ - x : 575
+ - y : 323
+ - z : 34.221542
+ - id : 0
+frame #: 583.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 322
+ - z : 34.060635
+ - id : 0
+frame #: 584.000000
+ LIGHT AT frame 0 
+ - x : 580
+ - y : 321
+ - z : 33.899158
+ - id : 0
+frame #: 585.000000
+ LIGHT AT frame 0 
+ - x : 583
+ - y : 319
+ - z : 33.737144
+ - id : 0
+frame #: 586.000000
+ LIGHT AT frame 0 
+ - x : 585
+ - y : 318
+ - z : 33.574654
+ - id : 0
+frame #: 587.000000
+ LIGHT AT frame 0 
+ - x : 588
+ - y : 317
+ - z : 33.411713
+ - id : 0
+frame #: 588.000000
+ LIGHT AT frame 0 
+ - x : 591
+ - y : 316
+ - z : 33.248383
+ - id : 0
+frame #: 589.000000
+ LIGHT AT frame 0 
+ - x : 593
+ - y : 315
+ - z : 33.084698
+ - id : 0
+frame #: 590.000000
+ LIGHT AT frame 0 
+ - x : 596
+ - y : 314
+ - z : 32.920719
+ - id : 0
+frame #: 591.000000
+ LIGHT AT frame 0 
+ - x : 599
+ - y : 312
+ - z : 32.756474
+ - id : 0
+frame #: 592.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 311
+ - z : 32.592030
+ - id : 0
+frame #: 593.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 310
+ - z : 32.427429
+ - id : 0
+frame #: 594.000000
+ LIGHT AT frame 0 
+ - x : 607
+ - y : 309
+ - z : 32.262718
+ - id : 0
+frame #: 595.000000
+ LIGHT AT frame 0 
+ - x : 610
+ - y : 308
+ - z : 32.097946
+ - id : 0
+frame #: 596.000000
+ LIGHT AT frame 0 
+ - x : 613
+ - y : 306
+ - z : 31.933170
+ - id : 0
+frame #: 597.000000
+ LIGHT AT frame 0 
+ - x : 616
+ - y : 305
+ - z : 31.768436
+ - id : 0
+frame #: 598.000000
+ LIGHT AT frame 0 
+ - x : 619
+ - y : 304
+ - z : 31.603809
+ - id : 0
+frame #: 599.000000
+ LIGHT AT frame 0 
+ - x : 621
+ - y : 303
+ - z : 31.439325
+ - id : 0
+frame #: 600.000000
+ LIGHT AT frame 0 
+ - x : 624
+ - y : 301
+ - z : 31.275045
+ - id : 0
+frame #: 601.000000
+ LIGHT AT frame 0 
+ - x : 627
+ - y : 300
+ - z : 31.111032
+ - id : 0
+frame #: 602.000000
+ LIGHT AT frame 0 
+ - x : 630
+ - y : 299
+ - z : 30.947332
+ - id : 0
+frame #: 603.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 298
+ - z : 30.784006
+ - id : 0
+frame #: 604.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 297
+ - z : 30.621105
+ - id : 0
+frame #: 605.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 295
+ - z : 30.458700
+ - id : 0
+frame #: 606.000000
+ LIGHT AT frame 0 
+ - x : 641
+ - y : 294
+ - z : 30.296843
+ - id : 0
+frame #: 607.000000
+ LIGHT AT frame 0 
+ - x : 644
+ - y : 293
+ - z : 30.135588
+ - id : 0
+frame #: 608.000000
+ LIGHT AT frame 0 
+ - x : 646
+ - y : 292
+ - z : 29.975002
+ - id : 0
+frame #: 609.000000
+ LIGHT AT frame 0 
+ - x : 649
+ - y : 291
+ - z : 29.815151
+ - id : 0
+frame #: 610.000000
+ LIGHT AT frame 0 
+ - x : 652
+ - y : 289
+ - z : 29.656088
+ - id : 0
+frame #: 611.000000
+ LIGHT AT frame 0 
+ - x : 654
+ - y : 288
+ - z : 29.497887
+ - id : 0
+frame #: 612.000000
+ LIGHT AT frame 0 
+ - x : 657
+ - y : 287
+ - z : 29.340605
+ - id : 0
+frame #: 613.000000
+ LIGHT AT frame 0 
+ - x : 660
+ - y : 286
+ - z : 29.184303
+ - id : 0
+frame #: 614.000000
+ LIGHT AT frame 0 
+ - x : 662
+ - y : 285
+ - z : 29.029060
+ - id : 0
+frame #: 615.000000
+ LIGHT AT frame 0 
+ - x : 665
+ - y : 284
+ - z : 28.874933
+ - id : 0
+frame #: 616.000000
+ LIGHT AT frame 0 
+ - x : 667
+ - y : 283
+ - z : 28.721989
+ - id : 0
+frame #: 617.000000
+ LIGHT AT frame 0 
+ - x : 670
+ - y : 282
+ - z : 28.570305
+ - id : 0
+frame #: 618.000000
+ LIGHT AT frame 0 
+ - x : 672
+ - y : 281
+ - z : 28.419939
+ - id : 0
+frame #: 619.000000
+ LIGHT AT frame 0 
+ - x : 674
+ - y : 280
+ - z : 28.270962
+ - id : 0
+frame #: 620.000000
+ LIGHT AT frame 0 
+ - x : 676
+ - y : 279
+ - z : 28.123453
+ - id : 0
+frame #: 621.000000
+ LIGHT AT frame 0 
+ - x : 679
+ - y : 278
+ - z : 27.977480
+ - id : 0
+frame #: 622.000000
+ LIGHT AT frame 0 
+ - x : 681
+ - y : 277
+ - z : 27.833103
+ - id : 0
+frame #: 623.000000
+ LIGHT AT frame 0 
+ - x : 683
+ - y : 276
+ - z : 27.690405
+ - id : 0
+frame #: 624.000000
+ LIGHT AT frame 0 
+ - x : 685
+ - y : 275
+ - z : 27.549459
+ - id : 0
+frame #: 625.000000
+ LIGHT AT frame 0 
+ - x : 687
+ - y : 274
+ - z : 27.410332
+ - id : 0
+frame #: 626.000000
+ LIGHT AT frame 0 
+ - x : 688
+ - y : 273
+ - z : 27.273102
+ - id : 0
+frame #: 627.000000
+ LIGHT AT frame 0 
+ - x : 690
+ - y : 273
+ - z : 27.137831
+ - id : 0
+frame #: 628.000000
+ LIGHT AT frame 0 
+ - x : 692
+ - y : 272
+ - z : 27.004601
+ - id : 0
+frame #: 629.000000
+ LIGHT AT frame 0 
+ - x : 693
+ - y : 271
+ - z : 26.873486
+ - id : 0
+frame #: 630.000000
+ LIGHT AT frame 0 
+ - x : 695
+ - y : 271
+ - z : 26.744555
+ - id : 0
+frame #: 631.000000
+ LIGHT AT frame 0 
+ - x : 696
+ - y : 270
+ - z : 26.617887
+ - id : 0
+frame #: 632.000000
+ LIGHT AT frame 0 
+ - x : 697
+ - y : 269
+ - z : 26.493542
+ - id : 0
+frame #: 633.000000
+ LIGHT AT frame 0 
+ - x : 698
+ - y : 269
+ - z : 26.371601
+ - id : 0
+frame #: 634.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 268
+ - z : 26.252125
+ - id : 0
+frame #: 635.000000
+ LIGHT AT frame 0 
+ - x : 700
+ - y : 268
+ - z : 26.135199
+ - id : 0
+frame #: 636.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 268
+ - z : 26.020885
+ - id : 0
+frame #: 637.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 267
+ - z : 25.909254
+ - id : 0
+frame #: 638.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 267
+ - z : 25.800365
+ - id : 0
+frame #: 639.000000
+ LIGHT AT frame 0 
+ - x : 702
+ - y : 267
+ - z : 25.694286
+ - id : 0
+frame #: 640.000000
+ LIGHT AT frame 0 
+ - x : 702
+ - y : 267
+ - z : 25.591091
+ - id : 0
+frame #: 641.000000
+ LIGHT AT frame 0 
+ - x : 702
+ - y : 267
+ - z : 25.490833
+ - id : 0
+frame #: 642.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 267
+ - z : 25.393574
+ - id : 0
+frame #: 643.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 267
+ - z : 25.299368
+ - id : 0
+frame #: 644.000000
+ LIGHT AT frame 0 
+ - x : 701
+ - y : 267
+ - z : 25.208273
+ - id : 0
+frame #: 645.000000
+ LIGHT AT frame 0 
+ - x : 700
+ - y : 267
+ - z : 25.120346
+ - id : 0
+frame #: 646.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 267
+ - z : 25.035637
+ - id : 0
+frame #: 647.000000
+ LIGHT AT frame 0 
+ - x : 698
+ - y : 267
+ - z : 24.954189
+ - id : 0
+frame #: 648.000000
+ LIGHT AT frame 0 
+ - x : 696
+ - y : 267
+ - z : 24.876051
+ - id : 0
+frame #: 649.000000
+ LIGHT AT frame 0 
+ - x : 695
+ - y : 268
+ - z : 24.801268
+ - id : 0
+frame #: 650.000000
+ LIGHT AT frame 0 
+ - x : 693
+ - y : 268
+ - z : 24.729866
+ - id : 0
+frame #: 651.000000
+ LIGHT AT frame 0 
+ - x : 691
+ - y : 269
+ - z : 24.661884
+ - id : 0
+frame #: 652.000000
+ LIGHT AT frame 0 
+ - x : 689
+ - y : 269
+ - z : 24.597363
+ - id : 0
+frame #: 653.000000
+ LIGHT AT frame 0 
+ - x : 687
+ - y : 270
+ - z : 24.536322
+ - id : 0
+frame #: 654.000000
+ LIGHT AT frame 0 
+ - x : 685
+ - y : 270
+ - z : 24.478790
+ - id : 0
+frame #: 655.000000
+ LIGHT AT frame 0 
+ - x : 682
+ - y : 271
+ - z : 24.424786
+ - id : 0
+frame #: 656.000000
+ LIGHT AT frame 0 
+ - x : 679
+ - y : 271
+ - z : 24.374331
+ - id : 0
+frame #: 657.000000
+ LIGHT AT frame 0 
+ - x : 676
+ - y : 272
+ - z : 24.327431
+ - id : 0
+frame #: 658.000000
+ LIGHT AT frame 0 
+ - x : 673
+ - y : 273
+ - z : 24.284353
+ - id : 0
+frame #: 659.000000
+ LIGHT AT frame 0 
+ - x : 669
+ - y : 274
+ - z : 24.245304
+ - id : 0
+frame #: 660.000000
+ LIGHT AT frame 0 
+ - x : 665
+ - y : 274
+ - z : 24.210205
+ - id : 0
+frame #: 661.000000
+ LIGHT AT frame 0 
+ - x : 661
+ - y : 275
+ - z : 24.178986
+ - id : 0
+frame #: 662.000000
+ LIGHT AT frame 0 
+ - x : 657
+ - y : 276
+ - z : 24.151552
+ - id : 0
+frame #: 663.000000
+ LIGHT AT frame 0 
+ - x : 652
+ - y : 277
+ - z : 24.127825
+ - id : 0
+frame #: 664.000000
+ LIGHT AT frame 0 
+ - x : 647
+ - y : 278
+ - z : 24.107723
+ - id : 0
+frame #: 665.000000
+ LIGHT AT frame 0 
+ - x : 642
+ - y : 279
+ - z : 24.091148
+ - id : 0
+frame #: 666.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 280
+ - z : 24.078016
+ - id : 0
+frame #: 667.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 281
+ - z : 24.068233
+ - id : 0
+frame #: 668.000000
+ LIGHT AT frame 0 
+ - x : 625
+ - y : 282
+ - z : 24.061703
+ - id : 0
+frame #: 669.000000
+ LIGHT AT frame 0 
+ - x : 619
+ - y : 283
+ - z : 24.058340
+ - id : 0
+frame #: 670.000000
+ LIGHT AT frame 0 
+ - x : 613
+ - y : 283
+ - z : 24.058064
+ - id : 0
+frame #: 671.000000
+ LIGHT AT frame 0 
+ - x : 607
+ - y : 284
+ - z : 24.060776
+ - id : 0
+frame #: 672.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 285
+ - z : 24.066399
+ - id : 0
+frame #: 673.000000
+ LIGHT AT frame 0 
+ - x : 594
+ - y : 286
+ - z : 24.074854
+ - id : 0
+frame #: 674.000000
+ LIGHT AT frame 0 
+ - x : 587
+ - y : 286
+ - z : 24.086063
+ - id : 0
+frame #: 675.000000
+ LIGHT AT frame 0 
+ - x : 581
+ - y : 287
+ - z : 24.099947
+ - id : 0
+frame #: 676.000000
+ LIGHT AT frame 0 
+ - x : 574
+ - y : 287
+ - z : 24.116451
+ - id : 0
+frame #: 677.000000
+ LIGHT AT frame 0 
+ - x : 567
+ - y : 288
+ - z : 24.135504
+ - id : 0
+frame #: 678.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 288
+ - z : 24.157059
+ - id : 0
+frame #: 679.000000
+ LIGHT AT frame 0 
+ - x : 554
+ - y : 288
+ - z : 24.181049
+ - id : 0
+frame #: 680.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 289
+ - z : 24.207436
+ - id : 0
+frame #: 681.000000
+ LIGHT AT frame 0 
+ - x : 540
+ - y : 289
+ - z : 24.236174
+ - id : 0
+frame #: 682.000000
+ LIGHT AT frame 0 
+ - x : 533
+ - y : 289
+ - z : 24.267225
+ - id : 0
+frame #: 683.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 289
+ - z : 24.300562
+ - id : 0
+frame #: 684.000000
+ LIGHT AT frame 0 
+ - x : 520
+ - y : 288
+ - z : 24.336149
+ - id : 0
+frame #: 685.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 288
+ - z : 24.373966
+ - id : 0
+frame #: 686.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 288
+ - z : 24.413986
+ - id : 0
+frame #: 687.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 287
+ - z : 24.456198
+ - id : 0
+frame #: 688.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 287
+ - z : 24.500582
+ - id : 0
+frame #: 689.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 286
+ - z : 24.547131
+ - id : 0
+frame #: 690.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 286
+ - z : 24.595825
+ - id : 0
+frame #: 691.000000
+ LIGHT AT frame 0 
+ - x : 476
+ - y : 285
+ - z : 24.646656
+ - id : 0
+frame #: 692.000000
+ LIGHT AT frame 0 
+ - x : 470
+ - y : 284
+ - z : 24.699612
+ - id : 0
+frame #: 693.000000
+ LIGHT AT frame 0 
+ - x : 464
+ - y : 283
+ - z : 24.754686
+ - id : 0
+frame #: 694.000000
+ LIGHT AT frame 0 
+ - x : 459
+ - y : 283
+ - z : 24.811863
+ - id : 0
+frame #: 695.000000
+ LIGHT AT frame 0 
+ - x : 453
+ - y : 282
+ - z : 24.871145
+ - id : 0
+frame #: 696.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 281
+ - z : 24.932501
+ - id : 0
+frame #: 697.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 280
+ - z : 24.995924
+ - id : 0
+frame #: 698.000000
+ LIGHT AT frame 0 
+ - x : 439
+ - y : 279
+ - z : 25.061409
+ - id : 0
+frame #: 699.000000
+ LIGHT AT frame 0 
+ - x : 434
+ - y : 278
+ - z : 25.128918
+ - id : 0
+frame #: 700.000000
+ LIGHT AT frame 0 
+ - x : 429
+ - y : 276
+ - z : 25.198439
+ - id : 0
+frame #: 701.000000
+ LIGHT AT frame 0 
+ - x : 425
+ - y : 275
+ - z : 25.269958
+ - id : 0
+frame #: 702.000000
+ LIGHT AT frame 0 
+ - x : 421
+ - y : 274
+ - z : 25.343428
+ - id : 0
+frame #: 703.000000
+ LIGHT AT frame 0 
+ - x : 417
+ - y : 273
+ - z : 25.418833
+ - id : 0
+frame #: 704.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 272
+ - z : 25.496147
+ - id : 0
+frame #: 705.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 271
+ - z : 25.575327
+ - id : 0
+frame #: 706.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 270
+ - z : 25.656328
+ - id : 0
+frame #: 707.000000
+ LIGHT AT frame 0 
+ - x : 403
+ - y : 268
+ - z : 25.739111
+ - id : 0
+frame #: 708.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 267
+ - z : 25.823637
+ - id : 0
+frame #: 709.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 266
+ - z : 25.909853
+ - id : 0
+frame #: 710.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 265
+ - z : 25.997711
+ - id : 0
+frame #: 711.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 264
+ - z : 26.087156
+ - id : 0
+frame #: 712.000000
+ LIGHT AT frame 0 
+ - x : 390
+ - y : 263
+ - z : 26.178125
+ - id : 0
+frame #: 713.000000
+ LIGHT AT frame 0 
+ - x : 388
+ - y : 262
+ - z : 26.270567
+ - id : 0
+frame #: 714.000000
+ LIGHT AT frame 0 
+ - x : 386
+ - y : 261
+ - z : 26.364418
+ - id : 0
+frame #: 715.000000
+ LIGHT AT frame 0 
+ - x : 384
+ - y : 260
+ - z : 26.459606
+ - id : 0
+frame #: 716.000000
+ LIGHT AT frame 0 
+ - x : 382
+ - y : 259
+ - z : 26.556080
+ - id : 0
+frame #: 717.000000
+ LIGHT AT frame 0 
+ - x : 380
+ - y : 258
+ - z : 26.653753
+ - id : 0
+frame #: 718.000000
+ LIGHT AT frame 0 
+ - x : 379
+ - y : 257
+ - z : 26.752562
+ - id : 0
+frame #: 719.000000
+ LIGHT AT frame 0 
+ - x : 377
+ - y : 256
+ - z : 26.852434
+ - id : 0
+frame #: 720.000000
+ LIGHT AT frame 0 
+ - x : 376
+ - y : 255
+ - z : 26.953300
+ - id : 0
+frame #: 721.000000
+ LIGHT AT frame 0 
+ - x : 375
+ - y : 254
+ - z : 27.055080
+ - id : 0
+frame #: 722.000000
+ LIGHT AT frame 0 
+ - x : 374
+ - y : 254
+ - z : 27.157686
+ - id : 0
+frame #: 723.000000
+ LIGHT AT frame 0 
+ - x : 373
+ - y : 253
+ - z : 27.261053
+ - id : 0
+frame #: 724.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 252
+ - z : 27.365103
+ - id : 0
+frame #: 725.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 252
+ - z : 27.469736
+ - id : 0
+frame #: 726.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 251
+ - z : 27.574890
+ - id : 0
+frame #: 727.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 250
+ - z : 27.680462
+ - id : 0
+frame #: 728.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 250
+ - z : 27.786394
+ - id : 0
+frame #: 729.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 249
+ - z : 27.892588
+ - id : 0
+frame #: 730.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 249
+ - z : 27.998947
+ - id : 0
+frame #: 731.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 248
+ - z : 28.105410
+ - id : 0
+frame #: 732.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 248
+ - z : 28.211884
+ - id : 0
+frame #: 733.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 247
+ - z : 28.318264
+ - id : 0
+frame #: 734.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 247
+ - z : 28.424488
+ - id : 0
+frame #: 735.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 246
+ - z : 28.530462
+ - id : 0
+frame #: 736.000000
+ LIGHT AT frame 0 
+ - x : 370
+ - y : 246
+ - z : 28.636093
+ - id : 0
+frame #: 737.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 246
+ - z : 28.741310
+ - id : 0
+frame #: 738.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 245
+ - z : 28.846016
+ - id : 0
+frame #: 739.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 245
+ - z : 28.950130
+ - id : 0
+frame #: 740.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 245
+ - z : 29.053560
+ - id : 0
+frame #: 741.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 245
+ - z : 29.156227
+ - id : 0
+frame #: 742.000000
+ LIGHT AT frame 0 
+ - x : 373
+ - y : 244
+ - z : 29.258039
+ - id : 0
+frame #: 743.000000
+ LIGHT AT frame 0 
+ - x : 374
+ - y : 244
+ - z : 29.358921
+ - id : 0
+frame #: 744.000000
+ LIGHT AT frame 0 
+ - x : 374
+ - y : 244
+ - z : 29.458786
+ - id : 0
+frame #: 745.000000
+ LIGHT AT frame 0 
+ - x : 375
+ - y : 244
+ - z : 29.557537
+ - id : 0
+frame #: 746.000000
+ LIGHT AT frame 0 
+ - x : 376
+ - y : 244
+ - z : 29.655094
+ - id : 0
+frame #: 747.000000
+ LIGHT AT frame 0 
+ - x : 377
+ - y : 244
+ - z : 29.751387
+ - id : 0
+frame #: 748.000000
+ LIGHT AT frame 0 
+ - x : 377
+ - y : 244
+ - z : 29.846317
+ - id : 0
+frame #: 749.000000
+ LIGHT AT frame 0 
+ - x : 378
+ - y : 244
+ - z : 29.939806
+ - id : 0
+frame #: 750.000000
+ LIGHT AT frame 0 
+ - x : 379
+ - y : 244
+ - z : 30.031784
+ - id : 0
+frame #: 751.000000
+ LIGHT AT frame 0 
+ - x : 380
+ - y : 244
+ - z : 30.122139
+ - id : 0
+frame #: 752.000000
+ LIGHT AT frame 0 
+ - x : 381
+ - y : 244
+ - z : 30.210821
+ - id : 0
+frame #: 753.000000
+ LIGHT AT frame 0 
+ - x : 382
+ - y : 244
+ - z : 30.297726
+ - id : 0
+frame #: 754.000000
+ LIGHT AT frame 0 
+ - x : 383
+ - y : 244
+ - z : 30.382784
+ - id : 0
+frame #: 755.000000
+ LIGHT AT frame 0 
+ - x : 384
+ - y : 244
+ - z : 30.465916
+ - id : 0
+frame #: 756.000000
+ LIGHT AT frame 0 
+ - x : 385
+ - y : 244
+ - z : 30.547029
+ - id : 0
+frame #: 757.000000
+ LIGHT AT frame 0 
+ - x : 387
+ - y : 244
+ - z : 30.626059
+ - id : 0
+frame #: 758.000000
+ LIGHT AT frame 0 
+ - x : 388
+ - y : 244
+ - z : 30.702915
+ - id : 0
+frame #: 759.000000
+ LIGHT AT frame 0 
+ - x : 389
+ - y : 244
+ - z : 30.777523
+ - id : 0
+frame #: 760.000000
+ LIGHT AT frame 0 
+ - x : 390
+ - y : 245
+ - z : 30.849804
+ - id : 0
+frame #: 761.000000
+ LIGHT AT frame 0 
+ - x : 391
+ - y : 245
+ - z : 30.919670
+ - id : 0
+frame #: 762.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 245
+ - z : 30.987066
+ - id : 0
+frame #: 763.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 245
+ - z : 31.051899
+ - id : 0
+frame #: 764.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 245
+ - z : 31.114090
+ - id : 0
+frame #: 765.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 246
+ - z : 31.173573
+ - id : 0
+frame #: 766.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 246
+ - z : 31.230259
+ - id : 0
+frame #: 767.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 246
+ - z : 31.284081
+ - id : 0
+frame #: 768.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 246
+ - z : 31.334967
+ - id : 0
+frame #: 769.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 247
+ - z : 31.382833
+ - id : 0
+frame #: 770.000000
+ LIGHT AT frame 0 
+ - x : 403
+ - y : 247
+ - z : 31.427616
+ - id : 0
+frame #: 771.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 247
+ - z : 31.469227
+ - id : 0
+frame #: 772.000000
+ LIGHT AT frame 0 
+ - x : 406
+ - y : 247
+ - z : 31.507603
+ - id : 0
+frame #: 773.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 248
+ - z : 31.542679
+ - id : 0
+frame #: 774.000000
+ LIGHT AT frame 0 
+ - x : 408
+ - y : 248
+ - z : 31.574354
+ - id : 0
+frame #: 775.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 248
+ - z : 31.602583
+ - id : 0
+frame #: 776.000000
+ LIGHT AT frame 0 
+ - x : 411
+ - y : 249
+ - z : 31.627279
+ - id : 0
+frame #: 777.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 249
+ - z : 31.648380
+ - id : 0
+frame #: 778.000000
+ LIGHT AT frame 0 
+ - x : 414
+ - y : 249
+ - z : 31.665808
+ - id : 0
+frame #: 779.000000
+ LIGHT AT frame 0 
+ - x : 415
+ - y : 250
+ - z : 31.679495
+ - id : 0
+frame #: 780.000000
+ LIGHT AT frame 0 
+ - x : 417
+ - y : 250
+ - z : 31.689371
+ - id : 0
+frame #: 781.000000
+ LIGHT AT frame 0 
+ - x : 418
+ - y : 251
+ - z : 31.695364
+ - id : 0
+frame #: 782.000000
+ LIGHT AT frame 0 
+ - x : 420
+ - y : 251
+ - z : 31.697399
+ - id : 0
+frame #: 783.000000
+ LIGHT AT frame 0 
+ - x : 421
+ - y : 251
+ - z : 31.695414
+ - id : 0
+frame #: 784.000000
+ LIGHT AT frame 0 
+ - x : 423
+ - y : 252
+ - z : 31.689346
+ - id : 0
+frame #: 785.000000
+ LIGHT AT frame 0 
+ - x : 425
+ - y : 252
+ - z : 31.679113
+ - id : 0
+frame #: 786.000000
+ LIGHT AT frame 0 
+ - x : 426
+ - y : 253
+ - z : 31.664639
+ - id : 0
+frame #: 787.000000
+ LIGHT AT frame 0 
+ - x : 428
+ - y : 253
+ - z : 31.645878
+ - id : 0
+frame #: 788.000000
+ LIGHT AT frame 0 
+ - x : 429
+ - y : 253
+ - z : 31.622751
+ - id : 0
+frame #: 789.000000
+ LIGHT AT frame 0 
+ - x : 431
+ - y : 254
+ - z : 31.595196
+ - id : 0
+frame #: 790.000000
+ LIGHT AT frame 0 
+ - x : 432
+ - y : 254
+ - z : 31.563143
+ - id : 0
+frame #: 791.000000
+ LIGHT AT frame 0 
+ - x : 434
+ - y : 255
+ - z : 31.526611
+ - id : 0
+frame #: 792.000000
+ LIGHT AT frame 0 
+ - x : 436
+ - y : 255
+ - z : 31.485661
+ - id : 0
+frame #: 793.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 256
+ - z : 31.440340
+ - id : 0
+frame #: 794.000000
+ LIGHT AT frame 0 
+ - x : 439
+ - y : 256
+ - z : 31.390699
+ - id : 0
+frame #: 795.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 256
+ - z : 31.336811
+ - id : 0
+frame #: 796.000000
+ LIGHT AT frame 0 
+ - x : 442
+ - y : 257
+ - z : 31.278711
+ - id : 0
+frame #: 797.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 257
+ - z : 31.216471
+ - id : 0
+frame #: 798.000000
+ LIGHT AT frame 0 
+ - x : 445
+ - y : 257
+ - z : 31.150141
+ - id : 0
+frame #: 799.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 258
+ - z : 31.079769
+ - id : 0
+frame #: 800.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 258
+ - z : 31.005428
+ - id : 0
+frame #: 801.000000
+ LIGHT AT frame 0 
+ - x : 450
+ - y : 258
+ - z : 30.927176
+ - id : 0
+frame #: 802.000000
+ LIGHT AT frame 0 
+ - x : 452
+ - y : 259
+ - z : 30.845058
+ - id : 0
+frame #: 803.000000
+ LIGHT AT frame 0 
+ - x : 453
+ - y : 259
+ - z : 30.759151
+ - id : 0
+frame #: 804.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 259
+ - z : 30.669504
+ - id : 0
+frame #: 805.000000
+ LIGHT AT frame 0 
+ - x : 456
+ - y : 260
+ - z : 30.576181
+ - id : 0
+frame #: 806.000000
+ LIGHT AT frame 0 
+ - x : 458
+ - y : 260
+ - z : 30.479239
+ - id : 0
+frame #: 807.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 260
+ - z : 30.378727
+ - id : 0
+frame #: 808.000000
+ LIGHT AT frame 0 
+ - x : 461
+ - y : 261
+ - z : 30.274729
+ - id : 0
+frame #: 809.000000
+ LIGHT AT frame 0 
+ - x : 463
+ - y : 261
+ - z : 30.167301
+ - id : 0
+frame #: 810.000000
+ LIGHT AT frame 0 
+ - x : 465
+ - y : 261
+ - z : 30.056492
+ - id : 0
+frame #: 811.000000
+ LIGHT AT frame 0 
+ - x : 466
+ - y : 261
+ - z : 29.942379
+ - id : 0
+frame #: 812.000000
+ LIGHT AT frame 0 
+ - x : 468
+ - y : 262
+ - z : 29.825016
+ - id : 0
+frame #: 813.000000
+ LIGHT AT frame 0 
+ - x : 470
+ - y : 262
+ - z : 29.704466
+ - id : 0
+frame #: 814.000000
+ LIGHT AT frame 0 
+ - x : 472
+ - y : 262
+ - z : 29.580799
+ - id : 0
+frame #: 815.000000
+ LIGHT AT frame 0 
+ - x : 473
+ - y : 262
+ - z : 29.454075
+ - id : 0
+frame #: 816.000000
+ LIGHT AT frame 0 
+ - x : 475
+ - y : 262
+ - z : 29.324356
+ - id : 0
+frame #: 817.000000
+ LIGHT AT frame 0 
+ - x : 477
+ - y : 263
+ - z : 29.191715
+ - id : 0
+frame #: 818.000000
+ LIGHT AT frame 0 
+ - x : 479
+ - y : 263
+ - z : 29.056204
+ - id : 0
+frame #: 819.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 263
+ - z : 28.917894
+ - id : 0
+frame #: 820.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 263
+ - z : 28.776857
+ - id : 0
+frame #: 821.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 263
+ - z : 28.633146
+ - id : 0
+frame #: 822.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 264
+ - z : 28.486847
+ - id : 0
+frame #: 823.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 264
+ - z : 28.338007
+ - id : 0
+frame #: 824.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 264
+ - z : 28.186699
+ - id : 0
+frame #: 825.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 264
+ - z : 28.033001
+ - id : 0
+frame #: 826.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 264
+ - z : 27.876968
+ - id : 0
+frame #: 827.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 265
+ - z : 27.718676
+ - id : 0
+frame #: 828.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 265
+ - z : 27.558187
+ - id : 0
+frame #: 829.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 265
+ - z : 27.395582
+ - id : 0
+frame #: 830.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 265
+ - z : 27.230919
+ - id : 0
+frame #: 831.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 265
+ - z : 27.064274
+ - id : 0
+frame #: 832.000000
+ LIGHT AT frame 0 
+ - x : 506
+ - y : 265
+ - z : 26.895721
+ - id : 0
+frame #: 833.000000
+ LIGHT AT frame 0 
+ - x : 508
+ - y : 266
+ - z : 26.725327
+ - id : 0
+frame #: 834.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 266
+ - z : 26.553158
+ - id : 0
+frame #: 835.000000
+ LIGHT AT frame 0 
+ - x : 512
+ - y : 266
+ - z : 26.379299
+ - id : 0
+frame #: 836.000000
+ LIGHT AT frame 0 
+ - x : 514
+ - y : 266
+ - z : 26.203815
+ - id : 0
+frame #: 837.000000
+ LIGHT AT frame 0 
+ - x : 516
+ - y : 266
+ - z : 26.026781
+ - id : 0
+frame #: 838.000000
+ LIGHT AT frame 0 
+ - x : 518
+ - y : 266
+ - z : 25.848270
+ - id : 0
+frame #: 839.000000
+ LIGHT AT frame 0 
+ - x : 521
+ - y : 267
+ - z : 25.668360
+ - id : 0
+frame #: 840.000000
+ LIGHT AT frame 0 
+ - x : 523
+ - y : 267
+ - z : 25.487118
+ - id : 0
+frame #: 841.000000
+ LIGHT AT frame 0 
+ - x : 525
+ - y : 267
+ - z : 25.304634
+ - id : 0
+frame #: 842.000000
+ LIGHT AT frame 0 
+ - x : 527
+ - y : 267
+ - z : 25.120972
+ - id : 0
+frame #: 843.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 267
+ - z : 24.936207
+ - id : 0
+frame #: 844.000000
+ LIGHT AT frame 0 
+ - x : 532
+ - y : 268
+ - z : 24.750425
+ - id : 0
+frame #: 845.000000
+ LIGHT AT frame 0 
+ - x : 535
+ - y : 268
+ - z : 24.563707
+ - id : 0
+frame #: 846.000000
+ LIGHT AT frame 0 
+ - x : 537
+ - y : 268
+ - z : 24.376123
+ - id : 0
+frame #: 847.000000
+ LIGHT AT frame 0 
+ - x : 539
+ - y : 268
+ - z : 24.187759
+ - id : 0
+frame #: 848.000000
+ LIGHT AT frame 0 
+ - x : 542
+ - y : 268
+ - z : 23.998699
+ - id : 0
+frame #: 849.000000
+ LIGHT AT frame 0 
+ - x : 545
+ - y : 268
+ - z : 23.809010
+ - id : 0
+frame #: 850.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 269
+ - z : 23.618786
+ - id : 0
+frame #: 851.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 269
+ - z : 23.428116
+ - id : 0
+frame #: 852.000000
+ LIGHT AT frame 0 
+ - x : 552
+ - y : 269
+ - z : 23.237072
+ - id : 0
+frame #: 853.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 269
+ - z : 23.045740
+ - id : 0
+frame #: 854.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 270
+ - z : 22.854212
+ - id : 0
+frame #: 855.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 270
+ - z : 22.662573
+ - id : 0
+frame #: 856.000000
+ LIGHT AT frame 0 
+ - x : 563
+ - y : 270
+ - z : 22.470907
+ - id : 0
+frame #: 857.000000
+ LIGHT AT frame 0 
+ - x : 566
+ - y : 270
+ - z : 22.279308
+ - id : 0
+frame #: 858.000000
+ LIGHT AT frame 0 
+ - x : 569
+ - y : 270
+ - z : 22.087866
+ - id : 0
+frame #: 859.000000
+ LIGHT AT frame 0 
+ - x : 572
+ - y : 271
+ - z : 21.896667
+ - id : 0
+frame #: 860.000000
+ LIGHT AT frame 0 
+ - x : 575
+ - y : 271
+ - z : 21.705811
+ - id : 0
+frame #: 861.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 271
+ - z : 21.515383
+ - id : 0
+frame #: 862.000000
+ LIGHT AT frame 0 
+ - x : 580
+ - y : 271
+ - z : 21.325480
+ - id : 0
+frame #: 863.000000
+ LIGHT AT frame 0 
+ - x : 583
+ - y : 272
+ - z : 21.136196
+ - id : 0
+frame #: 864.000000
+ LIGHT AT frame 0 
+ - x : 586
+ - y : 272
+ - z : 20.947641
+ - id : 0
+frame #: 865.000000
+ LIGHT AT frame 0 
+ - x : 589
+ - y : 272
+ - z : 20.759895
+ - id : 0
+frame #: 866.000000
+ LIGHT AT frame 0 
+ - x : 592
+ - y : 272
+ - z : 20.573069
+ - id : 0
+frame #: 867.000000
+ LIGHT AT frame 0 
+ - x : 596
+ - y : 273
+ - z : 20.387259
+ - id : 0
+frame #: 868.000000
+ LIGHT AT frame 0 
+ - x : 599
+ - y : 273
+ - z : 20.202566
+ - id : 0
+frame #: 869.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 273
+ - z : 20.019096
+ - id : 0
+frame #: 870.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 273
+ - z : 19.836954
+ - id : 0
+frame #: 871.000000
+ LIGHT AT frame 0 
+ - x : 608
+ - y : 274
+ - z : 19.656244
+ - id : 0
+frame #: 872.000000
+ LIGHT AT frame 0 
+ - x : 611
+ - y : 274
+ - z : 19.477072
+ - id : 0
+frame #: 873.000000
+ LIGHT AT frame 0 
+ - x : 615
+ - y : 274
+ - z : 19.299543
+ - id : 0
+frame #: 874.000000
+ LIGHT AT frame 0 
+ - x : 618
+ - y : 274
+ - z : 19.123779
+ - id : 0
+frame #: 875.000000
+ LIGHT AT frame 0 
+ - x : 621
+ - y : 275
+ - z : 18.949884
+ - id : 0
+frame #: 876.000000
+ LIGHT AT frame 0 
+ - x : 624
+ - y : 275
+ - z : 18.777966
+ - id : 0
+frame #: 877.000000
+ LIGHT AT frame 0 
+ - x : 627
+ - y : 275
+ - z : 18.608145
+ - id : 0
+frame #: 878.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 275
+ - z : 18.440523
+ - id : 0
+frame #: 879.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 275
+ - z : 18.275236
+ - id : 0
+frame #: 880.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 275
+ - z : 18.112383
+ - id : 0
+frame #: 881.000000
+ LIGHT AT frame 0 
+ - x : 640
+ - y : 276
+ - z : 17.952085
+ - id : 0
+frame #: 882.000000
+ LIGHT AT frame 0 
+ - x : 643
+ - y : 276
+ - z : 17.794466
+ - id : 0
+frame #: 883.000000
+ LIGHT AT frame 0 
+ - x : 647
+ - y : 276
+ - z : 17.639639
+ - id : 0
+frame #: 884.000000
+ LIGHT AT frame 0 
+ - x : 650
+ - y : 276
+ - z : 17.487720
+ - id : 0
+frame #: 885.000000
+ LIGHT AT frame 0 
+ - x : 653
+ - y : 276
+ - z : 17.338844
+ - id : 0
+frame #: 886.000000
+ LIGHT AT frame 0 
+ - x : 656
+ - y : 276
+ - z : 17.193106
+ - id : 0
+frame #: 887.000000
+ LIGHT AT frame 0 
+ - x : 659
+ - y : 276
+ - z : 17.050642
+ - id : 0
+frame #: 888.000000
+ LIGHT AT frame 0 
+ - x : 662
+ - y : 276
+ - z : 16.911570
+ - id : 0
+frame #: 889.000000
+ LIGHT AT frame 0 
+ - x : 665
+ - y : 276
+ - z : 16.775999
+ - id : 0
+frame #: 890.000000
+ LIGHT AT frame 0 
+ - x : 667
+ - y : 276
+ - z : 16.644056
+ - id : 0
+frame #: 891.000000
+ LIGHT AT frame 0 
+ - x : 670
+ - y : 275
+ - z : 16.515854
+ - id : 0
+frame #: 892.000000
+ LIGHT AT frame 0 
+ - x : 673
+ - y : 275
+ - z : 16.391514
+ - id : 0
+frame #: 893.000000
+ LIGHT AT frame 0 
+ - x : 675
+ - y : 275
+ - z : 16.271135
+ - id : 0
+frame #: 894.000000
+ LIGHT AT frame 0 
+ - x : 678
+ - y : 275
+ - z : 16.154848
+ - id : 0
+frame #: 895.000000
+ LIGHT AT frame 0 
+ - x : 680
+ - y : 274
+ - z : 16.042744
+ - id : 0
+frame #: 896.000000
+ LIGHT AT frame 0 
+ - x : 682
+ - y : 274
+ - z : 15.934945
+ - id : 0
+frame #: 897.000000
+ LIGHT AT frame 0 
+ - x : 685
+ - y : 273
+ - z : 15.831537
+ - id : 0
+frame #: 898.000000
+ LIGHT AT frame 0 
+ - x : 687
+ - y : 273
+ - z : 15.732634
+ - id : 0
+frame #: 899.000000
+ LIGHT AT frame 0 
+ - x : 688
+ - y : 272
+ - z : 15.638326
+ - id : 0
+frame #: 900.000000
+ LIGHT AT frame 0 
+ - x : 690
+ - y : 271
+ - z : 15.548703
+ - id : 0
+frame #: 901.000000
+ LIGHT AT frame 0 
+ - x : 692
+ - y : 270
+ - z : 15.463850
+ - id : 0
+frame #: 902.000000
+ LIGHT AT frame 0 
+ - x : 693
+ - y : 270
+ - z : 15.383864
+ - id : 0
+frame #: 903.000000
+ LIGHT AT frame 0 
+ - x : 695
+ - y : 269
+ - z : 15.308805
+ - id : 0
+frame #: 904.000000
+ LIGHT AT frame 0 
+ - x : 696
+ - y : 268
+ - z : 15.238749
+ - id : 0
+frame #: 905.000000
+ LIGHT AT frame 0 
+ - x : 697
+ - y : 267
+ - z : 15.173763
+ - id : 0
+frame #: 906.000000
+ LIGHT AT frame 0 
+ - x : 698
+ - y : 265
+ - z : 15.113909
+ - id : 0
+frame #: 907.000000
+ LIGHT AT frame 0 
+ - x : 698
+ - y : 264
+ - z : 15.059233
+ - id : 0
+frame #: 908.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 263
+ - z : 15.009782
+ - id : 0
+frame #: 909.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 262
+ - z : 14.965597
+ - id : 0
+frame #: 910.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 261
+ - z : 14.926719
+ - id : 0
+frame #: 911.000000
+ LIGHT AT frame 0 
+ - x : 700
+ - y : 259
+ - z : 14.893161
+ - id : 0
+frame #: 912.000000
+ LIGHT AT frame 0 
+ - x : 700
+ - y : 258
+ - z : 14.864957
+ - id : 0
+frame #: 913.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 257
+ - z : 14.842107
+ - id : 0
+frame #: 914.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 255
+ - z : 14.824625
+ - id : 0
+frame #: 915.000000
+ LIGHT AT frame 0 
+ - x : 699
+ - y : 254
+ - z : 14.812509
+ - id : 0
+frame #: 916.000000
+ LIGHT AT frame 0 
+ - x : 698
+ - y : 253
+ - z : 14.805758
+ - id : 0
+frame #: 917.000000
+ LIGHT AT frame 0 
+ - x : 697
+ - y : 252
+ - z : 14.804355
+ - id : 0
+frame #: 918.000000
+ LIGHT AT frame 0 
+ - x : 697
+ - y : 250
+ - z : 14.808289
+ - id : 0
+frame #: 919.000000
+ LIGHT AT frame 0 
+ - x : 696
+ - y : 249
+ - z : 14.817536
+ - id : 0
+frame #: 920.000000
+ LIGHT AT frame 0 
+ - x : 695
+ - y : 248
+ - z : 14.832064
+ - id : 0
+frame #: 921.000000
+ LIGHT AT frame 0 
+ - x : 694
+ - y : 248
+ - z : 14.851850
+ - id : 0
+frame #: 922.000000
+ LIGHT AT frame 0 
+ - x : 693
+ - y : 247
+ - z : 14.876568
+ - id : 0
+frame #: 923.000000
+ LIGHT AT frame 0 
+ - x : 693
+ - y : 246
+ - z : 14.905927
+ - id : 0
+frame #: 924.000000
+ LIGHT AT frame 0 
+ - x : 692
+ - y : 246
+ - z : 14.939943
+ - id : 0
+frame #: 925.000000
+ LIGHT AT frame 0 
+ - x : 691
+ - y : 245
+ - z : 14.978622
+ - id : 0
+frame #: 926.000000
+ LIGHT AT frame 0 
+ - x : 690
+ - y : 245
+ - z : 15.021965
+ - id : 0
+frame #: 927.000000
+ LIGHT AT frame 0 
+ - x : 689
+ - y : 245
+ - z : 15.069960
+ - id : 0
+frame #: 928.000000
+ LIGHT AT frame 0 
+ - x : 688
+ - y : 244
+ - z : 15.122598
+ - id : 0
+frame #: 929.000000
+ LIGHT AT frame 0 
+ - x : 687
+ - y : 244
+ - z : 15.179865
+ - id : 0
+frame #: 930.000000
+ LIGHT AT frame 0 
+ - x : 686
+ - y : 244
+ - z : 15.241736
+ - id : 0
+frame #: 931.000000
+ LIGHT AT frame 0 
+ - x : 685
+ - y : 244
+ - z : 15.308188
+ - id : 0
+frame #: 932.000000
+ LIGHT AT frame 0 
+ - x : 684
+ - y : 244
+ - z : 15.379185
+ - id : 0
+frame #: 933.000000
+ LIGHT AT frame 0 
+ - x : 683
+ - y : 245
+ - z : 15.454693
+ - id : 0
+frame #: 934.000000
+ LIGHT AT frame 0 
+ - x : 682
+ - y : 245
+ - z : 15.534671
+ - id : 0
+frame #: 935.000000
+ LIGHT AT frame 0 
+ - x : 681
+ - y : 245
+ - z : 15.619064
+ - id : 0
+frame #: 936.000000
+ LIGHT AT frame 0 
+ - x : 680
+ - y : 245
+ - z : 15.707828
+ - id : 0
+frame #: 937.000000
+ LIGHT AT frame 0 
+ - x : 678
+ - y : 246
+ - z : 15.800904
+ - id : 0
+frame #: 938.000000
+ LIGHT AT frame 0 
+ - x : 677
+ - y : 246
+ - z : 15.898236
+ - id : 0
+frame #: 939.000000
+ LIGHT AT frame 0 
+ - x : 676
+ - y : 246
+ - z : 15.999757
+ - id : 0
+frame #: 940.000000
+ LIGHT AT frame 0 
+ - x : 675
+ - y : 247
+ - z : 16.105398
+ - id : 0
+frame #: 941.000000
+ LIGHT AT frame 0 
+ - x : 674
+ - y : 247
+ - z : 16.215094
+ - id : 0
+frame #: 942.000000
+ LIGHT AT frame 0 
+ - x : 673
+ - y : 248
+ - z : 16.328762
+ - id : 0
+frame #: 943.000000
+ LIGHT AT frame 0 
+ - x : 672
+ - y : 248
+ - z : 16.446337
+ - id : 0
+frame #: 944.000000
+ LIGHT AT frame 0 
+ - x : 670
+ - y : 249
+ - z : 16.567730
+ - id : 0
+frame #: 945.000000
+ LIGHT AT frame 0 
+ - x : 669
+ - y : 250
+ - z : 16.692858
+ - id : 0
+frame #: 946.000000
+ LIGHT AT frame 0 
+ - x : 668
+ - y : 250
+ - z : 16.821642
+ - id : 0
+frame #: 947.000000
+ LIGHT AT frame 0 
+ - x : 667
+ - y : 251
+ - z : 16.953993
+ - id : 0
+frame #: 948.000000
+ LIGHT AT frame 0 
+ - x : 666
+ - y : 252
+ - z : 17.089821
+ - id : 0
+frame #: 949.000000
+ LIGHT AT frame 0 
+ - x : 665
+ - y : 252
+ - z : 17.229033
+ - id : 0
+frame #: 950.000000
+ LIGHT AT frame 0 
+ - x : 664
+ - y : 253
+ - z : 17.371546
+ - id : 0
+frame #: 951.000000
+ LIGHT AT frame 0 
+ - x : 662
+ - y : 254
+ - z : 17.517256
+ - id : 0
+frame #: 952.000000
+ LIGHT AT frame 0 
+ - x : 661
+ - y : 254
+ - z : 17.666075
+ - id : 0
+frame #: 953.000000
+ LIGHT AT frame 0 
+ - x : 660
+ - y : 255
+ - z : 17.817909
+ - id : 0
+frame #: 954.000000
+ LIGHT AT frame 0 
+ - x : 659
+ - y : 256
+ - z : 17.972656
+ - id : 0
+frame #: 955.000000
+ LIGHT AT frame 0 
+ - x : 658
+ - y : 257
+ - z : 18.130224
+ - id : 0
+frame #: 956.000000
+ LIGHT AT frame 0 
+ - x : 657
+ - y : 257
+ - z : 18.290512
+ - id : 0
+frame #: 957.000000
+ LIGHT AT frame 0 
+ - x : 656
+ - y : 258
+ - z : 18.453426
+ - id : 0
+frame #: 958.000000
+ LIGHT AT frame 0 
+ - x : 655
+ - y : 259
+ - z : 18.618868
+ - id : 0
+frame #: 959.000000
+ LIGHT AT frame 0 
+ - x : 654
+ - y : 260
+ - z : 18.786737
+ - id : 0
+frame #: 960.000000
+ LIGHT AT frame 0 
+ - x : 653
+ - y : 260
+ - z : 18.956936
+ - id : 0
+frame #: 961.000000
+ LIGHT AT frame 0 
+ - x : 652
+ - y : 261
+ - z : 19.129370
+ - id : 0
+frame #: 962.000000
+ LIGHT AT frame 0 
+ - x : 652
+ - y : 262
+ - z : 19.303936
+ - id : 0
+frame #: 963.000000
+ LIGHT AT frame 0 
+ - x : 651
+ - y : 263
+ - z : 19.480541
+ - id : 0
+frame #: 964.000000
+ LIGHT AT frame 0 
+ - x : 650
+ - y : 264
+ - z : 19.659086
+ - id : 0
+frame #: 965.000000
+ LIGHT AT frame 0 
+ - x : 649
+ - y : 264
+ - z : 19.839478
+ - id : 0
+frame #: 966.000000
+ LIGHT AT frame 0 
+ - x : 648
+ - y : 265
+ - z : 20.021614
+ - id : 0
+frame #: 967.000000
+ LIGHT AT frame 0 
+ - x : 648
+ - y : 266
+ - z : 20.205404
+ - id : 0
+frame #: 968.000000
+ LIGHT AT frame 0 
+ - x : 647
+ - y : 267
+ - z : 20.390753
+ - id : 0
+frame #: 969.000000
+ LIGHT AT frame 0 
+ - x : 646
+ - y : 268
+ - z : 20.577560
+ - id : 0
+frame #: 970.000000
+ LIGHT AT frame 0 
+ - x : 645
+ - y : 268
+ - z : 20.765741
+ - id : 0
+frame #: 971.000000
+ LIGHT AT frame 0 
+ - x : 645
+ - y : 269
+ - z : 20.955194
+ - id : 0
+frame #: 972.000000
+ LIGHT AT frame 0 
+ - x : 644
+ - y : 270
+ - z : 21.145836
+ - id : 0
+frame #: 973.000000
+ LIGHT AT frame 0 
+ - x : 644
+ - y : 271
+ - z : 21.337563
+ - id : 0
+frame #: 974.000000
+ LIGHT AT frame 0 
+ - x : 643
+ - y : 272
+ - z : 21.530296
+ - id : 0
+frame #: 975.000000
+ LIGHT AT frame 0 
+ - x : 643
+ - y : 272
+ - z : 21.723934
+ - id : 0
+frame #: 976.000000
+ LIGHT AT frame 0 
+ - x : 642
+ - y : 273
+ - z : 21.918396
+ - id : 0
+frame #: 977.000000
+ LIGHT AT frame 0 
+ - x : 642
+ - y : 274
+ - z : 22.113592
+ - id : 0
+frame #: 978.000000
+ LIGHT AT frame 0 
+ - x : 641
+ - y : 275
+ - z : 22.309431
+ - id : 0
+frame #: 979.000000
+ LIGHT AT frame 0 
+ - x : 641
+ - y : 275
+ - z : 22.505829
+ - id : 0
+frame #: 980.000000
+ LIGHT AT frame 0 
+ - x : 640
+ - y : 276
+ - z : 22.702700
+ - id : 0
+frame #: 981.000000
+ LIGHT AT frame 0 
+ - x : 640
+ - y : 277
+ - z : 22.899958
+ - id : 0
+frame #: 982.000000
+ LIGHT AT frame 0 
+ - x : 640
+ - y : 278
+ - z : 23.097513
+ - id : 0
+frame #: 983.000000
+ LIGHT AT frame 0 
+ - x : 639
+ - y : 279
+ - z : 23.295292
+ - id : 0
+frame #: 984.000000
+ LIGHT AT frame 0 
+ - x : 639
+ - y : 279
+ - z : 23.493198
+ - id : 0
+frame #: 985.000000
+ LIGHT AT frame 0 
+ - x : 639
+ - y : 280
+ - z : 23.691164
+ - id : 0
+frame #: 986.000000
+ LIGHT AT frame 0 
+ - x : 639
+ - y : 281
+ - z : 23.889097
+ - id : 0
+frame #: 987.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 281
+ - z : 24.086922
+ - id : 0
+frame #: 988.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 282
+ - z : 24.284559
+ - id : 0
+frame #: 989.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 283
+ - z : 24.481924
+ - id : 0
+frame #: 990.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 284
+ - z : 24.678944
+ - id : 0
+frame #: 991.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 284
+ - z : 24.875540
+ - id : 0
+frame #: 992.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 285
+ - z : 25.071634
+ - id : 0
+frame #: 993.000000
+ LIGHT AT frame 0 
+ - x : 638
+ - y : 286
+ - z : 25.267149
+ - id : 0
+frame #: 994.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 287
+ - z : 25.462009
+ - id : 0
+frame #: 995.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 287
+ - z : 25.656141
+ - id : 0
+frame #: 996.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 288
+ - z : 25.849470
+ - id : 0
+frame #: 997.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 289
+ - z : 26.041924
+ - id : 0
+frame #: 998.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 289
+ - z : 26.233429
+ - id : 0
+frame #: 999.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 290
+ - z : 26.423904
+ - id : 0
+frame #: 1000.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 291
+ - z : 26.613291
+ - id : 0
+frame #: 1001.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 291
+ - z : 26.801512
+ - id : 0
+frame #: 1002.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 292
+ - z : 26.988497
+ - id : 0
+frame #: 1003.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 292
+ - z : 27.174175
+ - id : 0
+frame #: 1004.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 293
+ - z : 27.358477
+ - id : 0
+frame #: 1005.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 294
+ - z : 27.541332
+ - id : 0
+frame #: 1006.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 294
+ - z : 27.722677
+ - id : 0
+frame #: 1007.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 295
+ - z : 27.902437
+ - id : 0
+frame #: 1008.000000
+ LIGHT AT frame 0 
+ - x : 637
+ - y : 296
+ - z : 28.080549
+ - id : 0
+frame #: 1009.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 296
+ - z : 28.256947
+ - id : 0
+frame #: 1010.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 297
+ - z : 28.431561
+ - id : 0
+frame #: 1011.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 297
+ - z : 28.604322
+ - id : 0
+frame #: 1012.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 298
+ - z : 28.775171
+ - id : 0
+frame #: 1013.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 298
+ - z : 28.944040
+ - id : 0
+frame #: 1014.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 299
+ - z : 29.110863
+ - id : 0
+frame #: 1015.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 299
+ - z : 29.275576
+ - id : 0
+frame #: 1016.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 300
+ - z : 29.438114
+ - id : 0
+frame #: 1017.000000
+ LIGHT AT frame 0 
+ - x : 636
+ - y : 300
+ - z : 29.598417
+ - id : 0
+frame #: 1018.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 301
+ - z : 29.756416
+ - id : 0
+frame #: 1019.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 301
+ - z : 29.912048
+ - id : 0
+frame #: 1020.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 302
+ - z : 30.065254
+ - id : 0
+frame #: 1021.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 302
+ - z : 30.215973
+ - id : 0
+frame #: 1022.000000
+ LIGHT AT frame 0 
+ - x : 635
+ - y : 303
+ - z : 30.364134
+ - id : 0
+frame #: 1023.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 303
+ - z : 30.509684
+ - id : 0
+frame #: 1024.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 303
+ - z : 30.652552
+ - id : 0
+frame #: 1025.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 304
+ - z : 30.792685
+ - id : 0
+frame #: 1026.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 304
+ - z : 30.930014
+ - id : 0
+frame #: 1027.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 305
+ - z : 31.064484
+ - id : 0
+frame #: 1028.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 305
+ - z : 31.196026
+ - id : 0
+frame #: 1029.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 305
+ - z : 31.324589
+ - id : 0
+frame #: 1030.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 306
+ - z : 31.450100
+ - id : 0
+frame #: 1031.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 306
+ - z : 31.572510
+ - id : 0
+frame #: 1032.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 306
+ - z : 31.691751
+ - id : 0
+frame #: 1033.000000
+ LIGHT AT frame 0 
+ - x : 630
+ - y : 306
+ - z : 31.807764
+ - id : 0
+frame #: 1034.000000
+ LIGHT AT frame 0 
+ - x : 629
+ - y : 307
+ - z : 31.920488
+ - id : 0
+frame #: 1035.000000
+ LIGHT AT frame 0 
+ - x : 629
+ - y : 307
+ - z : 32.029861
+ - id : 0
+frame #: 1036.000000
+ LIGHT AT frame 0 
+ - x : 628
+ - y : 307
+ - z : 32.135830
+ - id : 0
+frame #: 1037.000000
+ LIGHT AT frame 0 
+ - x : 627
+ - y : 307
+ - z : 32.238323
+ - id : 0
+frame #: 1038.000000
+ LIGHT AT frame 0 
+ - x : 626
+ - y : 307
+ - z : 32.337284
+ - id : 0
+frame #: 1039.000000
+ LIGHT AT frame 0 
+ - x : 626
+ - y : 307
+ - z : 32.432652
+ - id : 0
+frame #: 1040.000000
+ LIGHT AT frame 0 
+ - x : 625
+ - y : 308
+ - z : 32.524364
+ - id : 0
+frame #: 1041.000000
+ LIGHT AT frame 0 
+ - x : 624
+ - y : 308
+ - z : 32.612366
+ - id : 0
+frame #: 1042.000000
+ LIGHT AT frame 0 
+ - x : 623
+ - y : 308
+ - z : 32.696590
+ - id : 0
+frame #: 1043.000000
+ LIGHT AT frame 0 
+ - x : 622
+ - y : 308
+ - z : 32.776974
+ - id : 0
+frame #: 1044.000000
+ LIGHT AT frame 0 
+ - x : 621
+ - y : 308
+ - z : 32.853462
+ - id : 0
+frame #: 1045.000000
+ LIGHT AT frame 0 
+ - x : 620
+ - y : 308
+ - z : 32.925987
+ - id : 0
+frame #: 1046.000000
+ LIGHT AT frame 0 
+ - x : 618
+ - y : 308
+ - z : 32.994488
+ - id : 0
+frame #: 1047.000000
+ LIGHT AT frame 0 
+ - x : 617
+ - y : 308
+ - z : 33.058910
+ - id : 0
+frame #: 1048.000000
+ LIGHT AT frame 0 
+ - x : 616
+ - y : 308
+ - z : 33.119179
+ - id : 0
+frame #: 1049.000000
+ LIGHT AT frame 0 
+ - x : 615
+ - y : 308
+ - z : 33.175240
+ - id : 0
+frame #: 1050.000000
+ LIGHT AT frame 0 
+ - x : 613
+ - y : 308
+ - z : 33.227024
+ - id : 0
+frame #: 1051.000000
+ LIGHT AT frame 0 
+ - x : 612
+ - y : 307
+ - z : 33.274471
+ - id : 0
+frame #: 1052.000000
+ LIGHT AT frame 0 
+ - x : 610
+ - y : 307
+ - z : 33.317516
+ - id : 0
+frame #: 1053.000000
+ LIGHT AT frame 0 
+ - x : 609
+ - y : 307
+ - z : 33.356239
+ - id : 0
+frame #: 1054.000000
+ LIGHT AT frame 0 
+ - x : 607
+ - y : 307
+ - z : 33.390793
+ - id : 0
+frame #: 1055.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 307
+ - z : 33.421219
+ - id : 0
+frame #: 1056.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 307
+ - z : 33.447578
+ - id : 0
+frame #: 1057.000000
+ LIGHT AT frame 0 
+ - x : 602
+ - y : 307
+ - z : 33.469906
+ - id : 0
+frame #: 1058.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 307
+ - z : 33.488262
+ - id : 0
+frame #: 1059.000000
+ LIGHT AT frame 0 
+ - x : 600
+ - y : 307
+ - z : 33.502689
+ - id : 0
+frame #: 1060.000000
+ LIGHT AT frame 0 
+ - x : 598
+ - y : 307
+ - z : 33.513237
+ - id : 0
+frame #: 1061.000000
+ LIGHT AT frame 0 
+ - x : 597
+ - y : 307
+ - z : 33.519951
+ - id : 0
+frame #: 1062.000000
+ LIGHT AT frame 0 
+ - x : 595
+ - y : 307
+ - z : 33.522881
+ - id : 0
+frame #: 1063.000000
+ LIGHT AT frame 0 
+ - x : 594
+ - y : 308
+ - z : 33.522087
+ - id : 0
+frame #: 1064.000000
+ LIGHT AT frame 0 
+ - x : 593
+ - y : 308
+ - z : 33.517597
+ - id : 0
+frame #: 1065.000000
+ LIGHT AT frame 0 
+ - x : 591
+ - y : 308
+ - z : 33.509480
+ - id : 0
+frame #: 1066.000000
+ LIGHT AT frame 0 
+ - x : 590
+ - y : 308
+ - z : 33.497772
+ - id : 0
+frame #: 1067.000000
+ LIGHT AT frame 0 
+ - x : 589
+ - y : 309
+ - z : 33.482521
+ - id : 0
+frame #: 1068.000000
+ LIGHT AT frame 0 
+ - x : 587
+ - y : 309
+ - z : 33.463783
+ - id : 0
+frame #: 1069.000000
+ LIGHT AT frame 0 
+ - x : 586
+ - y : 309
+ - z : 33.441608
+ - id : 0
+frame #: 1070.000000
+ LIGHT AT frame 0 
+ - x : 585
+ - y : 310
+ - z : 33.416027
+ - id : 0
+frame #: 1071.000000
+ LIGHT AT frame 0 
+ - x : 584
+ - y : 310
+ - z : 33.387108
+ - id : 0
+frame #: 1072.000000
+ LIGHT AT frame 0 
+ - x : 582
+ - y : 311
+ - z : 33.354893
+ - id : 0
+frame #: 1073.000000
+ LIGHT AT frame 0 
+ - x : 581
+ - y : 311
+ - z : 33.319431
+ - id : 0
+frame #: 1074.000000
+ LIGHT AT frame 0 
+ - x : 580
+ - y : 312
+ - z : 33.280769
+ - id : 0
+frame #: 1075.000000
+ LIGHT AT frame 0 
+ - x : 579
+ - y : 312
+ - z : 33.238956
+ - id : 0
+frame #: 1076.000000
+ LIGHT AT frame 0 
+ - x : 578
+ - y : 313
+ - z : 33.194042
+ - id : 0
+frame #: 1077.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 313
+ - z : 33.146072
+ - id : 0
+frame #: 1078.000000
+ LIGHT AT frame 0 
+ - x : 576
+ - y : 314
+ - z : 33.095104
+ - id : 0
+frame #: 1079.000000
+ LIGHT AT frame 0 
+ - x : 575
+ - y : 314
+ - z : 33.041180
+ - id : 0
+frame #: 1080.000000
+ LIGHT AT frame 0 
+ - x : 573
+ - y : 315
+ - z : 32.984344
+ - id : 0
+frame #: 1081.000000
+ LIGHT AT frame 0 
+ - x : 572
+ - y : 316
+ - z : 32.924656
+ - id : 0
+frame #: 1082.000000
+ LIGHT AT frame 0 
+ - x : 571
+ - y : 316
+ - z : 32.862160
+ - id : 0
+frame #: 1083.000000
+ LIGHT AT frame 0 
+ - x : 570
+ - y : 317
+ - z : 32.796902
+ - id : 0
+frame #: 1084.000000
+ LIGHT AT frame 0 
+ - x : 569
+ - y : 318
+ - z : 32.728935
+ - id : 0
+frame #: 1085.000000
+ LIGHT AT frame 0 
+ - x : 568
+ - y : 318
+ - z : 32.658302
+ - id : 0
+frame #: 1086.000000
+ LIGHT AT frame 0 
+ - x : 567
+ - y : 319
+ - z : 32.585064
+ - id : 0
+frame #: 1087.000000
+ LIGHT AT frame 0 
+ - x : 566
+ - y : 320
+ - z : 32.509258
+ - id : 0
+frame #: 1088.000000
+ LIGHT AT frame 0 
+ - x : 566
+ - y : 320
+ - z : 32.430939
+ - id : 0
+frame #: 1089.000000
+ LIGHT AT frame 0 
+ - x : 565
+ - y : 321
+ - z : 32.350159
+ - id : 0
+frame #: 1090.000000
+ LIGHT AT frame 0 
+ - x : 564
+ - y : 322
+ - z : 32.266964
+ - id : 0
+frame #: 1091.000000
+ LIGHT AT frame 0 
+ - x : 563
+ - y : 323
+ - z : 32.181404
+ - id : 0
+frame #: 1092.000000
+ LIGHT AT frame 0 
+ - x : 562
+ - y : 323
+ - z : 32.093529
+ - id : 0
+frame #: 1093.000000
+ LIGHT AT frame 0 
+ - x : 561
+ - y : 324
+ - z : 32.003387
+ - id : 0
+frame #: 1094.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 325
+ - z : 31.911034
+ - id : 0
+frame #: 1095.000000
+ LIGHT AT frame 0 
+ - x : 559
+ - y : 326
+ - z : 31.816509
+ - id : 0
+frame #: 1096.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 326
+ - z : 31.719872
+ - id : 0
+frame #: 1097.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 327
+ - z : 31.621168
+ - id : 0
+frame #: 1098.000000
+ LIGHT AT frame 0 
+ - x : 557
+ - y : 328
+ - z : 31.520451
+ - id : 0
+frame #: 1099.000000
+ LIGHT AT frame 0 
+ - x : 556
+ - y : 329
+ - z : 31.417768
+ - id : 0
+frame #: 1100.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 330
+ - z : 31.313171
+ - id : 0
+frame #: 1101.000000
+ LIGHT AT frame 0 
+ - x : 554
+ - y : 330
+ - z : 31.206709
+ - id : 0
+frame #: 1102.000000
+ LIGHT AT frame 0 
+ - x : 554
+ - y : 331
+ - z : 31.098436
+ - id : 0
+frame #: 1103.000000
+ LIGHT AT frame 0 
+ - x : 553
+ - y : 332
+ - z : 30.988400
+ - id : 0
+frame #: 1104.000000
+ LIGHT AT frame 0 
+ - x : 552
+ - y : 333
+ - z : 30.876654
+ - id : 0
+frame #: 1105.000000
+ LIGHT AT frame 0 
+ - x : 551
+ - y : 333
+ - z : 30.763241
+ - id : 0
+frame #: 1106.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 334
+ - z : 30.648220
+ - id : 0
+frame #: 1107.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 335
+ - z : 30.531645
+ - id : 0
+frame #: 1108.000000
+ LIGHT AT frame 0 
+ - x : 549
+ - y : 336
+ - z : 30.413559
+ - id : 0
+frame #: 1109.000000
+ LIGHT AT frame 0 
+ - x : 548
+ - y : 336
+ - z : 30.294020
+ - id : 0
+frame #: 1110.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 337
+ - z : 30.173079
+ - id : 0
+frame #: 1111.000000
+ LIGHT AT frame 0 
+ - x : 546
+ - y : 338
+ - z : 30.050785
+ - id : 0
+frame #: 1112.000000
+ LIGHT AT frame 0 
+ - x : 546
+ - y : 339
+ - z : 29.927187
+ - id : 0
+frame #: 1113.000000
+ LIGHT AT frame 0 
+ - x : 545
+ - y : 339
+ - z : 29.802345
+ - id : 0
+frame #: 1114.000000
+ LIGHT AT frame 0 
+ - x : 544
+ - y : 340
+ - z : 29.676308
+ - id : 0
+frame #: 1115.000000
+ LIGHT AT frame 0 
+ - x : 543
+ - y : 341
+ - z : 29.549128
+ - id : 0
+frame #: 1116.000000
+ LIGHT AT frame 0 
+ - x : 542
+ - y : 342
+ - z : 29.420853
+ - id : 0
+frame #: 1117.000000
+ LIGHT AT frame 0 
+ - x : 542
+ - y : 342
+ - z : 29.291546
+ - id : 0
+frame #: 1118.000000
+ LIGHT AT frame 0 
+ - x : 541
+ - y : 343
+ - z : 29.161251
+ - id : 0
+frame #: 1119.000000
+ LIGHT AT frame 0 
+ - x : 540
+ - y : 344
+ - z : 29.030024
+ - id : 0
+frame #: 1120.000000
+ LIGHT AT frame 0 
+ - x : 539
+ - y : 344
+ - z : 28.897919
+ - id : 0
+frame #: 1121.000000
+ LIGHT AT frame 0 
+ - x : 538
+ - y : 345
+ - z : 28.764986
+ - id : 0
+frame #: 1122.000000
+ LIGHT AT frame 0 
+ - x : 537
+ - y : 345
+ - z : 28.631287
+ - id : 0
+frame #: 1123.000000
+ LIGHT AT frame 0 
+ - x : 536
+ - y : 346
+ - z : 28.496862
+ - id : 0
+frame #: 1124.000000
+ LIGHT AT frame 0 
+ - x : 535
+ - y : 346
+ - z : 28.361778
+ - id : 0
+frame #: 1125.000000
+ LIGHT AT frame 0 
+ - x : 534
+ - y : 347
+ - z : 28.226086
+ - id : 0
+frame #: 1126.000000
+ LIGHT AT frame 0 
+ - x : 534
+ - y : 348
+ - z : 28.089834
+ - id : 0
+frame #: 1127.000000
+ LIGHT AT frame 0 
+ - x : 533
+ - y : 348
+ - z : 27.953085
+ - id : 0
+frame #: 1128.000000
+ LIGHT AT frame 0 
+ - x : 532
+ - y : 349
+ - z : 27.815884
+ - id : 0
+frame #: 1129.000000
+ LIGHT AT frame 0 
+ - x : 531
+ - y : 349
+ - z : 27.678295
+ - id : 0
+frame #: 1130.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 349
+ - z : 27.540369
+ - id : 0
+frame #: 1131.000000
+ LIGHT AT frame 0 
+ - x : 528
+ - y : 350
+ - z : 27.402159
+ - id : 0
+frame #: 1132.000000
+ LIGHT AT frame 0 
+ - x : 527
+ - y : 350
+ - z : 27.263727
+ - id : 0
+frame #: 1133.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 351
+ - z : 27.125126
+ - id : 0
+frame #: 1134.000000
+ LIGHT AT frame 0 
+ - x : 525
+ - y : 351
+ - z : 26.986414
+ - id : 0
+frame #: 1135.000000
+ LIGHT AT frame 0 
+ - x : 524
+ - y : 351
+ - z : 26.847639
+ - id : 0
+frame #: 1136.000000
+ LIGHT AT frame 0 
+ - x : 523
+ - y : 351
+ - z : 26.708868
+ - id : 0
+frame #: 1137.000000
+ LIGHT AT frame 0 
+ - x : 521
+ - y : 352
+ - z : 26.570150
+ - id : 0
+frame #: 1138.000000
+ LIGHT AT frame 0 
+ - x : 520
+ - y : 352
+ - z : 26.431549
+ - id : 0
+frame #: 1139.000000
+ LIGHT AT frame 0 
+ - x : 519
+ - y : 352
+ - z : 26.293116
+ - id : 0
+frame #: 1140.000000
+ LIGHT AT frame 0 
+ - x : 517
+ - y : 352
+ - z : 26.154915
+ - id : 0
+frame #: 1141.000000
+ LIGHT AT frame 0 
+ - x : 516
+ - y : 352
+ - z : 26.016996
+ - id : 0
+frame #: 1142.000000
+ LIGHT AT frame 0 
+ - x : 515
+ - y : 352
+ - z : 25.879425
+ - id : 0
+frame #: 1143.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 352
+ - z : 25.742256
+ - id : 0
+frame #: 1144.000000
+ LIGHT AT frame 0 
+ - x : 511
+ - y : 352
+ - z : 25.605543
+ - id : 0
+frame #: 1145.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 352
+ - z : 25.469358
+ - id : 0
+frame #: 1146.000000
+ LIGHT AT frame 0 
+ - x : 508
+ - y : 352
+ - z : 25.333752
+ - id : 0
+frame #: 1147.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 352
+ - z : 25.198788
+ - id : 0
+frame #: 1148.000000
+ LIGHT AT frame 0 
+ - x : 505
+ - y : 352
+ - z : 25.064524
+ - id : 0
+frame #: 1149.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 352
+ - z : 24.931017
+ - id : 0
+frame #: 1150.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 352
+ - z : 24.798334
+ - id : 0
+frame #: 1151.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 351
+ - z : 24.666533
+ - id : 0
+frame #: 1152.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 351
+ - z : 24.535675
+ - id : 0
+frame #: 1153.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 351
+ - z : 24.405825
+ - id : 0
+frame #: 1154.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 350
+ - z : 24.277042
+ - id : 0
+frame #: 1155.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 350
+ - z : 24.149391
+ - id : 0
+frame #: 1156.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 349
+ - z : 24.022936
+ - id : 0
+frame #: 1157.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 349
+ - z : 23.897738
+ - id : 0
+frame #: 1158.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 348
+ - z : 23.773859
+ - id : 0
+frame #: 1159.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 348
+ - z : 23.651367
+ - id : 0
+frame #: 1160.000000
+ LIGHT AT frame 0 
+ - x : 479
+ - y : 347
+ - z : 23.530327
+ - id : 0
+frame #: 1161.000000
+ LIGHT AT frame 0 
+ - x : 477
+ - y : 346
+ - z : 23.410805
+ - id : 0
+frame #: 1162.000000
+ LIGHT AT frame 0 
+ - x : 474
+ - y : 346
+ - z : 23.292864
+ - id : 0
+frame #: 1163.000000
+ LIGHT AT frame 0 
+ - x : 471
+ - y : 345
+ - z : 23.176571
+ - id : 0
+frame #: 1164.000000
+ LIGHT AT frame 0 
+ - x : 469
+ - y : 344
+ - z : 23.061991
+ - id : 0
+frame #: 1165.000000
+ LIGHT AT frame 0 
+ - x : 466
+ - y : 343
+ - z : 22.949198
+ - id : 0
+frame #: 1166.000000
+ LIGHT AT frame 0 
+ - x : 463
+ - y : 342
+ - z : 22.838255
+ - id : 0
+frame #: 1167.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 341
+ - z : 22.729227
+ - id : 0
+frame #: 1168.000000
+ LIGHT AT frame 0 
+ - x : 457
+ - y : 340
+ - z : 22.622190
+ - id : 0
+frame #: 1169.000000
+ LIGHT AT frame 0 
+ - x : 454
+ - y : 339
+ - z : 22.517210
+ - id : 0
+frame #: 1170.000000
+ LIGHT AT frame 0 
+ - x : 450
+ - y : 338
+ - z : 22.414358
+ - id : 0
+frame #: 1171.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 337
+ - z : 22.313702
+ - id : 0
+frame #: 1172.000000
+ LIGHT AT frame 0 
+ - x : 444
+ - y : 336
+ - z : 22.215313
+ - id : 0
+frame #: 1173.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 334
+ - z : 22.119270
+ - id : 0
+frame #: 1174.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 333
+ - z : 22.025633
+ - id : 0
+frame #: 1175.000000
+ LIGHT AT frame 0 
+ - x : 433
+ - y : 332
+ - z : 21.934490
+ - id : 0
+frame #: 1176.000000
+ LIGHT AT frame 0 
+ - x : 429
+ - y : 330
+ - z : 21.845905
+ - id : 0
+frame #: 1177.000000
+ LIGHT AT frame 0 
+ - x : 426
+ - y : 329
+ - z : 21.759953
+ - id : 0
+frame #: 1178.000000
+ LIGHT AT frame 0 
+ - x : 422
+ - y : 327
+ - z : 21.676708
+ - id : 0
+frame #: 1179.000000
+ LIGHT AT frame 0 
+ - x : 418
+ - y : 326
+ - z : 21.596252
+ - id : 0
+frame #: 1180.000000
+ LIGHT AT frame 0 
+ - x : 414
+ - y : 324
+ - z : 21.518658
+ - id : 0
+frame #: 1181.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 322
+ - z : 21.444004
+ - id : 0
+frame #: 1182.000000
+ LIGHT AT frame 0 
+ - x : 406
+ - y : 321
+ - z : 21.372364
+ - id : 0
+frame #: 1183.000000
+ LIGHT AT frame 0 
+ - x : 402
+ - y : 319
+ - z : 21.303822
+ - id : 0
+frame #: 1184.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 317
+ - z : 21.238451
+ - id : 0
+frame #: 1185.000000
+ LIGHT AT frame 0 
+ - x : 393
+ - y : 316
+ - z : 21.175634
+ - id : 0
+frame #: 1186.000000
+ LIGHT AT frame 0 
+ - x : 389
+ - y : 314
+ - z : 21.114714
+ - id : 0
+frame #: 1187.000000
+ LIGHT AT frame 0 
+ - x : 384
+ - y : 312
+ - z : 21.055717
+ - id : 0
+frame #: 1188.000000
+ LIGHT AT frame 0 
+ - x : 379
+ - y : 309
+ - z : 20.998682
+ - id : 0
+frame #: 1189.000000
+ LIGHT AT frame 0 
+ - x : 375
+ - y : 307
+ - z : 20.943644
+ - id : 0
+frame #: 1190.000000
+ LIGHT AT frame 0 
+ - x : 369
+ - y : 305
+ - z : 20.890635
+ - id : 0
+frame #: 1191.000000
+ LIGHT AT frame 0 
+ - x : 364
+ - y : 303
+ - z : 20.839693
+ - id : 0
+frame #: 1192.000000
+ LIGHT AT frame 0 
+ - x : 359
+ - y : 300
+ - z : 20.790844
+ - id : 0
+frame #: 1193.000000
+ LIGHT AT frame 0 
+ - x : 353
+ - y : 298
+ - z : 20.744133
+ - id : 0
+frame #: 1194.000000
+ LIGHT AT frame 0 
+ - x : 348
+ - y : 295
+ - z : 20.699600
+ - id : 0
+frame #: 1195.000000
+ LIGHT AT frame 0 
+ - x : 342
+ - y : 292
+ - z : 20.657276
+ - id : 0
+frame #: 1196.000000
+ LIGHT AT frame 0 
+ - x : 336
+ - y : 290
+ - z : 20.617203
+ - id : 0
+frame #: 1197.000000
+ LIGHT AT frame 0 
+ - x : 330
+ - y : 287
+ - z : 20.579414
+ - id : 0
+frame #: 1198.000000
+ LIGHT AT frame 0 
+ - x : 324
+ - y : 284
+ - z : 20.543953
+ - id : 0
+frame #: 1199.000000
+ LIGHT AT frame 0 
+ - x : 318
+ - y : 281
+ - z : 20.510870
+ - id : 0
+frame #: 1200.000000
+ LIGHT AT frame 0 
+ - x : 312
+ - y : 278
+ - z : 20.480186
+ - id : 0
+frame #: 1201.000000
+ LIGHT AT frame 0 
+ - x : 306
+ - y : 275
+ - z : 20.451956
+ - id : 0
+frame #: 1202.000000
+ LIGHT AT frame 0 
+ - x : 300
+ - y : 271
+ - z : 20.426216
+ - id : 0
+frame #: 1203.000000
+ LIGHT AT frame 0 
+ - x : 293
+ - y : 268
+ - z : 20.403011
+ - id : 0
+frame #: 1204.000000
+ LIGHT AT frame 0 
+ - x : 287
+ - y : 265
+ - z : 20.382383
+ - id : 0
+frame #: 1205.000000
+ LIGHT AT frame 0 
+ - x : 280
+ - y : 261
+ - z : 20.364372
+ - id : 0
+frame #: 1206.000000
+ LIGHT AT frame 0 
+ - x : 274
+ - y : 258
+ - z : 20.349024
+ - id : 0
+frame #: 1207.000000
+ LIGHT AT frame 0 
+ - x : 267
+ - y : 255
+ - z : 20.336386
+ - id : 0
+frame #: 1208.000000
+ LIGHT AT frame 0 
+ - x : 261
+ - y : 251
+ - z : 20.326488
+ - id : 0
+frame #: 1209.000000
+ LIGHT AT frame 0 
+ - x : 254
+ - y : 247
+ - z : 20.319384
+ - id : 0
+frame #: 1210.000000
+ LIGHT AT frame 0 
+ - x : 247
+ - y : 244
+ - z : 20.315119
+ - id : 0
+frame #: 1211.000000
+ LIGHT AT frame 0 
+ - x : 241
+ - y : 240
+ - z : 20.313730
+ - id : 0
+frame #: 1212.000000
+ LIGHT AT frame 0 
+ - x : 234
+ - y : 237
+ - z : 20.315268
+ - id : 0
+frame #: 1213.000000
+ LIGHT AT frame 0 
+ - x : 228
+ - y : 233
+ - z : 20.319773
+ - id : 0
+frame #: 1214.000000
+ LIGHT AT frame 0 
+ - x : 221
+ - y : 229
+ - z : 20.327284
+ - id : 0
+frame #: 1215.000000
+ LIGHT AT frame 0 
+ - x : 215
+ - y : 225
+ - z : 20.337854
+ - id : 0
+frame #: 1216.000000
+ LIGHT AT frame 0 
+ - x : 208
+ - y : 222
+ - z : 20.351521
+ - id : 0
+frame #: 1217.000000
+ LIGHT AT frame 0 
+ - x : 202
+ - y : 218
+ - z : 20.368324
+ - id : 0
+frame #: 1218.000000
+ LIGHT AT frame 0 
+ - x : 196
+ - y : 214
+ - z : 20.388315
+ - id : 0
+frame #: 1219.000000
+ LIGHT AT frame 0 
+ - x : 189
+ - y : 210
+ - z : 20.411522
+ - id : 0
+frame #: 1220.000000
+ LIGHT AT frame 0 
+ - x : 183
+ - y : 207
+ - z : 20.438004
+ - id : 0
+frame #: 1221.000000
+ LIGHT AT frame 0 
+ - x : 177
+ - y : 203
+ - z : 20.467787
+ - id : 0
+frame #: 1222.000000
+ LIGHT AT frame 0 
+ - x : 171
+ - y : 199
+ - z : 20.500919
+ - id : 0
+frame #: 1223.000000
+ LIGHT AT frame 0 
+ - x : 165
+ - y : 195
+ - z : 20.537432
+ - id : 0
+frame #: 1224.000000
+ LIGHT AT frame 0 
+ - x : 160
+ - y : 192
+ - z : 20.577374
+ - id : 0
+frame #: 1225.000000
+ LIGHT AT frame 0 
+ - x : 154
+ - y : 188
+ - z : 20.620764
+ - id : 0
+frame #: 1226.000000
+ LIGHT AT frame 0 
+ - x : 149
+ - y : 184
+ - z : 20.667664
+ - id : 0
+frame #: 1227.000000
+ LIGHT AT frame 0 
+ - x : 143
+ - y : 181
+ - z : 20.718084
+ - id : 0
+frame #: 1228.000000
+ LIGHT AT frame 0 
+ - x : 138
+ - y : 177
+ - z : 20.772070
+ - id : 0
+frame #: 1229.000000
+ LIGHT AT frame 0 
+ - x : 133
+ - y : 174
+ - z : 20.829647
+ - id : 0
+frame #: 1230.000000
+ LIGHT AT frame 0 
+ - x : 128
+ - y : 171
+ - z : 20.890846
+ - id : 0
+frame #: 1231.000000
+ LIGHT AT frame 0 
+ - x : 124
+ - y : 167
+ - z : 20.955700
+ - id : 0
+frame #: 1232.000000
+ LIGHT AT frame 0 
+ - x : 119
+ - y : 164
+ - z : 21.024227
+ - id : 0
+frame #: 1233.000000
+ LIGHT AT frame 0 
+ - x : 115
+ - y : 161
+ - z : 21.096455
+ - id : 0
+frame #: 1234.000000
+ LIGHT AT frame 0 
+ - x : 111
+ - y : 158
+ - z : 21.172407
+ - id : 0
+frame #: 1235.000000
+ LIGHT AT frame 0 
+ - x : 107
+ - y : 155
+ - z : 21.252100
+ - id : 0
+frame #: 1236.000000
+ LIGHT AT frame 0 
+ - x : 103
+ - y : 152
+ - z : 21.335552
+ - id : 0
+frame #: 1237.000000
+ LIGHT AT frame 0 
+ - x : 100
+ - y : 149
+ - z : 21.422775
+ - id : 0
+frame #: 1238.000000
+ LIGHT AT frame 0 
+ - x : 97
+ - y : 146
+ - z : 21.513779
+ - id : 0
+frame #: 1239.000000
+ LIGHT AT frame 0 
+ - x : 94
+ - y : 144
+ - z : 21.608572
+ - id : 0
+frame #: 1240.000000
+ LIGHT AT frame 0 
+ - x : 91
+ - y : 141
+ - z : 21.707165
+ - id : 0
+frame #: 1241.000000
+ LIGHT AT frame 0 
+ - x : 88
+ - y : 139
+ - z : 21.809555
+ - id : 0
+frame #: 1242.000000
+ LIGHT AT frame 0 
+ - x : 86
+ - y : 137
+ - z : 21.915745
+ - id : 0
+frame #: 1243.000000
+ LIGHT AT frame 0 
+ - x : 84
+ - y : 134
+ - z : 22.025721
+ - id : 0
+frame #: 1244.000000
+ LIGHT AT frame 0 
+ - x : 82
+ - y : 132
+ - z : 22.139484
+ - id : 0
+frame #: 1245.000000
+ LIGHT AT frame 0 
+ - x : 80
+ - y : 131
+ - z : 22.257017
+ - id : 0
+frame #: 1246.000000
+ LIGHT AT frame 0 
+ - x : 79
+ - y : 129
+ - z : 22.378307
+ - id : 0
+frame #: 1247.000000
+ LIGHT AT frame 0 
+ - x : 77
+ - y : 127
+ - z : 22.503326
+ - id : 0
+frame #: 1248.000000
+ LIGHT AT frame 0 
+ - x : 76
+ - y : 126
+ - z : 22.632057
+ - id : 0
+frame #: 1249.000000
+ LIGHT AT frame 0 
+ - x : 76
+ - y : 125
+ - z : 22.764467
+ - id : 0
+frame #: 1250.000000
+ LIGHT AT frame 0 
+ - x : 75
+ - y : 123
+ - z : 22.900532
+ - id : 0
+frame #: 1251.000000
+ LIGHT AT frame 0 
+ - x : 75
+ - y : 122
+ - z : 23.040203
+ - id : 0
+frame #: 1252.000000
+ LIGHT AT frame 0 
+ - x : 75
+ - y : 122
+ - z : 23.183434
+ - id : 0
+frame #: 1253.000000
+ LIGHT AT frame 0 
+ - x : 75
+ - y : 121
+ - z : 23.330191
+ - id : 0
+frame #: 1254.000000
+ LIGHT AT frame 0 
+ - x : 75
+ - y : 120
+ - z : 23.480419
+ - id : 0
+frame #: 1255.000000
+ LIGHT AT frame 0 
+ - x : 76
+ - y : 120
+ - z : 23.634058
+ - id : 0
+frame #: 1256.000000
+ LIGHT AT frame 0 
+ - x : 77
+ - y : 120
+ - z : 23.791042
+ - id : 0
+frame #: 1257.000000
+ LIGHT AT frame 0 
+ - x : 78
+ - y : 120
+ - z : 23.951321
+ - id : 0
+frame #: 1258.000000
+ LIGHT AT frame 0 
+ - x : 79
+ - y : 120
+ - z : 24.114805
+ - id : 0
+frame #: 1259.000000
+ LIGHT AT frame 0 
+ - x : 81
+ - y : 120
+ - z : 24.281431
+ - id : 0
+frame #: 1260.000000
+ LIGHT AT frame 0 
+ - x : 82
+ - y : 121
+ - z : 24.451117
+ - id : 0
+frame #: 1261.000000
+ LIGHT AT frame 0 
+ - x : 84
+ - y : 121
+ - z : 24.623766
+ - id : 0
+frame #: 1262.000000
+ LIGHT AT frame 0 
+ - x : 86
+ - y : 122
+ - z : 24.799297
+ - id : 0
+frame #: 1263.000000
+ LIGHT AT frame 0 
+ - x : 88
+ - y : 123
+ - z : 24.977612
+ - id : 0
+frame #: 1264.000000
+ LIGHT AT frame 0 
+ - x : 91
+ - y : 124
+ - z : 25.158615
+ - id : 0
+frame #: 1265.000000
+ LIGHT AT frame 0 
+ - x : 93
+ - y : 125
+ - z : 25.342201
+ - id : 0
+frame #: 1266.000000
+ LIGHT AT frame 0 
+ - x : 96
+ - y : 127
+ - z : 25.528254
+ - id : 0
+frame #: 1267.000000
+ LIGHT AT frame 0 
+ - x : 99
+ - y : 128
+ - z : 25.716661
+ - id : 0
+frame #: 1268.000000
+ LIGHT AT frame 0 
+ - x : 102
+ - y : 130
+ - z : 25.907314
+ - id : 0
+frame #: 1269.000000
+ LIGHT AT frame 0 
+ - x : 105
+ - y : 132
+ - z : 26.100088
+ - id : 0
+frame #: 1270.000000
+ LIGHT AT frame 0 
+ - x : 109
+ - y : 134
+ - z : 26.294851
+ - id : 0
+frame #: 1271.000000
+ LIGHT AT frame 0 
+ - x : 112
+ - y : 136
+ - z : 26.491482
+ - id : 0
+frame #: 1272.000000
+ LIGHT AT frame 0 
+ - x : 116
+ - y : 138
+ - z : 26.689848
+ - id : 0
+frame #: 1273.000000
+ LIGHT AT frame 0 
+ - x : 119
+ - y : 140
+ - z : 26.889799
+ - id : 0
+frame #: 1274.000000
+ LIGHT AT frame 0 
+ - x : 123
+ - y : 143
+ - z : 27.091221
+ - id : 0
+frame #: 1275.000000
+ LIGHT AT frame 0 
+ - x : 127
+ - y : 145
+ - z : 27.293953
+ - id : 0
+frame #: 1276.000000
+ LIGHT AT frame 0 
+ - x : 131
+ - y : 148
+ - z : 27.497864
+ - id : 0
+frame #: 1277.000000
+ LIGHT AT frame 0 
+ - x : 135
+ - y : 151
+ - z : 27.702799
+ - id : 0
+frame #: 1278.000000
+ LIGHT AT frame 0 
+ - x : 139
+ - y : 154
+ - z : 27.908613
+ - id : 0
+frame #: 1279.000000
+ LIGHT AT frame 0 
+ - x : 144
+ - y : 157
+ - z : 28.115160
+ - id : 0
+frame #: 1280.000000
+ LIGHT AT frame 0 
+ - x : 148
+ - y : 160
+ - z : 28.322294
+ - id : 0
+frame #: 1281.000000
+ LIGHT AT frame 0 
+ - x : 153
+ - y : 163
+ - z : 28.529848
+ - id : 0
+frame #: 1282.000000
+ LIGHT AT frame 0 
+ - x : 157
+ - y : 167
+ - z : 28.737686
+ - id : 0
+frame #: 1283.000000
+ LIGHT AT frame 0 
+ - x : 162
+ - y : 170
+ - z : 28.945654
+ - id : 0
+frame #: 1284.000000
+ LIGHT AT frame 0 
+ - x : 166
+ - y : 173
+ - z : 29.153589
+ - id : 0
+frame #: 1285.000000
+ LIGHT AT frame 0 
+ - x : 171
+ - y : 177
+ - z : 29.361347
+ - id : 0
+frame #: 1286.000000
+ LIGHT AT frame 0 
+ - x : 176
+ - y : 180
+ - z : 29.568779
+ - id : 0
+frame #: 1287.000000
+ LIGHT AT frame 0 
+ - x : 180
+ - y : 184
+ - z : 29.775726
+ - id : 0
+frame #: 1288.000000
+ LIGHT AT frame 0 
+ - x : 185
+ - y : 188
+ - z : 29.982046
+ - id : 0
+frame #: 1289.000000
+ LIGHT AT frame 0 
+ - x : 190
+ - y : 192
+ - z : 30.187588
+ - id : 0
+frame #: 1290.000000
+ LIGHT AT frame 0 
+ - x : 194
+ - y : 195
+ - z : 30.392206
+ - id : 0
+frame #: 1291.000000
+ LIGHT AT frame 0 
+ - x : 199
+ - y : 199
+ - z : 30.595753
+ - id : 0
+frame #: 1292.000000
+ LIGHT AT frame 0 
+ - x : 204
+ - y : 203
+ - z : 30.798092
+ - id : 0
+frame #: 1293.000000
+ LIGHT AT frame 0 
+ - x : 209
+ - y : 207
+ - z : 30.999081
+ - id : 0
+frame #: 1294.000000
+ LIGHT AT frame 0 
+ - x : 214
+ - y : 211
+ - z : 31.198574
+ - id : 0
+frame #: 1295.000000
+ LIGHT AT frame 0 
+ - x : 218
+ - y : 215
+ - z : 31.396450
+ - id : 0
+frame #: 1296.000000
+ LIGHT AT frame 0 
+ - x : 223
+ - y : 219
+ - z : 31.592571
+ - id : 0
+frame #: 1297.000000
+ LIGHT AT frame 0 
+ - x : 228
+ - y : 223
+ - z : 31.786800
+ - id : 0
+frame #: 1298.000000
+ LIGHT AT frame 0 
+ - x : 232
+ - y : 227
+ - z : 31.979027
+ - id : 0
+frame #: 1299.000000
+ LIGHT AT frame 0 
+ - x : 237
+ - y : 231
+ - z : 32.169125
+ - id : 0
+frame #: 1300.000000
+ LIGHT AT frame 0 
+ - x : 242
+ - y : 235
+ - z : 32.356964
+ - id : 0
+frame #: 1301.000000
+ LIGHT AT frame 0 
+ - x : 246
+ - y : 239
+ - z : 32.542442
+ - id : 0
+frame #: 1302.000000
+ LIGHT AT frame 0 
+ - x : 251
+ - y : 243
+ - z : 32.725437
+ - id : 0
+frame #: 1303.000000
+ LIGHT AT frame 0 
+ - x : 255
+ - y : 247
+ - z : 32.905846
+ - id : 0
+frame #: 1304.000000
+ LIGHT AT frame 0 
+ - x : 260
+ - y : 250
+ - z : 33.083565
+ - id : 0
+frame #: 1305.000000
+ LIGHT AT frame 0 
+ - x : 264
+ - y : 254
+ - z : 33.258488
+ - id : 0
+frame #: 1306.000000
+ LIGHT AT frame 0 
+ - x : 269
+ - y : 258
+ - z : 33.430527
+ - id : 0
+frame #: 1307.000000
+ LIGHT AT frame 0 
+ - x : 273
+ - y : 262
+ - z : 33.599571
+ - id : 0
+frame #: 1308.000000
+ LIGHT AT frame 0 
+ - x : 277
+ - y : 266
+ - z : 33.765541
+ - id : 0
+frame #: 1309.000000
+ LIGHT AT frame 0 
+ - x : 281
+ - y : 269
+ - z : 33.928345
+ - id : 0
+frame #: 1310.000000
+ LIGHT AT frame 0 
+ - x : 285
+ - y : 273
+ - z : 34.087910
+ - id : 0
+frame #: 1311.000000
+ LIGHT AT frame 0 
+ - x : 289
+ - y : 277
+ - z : 34.244137
+ - id : 0
+frame #: 1312.000000
+ LIGHT AT frame 0 
+ - x : 293
+ - y : 280
+ - z : 34.396961
+ - id : 0
+frame #: 1313.000000
+ LIGHT AT frame 0 
+ - x : 297
+ - y : 284
+ - z : 34.546307
+ - id : 0
+frame #: 1314.000000
+ LIGHT AT frame 0 
+ - x : 301
+ - y : 287
+ - z : 34.692097
+ - id : 0
+frame #: 1315.000000
+ LIGHT AT frame 0 
+ - x : 305
+ - y : 291
+ - z : 34.834263
+ - id : 0
+frame #: 1316.000000
+ LIGHT AT frame 0 
+ - x : 309
+ - y : 294
+ - z : 34.974209
+ - id : 0
+frame #: 1317.000000
+ LIGHT AT frame 0 
+ - x : 312
+ - y : 297
+ - z : 35.113377
+ - id : 0
+frame #: 1318.000000
+ LIGHT AT frame 0 
+ - x : 316
+ - y : 301
+ - z : 35.251789
+ - id : 0
+frame #: 1319.000000
+ LIGHT AT frame 0 
+ - x : 319
+ - y : 304
+ - z : 35.389462
+ - id : 0
+frame #: 1320.000000
+ LIGHT AT frame 0 
+ - x : 322
+ - y : 307
+ - z : 35.526405
+ - id : 0
+frame #: 1321.000000
+ LIGHT AT frame 0 
+ - x : 325
+ - y : 310
+ - z : 35.662643
+ - id : 0
+frame #: 1322.000000
+ LIGHT AT frame 0 
+ - x : 328
+ - y : 313
+ - z : 35.798191
+ - id : 0
+frame #: 1323.000000
+ LIGHT AT frame 0 
+ - x : 331
+ - y : 316
+ - z : 35.933064
+ - id : 0
+frame #: 1324.000000
+ LIGHT AT frame 0 
+ - x : 334
+ - y : 319
+ - z : 36.067272
+ - id : 0
+frame #: 1325.000000
+ LIGHT AT frame 0 
+ - x : 337
+ - y : 321
+ - z : 36.200844
+ - id : 0
+frame #: 1326.000000
+ LIGHT AT frame 0 
+ - x : 340
+ - y : 324
+ - z : 36.333786
+ - id : 0
+frame #: 1327.000000
+ LIGHT AT frame 0 
+ - x : 342
+ - y : 327
+ - z : 36.466122
+ - id : 0
+frame #: 1328.000000
+ LIGHT AT frame 0 
+ - x : 345
+ - y : 329
+ - z : 36.597855
+ - id : 0
+frame #: 1329.000000
+ LIGHT AT frame 0 
+ - x : 347
+ - y : 332
+ - z : 36.729012
+ - id : 0
+frame #: 1330.000000
+ LIGHT AT frame 0 
+ - x : 350
+ - y : 334
+ - z : 36.859592
+ - id : 0
+frame #: 1331.000000
+ LIGHT AT frame 0 
+ - x : 352
+ - y : 336
+ - z : 36.989620
+ - id : 0
+frame #: 1332.000000
+ LIGHT AT frame 0 
+ - x : 354
+ - y : 339
+ - z : 37.119106
+ - id : 0
+frame #: 1333.000000
+ LIGHT AT frame 0 
+ - x : 356
+ - y : 341
+ - z : 37.248055
+ - id : 0
+frame #: 1334.000000
+ LIGHT AT frame 0 
+ - x : 358
+ - y : 343
+ - z : 37.376488
+ - id : 0
+frame #: 1335.000000
+ LIGHT AT frame 0 
+ - x : 360
+ - y : 345
+ - z : 37.504406
+ - id : 0
+frame #: 1336.000000
+ LIGHT AT frame 0 
+ - x : 362
+ - y : 347
+ - z : 37.631821
+ - id : 0
+frame #: 1337.000000
+ LIGHT AT frame 0 
+ - x : 364
+ - y : 349
+ - z : 37.758739
+ - id : 0
+frame #: 1338.000000
+ LIGHT AT frame 0 
+ - x : 366
+ - y : 351
+ - z : 37.885166
+ - id : 0
+frame #: 1339.000000
+ LIGHT AT frame 0 
+ - x : 367
+ - y : 353
+ - z : 38.011112
+ - id : 0
+frame #: 1340.000000
+ LIGHT AT frame 0 
+ - x : 369
+ - y : 354
+ - z : 38.136581
+ - id : 0
+frame #: 1341.000000
+ LIGHT AT frame 0 
+ - x : 371
+ - y : 356
+ - z : 38.261574
+ - id : 0
+frame #: 1342.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 358
+ - z : 38.386093
+ - id : 0
+frame #: 1343.000000
+ LIGHT AT frame 0 
+ - x : 373
+ - y : 359
+ - z : 38.510147
+ - id : 0
+frame #: 1344.000000
+ LIGHT AT frame 0 
+ - x : 375
+ - y : 361
+ - z : 38.633739
+ - id : 0
+frame #: 1345.000000
+ LIGHT AT frame 0 
+ - x : 376
+ - y : 362
+ - z : 38.756855
+ - id : 0
+frame #: 1346.000000
+ LIGHT AT frame 0 
+ - x : 377
+ - y : 363
+ - z : 38.879509
+ - id : 0
+frame #: 1347.000000
+ LIGHT AT frame 0 
+ - x : 378
+ - y : 365
+ - z : 39.001694
+ - id : 0
+frame #: 1348.000000
+ LIGHT AT frame 0 
+ - x : 380
+ - y : 366
+ - z : 39.123409
+ - id : 0
+frame #: 1349.000000
+ LIGHT AT frame 0 
+ - x : 381
+ - y : 367
+ - z : 39.244652
+ - id : 0
+frame #: 1350.000000
+ LIGHT AT frame 0 
+ - x : 382
+ - y : 368
+ - z : 39.365417
+ - id : 0
+frame #: 1351.000000
+ LIGHT AT frame 0 
+ - x : 383
+ - y : 369
+ - z : 39.485699
+ - id : 0
+frame #: 1352.000000
+ LIGHT AT frame 0 
+ - x : 383
+ - y : 370
+ - z : 39.605492
+ - id : 0
+frame #: 1353.000000
+ LIGHT AT frame 0 
+ - x : 384
+ - y : 371
+ - z : 39.724796
+ - id : 0
+frame #: 1354.000000
+ LIGHT AT frame 0 
+ - x : 385
+ - y : 372
+ - z : 39.843597
+ - id : 0
+frame #: 1355.000000
+ LIGHT AT frame 0 
+ - x : 386
+ - y : 373
+ - z : 39.961887
+ - id : 0
+frame #: 1356.000000
+ LIGHT AT frame 0 
+ - x : 387
+ - y : 374
+ - z : 40.079666
+ - id : 0
+frame #: 1357.000000
+ LIGHT AT frame 0 
+ - x : 387
+ - y : 375
+ - z : 40.196918
+ - id : 0
+frame #: 1358.000000
+ LIGHT AT frame 0 
+ - x : 388
+ - y : 376
+ - z : 40.313637
+ - id : 0
+frame #: 1359.000000
+ LIGHT AT frame 0 
+ - x : 389
+ - y : 376
+ - z : 40.429810
+ - id : 0
+frame #: 1360.000000
+ LIGHT AT frame 0 
+ - x : 389
+ - y : 377
+ - z : 40.545429
+ - id : 0
+frame #: 1361.000000
+ LIGHT AT frame 0 
+ - x : 390
+ - y : 378
+ - z : 40.660480
+ - id : 0
+frame #: 1362.000000
+ LIGHT AT frame 0 
+ - x : 390
+ - y : 378
+ - z : 40.774956
+ - id : 0
+frame #: 1363.000000
+ LIGHT AT frame 0 
+ - x : 391
+ - y : 379
+ - z : 40.888836
+ - id : 0
+frame #: 1364.000000
+ LIGHT AT frame 0 
+ - x : 391
+ - y : 379
+ - z : 41.002117
+ - id : 0
+frame #: 1365.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 380
+ - z : 41.114777
+ - id : 0
+frame #: 1366.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 380
+ - z : 41.226810
+ - id : 0
+frame #: 1367.000000
+ LIGHT AT frame 0 
+ - x : 393
+ - y : 380
+ - z : 41.338192
+ - id : 0
+frame #: 1368.000000
+ LIGHT AT frame 0 
+ - x : 393
+ - y : 381
+ - z : 41.448921
+ - id : 0
+frame #: 1369.000000
+ LIGHT AT frame 0 
+ - x : 393
+ - y : 381
+ - z : 41.558971
+ - id : 0
+frame #: 1370.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 381
+ - z : 41.668327
+ - id : 0
+frame #: 1371.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 382
+ - z : 41.776981
+ - id : 0
+frame #: 1372.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 382
+ - z : 41.884914
+ - id : 0
+frame #: 1373.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 382
+ - z : 41.992104
+ - id : 0
+frame #: 1374.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 382
+ - z : 42.098541
+ - id : 0
+frame #: 1375.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 382
+ - z : 42.204208
+ - id : 0
+frame #: 1376.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 383
+ - z : 42.309082
+ - id : 0
+frame #: 1377.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 383
+ - z : 42.413143
+ - id : 0
+frame #: 1378.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 383
+ - z : 42.516380
+ - id : 0
+frame #: 1379.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 42.618778
+ - id : 0
+frame #: 1380.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 42.720306
+ - id : 0
+frame #: 1381.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 42.820957
+ - id : 0
+frame #: 1382.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 42.920708
+ - id : 0
+frame #: 1383.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 43.019543
+ - id : 0
+frame #: 1384.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 43.117432
+ - id : 0
+frame #: 1385.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 43.214371
+ - id : 0
+frame #: 1386.000000
+ LIGHT AT frame 0 
+ - x : 396
+ - y : 383
+ - z : 43.310329
+ - id : 0
+frame #: 1387.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 383
+ - z : 43.405293
+ - id : 0
+frame #: 1388.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.499233
+ - id : 0
+frame #: 1389.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.592140
+ - id : 0
+frame #: 1390.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.683990
+ - id : 0
+frame #: 1391.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.774765
+ - id : 0
+frame #: 1392.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.864441
+ - id : 0
+frame #: 1393.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 43.952999
+ - id : 0
+frame #: 1394.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 382
+ - z : 44.040413
+ - id : 0
+frame #: 1395.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 381
+ - z : 44.126671
+ - id : 0
+frame #: 1396.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 381
+ - z : 44.211750
+ - id : 0
+frame #: 1397.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 381
+ - z : 44.295624
+ - id : 0
+frame #: 1398.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 381
+ - z : 44.378277
+ - id : 0
+frame #: 1399.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 381
+ - z : 44.459682
+ - id : 0
+frame #: 1400.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 380
+ - z : 44.539822
+ - id : 0
+frame #: 1401.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 380
+ - z : 44.618683
+ - id : 0
+frame #: 1402.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 380
+ - z : 44.696232
+ - id : 0
+frame #: 1403.000000
+ LIGHT AT frame 0 
+ - x : 398
+ - y : 380
+ - z : 44.772449
+ - id : 0
+frame #: 1404.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 380
+ - z : 44.847317
+ - id : 0
+frame #: 1405.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 379
+ - z : 44.920811
+ - id : 0
+frame #: 1406.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 379
+ - z : 44.992912
+ - id : 0
+frame #: 1407.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 379
+ - z : 45.063591
+ - id : 0
+frame #: 1408.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 379
+ - z : 45.132835
+ - id : 0
+frame #: 1409.000000
+ LIGHT AT frame 0 
+ - x : 399
+ - y : 378
+ - z : 45.200623
+ - id : 0
+frame #: 1410.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 378
+ - z : 45.266922
+ - id : 0
+frame #: 1411.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 378
+ - z : 45.331718
+ - id : 0
+frame #: 1412.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 378
+ - z : 45.394989
+ - id : 0
+frame #: 1413.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 378
+ - z : 45.456707
+ - id : 0
+frame #: 1414.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 377
+ - z : 45.516853
+ - id : 0
+frame #: 1415.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 377
+ - z : 45.575409
+ - id : 0
+frame #: 1416.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 377
+ - z : 45.632347
+ - id : 0
+frame #: 1417.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 377
+ - z : 45.687653
+ - id : 0
+frame #: 1418.000000
+ LIGHT AT frame 0 
+ - x : 402
+ - y : 377
+ - z : 45.741287
+ - id : 0
+frame #: 1419.000000
+ LIGHT AT frame 0 
+ - x : 402
+ - y : 377
+ - z : 45.793243
+ - id : 0
+frame #: 1420.000000
+ LIGHT AT frame 0 
+ - x : 402
+ - y : 376
+ - z : 45.843491
+ - id : 0
+frame #: 1421.000000
+ LIGHT AT frame 0 
+ - x : 403
+ - y : 376
+ - z : 45.892006
+ - id : 0
+frame #: 1422.000000
+ LIGHT AT frame 0 
+ - x : 403
+ - y : 376
+ - z : 45.938774
+ - id : 0
+frame #: 1423.000000
+ LIGHT AT frame 0 
+ - x : 403
+ - y : 376
+ - z : 45.983768
+ - id : 0
+frame #: 1424.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 376
+ - z : 46.026955
+ - id : 0
+frame #: 1425.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 376
+ - z : 46.068325
+ - id : 0
+frame #: 1426.000000
+ LIGHT AT frame 0 
+ - x : 405
+ - y : 376
+ - z : 46.107857
+ - id : 0
+frame #: 1427.000000
+ LIGHT AT frame 0 
+ - x : 405
+ - y : 375
+ - z : 46.145515
+ - id : 0
+frame #: 1428.000000
+ LIGHT AT frame 0 
+ - x : 406
+ - y : 375
+ - z : 46.181278
+ - id : 0
+frame #: 1429.000000
+ LIGHT AT frame 0 
+ - x : 406
+ - y : 375
+ - z : 46.215134
+ - id : 0
+frame #: 1430.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 375
+ - z : 46.247051
+ - id : 0
+frame #: 1431.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 375
+ - z : 46.277012
+ - id : 0
+frame #: 1432.000000
+ LIGHT AT frame 0 
+ - x : 408
+ - y : 375
+ - z : 46.304981
+ - id : 0
+frame #: 1433.000000
+ LIGHT AT frame 0 
+ - x : 408
+ - y : 375
+ - z : 46.330948
+ - id : 0
+frame #: 1434.000000
+ LIGHT AT frame 0 
+ - x : 409
+ - y : 375
+ - z : 46.354877
+ - id : 0
+frame #: 1435.000000
+ LIGHT AT frame 0 
+ - x : 409
+ - y : 375
+ - z : 46.376759
+ - id : 0
+frame #: 1436.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 375
+ - z : 46.396561
+ - id : 0
+frame #: 1437.000000
+ LIGHT AT frame 0 
+ - x : 411
+ - y : 375
+ - z : 46.414257
+ - id : 0
+frame #: 1438.000000
+ LIGHT AT frame 0 
+ - x : 411
+ - y : 375
+ - z : 46.429836
+ - id : 0
+frame #: 1439.000000
+ LIGHT AT frame 0 
+ - x : 412
+ - y : 375
+ - z : 46.443260
+ - id : 0
+frame #: 1440.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 376
+ - z : 46.454510
+ - id : 0
+frame #: 1441.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 376
+ - z : 46.463562
+ - id : 0
+frame #: 1442.000000
+ LIGHT AT frame 0 
+ - x : 414
+ - y : 376
+ - z : 46.470394
+ - id : 0
+frame #: 1443.000000
+ LIGHT AT frame 0 
+ - x : 415
+ - y : 376
+ - z : 46.474979
+ - id : 0
+frame #: 1444.000000
+ LIGHT AT frame 0 
+ - x : 416
+ - y : 376
+ - z : 46.477299
+ - id : 0
+frame #: 1445.000000
+ LIGHT AT frame 0 
+ - x : 417
+ - y : 376
+ - z : 46.477322
+ - id : 0
+frame #: 1446.000000
+ LIGHT AT frame 0 
+ - x : 417
+ - y : 376
+ - z : 46.475033
+ - id : 0
+frame #: 1447.000000
+ LIGHT AT frame 0 
+ - x : 418
+ - y : 377
+ - z : 46.470398
+ - id : 0
+frame #: 1448.000000
+ LIGHT AT frame 0 
+ - x : 419
+ - y : 377
+ - z : 46.462387
+ - id : 0
+frame #: 1449.000000
+ LIGHT AT frame 0 
+ - x : 420
+ - y : 377
+ - z : 46.450020
+ - id : 0
+frame #: 1450.000000
+ LIGHT AT frame 0 
+ - x : 421
+ - y : 378
+ - z : 46.433334
+ - id : 0
+frame #: 1451.000000
+ LIGHT AT frame 0 
+ - x : 422
+ - y : 378
+ - z : 46.412399
+ - id : 0
+frame #: 1452.000000
+ LIGHT AT frame 0 
+ - x : 423
+ - y : 378
+ - z : 46.387260
+ - id : 0
+frame #: 1453.000000
+ LIGHT AT frame 0 
+ - x : 424
+ - y : 379
+ - z : 46.357975
+ - id : 0
+frame #: 1454.000000
+ LIGHT AT frame 0 
+ - x : 425
+ - y : 379
+ - z : 46.324604
+ - id : 0
+frame #: 1455.000000
+ LIGHT AT frame 0 
+ - x : 426
+ - y : 379
+ - z : 46.287197
+ - id : 0
+frame #: 1456.000000
+ LIGHT AT frame 0 
+ - x : 427
+ - y : 380
+ - z : 46.245815
+ - id : 0
+frame #: 1457.000000
+ LIGHT AT frame 0 
+ - x : 428
+ - y : 380
+ - z : 46.200516
+ - id : 0
+frame #: 1458.000000
+ LIGHT AT frame 0 
+ - x : 429
+ - y : 381
+ - z : 46.151356
+ - id : 0
+frame #: 1459.000000
+ LIGHT AT frame 0 
+ - x : 430
+ - y : 381
+ - z : 46.098400
+ - id : 0
+frame #: 1460.000000
+ LIGHT AT frame 0 
+ - x : 431
+ - y : 381
+ - z : 46.041706
+ - id : 0
+frame #: 1461.000000
+ LIGHT AT frame 0 
+ - x : 432
+ - y : 382
+ - z : 45.981335
+ - id : 0
+frame #: 1462.000000
+ LIGHT AT frame 0 
+ - x : 432
+ - y : 382
+ - z : 45.917351
+ - id : 0
+frame #: 1463.000000
+ LIGHT AT frame 0 
+ - x : 433
+ - y : 383
+ - z : 45.849815
+ - id : 0
+frame #: 1464.000000
+ LIGHT AT frame 0 
+ - x : 434
+ - y : 383
+ - z : 45.778797
+ - id : 0
+frame #: 1465.000000
+ LIGHT AT frame 0 
+ - x : 435
+ - y : 384
+ - z : 45.704350
+ - id : 0
+frame #: 1466.000000
+ LIGHT AT frame 0 
+ - x : 436
+ - y : 384
+ - z : 45.626553
+ - id : 0
+frame #: 1467.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 385
+ - z : 45.545456
+ - id : 0
+frame #: 1468.000000
+ LIGHT AT frame 0 
+ - x : 438
+ - y : 385
+ - z : 45.461143
+ - id : 0
+frame #: 1469.000000
+ LIGHT AT frame 0 
+ - x : 439
+ - y : 386
+ - z : 45.373665
+ - id : 0
+frame #: 1470.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 386
+ - z : 45.283100
+ - id : 0
+frame #: 1471.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 387
+ - z : 45.189507
+ - id : 0
+frame #: 1472.000000
+ LIGHT AT frame 0 
+ - x : 441
+ - y : 388
+ - z : 45.092968
+ - id : 0
+frame #: 1473.000000
+ LIGHT AT frame 0 
+ - x : 442
+ - y : 388
+ - z : 44.993538
+ - id : 0
+frame #: 1474.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 389
+ - z : 44.891300
+ - id : 0
+frame #: 1475.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 389
+ - z : 44.786308
+ - id : 0
+frame #: 1476.000000
+ LIGHT AT frame 0 
+ - x : 444
+ - y : 390
+ - z : 44.678650
+ - id : 0
+frame #: 1477.000000
+ LIGHT AT frame 0 
+ - x : 445
+ - y : 390
+ - z : 44.568378
+ - id : 0
+frame #: 1478.000000
+ LIGHT AT frame 0 
+ - x : 445
+ - y : 391
+ - z : 44.455582
+ - id : 0
+frame #: 1479.000000
+ LIGHT AT frame 0 
+ - x : 446
+ - y : 392
+ - z : 44.340321
+ - id : 0
+frame #: 1480.000000
+ LIGHT AT frame 0 
+ - x : 446
+ - y : 392
+ - z : 44.222675
+ - id : 0
+frame #: 1481.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 393
+ - z : 44.102711
+ - id : 0
+frame #: 1482.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 393
+ - z : 43.980499
+ - id : 0
+frame #: 1483.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 394
+ - z : 43.856125
+ - id : 0
+frame #: 1484.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 395
+ - z : 43.729649
+ - id : 0
+frame #: 1485.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 395
+ - z : 43.601147
+ - id : 0
+frame #: 1486.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 396
+ - z : 43.470695
+ - id : 0
+frame #: 1487.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 397
+ - z : 43.338375
+ - id : 0
+frame #: 1488.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 397
+ - z : 43.204243
+ - id : 0
+frame #: 1489.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 398
+ - z : 43.068390
+ - id : 0
+frame #: 1490.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 398
+ - z : 42.930878
+ - id : 0
+frame #: 1491.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 399
+ - z : 42.791790
+ - id : 0
+frame #: 1492.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 400
+ - z : 42.651196
+ - id : 0
+frame #: 1493.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 400
+ - z : 42.509174
+ - id : 0
+frame #: 1494.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 401
+ - z : 42.365799
+ - id : 0
+frame #: 1495.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 402
+ - z : 42.221142
+ - id : 0
+frame #: 1496.000000
+ LIGHT AT frame 0 
+ - x : 449
+ - y : 402
+ - z : 42.075279
+ - id : 0
+frame #: 1497.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 403
+ - z : 41.928295
+ - id : 0
+frame #: 1498.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 404
+ - z : 41.780254
+ - id : 0
+frame #: 1499.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 404
+ - z : 41.631241
+ - id : 0
+frame #: 1500.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 405
+ - z : 41.481319
+ - id : 0
+frame #: 1501.000000
+ LIGHT AT frame 0 
+ - x : 447
+ - y : 406
+ - z : 41.330574
+ - id : 0
+frame #: 1502.000000
+ LIGHT AT frame 0 
+ - x : 446
+ - y : 407
+ - z : 41.179081
+ - id : 0
+frame #: 1503.000000
+ LIGHT AT frame 0 
+ - x : 445
+ - y : 407
+ - z : 41.026909
+ - id : 0
+frame #: 1504.000000
+ LIGHT AT frame 0 
+ - x : 445
+ - y : 408
+ - z : 40.874142
+ - id : 0
+frame #: 1505.000000
+ LIGHT AT frame 0 
+ - x : 444
+ - y : 409
+ - z : 40.720848
+ - id : 0
+frame #: 1506.000000
+ LIGHT AT frame 0 
+ - x : 443
+ - y : 409
+ - z : 40.567112
+ - id : 0
+frame #: 1507.000000
+ LIGHT AT frame 0 
+ - x : 442
+ - y : 410
+ - z : 40.412998
+ - id : 0
+frame #: 1508.000000
+ LIGHT AT frame 0 
+ - x : 441
+ - y : 411
+ - z : 40.258595
+ - id : 0
+frame #: 1509.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 412
+ - z : 40.103977
+ - id : 0
+frame #: 1510.000000
+ LIGHT AT frame 0 
+ - x : 439
+ - y : 412
+ - z : 39.949207
+ - id : 0
+frame #: 1511.000000
+ LIGHT AT frame 0 
+ - x : 438
+ - y : 413
+ - z : 39.794376
+ - id : 0
+frame #: 1512.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 414
+ - z : 39.639553
+ - id : 0
+frame #: 1513.000000
+ LIGHT AT frame 0 
+ - x : 436
+ - y : 414
+ - z : 39.484818
+ - id : 0
+frame #: 1514.000000
+ LIGHT AT frame 0 
+ - x : 434
+ - y : 415
+ - z : 39.330242
+ - id : 0
+frame #: 1515.000000
+ LIGHT AT frame 0 
+ - x : 433
+ - y : 416
+ - z : 39.175903
+ - id : 0
+frame #: 1516.000000
+ LIGHT AT frame 0 
+ - x : 432
+ - y : 417
+ - z : 39.021877
+ - id : 0
+frame #: 1517.000000
+ LIGHT AT frame 0 
+ - x : 430
+ - y : 417
+ - z : 38.868244
+ - id : 0
+frame #: 1518.000000
+ LIGHT AT frame 0 
+ - x : 429
+ - y : 418
+ - z : 38.715076
+ - id : 0
+frame #: 1519.000000
+ LIGHT AT frame 0 
+ - x : 427
+ - y : 419
+ - z : 38.562454
+ - id : 0
+frame #: 1520.000000
+ LIGHT AT frame 0 
+ - x : 425
+ - y : 420
+ - z : 38.410446
+ - id : 0
+frame #: 1521.000000
+ LIGHT AT frame 0 
+ - x : 423
+ - y : 420
+ - z : 38.259140
+ - id : 0
+frame #: 1522.000000
+ LIGHT AT frame 0 
+ - x : 422
+ - y : 421
+ - z : 38.108604
+ - id : 0
+frame #: 1523.000000
+ LIGHT AT frame 0 
+ - x : 420
+ - y : 422
+ - z : 37.958916
+ - id : 0
+frame #: 1524.000000
+ LIGHT AT frame 0 
+ - x : 418
+ - y : 423
+ - z : 37.810150
+ - id : 0
+frame #: 1525.000000
+ LIGHT AT frame 0 
+ - x : 416
+ - y : 423
+ - z : 37.662384
+ - id : 0
+frame #: 1526.000000
+ LIGHT AT frame 0 
+ - x : 414
+ - y : 424
+ - z : 37.515697
+ - id : 0
+frame #: 1527.000000
+ LIGHT AT frame 0 
+ - x : 411
+ - y : 425
+ - z : 37.370171
+ - id : 0
+frame #: 1528.000000
+ LIGHT AT frame 0 
+ - x : 409
+ - y : 426
+ - z : 37.225868
+ - id : 0
+frame #: 1529.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 427
+ - z : 37.082874
+ - id : 0
+frame #: 1530.000000
+ LIGHT AT frame 0 
+ - x : 405
+ - y : 427
+ - z : 36.941265
+ - id : 0
+frame #: 1531.000000
+ LIGHT AT frame 0 
+ - x : 402
+ - y : 428
+ - z : 36.801113
+ - id : 0
+frame #: 1532.000000
+ LIGHT AT frame 0 
+ - x : 400
+ - y : 429
+ - z : 36.662502
+ - id : 0
+frame #: 1533.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 430
+ - z : 36.525505
+ - id : 0
+frame #: 1534.000000
+ LIGHT AT frame 0 
+ - x : 395
+ - y : 430
+ - z : 36.390194
+ - id : 0
+frame #: 1535.000000
+ LIGHT AT frame 0 
+ - x : 392
+ - y : 431
+ - z : 36.256653
+ - id : 0
+frame #: 1536.000000
+ LIGHT AT frame 0 
+ - x : 389
+ - y : 432
+ - z : 36.124962
+ - id : 0
+frame #: 1537.000000
+ LIGHT AT frame 0 
+ - x : 386
+ - y : 433
+ - z : 35.995182
+ - id : 0
+frame #: 1538.000000
+ LIGHT AT frame 0 
+ - x : 383
+ - y : 433
+ - z : 35.867405
+ - id : 0
+frame #: 1539.000000
+ LIGHT AT frame 0 
+ - x : 381
+ - y : 434
+ - z : 35.741711
+ - id : 0
+frame #: 1540.000000
+ LIGHT AT frame 0 
+ - x : 378
+ - y : 435
+ - z : 35.618160
+ - id : 0
+frame #: 1541.000000
+ LIGHT AT frame 0 
+ - x : 375
+ - y : 436
+ - z : 35.496845
+ - id : 0
+frame #: 1542.000000
+ LIGHT AT frame 0 
+ - x : 372
+ - y : 436
+ - z : 35.377838
+ - id : 0
+frame #: 1543.000000
+ LIGHT AT frame 0 
+ - x : 368
+ - y : 437
+ - z : 35.261215
+ - id : 0
+frame #: 1544.000000
+ LIGHT AT frame 0 
+ - x : 365
+ - y : 438
+ - z : 35.147057
+ - id : 0
+frame #: 1545.000000
+ LIGHT AT frame 0 
+ - x : 362
+ - y : 439
+ - z : 35.035439
+ - id : 0
+frame #: 1546.000000
+ LIGHT AT frame 0 
+ - x : 359
+ - y : 439
+ - z : 34.926430
+ - id : 0
+frame #: 1547.000000
+ LIGHT AT frame 0 
+ - x : 355
+ - y : 440
+ - z : 34.820129
+ - id : 0
+frame #: 1548.000000
+ LIGHT AT frame 0 
+ - x : 352
+ - y : 441
+ - z : 34.716595
+ - id : 0
+frame #: 1549.000000
+ LIGHT AT frame 0 
+ - x : 349
+ - y : 441
+ - z : 34.615913
+ - id : 0
+frame #: 1550.000000
+ LIGHT AT frame 0 
+ - x : 345
+ - y : 442
+ - z : 34.518162
+ - id : 0
+frame #: 1551.000000
+ LIGHT AT frame 0 
+ - x : 342
+ - y : 443
+ - z : 34.423420
+ - id : 0
+frame #: 1552.000000
+ LIGHT AT frame 0 
+ - x : 338
+ - y : 443
+ - z : 34.331764
+ - id : 0
+frame #: 1553.000000
+ LIGHT AT frame 0 
+ - x : 335
+ - y : 444
+ - z : 34.243267
+ - id : 0
+frame #: 1554.000000
+ LIGHT AT frame 0 
+ - x : 331
+ - y : 445
+ - z : 34.158020
+ - id : 0
+frame #: 1555.000000
+ LIGHT AT frame 0 
+ - x : 327
+ - y : 445
+ - z : 34.076092
+ - id : 0
+frame #: 1556.000000
+ LIGHT AT frame 0 
+ - x : 324
+ - y : 446
+ - z : 33.997566
+ - id : 0
+frame #: 1557.000000
+ LIGHT AT frame 0 
+ - x : 320
+ - y : 446
+ - z : 33.922520
+ - id : 0
+frame #: 1558.000000
+ LIGHT AT frame 0 
+ - x : 316
+ - y : 447
+ - z : 33.851032
+ - id : 0
+frame #: 1559.000000
+ LIGHT AT frame 0 
+ - x : 313
+ - y : 448
+ - z : 33.783184
+ - id : 0
+frame #: 1560.000000
+ LIGHT AT frame 0 
+ - x : 309
+ - y : 448
+ - z : 33.719051
+ - id : 0
+frame #: 1561.000000
+ LIGHT AT frame 0 
+ - x : 305
+ - y : 449
+ - z : 33.658718
+ - id : 0
+frame #: 1562.000000
+ LIGHT AT frame 0 
+ - x : 302
+ - y : 449
+ - z : 33.602261
+ - id : 0
+frame #: 1563.000000
+ LIGHT AT frame 0 
+ - x : 298
+ - y : 450
+ - z : 33.549759
+ - id : 0
+frame #: 1564.000000
+ LIGHT AT frame 0 
+ - x : 294
+ - y : 450
+ - z : 33.501293
+ - id : 0
+frame #: 1565.000000
+ LIGHT AT frame 0 
+ - x : 290
+ - y : 451
+ - z : 33.456940
+ - id : 0
+frame #: 1566.000000
+ LIGHT AT frame 0 
+ - x : 287
+ - y : 451
+ - z : 33.416790
+ - id : 0
+frame #: 1567.000000
+ LIGHT AT frame 0 
+ - x : 283
+ - y : 451
+ - z : 33.380905
+ - id : 0
+frame #: 1568.000000
+ LIGHT AT frame 0 
+ - x : 279
+ - y : 452
+ - z : 33.349392
+ - id : 0
+frame #: 1569.000000
+ LIGHT AT frame 0 
+ - x : 276
+ - y : 452
+ - z : 33.322311
+ - id : 0
+frame #: 1570.000000
+ LIGHT AT frame 0 
+ - x : 272
+ - y : 453
+ - z : 33.299744
+ - id : 0
+frame #: 1571.000000
+ LIGHT AT frame 0 
+ - x : 268
+ - y : 453
+ - z : 33.281784
+ - id : 0
+frame #: 1572.000000
+ LIGHT AT frame 0 
+ - x : 265
+ - y : 453
+ - z : 33.268501
+ - id : 0
+frame #: 1573.000000
+ LIGHT AT frame 0 
+ - x : 261
+ - y : 453
+ - z : 33.259983
+ - id : 0
+frame #: 1574.000000
+ LIGHT AT frame 0 
+ - x : 258
+ - y : 454
+ - z : 33.256306
+ - id : 0
+frame #: 1575.000000
+ LIGHT AT frame 0 
+ - x : 254
+ - y : 454
+ - z : 33.257553
+ - id : 0
+frame #: 1576.000000
+ LIGHT AT frame 0 
+ - x : 251
+ - y : 454
+ - z : 33.263809
+ - id : 0
+frame #: 1577.000000
+ LIGHT AT frame 0 
+ - x : 248
+ - y : 454
+ - z : 33.275158
+ - id : 0
+frame #: 1578.000000
+ LIGHT AT frame 0 
+ - x : 244
+ - y : 454
+ - z : 33.291676
+ - id : 0
+frame #: 1579.000000
+ LIGHT AT frame 0 
+ - x : 241
+ - y : 454
+ - z : 33.313957
+ - id : 0
+frame #: 1580.000000
+ LIGHT AT frame 0 
+ - x : 238
+ - y : 454
+ - z : 33.342506
+ - id : 0
+frame #: 1581.000000
+ LIGHT AT frame 0 
+ - x : 235
+ - y : 455
+ - z : 33.377293
+ - id : 0
+frame #: 1582.000000
+ LIGHT AT frame 0 
+ - x : 231
+ - y : 455
+ - z : 33.418262
+ - id : 0
+frame #: 1583.000000
+ LIGHT AT frame 0 
+ - x : 228
+ - y : 455
+ - z : 33.465366
+ - id : 0
+frame #: 1584.000000
+ LIGHT AT frame 0 
+ - x : 225
+ - y : 455
+ - z : 33.518566
+ - id : 0
+frame #: 1585.000000
+ LIGHT AT frame 0 
+ - x : 222
+ - y : 455
+ - z : 33.577812
+ - id : 0
+frame #: 1586.000000
+ LIGHT AT frame 0 
+ - x : 219
+ - y : 455
+ - z : 33.643055
+ - id : 0
+frame #: 1587.000000
+ LIGHT AT frame 0 
+ - x : 216
+ - y : 455
+ - z : 33.714249
+ - id : 0
+frame #: 1588.000000
+ LIGHT AT frame 0 
+ - x : 214
+ - y : 454
+ - z : 33.791344
+ - id : 0
+frame #: 1589.000000
+ LIGHT AT frame 0 
+ - x : 211
+ - y : 454
+ - z : 33.874298
+ - id : 0
+frame #: 1590.000000
+ LIGHT AT frame 0 
+ - x : 208
+ - y : 454
+ - z : 33.963043
+ - id : 0
+frame #: 1591.000000
+ LIGHT AT frame 0 
+ - x : 205
+ - y : 454
+ - z : 34.057541
+ - id : 0
+frame #: 1592.000000
+ LIGHT AT frame 0 
+ - x : 203
+ - y : 454
+ - z : 34.157738
+ - id : 0
+frame #: 1593.000000
+ LIGHT AT frame 0 
+ - x : 200
+ - y : 454
+ - z : 34.263577
+ - id : 0
+frame #: 1594.000000
+ LIGHT AT frame 0 
+ - x : 198
+ - y : 454
+ - z : 34.374996
+ - id : 0
+frame #: 1595.000000
+ LIGHT AT frame 0 
+ - x : 196
+ - y : 454
+ - z : 34.491947
+ - id : 0
+frame #: 1596.000000
+ LIGHT AT frame 0 
+ - x : 194
+ - y : 454
+ - z : 34.614365
+ - id : 0
+frame #: 1597.000000
+ LIGHT AT frame 0 
+ - x : 192
+ - y : 453
+ - z : 34.742191
+ - id : 0
+frame #: 1598.000000
+ LIGHT AT frame 0 
+ - x : 190
+ - y : 453
+ - z : 34.875370
+ - id : 0
+frame #: 1599.000000
+ LIGHT AT frame 0 
+ - x : 188
+ - y : 453
+ - z : 35.013836
+ - id : 0
+frame #: 1600.000000
+ LIGHT AT frame 0 
+ - x : 186
+ - y : 453
+ - z : 35.157516
+ - id : 0
+frame #: 1601.000000
+ LIGHT AT frame 0 
+ - x : 184
+ - y : 453
+ - z : 35.306358
+ - id : 0
+frame #: 1602.000000
+ LIGHT AT frame 0 
+ - x : 183
+ - y : 453
+ - z : 35.460289
+ - id : 0
+frame #: 1603.000000
+ LIGHT AT frame 0 
+ - x : 181
+ - y : 452
+ - z : 35.619228
+ - id : 0
+frame #: 1604.000000
+ LIGHT AT frame 0 
+ - x : 180
+ - y : 452
+ - z : 35.783112
+ - id : 0
+frame #: 1605.000000
+ LIGHT AT frame 0 
+ - x : 179
+ - y : 452
+ - z : 35.951866
+ - id : 0
+frame #: 1606.000000
+ LIGHT AT frame 0 
+ - x : 178
+ - y : 452
+ - z : 36.125416
+ - id : 0
+frame #: 1607.000000
+ LIGHT AT frame 0 
+ - x : 177
+ - y : 452
+ - z : 36.303688
+ - id : 0
+frame #: 1608.000000
+ LIGHT AT frame 0 
+ - x : 176
+ - y : 451
+ - z : 36.486591
+ - id : 0
+frame #: 1609.000000
+ LIGHT AT frame 0 
+ - x : 175
+ - y : 451
+ - z : 36.674057
+ - id : 0
+frame #: 1610.000000
+ LIGHT AT frame 0 
+ - x : 174
+ - y : 451
+ - z : 36.865993
+ - id : 0
+frame #: 1611.000000
+ LIGHT AT frame 0 
+ - x : 174
+ - y : 450
+ - z : 37.062317
+ - id : 0
+frame #: 1612.000000
+ LIGHT AT frame 0 
+ - x : 174
+ - y : 450
+ - z : 37.262936
+ - id : 0
+frame #: 1613.000000
+ LIGHT AT frame 0 
+ - x : 173
+ - y : 450
+ - z : 37.467770
+ - id : 0
+frame #: 1614.000000
+ LIGHT AT frame 0 
+ - x : 173
+ - y : 450
+ - z : 37.676720
+ - id : 0
+frame #: 1615.000000
+ LIGHT AT frame 0 
+ - x : 173
+ - y : 449
+ - z : 37.889687
+ - id : 0
+frame #: 1616.000000
+ LIGHT AT frame 0 
+ - x : 173
+ - y : 449
+ - z : 38.106583
+ - id : 0
+frame #: 1617.000000
+ LIGHT AT frame 0 
+ - x : 174
+ - y : 449
+ - z : 38.327309
+ - id : 0
+frame #: 1618.000000
+ LIGHT AT frame 0 
+ - x : 174
+ - y : 448
+ - z : 38.551750
+ - id : 0
+frame #: 1619.000000
+ LIGHT AT frame 0 
+ - x : 175
+ - y : 448
+ - z : 38.779819
+ - id : 0
+frame #: 1620.000000
+ LIGHT AT frame 0 
+ - x : 175
+ - y : 448
+ - z : 39.011417
+ - id : 0
+frame #: 1621.000000
+ LIGHT AT frame 0 
+ - x : 176
+ - y : 447
+ - z : 39.246407
+ - id : 0
+frame #: 1622.000000
+ LIGHT AT frame 0 
+ - x : 177
+ - y : 447
+ - z : 39.484703
+ - id : 0
+frame #: 1623.000000
+ LIGHT AT frame 0 
+ - x : 178
+ - y : 447
+ - z : 39.726189
+ - id : 0
+frame #: 1624.000000
+ LIGHT AT frame 0 
+ - x : 179
+ - y : 446
+ - z : 39.970745
+ - id : 0
+frame #: 1625.000000
+ LIGHT AT frame 0 
+ - x : 180
+ - y : 446
+ - z : 40.218258
+ - id : 0
+frame #: 1626.000000
+ LIGHT AT frame 0 
+ - x : 182
+ - y : 445
+ - z : 40.468609
+ - id : 0
+frame #: 1627.000000
+ LIGHT AT frame 0 
+ - x : 183
+ - y : 445
+ - z : 40.721676
+ - id : 0
+frame #: 1628.000000
+ LIGHT AT frame 0 
+ - x : 185
+ - y : 444
+ - z : 40.977341
+ - id : 0
+frame #: 1629.000000
+ LIGHT AT frame 0 
+ - x : 186
+ - y : 444
+ - z : 41.235470
+ - id : 0
+frame #: 1630.000000
+ LIGHT AT frame 0 
+ - x : 188
+ - y : 443
+ - z : 41.495949
+ - id : 0
+frame #: 1631.000000
+ LIGHT AT frame 0 
+ - x : 190
+ - y : 443
+ - z : 41.758633
+ - id : 0
+frame #: 1632.000000
+ LIGHT AT frame 0 
+ - x : 192
+ - y : 442
+ - z : 42.023399
+ - id : 0
+frame #: 1633.000000
+ LIGHT AT frame 0 
+ - x : 194
+ - y : 442
+ - z : 42.290123
+ - id : 0
+frame #: 1634.000000
+ LIGHT AT frame 0 
+ - x : 196
+ - y : 441
+ - z : 42.558662
+ - id : 0
+frame #: 1635.000000
+ LIGHT AT frame 0 
+ - x : 199
+ - y : 441
+ - z : 42.828876
+ - id : 0
+frame #: 1636.000000
+ LIGHT AT frame 0 
+ - x : 201
+ - y : 440
+ - z : 43.100632
+ - id : 0
+frame #: 1637.000000
+ LIGHT AT frame 0 
+ - x : 204
+ - y : 440
+ - z : 43.373795
+ - id : 0
+frame #: 1638.000000
+ LIGHT AT frame 0 
+ - x : 206
+ - y : 439
+ - z : 43.648216
+ - id : 0
+frame #: 1639.000000
+ LIGHT AT frame 0 
+ - x : 209
+ - y : 438
+ - z : 43.923748
+ - id : 0
+frame #: 1640.000000
+ LIGHT AT frame 0 
+ - x : 212
+ - y : 438
+ - z : 44.200260
+ - id : 0
+frame #: 1641.000000
+ LIGHT AT frame 0 
+ - x : 214
+ - y : 437
+ - z : 44.477596
+ - id : 0
+frame #: 1642.000000
+ LIGHT AT frame 0 
+ - x : 217
+ - y : 436
+ - z : 44.755623
+ - id : 0
+frame #: 1643.000000
+ LIGHT AT frame 0 
+ - x : 220
+ - y : 436
+ - z : 45.034172
+ - id : 0
+frame #: 1644.000000
+ LIGHT AT frame 0 
+ - x : 223
+ - y : 435
+ - z : 45.313107
+ - id : 0
+frame #: 1645.000000
+ LIGHT AT frame 0 
+ - x : 227
+ - y : 434
+ - z : 45.592278
+ - id : 0
+frame #: 1646.000000
+ LIGHT AT frame 0 
+ - x : 230
+ - y : 433
+ - z : 45.871525
+ - id : 0
+frame #: 1647.000000
+ LIGHT AT frame 0 
+ - x : 233
+ - y : 433
+ - z : 46.150703
+ - id : 0
+frame #: 1648.000000
+ LIGHT AT frame 0 
+ - x : 236
+ - y : 432
+ - z : 46.429661
+ - id : 0
+frame #: 1649.000000
+ LIGHT AT frame 0 
+ - x : 240
+ - y : 431
+ - z : 46.708241
+ - id : 0
+frame #: 1650.000000
+ LIGHT AT frame 0 
+ - x : 243
+ - y : 430
+ - z : 46.986290
+ - id : 0
+frame #: 1651.000000
+ LIGHT AT frame 0 
+ - x : 247
+ - y : 429
+ - z : 47.263657
+ - id : 0
+frame #: 1652.000000
+ LIGHT AT frame 0 
+ - x : 250
+ - y : 428
+ - z : 47.540173
+ - id : 0
+frame #: 1653.000000
+ LIGHT AT frame 0 
+ - x : 254
+ - y : 428
+ - z : 47.815704
+ - id : 0
+frame #: 1654.000000
+ LIGHT AT frame 0 
+ - x : 257
+ - y : 427
+ - z : 48.090080
+ - id : 0
+frame #: 1655.000000
+ LIGHT AT frame 0 
+ - x : 261
+ - y : 426
+ - z : 48.363152
+ - id : 0
+frame #: 1656.000000
+ LIGHT AT frame 0 
+ - x : 265
+ - y : 425
+ - z : 48.634754
+ - id : 0
+frame #: 1657.000000
+ LIGHT AT frame 0 
+ - x : 268
+ - y : 424
+ - z : 48.904751
+ - id : 0
+frame #: 1658.000000
+ LIGHT AT frame 0 
+ - x : 272
+ - y : 423
+ - z : 49.172955
+ - id : 0
+frame #: 1659.000000
+ LIGHT AT frame 0 
+ - x : 276
+ - y : 422
+ - z : 49.439247
+ - id : 0
+frame #: 1660.000000
+ LIGHT AT frame 0 
+ - x : 280
+ - y : 421
+ - z : 49.703442
+ - id : 0
+frame #: 1661.000000
+ LIGHT AT frame 0 
+ - x : 284
+ - y : 420
+ - z : 49.965408
+ - id : 0
+frame #: 1662.000000
+ LIGHT AT frame 0 
+ - x : 288
+ - y : 419
+ - z : 50.224979
+ - id : 0
+frame #: 1663.000000
+ LIGHT AT frame 0 
+ - x : 292
+ - y : 417
+ - z : 50.482006
+ - id : 0
+frame #: 1664.000000
+ LIGHT AT frame 0 
+ - x : 295
+ - y : 416
+ - z : 50.736340
+ - id : 0
+frame #: 1665.000000
+ LIGHT AT frame 0 
+ - x : 299
+ - y : 415
+ - z : 50.987827
+ - id : 0
+frame #: 1666.000000
+ LIGHT AT frame 0 
+ - x : 303
+ - y : 414
+ - z : 51.236309
+ - id : 0
+frame #: 1667.000000
+ LIGHT AT frame 0 
+ - x : 307
+ - y : 413
+ - z : 51.481644
+ - id : 0
+frame #: 1668.000000
+ LIGHT AT frame 0 
+ - x : 311
+ - y : 412
+ - z : 51.723679
+ - id : 0
+frame #: 1669.000000
+ LIGHT AT frame 0 
+ - x : 315
+ - y : 411
+ - z : 51.962273
+ - id : 0
+frame #: 1670.000000
+ LIGHT AT frame 0 
+ - x : 319
+ - y : 409
+ - z : 52.197281
+ - id : 0
+frame #: 1671.000000
+ LIGHT AT frame 0 
+ - x : 323
+ - y : 408
+ - z : 52.428551
+ - id : 0
+frame #: 1672.000000
+ LIGHT AT frame 0 
+ - x : 327
+ - y : 407
+ - z : 52.655941
+ - id : 0
+frame #: 1673.000000
+ LIGHT AT frame 0 
+ - x : 331
+ - y : 406
+ - z : 52.879318
+ - id : 0
+frame #: 1674.000000
+ LIGHT AT frame 0 
+ - x : 335
+ - y : 404
+ - z : 53.098530
+ - id : 0
+frame #: 1675.000000
+ LIGHT AT frame 0 
+ - x : 339
+ - y : 403
+ - z : 53.313435
+ - id : 0
+frame #: 1676.000000
+ LIGHT AT frame 0 
+ - x : 343
+ - y : 402
+ - z : 53.523911
+ - id : 0
+frame #: 1677.000000
+ LIGHT AT frame 0 
+ - x : 346
+ - y : 401
+ - z : 53.729809
+ - id : 0
+frame #: 1678.000000
+ LIGHT AT frame 0 
+ - x : 350
+ - y : 399
+ - z : 53.931004
+ - id : 0
+frame #: 1679.000000
+ LIGHT AT frame 0 
+ - x : 354
+ - y : 398
+ - z : 54.127357
+ - id : 0
+frame #: 1680.000000
+ LIGHT AT frame 0 
+ - x : 358
+ - y : 397
+ - z : 54.318733
+ - id : 0
+frame #: 1681.000000
+ LIGHT AT frame 0 
+ - x : 362
+ - y : 396
+ - z : 54.505020
+ - id : 0
+frame #: 1682.000000
+ LIGHT AT frame 0 
+ - x : 365
+ - y : 394
+ - z : 54.686077
+ - id : 0
+frame #: 1683.000000
+ LIGHT AT frame 0 
+ - x : 369
+ - y : 393
+ - z : 54.861774
+ - id : 0
+frame #: 1684.000000
+ LIGHT AT frame 0 
+ - x : 373
+ - y : 392
+ - z : 55.032009
+ - id : 0
+frame #: 1685.000000
+ LIGHT AT frame 0 
+ - x : 376
+ - y : 390
+ - z : 55.196632
+ - id : 0
+frame #: 1686.000000
+ LIGHT AT frame 0 
+ - x : 380
+ - y : 389
+ - z : 55.355541
+ - id : 0
+frame #: 1687.000000
+ LIGHT AT frame 0 
+ - x : 384
+ - y : 388
+ - z : 55.508617
+ - id : 0
+frame #: 1688.000000
+ LIGHT AT frame 0 
+ - x : 387
+ - y : 386
+ - z : 55.655743
+ - id : 0
+frame #: 1689.000000
+ LIGHT AT frame 0 
+ - x : 390
+ - y : 385
+ - z : 55.796795
+ - id : 0
+frame #: 1690.000000
+ LIGHT AT frame 0 
+ - x : 394
+ - y : 384
+ - z : 55.931664
+ - id : 0
+frame #: 1691.000000
+ LIGHT AT frame 0 
+ - x : 397
+ - y : 383
+ - z : 56.060246
+ - id : 0
+frame #: 1692.000000
+ LIGHT AT frame 0 
+ - x : 401
+ - y : 381
+ - z : 56.182426
+ - id : 0
+frame #: 1693.000000
+ LIGHT AT frame 0 
+ - x : 404
+ - y : 380
+ - z : 56.298092
+ - id : 0
+frame #: 1694.000000
+ LIGHT AT frame 0 
+ - x : 407
+ - y : 379
+ - z : 56.407143
+ - id : 0
+frame #: 1695.000000
+ LIGHT AT frame 0 
+ - x : 410
+ - y : 377
+ - z : 56.509472
+ - id : 0
+frame #: 1696.000000
+ LIGHT AT frame 0 
+ - x : 413
+ - y : 376
+ - z : 56.604977
+ - id : 0
+frame #: 1697.000000
+ LIGHT AT frame 0 
+ - x : 416
+ - y : 375
+ - z : 56.693562
+ - id : 0
+frame #: 1698.000000
+ LIGHT AT frame 0 
+ - x : 419
+ - y : 374
+ - z : 56.775124
+ - id : 0
+frame #: 1699.000000
+ LIGHT AT frame 0 
+ - x : 422
+ - y : 373
+ - z : 56.849545
+ - id : 0
+frame #: 1700.000000
+ LIGHT AT frame 0 
+ - x : 425
+ - y : 371
+ - z : 56.916752
+ - id : 0
+frame #: 1701.000000
+ LIGHT AT frame 0 
+ - x : 427
+ - y : 370
+ - z : 56.976639
+ - id : 0
+frame #: 1702.000000
+ LIGHT AT frame 0 
+ - x : 430
+ - y : 369
+ - z : 57.029110
+ - id : 0
+frame #: 1703.000000
+ LIGHT AT frame 0 
+ - x : 433
+ - y : 368
+ - z : 57.074074
+ - id : 0
+frame #: 1704.000000
+ LIGHT AT frame 0 
+ - x : 435
+ - y : 367
+ - z : 57.111427
+ - id : 0
+frame #: 1705.000000
+ LIGHT AT frame 0 
+ - x : 437
+ - y : 366
+ - z : 57.141098
+ - id : 0
+frame #: 1706.000000
+ LIGHT AT frame 0 
+ - x : 440
+ - y : 365
+ - z : 57.162971
+ - id : 0
+frame #: 1707.000000
+ LIGHT AT frame 0 
+ - x : 442
+ - y : 364
+ - z : 57.176971
+ - id : 0
+frame #: 1708.000000
+ LIGHT AT frame 0 
+ - x : 444
+ - y : 363
+ - z : 57.182991
+ - id : 0
+frame #: 1709.000000
+ LIGHT AT frame 0 
+ - x : 446
+ - y : 362
+ - z : 57.180969
+ - id : 0
+frame #: 1710.000000
+ LIGHT AT frame 0 
+ - x : 448
+ - y : 361
+ - z : 57.170780
+ - id : 0
+frame #: 1711.000000
+ LIGHT AT frame 0 
+ - x : 450
+ - y : 360
+ - z : 57.152718
+ - id : 0
+frame #: 1712.000000
+ LIGHT AT frame 0 
+ - x : 452
+ - y : 359
+ - z : 57.127174
+ - id : 0
+frame #: 1713.000000
+ LIGHT AT frame 0 
+ - x : 453
+ - y : 358
+ - z : 57.094250
+ - id : 0
+frame #: 1714.000000
+ LIGHT AT frame 0 
+ - x : 455
+ - y : 357
+ - z : 57.054039
+ - id : 0
+frame #: 1715.000000
+ LIGHT AT frame 0 
+ - x : 457
+ - y : 356
+ - z : 57.006668
+ - id : 0
+frame #: 1716.000000
+ LIGHT AT frame 0 
+ - x : 458
+ - y : 355
+ - z : 56.952213
+ - id : 0
+frame #: 1717.000000
+ LIGHT AT frame 0 
+ - x : 460
+ - y : 354
+ - z : 56.890797
+ - id : 0
+frame #: 1718.000000
+ LIGHT AT frame 0 
+ - x : 462
+ - y : 353
+ - z : 56.822506
+ - id : 0
+frame #: 1719.000000
+ LIGHT AT frame 0 
+ - x : 463
+ - y : 353
+ - z : 56.747452
+ - id : 0
+frame #: 1720.000000
+ LIGHT AT frame 0 
+ - x : 465
+ - y : 352
+ - z : 56.665730
+ - id : 0
+frame #: 1721.000000
+ LIGHT AT frame 0 
+ - x : 466
+ - y : 351
+ - z : 56.577461
+ - id : 0
+frame #: 1722.000000
+ LIGHT AT frame 0 
+ - x : 468
+ - y : 350
+ - z : 56.482727
+ - id : 0
+frame #: 1723.000000
+ LIGHT AT frame 0 
+ - x : 469
+ - y : 349
+ - z : 56.381638
+ - id : 0
+frame #: 1724.000000
+ LIGHT AT frame 0 
+ - x : 470
+ - y : 348
+ - z : 56.274303
+ - id : 0
+frame #: 1725.000000
+ LIGHT AT frame 0 
+ - x : 472
+ - y : 347
+ - z : 56.160805
+ - id : 0
+frame #: 1726.000000
+ LIGHT AT frame 0 
+ - x : 473
+ - y : 347
+ - z : 56.041271
+ - id : 0
+frame #: 1727.000000
+ LIGHT AT frame 0 
+ - x : 474
+ - y : 346
+ - z : 55.915783
+ - id : 0
+frame #: 1728.000000
+ LIGHT AT frame 0 
+ - x : 476
+ - y : 345
+ - z : 55.784462
+ - id : 0
+frame #: 1729.000000
+ LIGHT AT frame 0 
+ - x : 477
+ - y : 344
+ - z : 55.647388
+ - id : 0
+frame #: 1730.000000
+ LIGHT AT frame 0 
+ - x : 478
+ - y : 343
+ - z : 55.504684
+ - id : 0
+frame #: 1731.000000
+ LIGHT AT frame 0 
+ - x : 479
+ - y : 342
+ - z : 55.356430
+ - id : 0
+frame #: 1732.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 342
+ - z : 55.202747
+ - id : 0
+frame #: 1733.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 341
+ - z : 55.043732
+ - id : 0
+frame #: 1734.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 340
+ - z : 54.879475
+ - id : 0
+frame #: 1735.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 339
+ - z : 54.710094
+ - id : 0
+frame #: 1736.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 338
+ - z : 54.535686
+ - id : 0
+frame #: 1737.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 338
+ - z : 54.356342
+ - id : 0
+frame #: 1738.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 337
+ - z : 54.172169
+ - id : 0
+frame #: 1739.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 336
+ - z : 53.983288
+ - id : 0
+frame #: 1740.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 335
+ - z : 53.789761
+ - id : 0
+frame #: 1741.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 334
+ - z : 53.591724
+ - id : 0
+frame #: 1742.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 334
+ - z : 53.389263
+ - id : 0
+frame #: 1743.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 333
+ - z : 53.182476
+ - id : 0
+frame #: 1744.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 332
+ - z : 52.971474
+ - id : 0
+frame #: 1745.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 331
+ - z : 52.756348
+ - id : 0
+frame #: 1746.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 331
+ - z : 52.537212
+ - id : 0
+frame #: 1747.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 330
+ - z : 52.314148
+ - id : 0
+frame #: 1748.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 329
+ - z : 52.087276
+ - id : 0
+frame #: 1749.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 329
+ - z : 51.856689
+ - id : 0
+frame #: 1750.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 328
+ - z : 51.622486
+ - id : 0
+frame #: 1751.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 327
+ - z : 51.384762
+ - id : 0
+frame #: 1752.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 326
+ - z : 51.143635
+ - id : 0
+frame #: 1753.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 326
+ - z : 50.899189
+ - id : 0
+frame #: 1754.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 325
+ - z : 50.651535
+ - id : 0
+frame #: 1755.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 324
+ - z : 50.400768
+ - id : 0
+frame #: 1756.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 324
+ - z : 50.146988
+ - id : 0
+frame #: 1757.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 323
+ - z : 49.890301
+ - id : 0
+frame #: 1758.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 322
+ - z : 49.630802
+ - id : 0
+frame #: 1759.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 322
+ - z : 49.368599
+ - id : 0
+frame #: 1760.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 321
+ - z : 49.103775
+ - id : 0
+frame #: 1761.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 320
+ - z : 48.836452
+ - id : 0
+frame #: 1762.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 320
+ - z : 48.566719
+ - id : 0
+frame #: 1763.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 319
+ - z : 48.294678
+ - id : 0
+frame #: 1764.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 318
+ - z : 48.020428
+ - id : 0
+frame #: 1765.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 318
+ - z : 47.744068
+ - id : 0
+frame #: 1766.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 317
+ - z : 47.465702
+ - id : 0
+frame #: 1767.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 316
+ - z : 47.185429
+ - id : 0
+frame #: 1768.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 316
+ - z : 46.903347
+ - id : 0
+frame #: 1769.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 315
+ - z : 46.619568
+ - id : 0
+frame #: 1770.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 315
+ - z : 46.334171
+ - id : 0
+frame #: 1771.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 314
+ - z : 46.047268
+ - id : 0
+frame #: 1772.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 313
+ - z : 45.758961
+ - id : 0
+frame #: 1773.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 313
+ - z : 45.469349
+ - id : 0
+frame #: 1774.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 312
+ - z : 45.178520
+ - id : 0
+frame #: 1775.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 312
+ - z : 44.886593
+ - id : 0
+frame #: 1776.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 311
+ - z : 44.593655
+ - id : 0
+frame #: 1777.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 311
+ - z : 44.299812
+ - id : 0
+frame #: 1778.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 310
+ - z : 44.005165
+ - id : 0
+frame #: 1779.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 310
+ - z : 43.709793
+ - id : 0
+frame #: 1780.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 309
+ - z : 43.413826
+ - id : 0
+frame #: 1781.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 308
+ - z : 43.117344
+ - id : 0
+frame #: 1782.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 308
+ - z : 42.820457
+ - id : 0
+frame #: 1783.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 307
+ - z : 42.523251
+ - id : 0
+frame #: 1784.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 307
+ - z : 42.225838
+ - id : 0
+frame #: 1785.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 306
+ - z : 41.928314
+ - id : 0
+frame #: 1786.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 306
+ - z : 41.630772
+ - id : 0
+frame #: 1787.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 305
+ - z : 41.333317
+ - id : 0
+frame #: 1788.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 305
+ - z : 41.036041
+ - id : 0
+frame #: 1789.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 305
+ - z : 40.739052
+ - id : 0
+frame #: 1790.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 304
+ - z : 40.442444
+ - id : 0
+frame #: 1791.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 304
+ - z : 40.146317
+ - id : 0
+frame #: 1792.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 303
+ - z : 39.850765
+ - id : 0
+frame #: 1793.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 303
+ - z : 39.555882
+ - id : 0
+frame #: 1794.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 302
+ - z : 39.261776
+ - id : 0
+frame #: 1795.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 302
+ - z : 38.968540
+ - id : 0
+frame #: 1796.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 302
+ - z : 38.676270
+ - id : 0
+frame #: 1797.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 301
+ - z : 38.385063
+ - id : 0
+frame #: 1798.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 301
+ - z : 38.095016
+ - id : 0
+frame #: 1799.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 300
+ - z : 37.806232
+ - id : 0
+frame #: 1800.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 300
+ - z : 37.518791
+ - id : 0
+frame #: 1801.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 300
+ - z : 37.232803
+ - id : 0
+frame #: 1802.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 299
+ - z : 36.948357
+ - id : 0
+frame #: 1803.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 299
+ - z : 36.665558
+ - id : 0
+frame #: 1804.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 299
+ - z : 36.384483
+ - id : 0
+frame #: 1805.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 298
+ - z : 36.105240
+ - id : 0
+frame #: 1806.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 298
+ - z : 35.827919
+ - id : 0
+frame #: 1807.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 298
+ - z : 35.552608
+ - id : 0
+frame #: 1808.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 297
+ - z : 35.279404
+ - id : 0
+frame #: 1809.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 297
+ - z : 35.008404
+ - id : 0
+frame #: 1810.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 297
+ - z : 34.739689
+ - id : 0
+frame #: 1811.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 297
+ - z : 34.473358
+ - id : 0
+frame #: 1812.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 296
+ - z : 34.209499
+ - id : 0
+frame #: 1813.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 296
+ - z : 33.948204
+ - id : 0
+frame #: 1814.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 296
+ - z : 33.689556
+ - id : 0
+frame #: 1815.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 296
+ - z : 33.433643
+ - id : 0
+frame #: 1816.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 295
+ - z : 33.180561
+ - id : 0
+frame #: 1817.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 295
+ - z : 32.930389
+ - id : 0
+frame #: 1818.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 295
+ - z : 32.683220
+ - id : 0
+frame #: 1819.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 295
+ - z : 32.439129
+ - id : 0
+frame #: 1820.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 294
+ - z : 32.198212
+ - id : 0
+frame #: 1821.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 294
+ - z : 31.960543
+ - id : 0
+frame #: 1822.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 294
+ - z : 31.726198
+ - id : 0
+frame #: 1823.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 294
+ - z : 31.495281
+ - id : 0
+frame #: 1824.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 294
+ - z : 31.267847
+ - id : 0
+frame #: 1825.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 293
+ - z : 31.043989
+ - id : 0
+frame #: 1826.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 293
+ - z : 30.823784
+ - id : 0
+frame #: 1827.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 293
+ - z : 30.607300
+ - id : 0
+frame #: 1828.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 293
+ - z : 30.394619
+ - id : 0
+frame #: 1829.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 292
+ - z : 30.185812
+ - id : 0
+frame #: 1830.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 292
+ - z : 29.980953
+ - id : 0
+frame #: 1831.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 292
+ - z : 29.780119
+ - id : 0
+frame #: 1832.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 292
+ - z : 29.583368
+ - id : 0
+frame #: 1833.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 291
+ - z : 29.390783
+ - id : 0
+frame #: 1834.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 291
+ - z : 29.202423
+ - id : 0
+frame #: 1835.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 291
+ - z : 29.018347
+ - id : 0
+frame #: 1836.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 291
+ - z : 28.838631
+ - id : 0
+frame #: 1837.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 290
+ - z : 28.663330
+ - id : 0
+frame #: 1838.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 290
+ - z : 28.492508
+ - id : 0
+frame #: 1839.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 290
+ - z : 28.326225
+ - id : 0
+frame #: 1840.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 289
+ - z : 28.164541
+ - id : 0
+frame #: 1841.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 289
+ - z : 28.007507
+ - id : 0
+frame #: 1842.000000
+ LIGHT AT frame 0 
+ - x : 480
+ - y : 289
+ - z : 27.855183
+ - id : 0
+frame #: 1843.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 288
+ - z : 27.705799
+ - id : 0
+frame #: 1844.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 288
+ - z : 27.557531
+ - id : 0
+frame #: 1845.000000
+ LIGHT AT frame 0 
+ - x : 481
+ - y : 287
+ - z : 27.410362
+ - id : 0
+frame #: 1846.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 287
+ - z : 27.264269
+ - id : 0
+frame #: 1847.000000
+ LIGHT AT frame 0 
+ - x : 482
+ - y : 287
+ - z : 27.119232
+ - id : 0
+frame #: 1848.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 286
+ - z : 26.975227
+ - id : 0
+frame #: 1849.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 286
+ - z : 26.832241
+ - id : 0
+frame #: 1850.000000
+ LIGHT AT frame 0 
+ - x : 483
+ - y : 286
+ - z : 26.690248
+ - id : 0
+frame #: 1851.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 285
+ - z : 26.549238
+ - id : 0
+frame #: 1852.000000
+ LIGHT AT frame 0 
+ - x : 484
+ - y : 285
+ - z : 26.409184
+ - id : 0
+frame #: 1853.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 285
+ - z : 26.270073
+ - id : 0
+frame #: 1854.000000
+ LIGHT AT frame 0 
+ - x : 485
+ - y : 285
+ - z : 26.131889
+ - id : 0
+frame #: 1855.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 284
+ - z : 25.994621
+ - id : 0
+frame #: 1856.000000
+ LIGHT AT frame 0 
+ - x : 486
+ - y : 284
+ - z : 25.858244
+ - id : 0
+frame #: 1857.000000
+ LIGHT AT frame 0 
+ - x : 487
+ - y : 284
+ - z : 25.722752
+ - id : 0
+frame #: 1858.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 284
+ - z : 25.588125
+ - id : 0
+frame #: 1859.000000
+ LIGHT AT frame 0 
+ - x : 488
+ - y : 283
+ - z : 25.454353
+ - id : 0
+frame #: 1860.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 283
+ - z : 25.321423
+ - id : 0
+frame #: 1861.000000
+ LIGHT AT frame 0 
+ - x : 489
+ - y : 283
+ - z : 25.189318
+ - id : 0
+frame #: 1862.000000
+ LIGHT AT frame 0 
+ - x : 490
+ - y : 283
+ - z : 25.058029
+ - id : 0
+frame #: 1863.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 282
+ - z : 24.927547
+ - id : 0
+frame #: 1864.000000
+ LIGHT AT frame 0 
+ - x : 491
+ - y : 282
+ - z : 24.797861
+ - id : 0
+frame #: 1865.000000
+ LIGHT AT frame 0 
+ - x : 492
+ - y : 282
+ - z : 24.668959
+ - id : 0
+frame #: 1866.000000
+ LIGHT AT frame 0 
+ - x : 493
+ - y : 282
+ - z : 24.540831
+ - id : 0
+frame #: 1867.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 282
+ - z : 24.413471
+ - id : 0
+frame #: 1868.000000
+ LIGHT AT frame 0 
+ - x : 494
+ - y : 282
+ - z : 24.286867
+ - id : 0
+frame #: 1869.000000
+ LIGHT AT frame 0 
+ - x : 495
+ - y : 282
+ - z : 24.161013
+ - id : 0
+frame #: 1870.000000
+ LIGHT AT frame 0 
+ - x : 496
+ - y : 281
+ - z : 24.035896
+ - id : 0
+frame #: 1871.000000
+ LIGHT AT frame 0 
+ - x : 497
+ - y : 281
+ - z : 23.911518
+ - id : 0
+frame #: 1872.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 281
+ - z : 23.787868
+ - id : 0
+frame #: 1873.000000
+ LIGHT AT frame 0 
+ - x : 498
+ - y : 281
+ - z : 23.664944
+ - id : 0
+frame #: 1874.000000
+ LIGHT AT frame 0 
+ - x : 499
+ - y : 281
+ - z : 23.542730
+ - id : 0
+frame #: 1875.000000
+ LIGHT AT frame 0 
+ - x : 500
+ - y : 281
+ - z : 23.421234
+ - id : 0
+frame #: 1876.000000
+ LIGHT AT frame 0 
+ - x : 501
+ - y : 281
+ - z : 23.300447
+ - id : 0
+frame #: 1877.000000
+ LIGHT AT frame 0 
+ - x : 502
+ - y : 281
+ - z : 23.180361
+ - id : 0
+frame #: 1878.000000
+ LIGHT AT frame 0 
+ - x : 503
+ - y : 281
+ - z : 23.060978
+ - id : 0
+frame #: 1879.000000
+ LIGHT AT frame 0 
+ - x : 504
+ - y : 281
+ - z : 22.942291
+ - id : 0
+frame #: 1880.000000
+ LIGHT AT frame 0 
+ - x : 505
+ - y : 281
+ - z : 22.824305
+ - id : 0
+frame #: 1881.000000
+ LIGHT AT frame 0 
+ - x : 506
+ - y : 281
+ - z : 22.707006
+ - id : 0
+frame #: 1882.000000
+ LIGHT AT frame 0 
+ - x : 507
+ - y : 280
+ - z : 22.590403
+ - id : 0
+frame #: 1883.000000
+ LIGHT AT frame 0 
+ - x : 508
+ - y : 280
+ - z : 22.474491
+ - id : 0
+frame #: 1884.000000
+ LIGHT AT frame 0 
+ - x : 509
+ - y : 280
+ - z : 22.359270
+ - id : 0
+frame #: 1885.000000
+ LIGHT AT frame 0 
+ - x : 510
+ - y : 280
+ - z : 22.244741
+ - id : 0
+frame #: 1886.000000
+ LIGHT AT frame 0 
+ - x : 511
+ - y : 280
+ - z : 22.130905
+ - id : 0
+frame #: 1887.000000
+ LIGHT AT frame 0 
+ - x : 512
+ - y : 280
+ - z : 22.017759
+ - id : 0
+frame #: 1888.000000
+ LIGHT AT frame 0 
+ - x : 513
+ - y : 280
+ - z : 21.905310
+ - id : 0
+frame #: 1889.000000
+ LIGHT AT frame 0 
+ - x : 515
+ - y : 280
+ - z : 21.793554
+ - id : 0
+frame #: 1890.000000
+ LIGHT AT frame 0 
+ - x : 516
+ - y : 280
+ - z : 21.682501
+ - id : 0
+frame #: 1891.000000
+ LIGHT AT frame 0 
+ - x : 517
+ - y : 280
+ - z : 21.572149
+ - id : 0
+frame #: 1892.000000
+ LIGHT AT frame 0 
+ - x : 518
+ - y : 280
+ - z : 21.462503
+ - id : 0
+frame #: 1893.000000
+ LIGHT AT frame 0 
+ - x : 519
+ - y : 280
+ - z : 21.353567
+ - id : 0
+frame #: 1894.000000
+ LIGHT AT frame 0 
+ - x : 521
+ - y : 280
+ - z : 21.245344
+ - id : 0
+frame #: 1895.000000
+ LIGHT AT frame 0 
+ - x : 522
+ - y : 281
+ - z : 21.137840
+ - id : 0
+frame #: 1896.000000
+ LIGHT AT frame 0 
+ - x : 523
+ - y : 281
+ - z : 21.031063
+ - id : 0
+frame #: 1897.000000
+ LIGHT AT frame 0 
+ - x : 524
+ - y : 281
+ - z : 20.925016
+ - id : 0
+frame #: 1898.000000
+ LIGHT AT frame 0 
+ - x : 526
+ - y : 281
+ - z : 20.819704
+ - id : 0
+frame #: 1899.000000
+ LIGHT AT frame 0 
+ - x : 527
+ - y : 281
+ - z : 20.715139
+ - id : 0
+frame #: 1900.000000
+ LIGHT AT frame 0 
+ - x : 528
+ - y : 281
+ - z : 20.611324
+ - id : 0
+frame #: 1901.000000
+ LIGHT AT frame 0 
+ - x : 530
+ - y : 281
+ - z : 20.508272
+ - id : 0
+frame #: 1902.000000
+ LIGHT AT frame 0 
+ - x : 531
+ - y : 281
+ - z : 20.405985
+ - id : 0
+frame #: 1903.000000
+ LIGHT AT frame 0 
+ - x : 533
+ - y : 281
+ - z : 20.304476
+ - id : 0
+frame #: 1904.000000
+ LIGHT AT frame 0 
+ - x : 534
+ - y : 281
+ - z : 20.203756
+ - id : 0
+frame #: 1905.000000
+ LIGHT AT frame 0 
+ - x : 535
+ - y : 281
+ - z : 20.103832
+ - id : 0
+frame #: 1906.000000
+ LIGHT AT frame 0 
+ - x : 537
+ - y : 281
+ - z : 20.004719
+ - id : 0
+frame #: 1907.000000
+ LIGHT AT frame 0 
+ - x : 538
+ - y : 281
+ - z : 19.906420
+ - id : 0
+frame #: 1908.000000
+ LIGHT AT frame 0 
+ - x : 540
+ - y : 282
+ - z : 19.808960
+ - id : 0
+frame #: 1909.000000
+ LIGHT AT frame 0 
+ - x : 541
+ - y : 282
+ - z : 19.712339
+ - id : 0
+frame #: 1910.000000
+ LIGHT AT frame 0 
+ - x : 543
+ - y : 282
+ - z : 19.616575
+ - id : 0
+frame #: 1911.000000
+ LIGHT AT frame 0 
+ - x : 544
+ - y : 282
+ - z : 19.521683
+ - id : 0
+frame #: 1912.000000
+ LIGHT AT frame 0 
+ - x : 546
+ - y : 282
+ - z : 19.427675
+ - id : 0
+frame #: 1913.000000
+ LIGHT AT frame 0 
+ - x : 547
+ - y : 282
+ - z : 19.334568
+ - id : 0
+frame #: 1914.000000
+ LIGHT AT frame 0 
+ - x : 549
+ - y : 282
+ - z : 19.242374
+ - id : 0
+frame #: 1915.000000
+ LIGHT AT frame 0 
+ - x : 550
+ - y : 282
+ - z : 19.151115
+ - id : 0
+frame #: 1916.000000
+ LIGHT AT frame 0 
+ - x : 552
+ - y : 283
+ - z : 19.060799
+ - id : 0
+frame #: 1917.000000
+ LIGHT AT frame 0 
+ - x : 553
+ - y : 283
+ - z : 18.971451
+ - id : 0
+frame #: 1918.000000
+ LIGHT AT frame 0 
+ - x : 555
+ - y : 283
+ - z : 18.883087
+ - id : 0
+frame #: 1919.000000
+ LIGHT AT frame 0 
+ - x : 556
+ - y : 283
+ - z : 18.795727
+ - id : 0
+frame #: 1920.000000
+ LIGHT AT frame 0 
+ - x : 558
+ - y : 283
+ - z : 18.709385
+ - id : 0
+frame #: 1921.000000
+ LIGHT AT frame 0 
+ - x : 560
+ - y : 283
+ - z : 18.624088
+ - id : 0
+frame #: 1922.000000
+ LIGHT AT frame 0 
+ - x : 561
+ - y : 284
+ - z : 18.539854
+ - id : 0
+frame #: 1923.000000
+ LIGHT AT frame 0 
+ - x : 563
+ - y : 284
+ - z : 18.456703
+ - id : 0
+frame #: 1924.000000
+ LIGHT AT frame 0 
+ - x : 564
+ - y : 284
+ - z : 18.374660
+ - id : 0
+frame #: 1925.000000
+ LIGHT AT frame 0 
+ - x : 566
+ - y : 284
+ - z : 18.293747
+ - id : 0
+frame #: 1926.000000
+ LIGHT AT frame 0 
+ - x : 568
+ - y : 284
+ - z : 18.213989
+ - id : 0
+frame #: 1927.000000
+ LIGHT AT frame 0 
+ - x : 569
+ - y : 285
+ - z : 18.135408
+ - id : 0
+frame #: 1928.000000
+ LIGHT AT frame 0 
+ - x : 571
+ - y : 285
+ - z : 18.058035
+ - id : 0
+frame #: 1929.000000
+ LIGHT AT frame 0 
+ - x : 573
+ - y : 285
+ - z : 17.981890
+ - id : 0
+frame #: 1930.000000
+ LIGHT AT frame 0 
+ - x : 574
+ - y : 285
+ - z : 17.907003
+ - id : 0
+frame #: 1931.000000
+ LIGHT AT frame 0 
+ - x : 576
+ - y : 286
+ - z : 17.833405
+ - id : 0
+frame #: 1932.000000
+ LIGHT AT frame 0 
+ - x : 577
+ - y : 286
+ - z : 17.761118
+ - id : 0
+frame #: 1933.000000
+ LIGHT AT frame 0 
+ - x : 579
+ - y : 286
+ - z : 17.690178
+ - id : 0
+frame #: 1934.000000
+ LIGHT AT frame 0 
+ - x : 581
+ - y : 286
+ - z : 17.620613
+ - id : 0
+frame #: 1935.000000
+ LIGHT AT frame 0 
+ - x : 582
+ - y : 287
+ - z : 17.552456
+ - id : 0
+frame #: 1936.000000
+ LIGHT AT frame 0 
+ - x : 584
+ - y : 287
+ - z : 17.485737
+ - id : 0
+frame #: 1937.000000
+ LIGHT AT frame 0 
+ - x : 586
+ - y : 287
+ - z : 17.420492
+ - id : 0
+frame #: 1938.000000
+ LIGHT AT frame 0 
+ - x : 587
+ - y : 288
+ - z : 17.356750
+ - id : 0
+frame #: 1939.000000
+ LIGHT AT frame 0 
+ - x : 589
+ - y : 288
+ - z : 17.294556
+ - id : 0
+frame #: 1940.000000
+ LIGHT AT frame 0 
+ - x : 590
+ - y : 288
+ - z : 17.233936
+ - id : 0
+frame #: 1941.000000
+ LIGHT AT frame 0 
+ - x : 592
+ - y : 289
+ - z : 17.174931
+ - id : 0
+frame #: 1942.000000
+ LIGHT AT frame 0 
+ - x : 593
+ - y : 289
+ - z : 17.117582
+ - id : 0
+frame #: 1943.000000
+ LIGHT AT frame 0 
+ - x : 595
+ - y : 289
+ - z : 17.061922
+ - id : 0
+frame #: 1944.000000
+ LIGHT AT frame 0 
+ - x : 597
+ - y : 290
+ - z : 17.007996
+ - id : 0
+frame #: 1945.000000
+ LIGHT AT frame 0 
+ - x : 598
+ - y : 290
+ - z : 16.955843
+ - id : 0
+frame #: 1946.000000
+ LIGHT AT frame 0 
+ - x : 600
+ - y : 290
+ - z : 16.905504
+ - id : 0
+frame #: 1947.000000
+ LIGHT AT frame 0 
+ - x : 601
+ - y : 291
+ - z : 16.857023
+ - id : 0
+frame #: 1948.000000
+ LIGHT AT frame 0 
+ - x : 603
+ - y : 291
+ - z : 16.810444
+ - id : 0
+frame #: 1949.000000
+ LIGHT AT frame 0 
+ - x : 604
+ - y : 292
+ - z : 16.765806
+ - id : 0
+frame #: 1950.000000
+ LIGHT AT frame 0 
+ - x : 605
+ - y : 292
+ - z : 16.723164
+ - id : 0
+frame #: 1951.000000
+ LIGHT AT frame 0 
+ - x : 607
+ - y : 292
+ - z : 16.682556
+ - id : 0
+frame #: 1952.000000
+ LIGHT AT frame 0 
+ - x : 608
+ - y : 293
+ - z : 16.644035
+ - id : 0
+frame #: 1953.000000
+ LIGHT AT frame 0 
+ - x : 610
+ - y : 293
+ - z : 16.607647
+ - id : 0
+frame #: 1954.000000
+ LIGHT AT frame 0 
+ - x : 611
+ - y : 294
+ - z : 16.573439
+ - id : 0
+frame #: 1955.000000
+ LIGHT AT frame 0 
+ - x : 612
+ - y : 294
+ - z : 16.541464
+ - id : 0
+frame #: 1956.000000
+ LIGHT AT frame 0 
+ - x : 613
+ - y : 295
+ - z : 16.511770
+ - id : 0
+frame #: 1957.000000
+ LIGHT AT frame 0 
+ - x : 615
+ - y : 295
+ - z : 16.484411
+ - id : 0
+frame #: 1958.000000
+ LIGHT AT frame 0 
+ - x : 616
+ - y : 296
+ - z : 16.459438
+ - id : 0
+frame #: 1959.000000
+ LIGHT AT frame 0 
+ - x : 617
+ - y : 296
+ - z : 16.436903
+ - id : 0
+frame #: 1960.000000
+ LIGHT AT frame 0 
+ - x : 618
+ - y : 297
+ - z : 16.416859
+ - id : 0
+frame #: 1961.000000
+ LIGHT AT frame 0 
+ - x : 619
+ - y : 297
+ - z : 16.399363
+ - id : 0
+frame #: 1962.000000
+ LIGHT AT frame 0 
+ - x : 620
+ - y : 298
+ - z : 16.384468
+ - id : 0
+frame #: 1963.000000
+ LIGHT AT frame 0 
+ - x : 621
+ - y : 298
+ - z : 16.372227
+ - id : 0
+frame #: 1964.000000
+ LIGHT AT frame 0 
+ - x : 623
+ - y : 299
+ - z : 16.362700
+ - id : 0
+frame #: 1965.000000
+ LIGHT AT frame 0 
+ - x : 623
+ - y : 299
+ - z : 16.355942
+ - id : 0
+frame #: 1966.000000
+ LIGHT AT frame 0 
+ - x : 624
+ - y : 300
+ - z : 16.352009
+ - id : 0
+frame #: 1967.000000
+ LIGHT AT frame 0 
+ - x : 625
+ - y : 301
+ - z : 16.350960
+ - id : 0
+frame #: 1968.000000
+ LIGHT AT frame 0 
+ - x : 626
+ - y : 301
+ - z : 16.352848
+ - id : 0
+frame #: 1969.000000
+ LIGHT AT frame 0 
+ - x : 627
+ - y : 302
+ - z : 16.357735
+ - id : 0
+frame #: 1970.000000
+ LIGHT AT frame 0 
+ - x : 628
+ - y : 302
+ - z : 16.365675
+ - id : 0
+frame #: 1971.000000
+ LIGHT AT frame 0 
+ - x : 628
+ - y : 303
+ - z : 16.376728
+ - id : 0
+frame #: 1972.000000
+ LIGHT AT frame 0 
+ - x : 629
+ - y : 303
+ - z : 16.390953
+ - id : 0
+frame #: 1973.000000
+ LIGHT AT frame 0 
+ - x : 630
+ - y : 304
+ - z : 16.408405
+ - id : 0
+frame #: 1974.000000
+ LIGHT AT frame 0 
+ - x : 630
+ - y : 305
+ - z : 16.429375
+ - id : 0
+frame #: 1975.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 305
+ - z : 16.454065
+ - id : 0
+frame #: 1976.000000
+ LIGHT AT frame 0 
+ - x : 631
+ - y : 306
+ - z : 16.482431
+ - id : 0
+frame #: 1977.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 306
+ - z : 16.514414
+ - id : 0
+frame #: 1978.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 307
+ - z : 16.549950
+ - id : 0
+frame #: 1979.000000
+ LIGHT AT frame 0 
+ - x : 632
+ - y : 308
+ - z : 16.588989
+ - id : 0
+frame #: 1980.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 308
+ - z : 16.631468
+ - id : 0
+frame #: 1981.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 309
+ - z : 16.677324
+ - id : 0
+frame #: 1982.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 310
+ - z : 16.726503
+ - id : 0
+frame #: 1983.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 311
+ - z : 16.778946
+ - id : 0
+frame #: 1984.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 311
+ - z : 16.834581
+ - id : 0
+frame #: 1985.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 312
+ - z : 16.893356
+ - id : 0
+frame #: 1986.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 313
+ - z : 16.955208
+ - id : 0
+frame #: 1987.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 313
+ - z : 17.020069
+ - id : 0
+frame #: 1988.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 314
+ - z : 17.087881
+ - id : 0
+frame #: 1989.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 315
+ - z : 17.158583
+ - id : 0
+frame #: 1990.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 315
+ - z : 17.232109
+ - id : 0
+frame #: 1991.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 316
+ - z : 17.308399
+ - id : 0
+frame #: 1992.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 316
+ - z : 17.387394
+ - id : 0
+frame #: 1993.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 317
+ - z : 17.469023
+ - id : 0
+frame #: 1994.000000
+ LIGHT AT frame 0 
+ - x : 634
+ - y : 318
+ - z : 17.553232
+ - id : 0
+frame #: 1995.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 318
+ - z : 17.639954
+ - id : 0
+frame #: 1996.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 319
+ - z : 17.729136
+ - id : 0
+frame #: 1997.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 319
+ - z : 17.820705
+ - id : 0
+frame #: 1998.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 320
+ - z : 17.914618
+ - id : 0
+frame #: 1999.000000
+ LIGHT AT frame 0 
+ - x : 633
+ - y : 321
+ - z : 18.010796
+ - id : 0
