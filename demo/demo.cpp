@@ -1,3 +1,15 @@
+// TODO : 
+// - scenka odtwarzana w wielu przedzialach czasu
+// - obraz wyswietlany w wielu przedzialach czasu
+// - wywalic evt_limit i sprite_player_limit, niech sam zlicza automatycznie ze skryptu
+// - metaballs wyswietlane w wielu przedzialach czasu
+// - scene player wyrzucic jako osobna klase
+// - sprite player wyrzucic jako osobna klase
+// - .ase pliki
+// - kamera dla plikow .ase
+// - zip sprite
+// - zip animo
+
 
 // general include
 
@@ -11,9 +23,8 @@
 #include <dmusici.h>
 #include <ctype.h>
 
-//#include <iostream.h>
-
 // dodatkowe
+#include "c:\eprojects\g3d\include\texture.h"
 
 #include "Font.h"
 #include "LoadScreen.h"
@@ -21,21 +32,38 @@
 #include "MetaballsFX.h"
 #include "RadialZoom.h"
 #include "FXTemp.h"
-#include "Sprite.h"
+#include "VShader.h"
+#include "Event.h"
+#include "EventEVT.h"
+#include "Zip.h"
+#include "Unzip.h"
+
+#include "ZipSprite.h"
+#include "ZipButton.h"
+#include "ZipDragButton.h"
+
+#include "GLizer.h"
+#include "Matrix.h"
+#include "Vector.h"
+#include "textureRenderTarget.h"		// dla motion blur
+#include "VShaderPlayer.h"				// odtwarza scenki z vshaderem
+#include "AnimPlayer.h"					// player do animacji
+#include "Debug.h"						// flaga debug
+#include "bassplayer.h"					// bass player
+#include "Resource.h"					// ikonki, okienka 
+
+#include "texture.h"
+#include "3ds.h"
+
+#define FIELD_OF_VIEW 45.f			// angle in vertical direction
+#define Z_NEAR_VIEW_PLANE 0.1f
+#define Z_FAR_VIEW_PLANE 1000.f
 
 
-// flaga debug 
+//=== testowe
 
-#include "Debug.h"
-
-// bass player
-
-#include "bassplayer.h"
-
-// ikonki, okienka 
-
-#include "Resource.h"
-
+CEventEVT *pAnim1;
+CAnimPlayer *pAnimPlayer;
 
 //=== opoznienie
 
@@ -43,6 +71,7 @@ long lDelay = 0;
 
 //=== zmienne dla directx
 
+D3DLIGHT8			m_light;
 
 IDirect3D8			*pDirect3D;		// handler
 IDirect3DDevice8	*pDevice;		// urzadzenie
@@ -76,6 +105,7 @@ unsigned long		g_EndTime			= g_StartTime;
 unsigned long		g_CurrentTime		= 0;
 int					g_FrameRate			= 0;
 long				lTimer=0;
+long				lTimer10=0;
 long				lLocalTimer = 0;	// timer okresla ktora scene odtwarzac, a local timer klatke
 long				lEndTimer = 0;		// jak timer osiagnie ta pozycje to program konczy sie
 
@@ -87,6 +117,9 @@ CFont				*pFont=NULL;			// jakas czcionka
 //=== efekty
 
 CMetaballsFX		*pMetaballs = NULL;
+CVShaderPlayer		*pVShaderPlayer = NULL;		// odtwarzacz dla scenek .x
+CRadialZoom			*pRadialZoom = NULL;
+
 
 //=== player scenek 3d
 
@@ -95,13 +128,31 @@ int					iStartPlayer[50];
 int					iEndPlayer[50];
 char				cScenePlayerFilename[50][256];
 
+CSprite				*pBlur;
+
 //=== player do obrazkow
 
 CSprite				*pSpritePlayer[256];
-int					iSpritePlayerStart[256];
-int					iSpritePlayerEnd[256];
-int					iSpritePlayerX[256];
-int					iSpritePlayerY[256];
+
+int					iSpritePlayerStart[256];	// od kiedy ma sie pojawic obrazek
+int					iSpritePlayerEnd[256];		// do kiedy ma sie pojawiæ obrazek
+int					iSpritePlayerLoadTime[256];	// kiedy ma zostaæ wczytany obrazek
+
+int					iSpritePlayerX[256];	// poczatkowa wspolrzedna X
+int					iSpritePlayerY[256];	// poczatkowa wspolrzedna Y
+int					iSpritePlayerXZ[256];	// poczatkowa skala X
+int					iSpritePlayerYZ[256];	// poczatkowa skala Y
+
+int					iSpritePlayerXAdd[256];		// o ile ma sie zwiekszac X na tik zegara
+int					iSpritePlayerYAdd[256];		// o ile ma sie zwiekszac Y na tik zegara
+int					iSpritePlayerXZAdd[256];	// o ile ma sie zwiekszac skala X na tik zegara
+int					iSpritePlayerYZAdd[256];	// o ile ma sie zwiekszac skala Y na tik zegara
+
+
+int					iSpritePlayerRotationAdd[256]; // o ile ma sie zwiekszac kat
+int					iSpritePlayerRotationX[256];	// wspolrzedne na teksturze do obrotu
+int					iSpritePlayerRotationY[256];	// wspolrzedne na teksturze do obrotu
+
 int					iSpritePlayerCount=0;	// ile jest obrazkow
 char				cSpritePlayerFilename[256][256];
 int					iSpritePlayerFade[256];				
@@ -134,17 +185,101 @@ CBassPlayer			*pBassPlayer;
 
 //=== dodatkowe
 
+
+int					error;
+int					screen_x, screen_y;
+bool				fullscreen;
+int					software_vertexprocessing;
+
 int					iLicznik;
 long				h1,h2,h3,h4;	// do petli
 float				f1,f2,f3;
+long				lResetTime=300000;	// jak reset time > end time to demo nie jest powtarzane
 
 //=== fog
 
 float			m_fFogStart=5.0f;	// 5.0f
 float			m_fFogEnd=5000.0f;	// 200.0f
 
-//unsigned int	m_uiFogColor=0x00B3A483;	// must be set, default 0x000f0f0f
 unsigned int	m_uiFogColor=0x00000000;	// must be set, default 0x000f0f0f
+
+// dla motion blur
+
+textureRenderTarget render_target;
+
+//=========================================================================================================================
+// rysowanie kwadratowej textury na ekranie, potrzebne do blura
+//=========================================================================================================================
+
+void DrawQuad(vec p, vec n, vec s, vec t, vec4 color)
+{
+	GLizer gl;
+	gl.glBegin(D3DPT_TRIANGLESTRIP, 1, 1, 1);    // 3  4  poradie bodov
+		gl.glNormal(n);                            // 1  2
+		gl.glColor(color);
+		gl.glTexCoord(0,0); gl.glVertex( p );
+		gl.glTexCoord(1,0); gl.glVertex( p+s );
+		gl.glTexCoord(0,1); gl.glVertex( p+t );
+		gl.glTexCoord(1,1); gl.glVertex( p+s+t );
+	gl.glEnd(pDevice);
+}
+
+//=========================================================================================================================
+// rozszerzenie textury do wielkosci ekranu
+//=========================================================================================================================
+
+void ReSizeDXScene(int width, int height)
+{
+
+	D3DXMATRIX matProj;
+	D3DXMatrixPerspectiveFovLH( &matProj, FIELD_OF_VIEW*PI180, (float)width/(float)height, Z_NEAR_VIEW_PLANE, Z_FAR_VIEW_PLANE );
+	pDevice->SetTransform( D3DTS_PROJECTION, &matProj );
+}
+
+//=== zgrywa zawartosc ekranu na dysk =======================================================================
+
+void TakeScreenShot(IDirect3DDevice8* device, char *file_name, int screenx, int screeny, long lTimer)
+{
+		IDirect3DSurface8 *frontbuf;	// wskaznik do pamieci, tutaj kopia ekranu
+		RECT	pMyRect;
+		D3DDISPLAYMODE mode;
+		char	cFilename[100];
+
+
+		if (FAILED(hr=device->GetDisplayMode(&mode)))
+		return ;
+
+		device->CreateImageSurface(mode.Width,mode.Height,D3DFMT_A8R8G8B8,&frontbuf);
+
+		// kopiowanie bufora do surface
+
+		HRESULT hr = device->GetFrontBuffer(frontbuf);		
+		
+		// sprawdzenie czy sie udalo
+
+		if (hr!=D3D_OK)
+		{
+			frontbuf->Release();
+			return;
+		}
+
+		// zapisz nasz obraz na dysk
+		// ostatnie dwa parametry sa NULL, poniewaz chcemy caly front buffer
+
+		pMyRect.left = 0; 
+		pMyRect.top = 0;
+		pMyRect.right = 1024;
+		pMyRect.bottom = 768;
+
+		sprintf(cFilename,"image%d.bmp",lTimer);
+
+		D3DXSaveSurfaceToFile(cFilename,D3DXIFF_BMP, frontbuf, NULL,NULL);
+
+		// zwolnij surface
+
+		frontbuf->Release();
+}
+
 
 // parsowanie skryptu
 
@@ -202,6 +337,11 @@ void Parse(void)
 			}
 
 		} // <DEMO>
+
+		if (!strcmp(linia,"<RESET>"))	// kiedy demo sie resetuje
+		{
+			fscanf(plik,"%d\n",&lResetTime);
+		}
 
 		if (!strcmp(linia,"<END>"))	// koniec odtwarzania
 		{
@@ -286,6 +426,7 @@ void ParseScenes(void)
 				pScenePlayer[iSceneCount] = new CScene3d(pDevice); // nowa scenka
 				pScenePlayer[iSceneCount]->SetDynamic(false);	// mozna wczytac od razu
 				pScenePlayer[iSceneCount]->ParseFromFile(pDevice,linia); // wczytanie scenki na podstawie pliku.ini
+				strcpy(cScenePlayerFilename[iSceneCount],linia);	// skopiowanie nazwy scenki na potem
 				fscanf(plik,"%d\n",&iStartPlayer[iSceneCount]);
 				fscanf(plik,"%d\n",&iEndPlayer[iSceneCount]);
 				iSceneCount++;	// zwiekszamy liczbe scenek
@@ -297,6 +438,7 @@ void ParseScenes(void)
 				pScenePlayer[iSceneCount] = new CScene3d(pDevice); // nowa scenka
 				pScenePlayer[iSceneCount]->SetDynamic(true);	// mozna wczytac od razu
 				pScenePlayer[iSceneCount]->ParseFromFile(pDevice,linia); // wczytanie scenki na podstawie pliku.ini
+				strcpy(cScenePlayerFilename[iSceneCount],linia);	// skopiowanie nazwy scenki na potem
 				fscanf(plik,"%d\n",&iStartPlayer[iSceneCount]);
 				fscanf(plik,"%d\n",&iEndPlayer[iSceneCount]);
 				iSceneCount++;	// zwiekszamy liczbe scenek
@@ -307,15 +449,29 @@ void ParseScenes(void)
 		if (!strcmp(linia,"<IMAGE>"))		// nakladka
 		{
 			fscanf(plik,"%s\n",&cSpritePlayerFilename[iSpritePlayerCount]);
-/*
-			pSpritePlayer[iSpritePlayerCount] = new CSprite(255,255,255,255);
-			pSpritePlayer[iSpritePlayerCount]->InitializeEx(cSpritePlayerFilename[iSpritePlayerCount],pDevice,
-				0, 0, 0, 0, D3DFMT_UNKNOWN, D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
-*/
-			fscanf(plik,"%d %d\n",&iSpritePlayerX[iSpritePlayerCount], &iSpritePlayerY[iSpritePlayerCount]);
 
-			fscanf(plik,"%d\n",&iSpritePlayerStart[iSpritePlayerCount]);
-			fscanf(plik,"%d\n",&iSpritePlayerEnd[iSpritePlayerCount]);
+
+			// wspolrzedne X i Y, skala XZ, skala YZ
+
+			fscanf(plik,"%d %d %d %d\n",&iSpritePlayerX[iSpritePlayerCount], &iSpritePlayerY[iSpritePlayerCount],
+				&iSpritePlayerXZ[iSpritePlayerCount], &iSpritePlayerYZ[iSpritePlayerCount]);
+
+			// inkrementacja X i Y
+
+			fscanf(plik,"%d %d %d %d\n",&iSpritePlayerXAdd[iSpritePlayerCount], &iSpritePlayerYAdd[iSpritePlayerCount],
+				&iSpritePlayerXZAdd[iSpritePlayerCount], &iSpritePlayerYZAdd[iSpritePlayerCount]);
+
+			// inkrementacja rotacji
+
+			fscanf(plik,"%d %d %d\n",&iSpritePlayerRotationAdd[iSpritePlayerCount],
+				&iSpritePlayerRotationX[iSpritePlayerCount],
+				&iSpritePlayerRotationY[iSpritePlayerCount]);
+
+			// poczatek i koniec wyswietlania
+
+			fscanf(plik,"%d\n",&iSpritePlayerStart[iSpritePlayerCount]);	// timer - poczatek wyswietlania
+			fscanf(plik,"%d\n",&iSpritePlayerEnd[iSpritePlayerCount]);		// timer - koniec wyswietlania
+			fscanf(plik,"%d\n",&iSpritePlayerLoadTime[iSpritePlayerCount]);	// timer - kiedy wczytujemy dane
 
 			// czy jest fade
 
@@ -329,6 +485,7 @@ void ParseScenes(void)
 
 	} // <DEMO>
 }
+
 
 
 //=== pomocnicza, inicjalizuje direct3d i ustawia rozne dodatki
@@ -429,7 +586,6 @@ bool Direct3DInit()
 		{
 			displayMode.Width = iXScreen;				//iWidth;
 			displayMode.Height = iYScreen;				//iHeight;
-			//displayMode.RefreshRate = 6;
 			displayMode.Format = D3DFMT_A8R8G8B8;	//R5G6B5;		// tu mozna zmienic
 		}
 	}
@@ -453,8 +609,10 @@ bool Direct3DInit()
 
 	presentParameters.SwapEffect = D3DSWAPEFFECT_DISCARD;
 	presentParameters.BackBufferFormat = displayMode.Format;
-	presentParameters.EnableAutoDepthStencil = TRUE;
-	presentParameters.AutoDepthStencilFormat = D3DFMT_D16;
+	presentParameters.BackBufferCount = 1;
+	presentParameters.EnableAutoDepthStencil = TRUE;			// to blokuje Z-Buffer
+	presentParameters.AutoDepthStencilFormat = D3DFMT_D24X8;
+	presentParameters.MultiSampleType = D3DMULTISAMPLE_NONE;
 
 	// stworz urzadzenie
 
@@ -481,15 +639,14 @@ bool Direct3DInit()
 
 	// tutaj lepiej ustawic bez rzutowania typu (bez float)
 
-	D3DXMatrixPerspectiveFovLH(&mat, D3DX_PI/4, (float)800/600,	-100.0, 100.0);
-	
+	D3DXMatrixPerspectiveLH(&mat, 2.3f, 3.3f*3/4, 0.5f, 10);	
 	pDevice->SetTransform(D3DTS_PROJECTION, &(D3DMATRIX)mat);
 
-	//D3DXMatrixIdentity(&mat);
+	D3DXMatrixIdentity(&mat);
 
 	// ustaw transformacje
 
-//	pDevice->SetTransform(D3DTS_WORLD, &(D3DMATRIX)mat);
+	pDevice->SetTransform(D3DTS_WORLD, &(D3DMATRIX)mat);
 	pDevice->SetTransform(D3DTS_VIEW, &(D3DMATRIX)mat);
 
     pDevice->SetRenderState( D3DRS_CULLMODE, D3DCULL_NONE );	// backface culling off
@@ -569,21 +726,38 @@ bool Direct3DInit()
 
 	ParseScenes();
 
-//	ShowWindow( hWnd, SW_SHOWDEFAULT );
-//	UpdateWindow( hWnd );		
+//=== inicjalizacja rotozoom
+
+	pRadialZoom = new CRadialZoom();
+	pRadialZoom->Initialize(pDevice);
+
+//============================================================= inicjalizacja metaballs
+
+
+//	pMetaballs = new CMetaballsFX();
+//	pMetaballs->Initialize(pDevice,"data\\metaballs.jpg");
+
+	// inicjalizacja scene X
+
+	pVShaderPlayer = new CVShaderPlayer();
+	pVShaderPlayer->Parse("demo.ini");
+
+	pAnimPlayer = new CAnimPlayer();
+	pAnimPlayer->Initialize(pDevice);
+
+	pBlur = new CSprite(128,0,0,0);
+	pBlur->InitializeEx("data\\kadr.png",pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
+		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
+
+	if(!render_target.Init(hWnd,pDevice,1024,1024,24))
+	{
+		MessageBox(NULL,"ERROR! Cannot init reder_target texture","ERROR", MB_OK);			
+	}
 
 	return true;
 }
 
-// aktualizuj stan dema
-
-void Refresh(unsigned long ulTimer)
-{
-//	if (ulTimer>500) eStanDemo = MECZET;
-
-}
-
-
+//============================================================================================== aktualizuj stan dema
 //=== rysuj scenke, tylko przygotowuje calosc, a potem odwoluje sie do odpowiedniej
 //=== funkcji aktualizujacej w zaleznosci od CScene
 
@@ -594,27 +768,28 @@ void DrawScene()
 
 	if (g_DemoTime==0) g_DemoTime=timeGetTime();
 
+	if (lTimer>=lResetTime) g_DemoTime= g_CurrentTime;
+
 	g_CurrentTime = lDelay + ((timeGetTime()-g_DemoTime)/10);
 
 	pDevice->BeginScene();
-
+	
+	render_target.Begin(pDevice);
 	// sprawdz najpierw stan gry
 
-	Refresh(g_CurrentTime);
-
-	pDevice->SetRenderState(D3DRS_LIGHTING, FALSE );
-	pDevice->SetRenderState(D3DRS_FOGENABLE, FALSE);
-
 	lTimer = (long)((g_CurrentTime));
+	lTimer10 = lTimer/5;
 
 	// sprawdz wszystkie scenki czy teraz pora na rysowanie
 
+	pDevice->SetRenderState(D3DRS_LIGHTING, FALSE );
 	for (int i=0; i<50; i++)
 	{
 		if (pScenePlayer[i]!=NULL && lTimer>=iStartPlayer[i] && lTimer<iEndPlayer[i]) // czy teraz odtwarzamy scenke?
 		{
 			lLocalTimer = lTimer - iStartPlayer[i];
-			pScenePlayer[i]->DrawScene(pDevice,lLocalTimer%4000);
+			pDevice->SetRenderState(D3DRS_FOGENABLE, FALSE);
+			pScenePlayer[i]->DrawScene(pDevice,lLocalTimer);
 		}
 	}
 
@@ -629,6 +804,24 @@ void DrawScene()
 		}
 	}
 
+	//=== radial zoom
+
+	if (lTimer<1631) pRadialZoom->DrawScene(lTimer);
+
+//============================================================ wtracenie
+
+	// metaballs
+	
+//	if (lTimer>1630 && lTimer<3250)
+//	{
+//		pMetaballs->DrawScene(pDevice,lTimer);
+//	}
+
+
+//============================================================= koniec wtracenia
+
+	pVShaderPlayer->Play(lTimer,pDevice);
+
 	// narysuj obrazki ktore sa potrzebne
 
 	for (int i=0; i<256; i++)
@@ -639,6 +832,13 @@ void DrawScene()
 			pSpritePlayer[i] = NULL;
 		}
 
+		if (lTimer>iSpritePlayerLoadTime[i] && lTimer<iSpritePlayerEnd[i] && pSpritePlayer[i]==NULL)	// czy pora na wczytanie obrazka ?
+		{
+				pSpritePlayer[i] = new CSprite(255,255,255,255);
+				pSpritePlayer[i]->InitializeEx(cSpritePlayerFilename[i],pDevice,
+				0, 0, 0, 0, D3DFMT_UNKNOWN, D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
+		}
+
 		if (lTimer>=iSpritePlayerStart[i] && lTimer<iSpritePlayerEnd[i])
 		{
 			if (pSpritePlayer[i]==NULL) // doczytanie obrazka jezeli jeszcze nie ma w pamieci
@@ -647,8 +847,22 @@ void DrawScene()
 				pSpritePlayer[i]->InitializeEx(cSpritePlayerFilename[i],pDevice,
 				0, 0, 0, 0, D3DFMT_UNKNOWN, D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
 			}
+			
+			// zmiana polozenia
 
-			pSpritePlayer[i]->SetTranslation((float)iSpritePlayerX[i],(float)iSpritePlayerY[i]);
+			pSpritePlayer[i]->SetTranslation((float)iSpritePlayerX[i]+(((float)(iSpritePlayerXAdd[i]*(lTimer-iSpritePlayerStart[i])))/100),
+				(float)iSpritePlayerY[i]+(((float)(iSpritePlayerYAdd[i]*(lTimer-iSpritePlayerStart[i])))/100));
+
+			// zmiana skali
+
+			pSpritePlayer[i]->SetScale((float)(iSpritePlayerXZ[i]/100)+(((float)(iSpritePlayerXZAdd[i]*(lTimer-iSpritePlayerStart[i])))/10000),
+				(float)(iSpritePlayerYZ[i]/100)+(((float)(iSpritePlayerYZAdd[i]*(lTimer-iSpritePlayerStart[i])))/10000));
+
+			// zmiana kata
+
+			pSpritePlayer[i]->SetRotationCenter(iSpritePlayerRotationX[i],iSpritePlayerRotationY[i]);
+			pSpritePlayer[i]->SetRotation(((float)(iSpritePlayerRotationAdd[i]*(lTimer-iSpritePlayerStart[i])*0.01))/360);
+
 			if (iSpritePlayerFade[i]==0) pSpritePlayer[i]->SetModulate(255,255,255,255);
 
 			// fade in
@@ -657,7 +871,7 @@ void DrawScene()
 			{
 				if ((lTimer-iSpritePlayerStart[i])<255)
 				{
-					pSpritePlayer[i]->SetModulate(lTimer-iSpritePlayerStart[i],255,255,255);
+					pSpritePlayer[i]->SetModulate((unsigned char)lTimer-iSpritePlayerStart[i],255,255,255);
 				}
 				else
 				{
@@ -686,6 +900,10 @@ void DrawScene()
 		}
 	}
 
+	// jezeli sa jakies animacje to teraz je odtwarzamy
+
+	pAnimPlayer->DrawScene(pDevice,lTimer);
+
 	// zawsze render kadru
 
 	pKadr->Render();
@@ -704,6 +922,30 @@ void DrawScene()
 		pFont->OutputText("timer: ",10,100);
 		_ui64toa(g_CurrentTime,str,10);
 		pFont->OutputText(str,50,100);
+
+		// wypisz numer scenki, jezeli teraz jakas odtwarzamy
+
+		for (int i=0; i<50; i++)
+		{
+			if (pSpritePlayer[i]!=NULL && lTimer>=iSpritePlayerStart[i] && lTimer<iSpritePlayerEnd[i]) // czy teraz odtwarzamy scenke?
+			{
+				char tmp[16];
+
+				pFont->OutputText(cSpritePlayerFilename[i],10,700);
+
+				sprintf(tmp,"%d",iSpritePlayerXAdd[i]);
+				pFont->OutputText(tmp,100,700);
+				sprintf(tmp,"%d",iSpritePlayerYAdd[i]);
+				pFont->OutputText(tmp,150,700);
+
+			}
+
+			if (pScenePlayer[i]!=NULL && lTimer>=iStartPlayer[i] && lTimer<iEndPlayer[i]) // czy teraz odtwarzamy scenke?
+			{
+				pFont->OutputText(cScenePlayerFilename[i],512,700);
+			}
+		} // for
+
 	}
 
 	// pomiary czasu
@@ -723,10 +965,18 @@ void DrawScene()
 
 	if (lTimer>=lEndTimer) PostQuitMessage(0);
 
+	if (lTimer>=lResetTime) lTimer = 0;
+
 	// koniec rysowania
+
+	render_target.End();
 
 	pDevice->EndScene();	
 	pDevice->Present(NULL, NULL, NULL, NULL);	
+
+	pDevice->Clear(0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, 
+		           D3DCOLOR_XRGB(24,24,24), 1.0f, 0);
+
 }
 
 //=== obsluga okna
@@ -748,6 +998,10 @@ LRESULT CALLBACK BasicWindowProc(HWND wpHWnd, UINT msg, WPARAM wParam, LPARAM lP
 				case VK_ESCAPE:
 					PostQuitMessage( 0 );
 					break;
+				
+				case VK_F4:
+					TakeScreenShot(pDevice,"xxx",iXScreen, iYScreen,lTimer);
+					break;
 			}
 		break;
 
@@ -755,7 +1009,6 @@ LRESULT CALLBACK BasicWindowProc(HWND wpHWnd, UINT msg, WPARAM wParam, LPARAM lP
             // wylacz kursor
             SetCursor(NULL);
         return TRUE;
-
 
 		default:break; 
 	} 
@@ -771,6 +1024,12 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance,
 					LPSTR lpCmdLine, int nCmdShow) 
 {
 
+	error = 0;	// ta zmienna jest uzywana przez klasy zewnetrzne
+	screen_x = 1024;
+	screen_y = 768;
+	fullscreen = true;
+	software_vertexprocessing = 0;
+
 	// pobierz aktualny katalog
 	
 	GetCurrentDirectory(sizeof(CurrentDirectory), CurrentDirectory);
@@ -778,15 +1037,6 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	// parsuj skrypt
 
 	Parse();
-
-	// zapytaj o pelny ekran ? 
-
-//	if (MessageBox(NULL, "Fullscreen?", "Fullscreen?", MB_YESNO)==IDYES)
-//		bFullScreen=true;
-//	else 
-//		bFullScreen=false;
-
-
 
 	// inicjalizacja okienka
 
@@ -812,8 +1062,7 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	// stworz w odpowiedni sposob okno
 
 	if (bFullScreen==false)	// zwykle okno
-	{
-				
+	{	
 		hWnd = CreateWindowEx(WS_EX_CLIENTEDGE, "Demo", "Demo", 
 							 WS_SYSMENU | WS_BORDER | WS_CAPTION | WS_VISIBLE, 
 					 		 0, 0, iXScreen, iYScreen, NULL, NULL, hInstance, NULL);	
@@ -827,8 +1076,6 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	CoInitialize(NULL);	// nie tylko jeden watek
 
 	Direct3DInit();		// usunac, bez funkcji pomocniczej
-
-	
 
 	// inicjalizacja systemu audio
 
@@ -896,6 +1143,13 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		delete pBlackScreen;
 		pBlackScreen=NULL;
 	}
+
+	delete pRadialZoom;
+
+//	delete pMetaballs;
+
+	delete pVShaderPlayer;
+	delete pAnimPlayer;
 
 	pDevice->Release();
 	pDirect3D->Release();

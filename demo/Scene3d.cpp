@@ -24,6 +24,9 @@ CScene3d::CScene3d(IDirect3DDevice8 *pDevice, char cFilename [])
 	m_bDynamic = false;
 	m_bActive = false;
 	m_bFogEnable = false;
+	m_bLighting = false;
+
+	m_bBlur = false;
 }
 
 void CScene3d::ParseFromFile(IDirect3DDevice8 *pDevice, char cScriptFile[])
@@ -33,6 +36,7 @@ void CScene3d::ParseFromFile(IDirect3DDevice8 *pDevice, char cScriptFile[])
 	char	linia[1024];
 
 	// ustaw domyslne parametry
+	m_bLighting = false;
 
 	m_pBackground=NULL;
 	m_pBlackScreen=NULL;
@@ -68,7 +72,19 @@ void CScene3d::ParseFromFile(IDirect3DDevice8 *pDevice, char cScriptFile[])
 
 		if (!strcmp(linia,"LOOP")) m_bLoop = true;
 		if (!strcmp(linia,"NO_LOOP")) m_bLoop = false;
-		
+
+
+		// znacznik oswietlenia, domyslnie wylaczone
+
+		if (!strcmp(linia,"<LIGHTING>"))
+		{
+			fscanf(plik,"%s\n",&linia);	// wczytaj linie pliku
+			UpOnly(linia);
+			
+			if (!strcmp(linia,"ON")) m_bLighting = true;
+			if (!strcmp(linia,"OFF")) m_bLighting = false;
+		}
+
 		if (!strcmp(linia,"<FOG>"))
 		{
 			fscanf(plik,"%s\n",&linia);	// wczytaj linie pliku
@@ -82,6 +98,25 @@ void CScene3d::ParseFromFile(IDirect3DDevice8 *pDevice, char cScriptFile[])
 			fscanf(plik,"%d\n",&m_uiFogColor);
 
 		}
+
+		//=== parametry dla blur, domyslnie wylaczony
+
+		if (!strcmp(linia,"<BLUR>"))
+		{
+			fscanf(plik,"%s\n",&linia);	// wczytaj linie pliku
+			UpOnly(linia);
+				
+			if (!strcmp(linia,"ON")) m_bBlur = true;
+			if (!strcmp(linia,"OFF")) m_bBlur = false;
+
+			if (m_bBlur)	// jezeli odblokowany to wczytujemy pozostale parametry
+			{
+				fscanf(plik,"%d\n",&m_iBlurCount);
+				fscanf(plik,"%d\n",&m_iBlurSkip);
+			}
+		}
+
+		//=== parametry dla czyszczenia ekranu
 
 		if (!strcmp(linia,"<CLEARSCREEN>"))
 		{
@@ -223,8 +258,9 @@ void CScene3d::Initialize(IDirect3DDevice8 *pDevice,char cFilename[])
 			scene->Initialize( pDevice );
 	
 			scene->Load(pDevice,cFilename);	
+			scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-			scene->zMax = 50000.0f;
+			scene->zMax = 150000.0f;
 			scene->zMin = 5.0f;
 			maxFrame = scene->dwFramesCount + 1;		
 		}
@@ -242,8 +278,9 @@ void CScene3d::InitializeOut(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -261,8 +298,9 @@ void CScene3d::InitializeBlack(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -279,8 +317,9 @@ void CScene3d::InitializeWhite(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -297,8 +336,9 @@ void CScene3d::InitializeWhiteEnd(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -315,8 +355,9 @@ void CScene3d::InitializeBlackEnd(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -333,8 +374,9 @@ void CScene3d::InitializeBlackBlack(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -351,8 +393,9 @@ void CScene3d::InitializeWhiteWhite(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -375,8 +418,9 @@ void CScene3d::InitializeWhiteBlack(IDirect3DDevice8 *pDevice,char cFilename[])
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -399,7 +443,7 @@ void CScene3d::InitializeBlackWhite(IDirect3DDevice8 *pDevice,char cFilename[])
 	
 		scene->Load(pDevice,cFilename);	
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 }
@@ -433,8 +477,9 @@ int CScene3d::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 		scene->Initialize( pDevice );
 	
 		scene->Load(pDevice,m_cFilename);	
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW);
 
-		scene->zMax = 50000.0f;
+		scene->zMax = 150000.0f;
 		scene->zMin = 5.0f;
 		maxFrame = scene->dwFramesCount + 1;		
 
@@ -446,6 +491,7 @@ int CScene3d::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 
 	}
 
+	//=== ustawianie mgly ===
 
 	if (m_bFogEnable)	// mg³a w³¹czona
 	{
@@ -460,14 +506,22 @@ int CScene3d::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 		pDevice->SetRenderState(D3DRS_FOGENABLE, FALSE);
 	}
 
+	//=== swiatlo
+
+	pDevice->SetRenderState(D3DRS_LIGHTING, FALSE);
+	if (m_bLighting) 
+	{
+		pDevice->SetRenderState( D3DRS_LIGHTING, TRUE );			// swiatlo
+		scene->SetFlags(FLAG_RENDERFLARE|FLAG_SHADOW|FLAG_RENDERFLARE);
+	}
 	// czyszczenie scenki
 
 	if (m_bBackground)
 	{
 		if (m_pBackground!=NULL) 
 		{
-			pDevice->Clear( 0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, 
-				D3DCOLOR_ARGB(m_ucClearA, m_ucClearR, m_ucClearG, m_ucClearB), 1.0f, 0 );
+//			pDevice->Clear( 0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, 
+//				D3DCOLOR_ARGB(m_ucClearA, m_ucClearR, m_ucClearG, m_ucClearB), 1.0f, 0 );
 			m_pBackground->Render();	// rysuj tlo
 		}
 		else
@@ -483,15 +537,28 @@ int CScene3d::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 
 	// dalsze rysowanie
 
-		iKlatka = (int)(lTimer * m_fPlayRate);
 
 	if (m_bLoop) 
 	{
+		iKlatka = (int)(lTimer * m_fPlayRate);
 		iKlatka = iKlatka % maxFrame;
+		
 		scene->RenderFrame( (float) iKlatka);	// petla wiec rysujemy caly czas
+
+		if (m_bBlur)
+		{
+			for (int h1=0; h1<m_iBlurCount; h1++)
+			{
+				iKlatka = (int)(lTimer * m_fPlayRate) + (h1*m_iBlurSkip);
+				iKlatka = iKlatka%maxFrame;
+				scene->RenderFrame((float)iKlatka);
+			}
+		}
 	}
 	else
 	{
+		iKlatka = (int)(lTimer * m_fPlayRate);
+
 		if (iKlatka > maxFrame) 
 		{
 			scene->RenderFrame(maxFrame); // bez petli, ostatnia klatka rysowana
@@ -499,6 +566,17 @@ int CScene3d::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 		else
 		{
 			scene->RenderFrame(iKlatka*m_fPlayRate); // bez petli, timer rysowany
+
+			if (m_bBlur) // dodany blur
+			{
+				for (int h1=0; h1<m_iBlurCount; h1++)
+				{
+					iKlatka = (int)(lTimer * m_fPlayRate) + (h1*m_iBlurSkip);
+					iKlatka = iKlatka%maxFrame;
+					scene->RenderFrame((float)iKlatka);
+				}
+			}
+
 		}
 	}
 
@@ -531,6 +609,15 @@ int CScene3d::DrawSceneOn(IDirect3DDevice8 *pDevice, long lTimer)
 		iKlatka = (int)(lTimer * m_fPlayRate);
 		iKlatka = iKlatka % maxFrame;
 		scene->RenderFrame( (float) iKlatka);	// petla wiec rysujemy caly czas
+
+		iKlatka = (int)(lTimer * m_fPlayRate)+100;
+		iKlatka = iKlatka % maxFrame;
+		scene->RenderFrame( (float) iKlatka);	// petla wiec rysujemy caly czas
+
+		iKlatka = (int)(lTimer * m_fPlayRate)+200;
+		iKlatka = iKlatka % maxFrame;
+		scene->RenderFrame( (float) iKlatka);	// petla wiec rysujemy caly czas
+
 	}
 	else
 	{

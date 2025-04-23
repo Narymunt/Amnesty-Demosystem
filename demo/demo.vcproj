@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9,00"
 	Name="demo"
-	ProjectGUID="{D6722293-FAB7-41F1-8D47-D18F32317406}"
+	ProjectGUID="{B5BEFBB4-9793-42FF-A2D4-4119492604D4}"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -19,7 +19,7 @@
 			OutputDirectory=".\Release"
 			IntermediateDirectory=".\Release"
 			ConfigurationType="1"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
 			CharacterSet="2"
@@ -49,7 +49,6 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="&quot;C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include&quot;;c:\dx8sdk\include;c:\eprojects\g3d\include;c:\eprojects\bass12\c;C:\eProjects\ghost\Include"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS"
 				StringPooling="true"
 				RuntimeLibrary="0"
@@ -74,12 +73,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="odbc32.lib odbccp32.lib winmm.lib d3d8.lib d3dx8.lib strmiids.lib dxguid.lib bass.lib g3d.lib ijl15.lib ghost.lib"
+				AdditionalDependencies="odbc32.lib odbccp32.lib winmm.lib d3d8.lib d3dx8.lib strmiids.lib dxguid.lib bass.lib g3d.lib ijl15.lib"
 				OutputFile=".\Release/demo.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				AdditionalLibraryDirectories="C:\DX8SDK\lib;c:\eprojects\bass12\c;c:\eprojects\g3d\Debug;C:\eProjects\ghost\Debug"
-				IgnoreDefaultLibraryNames="libc.lib;libci.lib;libcid.lib;libcd.lib"
 				ProgramDatabaseFile=".\Release/demo.pdb"
 				SubSystem="2"
 				RandomizedBaseAddress="1"
@@ -97,6 +94,8 @@
 			/>
 			<Tool
 				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\Release/demo.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -106,7 +105,8 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine=""
+				Description="copy         release\demo.exe         d:\!!\"
+				CommandLine="copy         release\demo.exe         d:\!!\"
 			/>
 		</Configuration>
 		<Configuration
@@ -114,7 +114,7 @@
 			OutputDirectory=".\Debug"
 			IntermediateDirectory=".\Debug"
 			ConfigurationType="1"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
 			CharacterSet="2"
@@ -143,16 +143,18 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include&quot;;c:\eProjects\g3d\include;c:\eProjects\bass12\C;C:\DX8SDK\include"
+				AdditionalIncludeDirectories="&quot;C:\Program Files\platformsdk\Include&quot;;&quot;C:\Program Files\platformsdk\Include\crt&quot;;C:\DX8SDK\include;C:\eProjects\bass12\c;C:\eProjects\g3d\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
+				IgnoreStandardIncludePath="true"
+				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
-				UsePrecompiledHeader="0"
 				PrecompiledHeaderFile=".\Debug/demo.pch"
 				AssemblerListingLocation=".\Debug/"
 				ObjectFile=".\Debug/"
 				ProgramDataBaseFileName=".\Debug/"
 				WarningLevel="3"
+				WarnAsError="false"
 				SuppressStartupBanner="true"
 				DebugInformationFormat="4"
 			/>
@@ -173,8 +175,9 @@
 				OutputFile=".\Debug/demo.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				AdditionalLibraryDirectories="C:\eProjects\ghost\Debug;C:\eProjects\bass12\c;C:\DX8SDK\lib;c:\eProjects\g3d\Debug"
-				IgnoreDefaultLibraryNames="libc.lib;libci.lib"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\platformsdk\Lib&quot;;C:\DX8SDK\lib;C:\eProjects\bass12\c"
+				IgnoreAllDefaultLibraries="false"
+				IgnoreDefaultLibraryNames="libc.lib;libci.lib;"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile=".\Debug/demo.pdb"
 				SubSystem="2"
@@ -193,6 +196,8 @@
 			/>
 			<Tool
 				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\Debug/demo.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -213,6 +218,14 @@
 			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 			>
 			<File
+				RelativePath=".\3ds.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\AnimPlayer.cpp"
+				>
+			</File>
+			<File
 				RelativePath="BASSPLAYER.CPP"
 				>
 				<FileConfiguration
@@ -220,7 +233,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -229,9 +241,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -243,7 +253,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -252,14 +261,40 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
 				RelativePath="demo.rc"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Event.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\EventEVT.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\FileSystem.cpp"
 				>
 			</File>
 			<File
@@ -270,7 +305,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -279,9 +313,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -293,7 +325,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -302,9 +333,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -316,7 +345,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -325,11 +353,13 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Image.cpp"
+				>
 			</File>
 			<File
 				RelativePath="LoadScreen.cpp"
@@ -339,7 +369,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -348,9 +377,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -362,7 +389,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -371,9 +397,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -385,7 +409,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -394,9 +417,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -408,7 +429,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -417,9 +437,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -431,7 +449,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -440,11 +457,13 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Scene.cpp"
+				>
 			</File>
 			<File
 				RelativePath="Scene3d.cpp"
@@ -454,7 +473,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -463,11 +481,37 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\SkyBox.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SphereVN.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SpritePlayer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\texture.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\textureRenderTarget.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Timer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Unzip.cpp"
+				>
 			</File>
 			<File
 				RelativePath="UTILS.CPP"
@@ -477,7 +521,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -486,9 +529,7 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
 			</File>
@@ -500,7 +541,6 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="2"
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
@@ -509,11 +549,29 @@
 					>
 					<Tool
 						Name="VCCLCompilerTool"
-						Optimization="0"
 						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\VShaderPlayer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Zip.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipDragButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipSprite.cpp"
+				>
 			</File>
 		</Filter>
 		<Filter
@@ -521,11 +579,31 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
+				RelativePath=".\3ds.h"
+				>
+			</File>
+			<File
+				RelativePath=".\AnimPlayer.h"
+				>
+			</File>
+			<File
 				RelativePath="BASSPLAYER.H"
 				>
 			</File>
 			<File
 				RelativePath="Debug.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Event.h"
+				>
+			</File>
+			<File
+				RelativePath=".\EventEVT.h"
+				>
+			</File>
+			<File
+				RelativePath=".\FileSystem.h"
 				>
 			</File>
 			<File
@@ -537,7 +615,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\GLizer.h"
+				>
+			</File>
+			<File
 				RelativePath="GRAPHICS.H"
+				>
+			</File>
+			<File
+				RelativePath=".\Image.h"
+				>
+			</File>
+			<File
+				RelativePath=".\init.h"
 				>
 			</File>
 			<File
@@ -558,6 +648,10 @@
 			</File>
 			<File
 				RelativePath="MATH3D.H"
+				>
+			</File>
+			<File
+				RelativePath=".\Matrix.h"
 				>
 			</File>
 			<File
@@ -585,7 +679,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Scene.h"
+				>
+			</File>
+			<File
 				RelativePath="Scene3d.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SkyBox.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SphereVN.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SpritePlayer.h"
 				>
 			</File>
 			<File
@@ -593,11 +703,51 @@
 				>
 			</File>
 			<File
+				RelativePath=".\textureRenderTarget.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Timer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Unzip.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Util.h"
+				>
+			</File>
+			<File
 				RelativePath="UTILS.H"
 				>
 			</File>
 			<File
+				RelativePath=".\Vector.h"
+				>
+			</File>
+			<File
 				RelativePath="VShader.h"
+				>
+			</File>
+			<File
+				RelativePath=".\VShaderPlayer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Zip.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipButton.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipDragButton.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ZipSprite.h"
 				>
 			</File>
 		</Filter>
@@ -610,6 +760,10 @@
 				>
 			</File>
 		</Filter>
+		<File
+			RelativePath=".\ClassDiagram1.cd"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>

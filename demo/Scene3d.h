@@ -12,7 +12,7 @@
 #include "object.h"
 #include "keyframer.h"
 #include "texture.h"
-#include "scene.h"
+#include <scene.h>
 #include "sprite.h"
 
 #ifndef BARSNUMBER
@@ -116,6 +116,16 @@ private:
 	unsigned int	m_uiFogColor;	// must be set, default 0x000f0f0f
 
 	float			m_fPlayRate;
+
+	//=== oswietlenie
+
+	bool			m_bLighting;
+
+	//=== motion blur
+
+	bool			m_bBlur;
+	int				m_iBlurCount; // ile razy rysowaæ t¹ sam¹ scenkê
+	int				m_iBlurSkip;	// co ile klatek odtwarzac render
 
 };
 

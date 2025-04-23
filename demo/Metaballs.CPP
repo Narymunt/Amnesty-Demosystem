@@ -81,7 +81,7 @@ void CMetaballs::Update(float dt)
 		fDist = m_Balls[i].v[0]*m_Balls[i].v[0] + 
 		        m_Balls[i].v[1]*m_Balls[i].v[1] + 
 		        m_Balls[i].v[2]*m_Balls[i].v[2];
-		if( fDist > 0.040f )
+		if( fDist > 0.040f )	// tutaj regulacja o ile maja sie oddalac kulki
 		{
 			fDist = 1/sqrtf(fDist);
 			m_Balls[i].v[0] = 0.20f*m_Balls[i].v[0]*fDist;
@@ -148,7 +148,7 @@ void CMetaballs::Render()
 
 		// Work our way out from the center of the ball until the surface is
 		// reached. If the voxel at the surface is already computed then this
-	// ball share surface with a previous ball.
+		// ball share surface with a previous ball.
 		bComputed = false;
 		while(1)
 		{
@@ -261,6 +261,7 @@ float CMetaballs::ComputeEnergy(float x, float y, float z)
 		if( fSqDist < 0.001f ) fSqDist = 0.001f;
 
 		fEnergy += m_Balls[i].m / fSqDist;
+		fEnergy+=x;	// tego nie bylo
 	}
 
 	return fEnergy;
@@ -308,6 +309,7 @@ float CMetaballs::ComputeGridPointEnergy(int x, int y, int z)
 
 	// The energy on the edges are always zero to make sure the isosurface is
 	// always closed.
+
 	if( x == 0 || y == 0 || z == 0 ||
 	    x == m_nGridSize || y == m_nGridSize || z == m_nGridSize )
 	{

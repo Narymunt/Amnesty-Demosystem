@@ -58,15 +58,15 @@ void CRadialZoom::Initialize(IDirect3DDevice8 *pDevice)
 {
 
 	m_pBackground = new CSprite(255,255,255,255);	// nowy sprite
-	m_pBackground->InitializeEx("data\\back002.jpg",pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
+	m_pBackground->InitializeEx("data\\zoom.jpg",pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
 		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
 	
 	m_pFadeScreenIn = new CSprite(255,255,255,255);
-	m_pFadeScreenIn->InitializeEx("data\\black.jpg",pDevice,0,0,0,0,D3DFMT_UNKNOWN, 
+	m_pFadeScreenIn->InitializeEx("data\\fc1.jpg",pDevice,0,0,0,0,D3DFMT_UNKNOWN, 
 		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
 
 	m_pFadeScreenOut = new CSprite(255,255,255,255);
-	m_pFadeScreenOut->InitializeEx("data\\loadscreen.jpg",pDevice,0,0,0,0,D3DFMT_UNKNOWN, 
+	m_pFadeScreenOut->InitializeEx("data\\metaback.jpg",pDevice,0,0,0,0,D3DFMT_UNKNOWN, 
 		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
 	m_pFadeScreenOut->SetModulate(0,255,255,255);
 
@@ -118,36 +118,36 @@ int CRadialZoom::DrawScene(long lTimer)
 //	m_pBackground->SetModulate(255,255,255,255);
 //	m_pFadeScreenIn->Render();
 
-	fDa=(float)lTimer/20; fDb=(float)lTimer/30;
+	fDa=(float)lTimer/200; fDb=(float)lTimer/300;
 
-	for (int iTemp=0; iTemp<16; iTemp++)
+	for (int iTemp=0; iTemp<32; iTemp++)
 	{
 
-	//fScale=(float)1+((1+0.7*sin(fDa*0.3 +0.7*fDb))  );
+	fScale=(float)0.75f+((1+0.7*sin(fDa*0.3 +0.7*fDb))  );
 
-	fScale=(float)(lTimer*5)*iTemp/2000;
+//	fScale=(float)(lTimer*5)*iTemp/2000;
 
-	m_pBackground->SetTranslation((800-(800*fScale))/2,(600-(600*fScale))/2);
-	m_pBackground->SetScale(fScale/2,fScale/2);
-	m_pBackground->SetRotationCenter(400*fScale,300*fScale);
-	m_pBackground->SetRotation(fScale);
+	m_pBackground->SetTranslation((1024-(1024*fScale))/2,(768-(768*fScale))/2);
+	m_pBackground->SetScale(fScale,fScale);
+	m_pBackground->SetRotationCenter(512*fScale,384*fScale);
+//	m_pBackground->SetRotation(fScale);
 	m_pBackground->SetModulate((unsigned char)iTemp*4,255,255,255);
 	m_pBackground->Render();	// rysuj tlo
 
-	fDa = fDa + 1.03f;
-	fDb = fDb + 1.05f;
+	fDa = fDa + 0.03f;
+	fDb = fDb + 0.05f;
 
 	}
 
 	dDa = dDa+ ((lTimer-lLastTimer)*0.002f);
 	dDb = dDb+ ((lTimer-lLastTimer)*0.004f);
-/*
-	if (lTimer<2511)
+
+	if (lTimer>1375)
 	{
-		m_pFadeScreenOut->SetModulate((unsigned char)((2511-lTimer)/2),255,255,255);
+		m_pFadeScreenOut->SetModulate((unsigned char)(lTimer-1375),255,255,255);
 		m_pFadeScreenOut->Render();
 	}
-*/
+
 
 	lLastTimer=lTimer;
 

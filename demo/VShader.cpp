@@ -28,7 +28,7 @@ D3DXMATRIX		matViewProj;
 
 // vertex shader for sphere mapping
 	
-DWORD dwDecl[] =
+DWORD deVDecl[] =
 {
 	D3DVSD_STREAM(0),
 	D3DVSD_REG( D3DVSDE_POSITION, D3DVSDT_FLOAT3 ),
@@ -62,6 +62,11 @@ CVShader::CVShader()
 
 	m_pBackground = NULL;
 	m_pRamka = NULL;
+
+	m_fStartXPosition = 0.0f;
+	m_fStartYPosition = 0.0f;
+	m_fStartYPosition = 0.0f;
+
 
 }
 
@@ -99,16 +104,13 @@ bool CVShader::bGetActive(void)
 
 //=== aktualizuje i wczytuje dane
 
-void CVShader::Initialize(IDirect3DDevice8 *pDevice)
+void CVShader::Initialize(IDirect3DDevice8 *pDevice,  char cBackgroundFilename[], char cSceneFilename[],
+		char cTextureFilename[], char cEnvironmentFilename[], char cShaderFilename[])
 {
 
 	m_pBackground = new CSprite(255,255,255,255);	// nowy sprite
-	m_pBackground->InitializeEx("data\\furball.jpg",pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
+	m_pBackground->InitializeEx(cBackgroundFilename,pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
 		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
-
-//	m_pRamka = new CSprite(255,255,255,255);	// nowy sprite
-//	m_pRamka->InitializeEx("data\\ramka.tga",pDevice,0, 0, 0, 0, D3DFMT_UNKNOWN, 
-//		D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT, 0, NULL, NULL);
 
 	m_bActive = true;	// dane wczytane
 	
@@ -116,11 +118,11 @@ void CVShader::Initialize(IDirect3DDevice8 *pDevice)
 
     // Turn on the zbuffer
 
-    pDevice->SetRenderState( D3DRS_ZENABLE, TRUE );
+    pDevice->SetRenderState( D3DRS_ZENABLE, D3DZB_TRUE );
 
     // Turn on ambient lighting 
 
-	pDevice->SetRenderState( D3DRS_CULLMODE, D3DCULL_CCW);
+	pDevice->SetRenderState( D3DRS_CULLMODE, D3DCULL_NONE);
 	pDevice->SetRenderState( D3DRS_LIGHTING, FALSE );
 	pDevice->SetRenderState( D3DRS_AMBIENT, 0x00202020 );
 
@@ -129,7 +131,7 @@ void CVShader::Initialize(IDirect3DDevice8 *pDevice)
     LPD3DXBUFFER pD3DXMtrlBuffer;
 
     // Load the mesh from the specified file
-    if( FAILED( D3DXLoadMeshFromX( "data\\shader.x", D3DXMESH_SYSTEMMEM, 
+    if( FAILED( D3DXLoadMeshFromX( cSceneFilename, D3DXMESH_SYSTEMMEM, 
                                    pDevice, NULL, 
                                    &pD3DXMtrlBuffer, &g_dwNumMaterials, 
                                    &g_pMesh ) ) )
@@ -160,11 +162,11 @@ void CVShader::Initialize(IDirect3DDevice8 *pDevice)
         }
     }
 
-	if( FAILED( D3DXCreateTextureFromFile( pDevice, "data\\niebo.jpg", &g_pTexture ) ) )
+	if( FAILED( D3DXCreateTextureFromFile( pDevice, cEnvironmentFilename, &g_pTexture ) ) )
 	{
 //		return E_FAIL;
 	}
-	if( FAILED( D3DXCreateTextureFromFile( pDevice, "data\\shader.tga", &g_pTexture1 ) ) )
+	if( FAILED( D3DXCreateTextureFromFile( pDevice, cTextureFilename, &g_pTexture1 ) ) )
 	{
 //		return E_FAIL;
 	}
@@ -185,7 +187,10 @@ void CVShader::Initialize(IDirect3DDevice8 *pDevice)
 	g_Material.Diffuse.g = 0xf0;
 	g_Material.Diffuse.b = 0x0f;
 
-	D3DXMatrixTranslation( &matView, 1000.0f, 1000.0f, 1000.0f );
+	// startowe wspolrzedne
+
+	D3DXMatrixTranslation( &matView, m_fStartXPosition, m_fStartYPosition, m_fStartZPosition );
+//	D3DXMatrixTranslation(&matWorldX,m_fStartXPosition,m_fStartYPosition, m_fStartZPosition );
 
 
 	// tworzymy vertex shader
@@ -194,12 +199,9 @@ void CVShader::Initialize(IDirect3DDevice8 *pDevice)
 	LPD3DXBUFFER	pError;
 	HRESULT			hError;
 
-	hError = D3DXAssembleShaderFromFile( "data\\shader.vsh", 0, NULL, &pCode, &pError );
-	// plik << (char*)( pError->GetBufferPointer() ) <<endl;
-	pDevice->CreateVertexShader( dwDecl, (DWORD*)pCode->GetBufferPointer(), &VertexShader, 0 );
+	hError = D3DXAssembleShaderFromFile( cShaderFilename, 0, NULL, &pCode, &pError );
+	pDevice->CreateVertexShader( deVDecl, (DWORD*)pCode->GetBufferPointer(), &VertexShader, 0 );
 	pCode->Release();
-
-
 
 	// koniec
 
@@ -235,20 +237,15 @@ void CVShader::DeInitialize(void)
     if( g_pMesh != NULL )
         g_pMesh->Release();
 
-	// ramka
-
-//	if (m_pRamka!=NULL)
-//	{
-//		delete m_pRamka;
-//		m_pRamka=NULL;
-//	}
 
 }
 
 //=== rysuje pojedyncza klatke
 
-int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
+int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimerStart, long lTimer)
 {
+
+	float fX, fY, fZ;
 
 	dDa = dDa+ 0.002f;
 	dDb = dDb+ 0.004f;
@@ -256,10 +253,13 @@ int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 	fScale=(float)1+((1+0.7*sin(dDa*0.4 +0.9*dDb)));
 
     // Clear the backbuffer and the zbuffer
-    pDevice->Clear( 0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, 
-                         D3DCOLOR_XRGB(255,255,255), 1.0f, 0 );
+    pDevice->Clear( 0, NULL, D3DCLEAR_ZBUFFER, 
+                        NULL, 1.0f, 0 );
+	
+//	pDevice->Clear( 0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER|D3DCLEAR_STENCIL, 0xffffff, 1.0f, 0x0 );
 
-	m_pBackground->Render();	// rysuj tlo
+
+//	m_pBackground->Render();	// rysuj tlo
 
 	// teraz nasz obiekt
 
@@ -267,17 +267,33 @@ int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 	if( fAlfa >= 360.0f )
 		fAlfa = 0.0f; 
 
+	D3DXMatrixTranslation(&matWorldX,m_fStartXPosition,200,0);
+
+	D3DXMatrixRotationZ( &matWorldY, 0.0f );
+	D3DXMatrixRotationX( &matWorldX, 0.0f );
+
+	fX = m_fStartXPosition+((lTimer-lTimerStart)*(m_fModifyX*0.001f));
+	fY = m_fStartYPosition+((lTimer-lTimerStart)*(m_fModifyY*0.001f));
+
+
+
 	// world transform
-	D3DXMatrixRotationY( &matWorldX,timeGetTime()/1500.0f );
-	D3DXMatrixRotationZ( &matWorldY, timeGetTime()/1500.0f );
-	
+	D3DXMatrixRotationX( &matWorldX,fX);
+	D3DXMatrixRotationZ( &matWorldY,fY);
+
+
+	//m_fStartYPosition, m_fStartZPosition );
+
 	// view transform
-    D3DXMatrixLookAtLH( &matView, &D3DXVECTOR3( 0.0f, 70.0f,fScale*-250),
+
+	fZ = m_fStartZPosition+((lTimer-lTimerStart)*(m_fModifyZ*0.1f));
+
+	D3DXMatrixLookAtLH( &matView, &D3DXVECTOR3( 0.0f, 1.0f,fZ/* ZZZ */),
                                   &D3DXVECTOR3( 0.0f, 0.0f, 0.0f ),
                                   &D3DXVECTOR3( 0.0f, 1.0f, 0.0f ) );
 
 	// projection transform 
-	D3DXMatrixPerspectiveFovLH( &matProj, D3DX_PI/4, 1.0f, 1.0f, 1000.0f ); // zawsze wieksze
+	D3DXMatrixPerspectiveFovLH( &matProj, D3DX_PI/4, 1.0f, 1.0f, 20000.0f ); // zawsze wieksze
 
 	// calculations for sphere mapping
 	D3DXMatrixMultiply( &matWorld, &matWorldX, &matWorldY );
@@ -293,7 +309,8 @@ int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 	pDevice->SetVertexShaderConstant( 9, &vect, 1 );
 
 	// teraz renderowanie
-	pDevice->SetRenderState( D3DRS_ZFUNC, D3DCMP_LESSEQUAL);
+//	pDevice->SetRenderState( D3DRS_ZFUNC, D3DCMP_ALWAYS);
+//	pDevice->SetRenderState( D3DRS_ZFUNC, FALSE);
 
 	LPDIRECT3DVERTEXBUFFER8 pVB;
 	LPDIRECT3DINDEXBUFFER8 pIB;
@@ -335,9 +352,24 @@ int CVShader::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 	pVB->Release();
 	pIB->Release();
 	
-//	m_pRamka->Render();
-
 	return 0;
 
 }
+
+void CVShader::SetStartPosition(float fX, float fY, float fZ)
+{
+	m_fStartXPosition = fX;
+	m_fStartYPosition = fY;
+	m_fStartZPosition = fZ;
+}
+
+// zmienianie wspolrzednych co klatke
+
+void CVShader::SetModificators(float fX, float fY, float fZ)
+{
+	m_fModifyX = fX;
+	m_fModifyY = fY;
+	m_fModifyZ = fZ;
+}
+
 //end

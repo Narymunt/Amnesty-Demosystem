@@ -1,0 +1,1925 @@
+﻿<engine warning = "false" version = "1.0">
+	<progress max = "883" debug = "false" draw	= "true" dll = "data\progress.dll"/>
+	<setup title = "Temptation" width = "1024" height = "768" bits = "32" hz = "60" vsync = "true" fullscreen = "true" dialog = "true" resize = "false" texture = "512" setup = "data\dialog.dll"/>
+	<plugins path = "data" ext = "dll"/>
+	<bass filename	= "data\music.ogg" bpm = "135" tpb = "4" start = "o:0" end = "?" volume = "0" size = "16" hz = "-1" dist = "1.4" debug = "false"/>
+	<load>
+		<oglBitmap id = "noise"			filename = "data\noise.jpg"/>
+		<oglBitmap id = "background"	filename = "data\background.jpg"/>
+		<oglBitmap id = "background_b"	filename = "data\background_b.jpg"/>
+		<oglBitmap id = "holograms"		filename = "data\holograms.tga"/>
+		<oglBitmap id = "scenecon"		filename = "data\scenecon.tga"/>
+		<oglBitmap id = "demo"			filename = "data\demo.tga"/>
+		<oglBitmap id = "music"			filename = "data\music.png"/>
+		<oglBitmap id = "vincenzo"		filename = "data\vincenzo.png"/>
+		<oglBitmap id = "lyrics"		filename = "data\lyrics.png"/>
+		<oglBitmap id = "meli"			filename = "data\meli.png"/>
+		<oglBitmap id = "code"			filename = "data\code.png"/>
+		<oglBitmap id = "aha"			filename = "data\aha.png"/>
+		<oglBitmap id = "lechery"		filename = "data\lechery.png"/>
+		<oglBitmap id = "gluttony"		filename = "data\gluttony.png"/>
+		<oglBitmap id = "greed"			filename = "data\greed.png"/>
+		<oglBitmap id = "sloth"			filename = "data\sloth.png"/>
+		<oglBitmap id = "anger"			filename = "data\anger.png"/>
+		<oglBitmap id = "envy"			filename = "data\envy.png"/>
+		<oglBitmap id = "vanity"		filename = "data\vanity.png"/>
+		<oglBitmap id = "try"			filename = "data\try.tga"/>
+		<oglBitmap id = "silence"		filename = "data\silence.tga"/>
+		<oglBitmap id = "and"			filename = "data\and.tga"/>
+		<oglBitmap id = "countdown"		filename = "data\countdown.tga"/>
+		<oglBitmap id = "devil"			filename = "data\devil.tga"/>
+		<oglBitmap id = "turn"			filename = "data\turn.tga"/>
+		<oglBitmap id = "light"			filename = "data\light.tga"/>
+		<oglBitmap id = "7"				filename = "data\7.png"/>
+		<oglBitmap id = "6"				filename = "data\6.png"/>
+		<oglBitmap id = "5"				filename = "data\5.png"/>
+		<oglBitmap id = "4"				filename = "data\4.png"/>
+		<oglBitmap id = "3"				filename = "data\3.png"/>
+		<oglBitmap id = "2"				filename = "data\2.png"/>
+		<oglBitmap id = "1"				filename = "data\1.png"/>
+		<oglBitmap id = "0"				filename = "data\0.png"/>
+		<oglBitmap id = "moire"			filename = "data\moire.png"/>
+		<oglBitmap id = "conspiracy"	filename = "data\conspiracy.png"/>
+		<oglBitmap id = "epilepsy"		filename = "data\epilepsy.png"/>
+		<oglBitmap id = "fresh"			filename = "data\fresh.png"/>
+		<oglBitmap id = "hardread"		filename = "data\hardread.png"/>
+		<oglBitmap id = "neurosis"		filename = "data\neurosis.png"/>
+		<oglBitmap id = "rebels"		filename = "data\rebels.png"/>
+		<oglBitmap id = "singular"		filename = "data\singular.png"/>
+		<oglBitmap id = "suprise"		filename = "data\suprise.png"/>
+		<oglBitmap id = "united"		filename = "data\united.png"/>
+		<oglR2T    id = "renderTarget1" width = "512" 	height = "512" internalFormat = "GL_RGB"/>
+		<oglCubes id = "star"		filename	= "data\star.scn"		mode="1" color="0" />
+		<oglCubes id = "teapot"		filename	= "data\teapot.scn"		mode="1" color="0" />
+		<oglCubes id = "head"		filename	= "data\head.scn"		mode="1" color="1" />
+		<oglCubes id = "scene"		filename	= "data\scene.scn"		mode="1" color="2" />
+		<oglCubes id = "sphere"		filename	= "data\sphere.scn"		mode="1" color="1" />
+		<oglCubes id = "when" 		filename	= "data\when.scn"		mode="0"/>
+		<oglCubes id = "lechery"	filename	= "data\lechery.scn"	mode="0"/>
+		<oglCubes id = "gluttony"	filename	= "data\gluttony.scn"	mode="0"/>
+		<oglCubes id = "greed"		filename	= "data\greed.scn"		mode="0"/>
+		<oglCubes id = "sloth"		filename	= "data\sloth.scn"		mode="0"/>
+		<oglCubes id = "anger"		filename	= "data\anger.scn"		mode="0"/>
+		<oglCubes id = "envy"		filename	= "data\envy.scn"		mode="0"/>
+		<oglCubes id = "vanity"		filename	= "data\vanity.scn"		mode="0"/>
+		<oglCubes id = "helix" 		filename	= "data\helix.scn"		mode="0" color="0" />
+		<oglSkyBox id = "skybox1" negx = "data\negx.jpg" negy = "data\negy.jpg" negz = "data\negz.jpg" posx = "data\posx.jpg" posy = "data\posy.jpg" posz = "data\posz.jpg"/>
+		<oglSkyBox id = "skybox2" single = "data\ceiling_tiled.jpg"/>
+		<oglBitmapFont id = "source" texture = "data\font.jpg" tabsize = "4" text = "data\oglCubes.cpp" dy = "0.998" size = "0.035 0.07"/>
+		<oglParticle2D id = "starspar1" texture = "data\circle.tga" 	numParticles = "10" constRand = "10" mode = "SinHorizontal"/>
+		<oglParticle2D id = "starspar2"	texture = "data\circle.tga"		numParticles = "10"	constRand = "20" mode = "SinHorizontal"/>
+		<oglParticle2D id = "starspar3"	texture = "data\circle.tga"		numParticles = "30"	constRand = "20" mode = "SinHorizontal"/>
+		<oglParticle2D id = "starspar4"	texture = "data\circle2.tga"	numParticles = "30"	constRand = "20" mode = "SinHorizontal"/>
+		<oglParticle2D id = "starspar5"	texture = "data\circle3.png"	numParticles = "30"	constRand = "20" mode = "SinHorizontal"/>
+	</load>
+	<timeline start="0" end="?" channel="0">
+		<oglClearBuffer start="?" end="?" />
+		<group start="?" end="o:4"  name="Part1">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" value="1.777777"/>
+				<param name="zFar" value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="1"/>
+				<param name="start" value="0"/>
+				<param name="end"   value="100"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<group start="?" end="o:4"  name="Part1Cubes">
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="x"		value="-7"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="x"		value="10"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="50"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="5"/>
+					<param name="x"		value="4"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="160"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="2"/>
+					<param name="x"		value="-2"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="700"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-2"/>
+					<param name="x"		value="2"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="700"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-4"/>
+					<param name="x"		value="3"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="7"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-2"/>
+					<param name="x"		value="6"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="7"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-5"/>
+					<param name="x"		value="-8"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="45"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="4"/>
+					<param name="x"		value="-10"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="45"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+			</group>
+			<oglR2T 	start="o:3.510204" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def" value="1.0"/>
+			</oglViewport>
+			<oglBitmap start="?" end="?"    id="background">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="0"/>
+			</oglBitmap>
+			<oglBitmap start="?" end="?"    id="background_b">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="5"/>
+				<param name="textU"><oglAnim><param name="mode"		value="0.0"/><param name="speed" value="-0.000001"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="?" end="?"    id="background_b">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="5"/>
+				<param name="textU"><oglAnim><param name="mode"		value="0.0"/><param name="speed" value="0.000001"/></oglAnim></param>
+			</oglBitmap>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="60"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="1"/>
+				<param name="start" value="0"/>
+				<param name="end"   value="100"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<group start="?" end="o:4"  name="Part1Cubes">
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="x"		value="-7"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="x"		value="10"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="50"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="5"/>
+					<param name="x"		value="4"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="160"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="2"/>
+					<param name="x"		value="-2"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="700"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-2"/>
+					<param name="x"		value="2"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="700"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-4"/>
+					<param name="x"		value="3"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="7"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-2"/>
+					<param name="x"		value="6"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="7"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="-5"/>
+					<param name="x"		value="-8"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="45"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+				<oglCubes start="?" end="?"  id="helix">
+					<param name="mode" 	value="2"/>
+					<param name="speed" value="0.00005"/>
+					<param name="y"		value="4"/>
+					<param name="x"		value="-10"/>
+					<param name="z"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.000025"/><param name="offset" value="-190"/></oglAnim></param>
+					<param name="rotx"	value="90"/>
+					<param name="roty"><oglAnim><param name="mode" value="0"/><param name="offset" value="45"/><param name="speed" value="0.00025"/></oglAnim></param>
+				</oglCubes>
+			</group>
+			<oglPostProcess start="o:3.510204" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"><oglAnim><param name="mode" value="0"/>	<param name="speed" value="0.0005"/></oglAnim></param>
+			</oglPostProcess>
+			<group start="?" end="o:4"  name="Part1Texts">
+				<oglBitmap start="o:1" end="o:3"    id="holograms">
+					<param name="width"			value="1.777777"/>
+					<param name="blend_mode"	value="3"/>
+					<param name="x_position"	value="0.5"/>
+					<param name="y_position"	value="0.2"/>
+					<param name="angle" value="-20"/>
+				</oglBitmap>
+				<oglBitmap start="o:2" end="o:3"    id="scenecon">
+					<param name="width"			value="1.777777"/>
+					<param name="blend_mode"	value="3"/>
+					<param name="x_position"	value="-0.7"/>
+					<param name="y_position"	value="-0.2"/>
+					<param name="scale"	value="0.75"/>
+					<param name="angle" value="10"/>
+				</oglBitmap>
+				<oglBitmap start="o:3" end="?"    id="demo">
+					<param name="width"			value="1.777777"/>
+					<param name="blend_mode"	value="3"/>
+					<param name="angle" 		value="10"/>
+				</oglBitmap>
+			</group>
+			<!-- FADE -->
+			<oglBitmap start="o:0" end="o:2"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.000001"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:3.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:4" end="o:8"  name="Part2">
+		   <oglBitmap start="?" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglViewport start="?" end="?" >
+				<param name="def" value="1.0"/>
+			</oglViewport>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.075"/>
+			</oglFog>
+			<oglLight   start="?" end="?" >
+				<param name="enable" 	value="1.0"/>
+				<param name="ambient_r" value="1.0"/>
+				<param name="ambient_g" value="1.0"/>
+				<param name="ambient_b" value="1.0"/>
+			</oglLight>
+			<oglCubes start="?" end="o:5" >
+				<param name="speed" value="0.000566"/>
+			</oglCubes>
+			<oglCubes start="o:5" end="o:6" >
+				<param name="ahead" value="-1"/>
+				<param name="speed" value="0.000566"/>
+			</oglCubes>
+			<oglCubes start="o:6" end="o:7" >
+				<param name="twirl" value="-1"/>
+				<param name="ahead" value="-1"/>
+				<param name="speed" value="0.000566"/>
+			</oglCubes>
+			<oglCubes start="o:7" end="o:8" >
+				<param name="twirl" value="-1"/>
+				<param name="speed" value="0.000566"/>
+			</oglCubes>
+			<oglParticle2D start="o:4" end="?"  id="starspar4"/>
+			<oglBitmap start="o:4" end="o:8"   >
+				<param name="width"			value="1.777777"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="height"		value="0.2"/>
+				<param name="red"			value="0.5"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.0"/>
+				<param name="alpha"			value="0.5"/>
+			</oglBitmap>
+			<oglBitmap start="o:4" end="o:8"   >
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="0.022222"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red"			value="0.0"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:4" end="o:8"   >
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="0.022222"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="y_position"	value="-0.1"/>
+				<param name="red"			value="0.0"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:5" end="o:6"    id="music">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.35"/>
+				<param name="x_position"	value="-1.2"/>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:5.5" end="o:6"    id="vincenzo">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="x_position"	value="-0.3"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="scale"			value="0.35"/>
+			</oglBitmap>
+			<oglBitmap start="o:6" end="o:7"    id="lyrics">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="x_position"	value="-0.7"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="scale"			value="0.35"/>
+			</oglBitmap>
+			<oglBitmap start="o:6.5" end="o:7"    id="meli">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="x_position"	value="0.4"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="scale"			value="0.35"/>
+			</oglBitmap>
+			<oglBitmap start="o:7" end="?"    id="code">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.35"/>
+				<param name="x_position"	value="0.0"/>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:7.5" end="?"    id="aha">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="x_position"	value="1.0"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="scale"			value="0.35"/>
+			</oglBitmap>
+			<!-- FADE -->
+			<oglBitmap start="o:4" end="o:5"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.0000075"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:7.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:8" end="o:12"  name="Part3">
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglViewport start="?" end="?" >
+				<param name="def" value="1.0"/>
+			</oglViewport>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.00175"/>
+			</oglFog>
+			<oglSkyBox start="?" end="?"  id="skybox1">
+				<param name="fovy" value="140"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglCubes start="?" end="?"  >
+				<param name="mode" 	value="1"/>
+				<param name="speed" value="0.00025"/>
+			</oglCubes>
+			<!-- FADE -->
+			<oglBitmap start="o:11.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:12" end="o:13"  name="Part41">
+		<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:12" end="?"  id="when">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0000025"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000005"/>
+						<param name="hz" value="30"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+		<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.00175"/>
+			</oglFog>
+			<oglParticle2D start="o:12" end="?"  id="starspar2"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:12" end="?"  id="when" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0000025"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000005"/>
+						<param name="hz" value="30"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+			<!-- FADE -->
+			<oglBitmap start="o:12" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.0000075"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:13" end="o:14"  name="Part42">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:13" end="?"  id="lechery">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000008"/>
+						<param name="hz" value="-30"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:12" end="?"  id="starspar2"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:13" end="?"  id="lechery" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000008"/>
+						<param name="hz" value="-30"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:13.5" end="?"    id="lechery">
+				<param name="width"			value="1.335500"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:14" end="o:15"  name="Part43">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:14" end="?"  id="gluttony">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:14" end="?"  id="starspar3"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:14" end="?"  id="gluttony" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:14.5" end="?"    id="gluttony">
+				<param name="width"			value="1.332258"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:15" end="o:16"  name="Part44">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:15" end="?"  id="greed">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+				<param name="rotx">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:14" end="?"  id="starspar3"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:15" end="?"  id="greed" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+				<param name="rotx">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:15.5" end="?"    id="greed">
+				<param name="width"			value="2"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:16" end="o:17"  name="Part45">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:16" end="?"  id="sloth">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:16" end="?"  id="starspar2"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:16" end="?"  id="sloth" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:16.5" end="?"    id="sloth">
+				<param name="width"			value="0.701642"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:17" end="o:18"  name="Part46">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:17" end="?"  id="anger">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000008"/>
+						<param name="hz" value="-30"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:16" end="?"  id="starspar2"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:17" end="?"  id="anger" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000008"/>
+						<param name="hz" value="-30"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:17.5" end="?"    id="anger">
+				<param name="width"			value="1.331269"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:18" end="o:19"  name="Part47">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:18" end="?"  id="envy">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:18" end="?"  id="starspar3"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:18" end="?"  id="envy" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="0.0"/>
+						<param name="offset" value="-40"/>
+						<param name="speed" value="0.00001"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:18.5" end="?"    id="envy">
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+		</group>
+		<group start="o:19" end="o:20"  name="Part48">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:19" end="?"  id="vanity">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000005"/>
+						<param name="hz" value="30"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def"  value="1" />
+			</oglViewport>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:18" end="?"  id="starspar3"/>
+			<oglPerspective start="?" end="?"  enable="true">
+				<param name="aspect" 	value="1.777777"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglLight   start="?" end="?"  enable="true"/>
+			<oglCubes start="o:19" end="?"  id="vanity" enable="true">
+				<param name="mode" value="2"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+				<param name="x" value="0"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" value="2.0"/>
+						<param name="position" value="-40"/>
+						<param name="speed" value="0.000005"/>
+						<param name="hz" value="30"/>
+					</oglAnim>
+				</param>
+				<param name="roty">
+					<oglAnim>
+						<param name="mode"    value="0.0"/>
+						<param name="offset"  value="180.0"/>
+						<param name="speed"   value="-0.0003"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglBitmap start="o:19.5" end="?"    id="vanity">
+				<param name="width"			value="0.666311"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="alpha"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.04"/>
+				<param name="times"	value="35"/>
+			</oglPostProcess>
+			<!-- FADE -->
+			<oglBitmap start="o:19.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:20" end="o:24"  name="Part5">
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="70"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglSkyBox start="o:12" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="green" value="0.0"/>
+				<param name="blue" value="0.0"/>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglParticle2D start="o:20" end="?"  id="starspar5"/>
+			<oglLight   start="?" end="?" />
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.00175"/>
+			</oglFog>
+			<oglCubes start="o:20" end="o:21"  id="star">
+				<param name="mode" value="3"/>
+				<param name="speed" value="0.0005"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0000018"/></oglAnim></param>
+				<param name="x"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="z" value="-10"/>
+			</oglCubes>
+			<oglCubes start="o:21" end="o:22"  id="star">
+				<param name="mode" value="3"/>
+				<param name="speed" value="0.0005"/>
+				<param name="start"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0000018"/></oglAnim></param>
+				<param name="y"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="z" value="-10"/>
+			</oglCubes>
+			<oglCubes start="o:22" end="o:23"  id="teapot">
+				<param name="mode" value="3"/>
+				<param name="speed" value="0.0005"/>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0000018"/></oglAnim></param>
+				<param name="x"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="z" value="-10"/>
+			</oglCubes>
+			<oglCubes start="o:23" end="o:24"  id="teapot">
+				<param name="mode" value="3"/>
+				<param name="speed" value="0.0005"/>
+				<param name="start"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000002"/></oglAnim></param>
+				<param name="y"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="z" value="-10"/>
+			</oglCubes>
+			<oglParticle2D start="o:20" end="?"  id="starspar5"/>
+			<oglBitmap start="o:20" end="o:21"    id="try">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="angle"			value="20"/>
+				<param name="y_position"	value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:21" end="o:22"    id="silence">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value="-1.0"/>
+				<param name="y_position"	value="0.0"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:22" end="?"    id="silence">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value="-1.0"/>
+				<param name="y_position"	value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:22" end="o:23"    id="and">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.35"/>
+				<param name="angle"			value="-10"/>
+				<param name="x_position"	value="-0.2"/>
+				<param name="y_position"	value="-0.65"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:23" end="?"    id="and">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.35"/>
+				<param name="angle"			value="-10"/>
+				<param name="x_position"	value="-0.2"/>
+				<param name="y_position"	value="-0.65"/>
+			</oglBitmap>
+			<oglBitmap start="o:23" end="?"    id="countdown">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="angle"			value="-15"/>
+				<param name="x_position"	value=" 0.8"/>
+				<param name="y_position"	value="-0.55"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<!-- FADE -->
+			<oglBitmap start="o:20" end="o:21"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.0000075"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:24.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:24" end="o:28"  name="Part6">
+			<oglBitmap start="?" end="?"    id="background">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="0"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmapFont start="?" end="?"    id="source">
+				<param name="red"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.2"/><param name="beat" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.2"/><param name="beat" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.2"/><param name="beat" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="posx" 	value="-1.777777"/>
+				<param name="posy"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="-0.000011"/><param name="offset" value="30"/></oglAnim></param>
+			</oglBitmapFont>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="70"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.075"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:24" end="o:25"  id="head">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.0010"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-20"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:25" end="o:25.5"  id="head">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="-0.0010"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-20"/></oglAnim></param>
+				<param name="start"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000004"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:25.5" end="o:26"  id="head">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.0010"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-20"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:26" end="?"  id="head">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.0010"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-20"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglBitmap start="o:24" end="o:24.5"    id="7">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:24.5" end="o:25"    id="6">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:25"  end="o:25.5"    id="5">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:25.5"  end="o:26"    id="4">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:26"  end="o:26.5"    id="3">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:26.5"  end="o:27"    id="2">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:27"  end="o:27.5"    id="1">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:27.5"  end="?"    id="0">
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.5"/>
+				<param name="x_position"	value=" 1.0"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="hz" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<!-- FADE -->
+			<oglBitmap start="o:24" end="o:25"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.0000075"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:27.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:28" end="o:32"  name="Part7">
+			<oglBitmap start="?" end="?"    id="background">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="0"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="?" end="?"    id="background_b">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="5"/>
+				<param name="textU"><oglAnim><param name="mode"		value="0.0"/><param name="speed" value="-0.000001"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="?" end="?"    id="background_b">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="5"/>
+				<param name="textU"><oglAnim><param name="mode"		value="0.0"/><param name="speed" value="0.000001"/></oglAnim></param>
+			</oglBitmap>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="70"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="2"/>
+				<param name="density" value="0.075"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:28" end="o:29"  id="scene">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.0001"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-10"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:29" end="o:30" >
+				<param name="mode" 	value="1"/>
+				<param name="speed" value="-0.0001"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-30"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:30" end="o:31"  id="scene">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="-0.0001"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-15"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:31" end="o:31.5" >
+				<param name="twirl" value="1"/>
+				<param name="speed" value="0.000566"/>
+				<param name="mode" 	value="0"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-30"/></oglAnim></param>
+				<param name="end"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:31.5" end="o:32" >
+				<param name="twirl" value="-1"/>
+				<param name="speed" value="0.000566"/>
+				<param name="mode" 	value="0"/>
+				<param name="z"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="-30"/></oglAnim></param>
+				<param name="start"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000001"/></oglAnim></param>
+			</oglCubes>
+			<oglBitmap start="o:28" end="o:29"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.000005"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:31.5" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+			<oglParticle2D start="o:28" end="?"  id="starspar3"/>
+			<!-- FADE -->
+			<oglBitmap start="o:28" end="o:29"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="1"/><param name="speed" value="-0.0000075"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:31.75" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<!-- timing hack -->
+		<oglCubes start="o:31" end="o:32"  id="sphere">
+			<param name="mode" 	value="5"/>
+			<param name="speed" value="0.00005"/>
+			<param name="z"		value="-100"/>
+			<param name="freqxspeed"	value="0.5"/>
+			<param name="freqyspeed"	value="0.5"/>
+			<param name="freqzspeed"	value="0.5"/>
+			<param name="ampspeed"		value="0.2"/>
+		</oglCubes>
+		<group start="o:32" end="o:34"  name="Part81">
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="60"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="-1"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:32" end="o:32.5"  id="sphere">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.00005"/>
+				<param name="z"><oglAnim><param name="mode" value="4"/><param name="offset" value="-25"/><param name="beat" value="4"/><param name="hz"	value="25"/></oglAnim></param>
+			</oglCubes>
+			<oglCubes start="o:32.5" end="o:33"  id="sphere">
+				<param name="mode" 			value="5"/>
+				<param name="speed" 		value="0.000005"/>
+				<param name="z"				value="-25"/>
+				<param name="freqxspeed"	value="0.5"/>
+				<param name="freqyspeed"	value="0.5"/>
+				<param name="freqzspeed"	value="0.5"/>
+				<param name="ampspeed"		value="0.2"/>
+			</oglCubes>
+			<oglCubes start="o:33" end="o:33.5"  id="sphere">
+				<param name="mode" 	value="4"/>
+				<param name="speed" value="0.00005"/>
+				<param name="z"		value="-25"/>
+				<param name="freqxspeed"	value="0.5"/>
+				<param name="freqyspeed"	value="0.5"/>
+				<param name="freqzspeed"	value="0.5"/>
+				<param name="ampspeed"		value="0.2"/>
+			</oglCubes>
+			<oglCubes start="o:33.5" end="o:34"  id="sphere">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="z"		value="-25"/>
+				<param name="freqxspeed"	value="0.5"/>
+				<param name="freqyspeed"	value="0.5"/>
+				<param name="freqzspeed"	value="0.5"/>
+				<param name="ampspeed"		value="0.2"/>
+			</oglCubes>
+			<oglParticle2D start="o:32" end="?"  id="starspar3"/>
+		</group>
+		<group start="o:34" end="o:38"  name="Part82">
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="60"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglSkyBox start="?" end="?"  id="skybox1">
+				<param name="fovy" value="170"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.001"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.001"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.001"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="-1"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:34" end="o:38"  id="sphere">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="freqxspeed"	value="0.75"/>
+				<param name="freqyspeed"	value="0.75"/>
+				<param name="freqzspeed">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="0.25"/>
+						<param name="beat" 			value="2"/>
+						<param name="hz"			value="0.25"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+				<param name="ampspeed"		value="0.2"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="-25"/>
+						<param name="beat" 			value="4"/>
+						<param name="hz"			value="10"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglParticle2D start="o:34" end="?"  id="starspar3"/>
+			<oglBitmap start="o:36" end="o:37"    id="devil">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.8"/>
+				<param name="angle"			value="15"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:37" end="o:37.5"    id="turn">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.8"/>
+				<param name="angle"			value="15"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+			<oglBitmap start="o:37.5" end="?"    id="light">
+				<param name="width"			value="1.777777"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.8"/>
+				<param name="angle"			value="15"/>
+				<param name="red">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="green"><oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+				<param name="blue">	<oglAnim><param name="mode" value="4.0"/><param name="offset" value="0.5"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<group start="o:38" end="?"  name="Part9">
+			<oglViewport start="?" end="?" >
+				<param name="width"  value="512" />
+				<param name="height" value="512" />
+			</oglViewport>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="60"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="-1"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:38" end="o:40"  id="sphere">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="ampspeed"		value="0.2"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="-25"/>
+						<param name="beat" 			value="4"/>
+						<param name="hz"			value="10"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglCubes start="o:40" end="o:42"  id="head">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="ampspeed"		value="0.1"/>
+				<param name="freqxspeed"	value="0.5"/>
+				<param name="freqyspeed"	value="0.5"/>
+				<param name="freqzspeed"	value="0.5"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="-25"/>
+						<param name="beat" 			value="4"/>
+						<param name="hz"			value="10"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglCubes start="o:42" end="o:46" >
+				<param name="mode" 	value="1"/>
+				<param name="speed" value="0.00025"/>
+			</oglCubes>
+			<oglR2T 	start="?" end="?"  id="renderTarget1"/>
+			<oglClearBuffer start="?" end="?" />
+			<oglViewport start="?" end="?" >
+				<param name="def" value="1.0"/>
+			</oglViewport>
+			<oglSkyBox start="o:38" end="?"  id="skybox2">
+				<param name="fovy" value="60"/>
+				<param name="rotx"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="roty"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="rotz"><oglAnim><param name="mode" value="0.0"/><param name="speed" value="0.0005"/></oglAnim></param>
+				<param name="red"   value="0.0"/>
+				<param name="green" value="0.0"/>
+				<param name="blue">	<oglAnim><param name="offset" value="0.5"/><param name="hz" value="0.5"/><param name="mode" value="4.0"/></oglAnim></param>
+			</oglSkyBox>
+			<oglClearBuffer start="?" end="?" >
+				<param name="color_buffer_bit" value="0"/>
+			</oglClearBuffer>
+			<oglPerspective start="?" end="?" >
+				<param name="aspect" 	value="1.777777"/>
+				<param name="fovy" 		value="60"/>
+				<param name="zNear"     value="0.01"/>
+				<param name="zFar"		value="10000"/>
+			</oglPerspective>
+			<oglFog   start="?" end="?" >
+				<param name="mode" 	value="-1"/>
+			</oglFog>
+			<oglLight   start="?" end="?" />
+			<oglCubes start="o:38" end="o:40"  id="sphere">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="ampspeed"		value="0.2"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="-25"/>
+						<param name="beat" 			value="4"/>
+						<param name="hz"			value="10"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglCubes start="o:40" end="o:42"  id="head">
+				<param name="mode" 	value="5"/>
+				<param name="speed" value="0.000005"/>
+				<param name="ampspeed"		value="0.1"/>
+				<param name="freqxspeed"	value="0.5"/>
+				<param name="freqyspeed"	value="0.5"/>
+				<param name="freqzspeed"	value="0.5"/>
+				<param name="z">
+					<oglAnim>
+						<param name="mode" 			value="4"/>
+						<param name="offset" 		value="-25"/>
+						<param name="beat" 			value="4"/>
+						<param name="hz"			value="10"/>
+						<param name="attenuation"	value="4"/>
+					</oglAnim>
+				</param>
+			</oglCubes>
+			<oglCubes start="o:42" end="o:46" >
+				<param name="mode" 	value="1"/>
+				<param name="speed" value="0.00025"/>
+			</oglCubes>
+			<oglPostProcess start="?" end="?"  source="oglR2T" id="renderTarget1">
+				<param name="mode"	value="0"/>
+				<param name="inc"	value="0.03"/>
+				<param name="times"	value="16"/>
+			</oglPostProcess>
+			<oglBitmap start="o:38" end="o:46"   >
+				<param name="width"			value="1.777777"/>
+				<param name="y_position"	value="-0.3"/>
+				<param name="height"		value="0.2"/>
+				<param name="red"			value="0.0"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.5"/>
+				<param name="alpha"			value="0.5"/>
+			</oglBitmap>
+			<oglBitmap start="o:38" end="o:46"   >
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="0.022222"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="y_position"	value="-0.5"/>
+				<param name="red"			value="0.0"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:38" end="o:46"   >
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="0.022222"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="y_position"	value="-0.1"/>
+				<param name="red"			value="0.0"/>
+				<param name="green"			value="0.0"/>
+				<param name="blue"			value="0.0"/>
+			</oglBitmap>
+			<oglBitmap start="o:38" end="o:38.8"    id="moire">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="-3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:38.8" end="o:39.6"    id="conspiracy">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="-0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:39.6" end="o:40.4"    id="epilepsy">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="-3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:40.4" end="o:41.2"    id="fresh">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="-0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:41.2" end="o:42"    id="hardread">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="-3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:42" end="o:42.8"    id="neurosis">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="-0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:42.8" end="o:43.6"    id="rebels">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="-3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:43.6" end="o:44.4"    id="singular">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="-0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:44.4" end="o:45.2"    id="suprise">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="-3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<oglBitmap start="o:45.2" end="o:46"    id="united">
+				<param name="width"			value="1.777777"/>
+				<param name="height"		value="1.0"/>
+				<param name="blend_mode"	value="3"/>
+				<param name="scale"			value="0.75"/>
+				<param name="x_position">
+					<oglAnim>
+						<param name="mode"		value="2.0"/>
+						<param name="position"	value="3.15"/>
+						<param name="hz"		value="2.8"/>
+						<param name="speed"		value="-0.000007"/>
+					</oglAnim>
+				</param>
+				<param name="y_position"	value="-0.3"/>
+			</oglBitmap>
+			<!-- FADE -->
+			<oglBitmap start="o:47" end="?"   >
+				<param name="width"			value="1.777777"/>
+				<param name="red" 	value="0"/>
+				<param name="green"	value="0"/>
+				<param name="blue" 	value="0"/>
+				<param name="alpha"><oglAnim><param name="mode" value="0.0"/><param name="offset" value="0"/><param name="speed" value="0.000005"/></oglAnim></param>
+			</oglBitmap>
+		</group>
+		<oglBitmap start="?" end="?"    id="noise">
+			<param name="width"			value="1.777777"/>
+			<param name="blend_mode"	value="2"/>
+		</oglBitmap>
+	</timeline>
+</engine>

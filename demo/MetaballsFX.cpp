@@ -63,10 +63,8 @@ void CMetaballsFX::Initialize(IDirect3DDevice8 *pDevice, char cFilename[])
 	
 	HRESULT	hr;
 
-	
-
 	m_pMetaballs = new CMetaballs();
-	m_pMetaballs->SetGridSize(64);
+	m_pMetaballs->SetGridSize(40);
 
 	CMarchingCubes::BuildTables();
 
@@ -85,7 +83,7 @@ void CMetaballsFX::Initialize(IDirect3DDevice8 *pDevice, char cFilename[])
 	if( FAILED(hr) ) return;
 
 	D3DXMATRIX Mtx;
-	D3DXMatrixPerspectiveLH(&Mtx, 0.3f, 0.3f*3/4, 0.5f, 10);
+	D3DXMatrixPerspectiveLH(&Mtx, 0.3f, 0.3f*3/4, 0.3f, 50);
 	pDev->SetTransform(D3DTS_PROJECTION, (D3DMATRIX*)&Mtx);
 	D3DXMatrixTranslation(&Mtx, 0,0,2.0f);
 	pDev->SetTransform(D3DTS_VIEW, (D3DMATRIX*)&Mtx);
@@ -111,14 +109,14 @@ void CMetaballsFX::Initialize(IDirect3DDevice8 *pDevice, char cFilename[])
 	pDev->SetMaterial(&Mat);
 
 	// Enable ligthing 
-	pDev->LightEnable(0, TRUE);
-	pDev->SetRenderState(D3DRS_SPECULARENABLE, FALSE);
+	pDev->LightEnable(0, FALSE);
+	pDev->SetRenderState(D3DRS_SPECULARENABLE, TRUE);
 
 	// Setup the lighting engine to fetch material properties from the material
-//	pDev->SetRenderState(D3DRS_DIFFUSEMATERIALSOURCE , D3DMCS_MATERIAL);
-//	pDev->SetRenderState(D3DRS_SPECULARMATERIALSOURCE, D3DMCS_MATERIAL);
-//	pDev->SetRenderState(D3DRS_AMBIENTMATERIALSOURCE , D3DMCS_MATERIAL);
-//	pDev->SetRenderState(D3DRS_EMISSIVEMATERIALSOURCE, D3DMCS_MATERIAL);
+	pDev->SetRenderState(D3DRS_DIFFUSEMATERIALSOURCE , D3DMCS_MATERIAL);
+	pDev->SetRenderState(D3DRS_SPECULARMATERIALSOURCE, D3DMCS_MATERIAL);
+	pDev->SetRenderState(D3DRS_AMBIENTMATERIALSOURCE , D3DMCS_MATERIAL);
+	pDev->SetRenderState(D3DRS_EMISSIVEMATERIALSOURCE, D3DMCS_MATERIAL);
 
 	// Setup the texture for spheremapping
 	hr = D3DXCreateTextureFromFile(pDevice, cFilename, &m_pTexture);
@@ -151,7 +149,7 @@ int CMetaballsFX::DrawScene(IDirect3DDevice8 *pDevice, long lTimer)
 
 	fDiff = (float)(0.01f+(lTimer-lLastTimer)*0.03f);
 
-	pDevice->Clear(0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, 
+	pDevice->Clear(0, NULL, D3DCLEAR_ZBUFFER, 
 				           D3DCOLOR_XRGB(24,24,24), 1.0f, 0);
 
 

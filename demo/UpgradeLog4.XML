@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="demo">
+</Property><Property Name="Solution File" Value="c:\eProjects\demo\demo.sln">
+</Property><Property Name="Date" Value="21 czerwca 2008">
+</Property><Property Name="Time" Value="00:29:27">
+</Property><Property Name="Log Number" Value="4">
+</Property></Properties><Event ErrorLevel="2" Project="demo" Source="demo.vcproj" Description="The following error has occurred during XML parsing:
+
+File: c:\eProjects\demo\demo.vcproj
+Line: 8
+Column: 3
+Error Message:
+Nieokreślony błąd.
+
+The file 'c:\eProjects\demo\demo.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="demo" Source="demo.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="demo" Source="demo.vcproj" Description="Not Converted">
+</Event></UpgradeLog>

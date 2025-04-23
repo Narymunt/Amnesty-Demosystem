@@ -1,0 +1,12 @@
+Number of files in demo.bin = 10
+Index: 
+Name: intro.jpg    Lokation: 45238    Len: 44954    OLen: 46037    Compr: 2 
+Name: napis1.tga   Lokation: 51835    Len: 6597     OLen: 262188   Compr: 2 
+Name: flara1.tga   Lokation: 111826   Len: 59991    OLen: 262162   Compr: 2 
+Name: pengo.tga    Lokation: 119602   Len: 7776     OLen: 393234   Compr: 2 
+Name: back002.jpg  Lokation: 170663   Len: 51061    OLen: 52348    Compr: 2 
+Name: ramka1.tga   Lokation: 420794   Len: 250131   OLen: 1920018  Compr: 2 
+Name: pic0.jpg     Lokation: 439634   Len: 18840    OLen: 24036    Compr: 2 
+Name: pic1.jpg     Lokation: 450717   Len: 11083    OLen: 13617    Compr: 2 
+Name: pic2.jpg     Lokation: 464331   Len: 13614    OLen: 18459    Compr: 2 
+Name: pic3.jpg     Lokation: 482782   Len: 18451    OLen: 22573    Compr: 2 

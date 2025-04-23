@@ -1,51 +1,30 @@
+#ifndef _TEXTURE_H
+#define _TEXTURE_H
 
+#include <windows.h>
+#include <stdio.h>
+#include <mmsystem.h>
+#include <math.h>
+#include <d3d8.h>
 #include <d3dx8.h>
+#include <dmusicc.h>
+#include <dmusici.h>
+#include <ctype.h>
 
-enum TEXTUREERRORCODES
-{
-	TEXERR_NOTINITIALIZED,
-	TEXERR_NOFILEPRESENT,
-	TEXERR_FILEFORMATERR,
-	TEXERR_UNABLETOLOAD
-};
+#include "init.h"
+#include "Image.h"
 
-class CTextureException
+class texture  
 {
 public:
+	int load( char* filename, int repeat=0, int filter=3, int compression=0,IDirect3DDevice8 *pd=NULL );
+	int load( Image &im, int repeat=0, int filter=3, int compression=0,IDirect3DDevice8 *pd=NULL );
+	void SetTexture(int Stage=0, IDirect3DDevice8 *pd=NULL){pd->SetTexture( Stage, pt );}
 
-	DWORD			code;
+	LPDIRECT3DTEXTURE8 pt;
 
-public:
-
-	CTextureException( DWORD _code ) : code( _code )
-	{
-	}
+	texture();
+	virtual ~texture();
 };
 
-enum AUTOALPHASTATE
-{
-	AAS_ALPHALOADED,
-	AAS_ALPHANOTLOADED
-};
-
-enum MIPMAPS
-{
-	MIP_NONE	= 1,
-	MIP_ALL		= 0,
-	MIP_ONE		= 2,
-	MIP_TWO		= 3,
-	MIP_TREE	= 4
-};
-
-void InitializeTextureSystem( PDIRECT3DDEVICE8 pdevice, DWORD format = D3DFMT_A8R8G8B8 );
-void CloseTextureSystem();
-int LoadTextureAutoAlpha( const char* filename, DWORD dwMip = MIP_NONE );
-void LoadTexture( const char* filename, DWORD dwMip = MIP_NONE );
-void LoadAlphaToTexture( const char* filename, const char* texturename );
-void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWORD dwMip = MIP_NONE );
-void LoadAlphaTexture( const char* filename );
-void DeleteTexture( const char* name );
-PDIRECT3DTEXTURE8 GetTexture( const char* name );
-void SetTexturePath( const char* path );
-
-
+#endif // _TEXTURE_H
