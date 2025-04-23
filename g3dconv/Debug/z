@@ -1,0 +1,72 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading BECK2.3DS file
+....material APE loaded
+....material ASPHALT loaded
+....material BRASS loaded
+....mesh OBJECT11 loaded
+....mesh RURA loaded
+....mesh PODLOGA loaded
+....mesh RURA1 loaded
+....mesh SUFIT loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh BIG loaded
+....keyframer of mesh OBJECT11 loaded
+....keyframer of mesh RURA loaded
+....keyframer of mesh PODLOGA loaded
+....keyframer of mesh RURA1 loaded
+....keyframer of mesh SUFIT loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of mesh BIG loaded
+
+....saving beck2.fox file
+....material APE saved
+	  + texture file name: APE.CEL
+....material ASPHALT saved
+	  + texture file name: ASPHALT.JPG
+....material BRASS saved
+	  + texture file name: (null)
+....mesh OBJECT11 saved
+     + number of vertices: 192
+     + number of faces: 438
+     + number of group: 1
+....mesh RURA saved
+     + number of vertices: 216
+     + number of faces: 428
+     + number of group: 1
+....mesh PODLOGA saved
+     + number of vertices: 289
+     + number of faces: 512
+     + number of group: 1
+....mesh RURA1 saved
+     + number of vertices: 204
+     + number of faces: 404
+     + number of group: 1
+....mesh SUFIT saved
+     + number of vertices: 65
+     + number of faces: 126
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [-1307.30,661.43,-316.43]
+     + fov: 50.00
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [-456.52,347.25,-715.56]
+....mesh BIG saved
+     + number of vertices: 252
+     + number of faces: 500
+     + number of group: 1
+....keyframer tree saved
+     + node: OBJECT11 (mesh)
+     + node: RURA (mesh)
+     + node: PODLOGA (mesh)
+     + node: RURA1 (mesh)
+     + node: SUFIT (mesh)
+     + node: CAMERA01.TARGET (target)
+     + node: CAMERA01 (camera)
+     + node: BIG (mesh)

@@ -1,0 +1,144 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading FORGO.3DS file
+....material MATERIAL #1 loaded
+....material MATERIAL #2 loaded
+....mesh TUBE04 loaded
+....mesh TUBE03 loaded
+....mesh TUBE02 loaded
+....mesh TUBE01 loaded
+....mesh CYLINDER01 loaded
+....mesh CYLINDER02 loaded
+....mesh CYLINDER03 loaded
+....mesh CYLINDER04 loaded
+....mesh CYLINDER06 loaded
+....mesh CYLINDER05 loaded
+....mesh CYLINDER07 loaded
+....mesh CYLINDER08 loaded
+....mesh SPHERE01 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh CYLINDER09 loaded
+....mesh CYLINDER10 loaded
+....camera CAMERA02 loaded
+....target CAMERA02.TARGET loaded
+....keyframer of mesh TUBE04 loaded
+....keyframer of mesh TUBE03 loaded
+....keyframer of mesh TUBE02 loaded
+....keyframer of mesh TUBE01 loaded
+....keyframer of mesh CYLINDER01 loaded
+....keyframer of mesh CYLINDER02 loaded
+....keyframer of mesh CYLINDER03 loaded
+....keyframer of mesh CYLINDER04 loaded
+....keyframer of mesh CYLINDER06 loaded
+....keyframer of mesh CYLINDER05 loaded
+....keyframer of mesh CYLINDER07 loaded
+....keyframer of mesh CYLINDER08 loaded
+....keyframer of mesh SPHERE01 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of mesh CYLINDER09 loaded
+....keyframer of mesh CYLINDER10 loaded
+....keyframer of camera CAMERA02 loaded
+....keyframer of target CAMERA02.TARGET loaded
+
+....saving forgo.fox file
+....material MATERIAL #1 saved
+	  + texture file name: FORGO.BMP
+....material MATERIAL #2 saved
+	  + texture file name: PADLO2.BMP
+....mesh TUBE04 saved
+     + number of vertices: 274
+     + number of faces: 384
+     + number of group: 1
+....mesh TUBE03 saved
+     + number of vertices: 274
+     + number of faces: 384
+     + number of group: 1
+....mesh TUBE02 saved
+     + number of vertices: 274
+     + number of faces: 384
+     + number of group: 1
+....mesh TUBE01 saved
+     + number of vertices: 274
+     + number of faces: 384
+     + number of group: 1
+....mesh CYLINDER01 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER02 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER03 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER04 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER06 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER05 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER07 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER08 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh SPHERE01 saved
+     + number of vertices: 588
+     + number of faces: 960
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [-22.04,-5.16,-113.37]
+     + fov: 25.89
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [0.00,0.00,0.00]
+....mesh CYLINDER09 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....mesh CYLINDER10 saved
+     + number of vertices: 15
+     + number of faces: 16
+     + number of group: 1
+....camera CAMERA02 saved
+     + position: [-12.58,-29.80,0.00]
+     + fov: 23.15
+     + roll: 0.00
+....target CAMERA02.TARGET saved
+     + position: [0.00,0.00,0.00]
+....keyframer tree saved
+     + node: TUBE04 (mesh)
+      + node: TUBE03 (mesh)
+       + node: TUBE02 (mesh)
+        + node: TUBE01 (mesh)
+         + node: CYLINDER01 (mesh)
+         + node: CYLINDER02 (mesh)
+        + node: CYLINDER03 (mesh)
+        + node: CYLINDER04 (mesh)
+       + node: CYLINDER06 (mesh)
+       + node: CYLINDER05 (mesh)
+      + node: CYLINDER07 (mesh)
+      + node: CYLINDER08 (mesh)
+     + node: SPHERE01 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
+     + node: CYLINDER09 (mesh)
+     + node: CYLINDER10 (mesh)
+     + node: CAMERA02 (camera)
+     + node: CAMERA02.TARGET (target)

@@ -1,0 +1,213 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading BOX.3DS file
+....material MATERIAL #7 loaded
+....mesh BOX01 loaded
+....mesh BOX02 loaded
+....mesh BOX03 loaded
+....mesh BOX04 loaded
+....mesh BOX05 loaded
+....mesh BOX06 loaded
+....mesh BOX07 loaded
+....mesh BOX08 loaded
+....mesh BOX09 loaded
+....mesh BOX10 loaded
+....mesh BOX11 loaded
+....mesh BOX12 loaded
+....mesh BOX13 loaded
+....mesh BOX14 loaded
+....mesh BOX15 loaded
+....mesh BOX16 loaded
+....mesh BOX17 loaded
+....mesh BOX18 loaded
+....mesh BOX19 loaded
+....mesh BOX20 loaded
+....mesh BOX21 loaded
+....mesh BOX22 loaded
+....mesh BOX23 loaded
+....mesh BOX24 loaded
+....mesh BOX25 loaded
+....mesh BOX26 loaded
+....mesh BOX27 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....keyframer of mesh BOX01 loaded
+....keyframer of mesh BOX02 loaded
+....keyframer of mesh BOX03 loaded
+....keyframer of mesh BOX04 loaded
+....keyframer of mesh BOX05 loaded
+....keyframer of mesh BOX06 loaded
+....keyframer of mesh BOX07 loaded
+....keyframer of mesh BOX08 loaded
+....keyframer of mesh BOX09 loaded
+....keyframer of mesh BOX10 loaded
+....keyframer of mesh BOX11 loaded
+....keyframer of mesh BOX12 loaded
+....keyframer of mesh BOX13 loaded
+....keyframer of mesh BOX14 loaded
+....keyframer of mesh BOX15 loaded
+....keyframer of mesh BOX16 loaded
+....keyframer of mesh BOX17 loaded
+....keyframer of mesh BOX18 loaded
+....keyframer of mesh BOX19 loaded
+....keyframer of mesh BOX20 loaded
+....keyframer of mesh BOX21 loaded
+....keyframer of mesh BOX22 loaded
+....keyframer of mesh BOX23 loaded
+....keyframer of mesh BOX24 loaded
+....keyframer of mesh BOX25 loaded
+....keyframer of mesh BOX26 loaded
+....keyframer of mesh BOX27 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+
+....saving boxes.fox file
+....material MATERIAL #7 saved
+	  + texture file name: BLUETEX.JPG
+....mesh BOX01 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX02 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX03 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX04 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX05 saved
+     + number of vertices: 31
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX06 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX07 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX08 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX09 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX10 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX11 saved
+     + number of vertices: 31
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX12 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX13 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX14 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX15 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX16 saved
+     + number of vertices: 31
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX17 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX18 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX19 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX20 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX21 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX22 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX23 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX24 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX25 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX26 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX27 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [-403.91,309.76,775.91]
+     + fov: 53.33
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [0.00,0.00,0.00]
+....keyframer tree saved
+     + node: BOX01 (mesh)
+     + node: BOX02 (mesh)
+     + node: BOX03 (mesh)
+     + node: BOX04 (mesh)
+     + node: BOX05 (mesh)
+     + node: BOX06 (mesh)
+     + node: BOX07 (mesh)
+     + node: BOX08 (mesh)
+     + node: BOX09 (mesh)
+     + node: BOX10 (mesh)
+     + node: BOX11 (mesh)
+     + node: BOX12 (mesh)
+     + node: BOX13 (mesh)
+     + node: BOX14 (mesh)
+     + node: BOX15 (mesh)
+     + node: BOX16 (mesh)
+     + node: BOX17 (mesh)
+     + node: BOX18 (mesh)
+     + node: BOX19 (mesh)
+     + node: BOX20 (mesh)
+     + node: BOX21 (mesh)
+     + node: BOX22 (mesh)
+     + node: BOX23 (mesh)
+     + node: BOX24 (mesh)
+     + node: BOX25 (mesh)
+     + node: BOX26 (mesh)
+     + node: BOX27 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)

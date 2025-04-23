@@ -1,0 +1,99 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading mobius.3DS file
+....material MATERIAL #1 loaded
+....mesh MOEBIUS01 loaded
+....mesh MOEBIUS02 loaded
+....mesh MOEBIUS03 loaded
+....mesh MOEBIUS04 loaded
+....mesh MOEBIUS05 loaded
+....mesh MOEBIUS06 loaded
+....mesh MOEBIUS07 loaded
+....mesh MOEBIUS09 loaded
+....mesh MOEBIUS10 loaded
+....mesh MOEBIUS08 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....light OMNI01 loaded
+....keyframer of mesh MOEBIUS01 loaded
+....keyframer of mesh MOEBIUS02 loaded
+....keyframer of mesh MOEBIUS03 loaded
+....keyframer of mesh MOEBIUS04 loaded
+....keyframer of mesh MOEBIUS05 loaded
+....keyframer of mesh MOEBIUS06 loaded
+....keyframer of mesh MOEBIUS07 loaded
+....keyframer of mesh MOEBIUS09 loaded
+....keyframer of mesh MOEBIUS10 loaded
+....keyframer of mesh MOEBIUS08 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of light OMNI01 loaded
+
+....saving mobius.fox file
+....material MATERIAL #1 saved
+	  + texture file name: 1234567.JPG
+....mesh MOEBIUS01 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS02 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS03 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS04 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS05 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS06 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS07 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS09 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS10 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....mesh MOEBIUS08 saved
+     + number of vertices: 147
+     + number of faces: 308
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [574.64,-85.53,821.64]
+     + fov: 16.48
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [1139.84,-5.37,861.25]
+....light OMNI01 saved
+     + position: [569.19,-55.39,762.41]
+....keyframer tree saved
+     + node: MOEBIUS01 (mesh)
+     + node: MOEBIUS02 (mesh)
+     + node: MOEBIUS03 (mesh)
+     + node: MOEBIUS04 (mesh)
+     + node: MOEBIUS05 (mesh)
+     + node: MOEBIUS06 (mesh)
+     + node: MOEBIUS07 (mesh)
+     + node: MOEBIUS09 (mesh)
+     + node: MOEBIUS10 (mesh)
+     + node: MOEBIUS08 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
+     + node: OMNI01 (light)

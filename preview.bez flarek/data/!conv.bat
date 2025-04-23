@@ -1,0 +1,1 @@
+g3dconv scene.3ds scene.3d > scene.log

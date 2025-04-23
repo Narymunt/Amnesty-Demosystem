@@ -1,0 +1,92 @@
+
+....loading scene.3ds file
+....material 256X256 loaded
+....material TRIPAT loaded
+....light FLARE loaded
+....light FLARE01 loaded
+....mesh ROOM loaded
+....light GLOW loaded
+....light LIGHT01 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh SPIK loaded
+....mesh B loaded
+....mesh B01 loaded
+....mesh B02 loaded
+....mesh B03 loaded
+....mesh B04 loaded
+....keyframer of light FLARE loaded
+....keyframer of light FLARE01 loaded
+....keyframer of mesh ROOM loaded
+....keyframer of light GLOW loaded
+....keyframer of light LIGHT01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of mesh SPIK loaded
+....keyframer of mesh B loaded
+....keyframer of mesh B01 loaded
+....keyframer of mesh B02 loaded
+....keyframer of mesh B03 loaded
+....keyframer of mesh B04 loaded
+
+....saving scene.3d file
+....material 256X256 saved
+	  + texture file name: #256.GIF
+....material TRIPAT saved
+	  + texture file name: TRIPAT.GIF
+....light FLARE saved
+     + position: [110.00,0.00,0.00]
+....light FLARE01 saved
+     + position: [-130.00,-10.00,0.00]
+....mesh ROOM saved
+     + number of vertices: 171
+     + number of faces: 324
+     + number of group: 1
+....light GLOW saved
+     + position: [0.00,0.00,-100.00]
+....light LIGHT01 saved
+     + position: [-20.00,0.00,140.00]
+....camera CAMERA01 saved
+     + position: [-112.29,-30.26,-119.83]
+     + fov: 19.90
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [-10.00,0.00,20.00]
+....mesh SPIK saved
+     + number of vertices: 456
+     + number of faces: 908
+     + number of group: 1
+....mesh B saved
+     + number of vertices: 26
+     + number of faces: 48
+     + number of group: 1
+....mesh B01 saved
+     + number of vertices: 26
+     + number of faces: 48
+     + number of group: 1
+....mesh B02 saved
+     + number of vertices: 26
+     + number of faces: 48
+     + number of group: 1
+....mesh B03 saved
+     + number of vertices: 26
+     + number of faces: 48
+     + number of group: 1
+....mesh B04 saved
+     + number of vertices: 26
+     + number of faces: 48
+     + number of group: 1
+....keyframer tree saved
+     + node: FLARE (light)
+     + node: FLARE01 (light)
+     + node: ROOM (mesh)
+     + node: GLOW (light)
+     + node: LIGHT01 (light)
+     + node: CAMERA01.TARGET (target)
+     + node: CAMERA01 (camera)
+     + node: SPIK (mesh)
+     + node: B (mesh)
+     + node: B01 (mesh)
+     + node: B02 (mesh)
+     + node: B03 (mesh)
+     + node: B04 (mesh)

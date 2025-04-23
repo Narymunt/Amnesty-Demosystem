@@ -1,0 +1,484 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading KOCKA.3DS file
+....material KOCKA loaded
+....mesh BOX01 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh BOX02 loaded
+....mesh BOX03 loaded
+....mesh BOX04 loaded
+....mesh BOX05 loaded
+....mesh BOX06 loaded
+....mesh BOX07 loaded
+....mesh BOX08 loaded
+....mesh BOX09 loaded
+....mesh BOX10 loaded
+....mesh BOX11 loaded
+....mesh BOX12 loaded
+....mesh BOX13 loaded
+....mesh BOX14 loaded
+....mesh BOX15 loaded
+....mesh BOX16 loaded
+....mesh BOX17 loaded
+....mesh BOX18 loaded
+....mesh BOX19 loaded
+....mesh BOX20 loaded
+....mesh BOX21 loaded
+....mesh BOX22 loaded
+....mesh BOX23 loaded
+....mesh BOX24 loaded
+....mesh BOX25 loaded
+....mesh BOX26 loaded
+....mesh BOX27 loaded
+....mesh BOX28 loaded
+....mesh BOX29 loaded
+....mesh BOX30 loaded
+....mesh BOX31 loaded
+....mesh BOX32 loaded
+....mesh BOX33 loaded
+....mesh BOX34 loaded
+....mesh BOX35 loaded
+....mesh BOX36 loaded
+....mesh BOX37 loaded
+....mesh BOX38 loaded
+....mesh BOX39 loaded
+....mesh BOX40 loaded
+....mesh BOX41 loaded
+....mesh BOX42 loaded
+....mesh BOX43 loaded
+....mesh BOX44 loaded
+....mesh BOX45 loaded
+....mesh BOX46 loaded
+....mesh BOX47 loaded
+....mesh BOX48 loaded
+....mesh BOX49 loaded
+....mesh BOX50 loaded
+....mesh BOX51 loaded
+....mesh BOX52 loaded
+....mesh BOX53 loaded
+....mesh BOX54 loaded
+....mesh BOX55 loaded
+....mesh BOX56 loaded
+....mesh BOX57 loaded
+....mesh BOX58 loaded
+....mesh BOX59 loaded
+....mesh BOX60 loaded
+....mesh BOX61 loaded
+....mesh BOX62 loaded
+....mesh BOX63 loaded
+....mesh BOX64 loaded
+....camera CAMERA02 loaded
+....target CAMERA02.TARGET loaded
+....keyframer of mesh BOX01 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of mesh BOX02 loaded
+....keyframer of mesh BOX03 loaded
+....keyframer of mesh BOX04 loaded
+....keyframer of mesh BOX05 loaded
+....keyframer of mesh BOX06 loaded
+....keyframer of mesh BOX07 loaded
+....keyframer of mesh BOX08 loaded
+....keyframer of mesh BOX09 loaded
+....keyframer of mesh BOX10 loaded
+....keyframer of mesh BOX11 loaded
+....keyframer of mesh BOX12 loaded
+....keyframer of mesh BOX13 loaded
+....keyframer of mesh BOX14 loaded
+....keyframer of mesh BOX15 loaded
+....keyframer of mesh BOX16 loaded
+....keyframer of mesh BOX17 loaded
+....keyframer of mesh BOX18 loaded
+....keyframer of mesh BOX19 loaded
+....keyframer of mesh BOX20 loaded
+....keyframer of mesh BOX21 loaded
+....keyframer of mesh BOX22 loaded
+....keyframer of mesh BOX23 loaded
+....keyframer of mesh BOX24 loaded
+....keyframer of mesh BOX25 loaded
+....keyframer of mesh BOX26 loaded
+....keyframer of mesh BOX27 loaded
+....keyframer of mesh BOX28 loaded
+....keyframer of mesh BOX29 loaded
+....keyframer of mesh BOX30 loaded
+....keyframer of mesh BOX31 loaded
+....keyframer of mesh BOX32 loaded
+....keyframer of mesh BOX33 loaded
+....keyframer of mesh BOX34 loaded
+....keyframer of mesh BOX35 loaded
+....keyframer of mesh BOX36 loaded
+....keyframer of mesh BOX37 loaded
+....keyframer of mesh BOX38 loaded
+....keyframer of mesh BOX39 loaded
+....keyframer of mesh BOX40 loaded
+....keyframer of mesh BOX41 loaded
+....keyframer of mesh BOX42 loaded
+....keyframer of mesh BOX43 loaded
+....keyframer of mesh BOX44 loaded
+....keyframer of mesh BOX45 loaded
+....keyframer of mesh BOX46 loaded
+....keyframer of mesh BOX47 loaded
+....keyframer of mesh BOX48 loaded
+....keyframer of mesh BOX49 loaded
+....keyframer of mesh BOX50 loaded
+....keyframer of mesh BOX51 loaded
+....keyframer of mesh BOX52 loaded
+....keyframer of mesh BOX53 loaded
+....keyframer of mesh BOX54 loaded
+....keyframer of mesh BOX55 loaded
+....keyframer of mesh BOX56 loaded
+....keyframer of mesh BOX57 loaded
+....keyframer of mesh BOX58 loaded
+....keyframer of mesh BOX59 loaded
+....keyframer of mesh BOX60 loaded
+....keyframer of mesh BOX61 loaded
+....keyframer of mesh BOX62 loaded
+....keyframer of mesh BOX63 loaded
+....keyframer of mesh BOX64 loaded
+....keyframer of camera CAMERA02 loaded
+....keyframer of target CAMERA02.TARGET loaded
+
+....saving kocka.fox file
+....material KOCKA saved
+	  + texture file name: 1234567.JPG
+....mesh BOX01 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [0.00,0.00,-552.00]
+     + fov: 60.00
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [0.00,0.00,0.00]
+....mesh BOX02 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX03 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX04 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX05 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX06 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX07 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX08 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX09 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX10 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX11 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX12 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX13 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX14 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX15 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX16 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX17 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX18 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX19 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX20 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX21 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX22 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX23 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX24 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX25 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX26 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX27 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX28 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX29 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX30 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX31 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX32 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX33 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX34 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX35 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX36 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX37 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX38 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX39 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX40 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX41 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX42 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX43 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX44 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX45 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX46 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX47 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX48 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX49 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX50 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX51 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX52 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX53 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX54 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX55 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX56 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX57 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX58 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX59 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX60 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX61 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX62 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX63 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX64 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....camera CAMERA02 saved
+     + position: [0.00,0.00,-500.00]
+     + fov: 10.00
+     + roll: 0.00
+....target CAMERA02.TARGET saved
+     + position: [0.00,0.00,0.00]
+....keyframer tree saved
+     + node: BOX01 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
+     + node: BOX02 (mesh)
+     + node: BOX03 (mesh)
+     + node: BOX04 (mesh)
+     + node: BOX05 (mesh)
+     + node: BOX06 (mesh)
+     + node: BOX07 (mesh)
+     + node: BOX08 (mesh)
+     + node: BOX09 (mesh)
+     + node: BOX10 (mesh)
+     + node: BOX11 (mesh)
+     + node: BOX12 (mesh)
+     + node: BOX13 (mesh)
+     + node: BOX14 (mesh)
+     + node: BOX15 (mesh)
+     + node: BOX16 (mesh)
+     + node: BOX17 (mesh)
+     + node: BOX18 (mesh)
+     + node: BOX19 (mesh)
+     + node: BOX20 (mesh)
+     + node: BOX21 (mesh)
+     + node: BOX22 (mesh)
+     + node: BOX23 (mesh)
+     + node: BOX24 (mesh)
+     + node: BOX25 (mesh)
+     + node: BOX26 (mesh)
+     + node: BOX27 (mesh)
+     + node: BOX28 (mesh)
+     + node: BOX29 (mesh)
+     + node: BOX30 (mesh)
+     + node: BOX31 (mesh)
+     + node: BOX32 (mesh)
+     + node: BOX33 (mesh)
+     + node: BOX34 (mesh)
+     + node: BOX35 (mesh)
+     + node: BOX36 (mesh)
+     + node: BOX37 (mesh)
+     + node: BOX38 (mesh)
+     + node: BOX39 (mesh)
+     + node: BOX40 (mesh)
+     + node: BOX41 (mesh)
+     + node: BOX42 (mesh)
+     + node: BOX43 (mesh)
+     + node: BOX44 (mesh)
+     + node: BOX45 (mesh)
+     + node: BOX46 (mesh)
+     + node: BOX47 (mesh)
+     + node: BOX48 (mesh)
+     + node: BOX49 (mesh)
+     + node: BOX50 (mesh)
+     + node: BOX51 (mesh)
+     + node: BOX52 (mesh)
+     + node: BOX53 (mesh)
+     + node: BOX54 (mesh)
+     + node: BOX55 (mesh)
+     + node: BOX56 (mesh)
+     + node: BOX57 (mesh)
+     + node: BOX58 (mesh)
+     + node: BOX59 (mesh)
+     + node: BOX60 (mesh)
+     + node: BOX61 (mesh)
+     + node: BOX62 (mesh)
+     + node: BOX63 (mesh)
+     + node: BOX64 (mesh)
+     + node: CAMERA02 (camera)
+     + node: CAMERA02.TARGET (target)

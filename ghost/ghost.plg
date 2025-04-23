@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ghost - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1B9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GHOST_EXPORTS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\eProjects\ghost\Source\Sprite.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1B9.tmp" 
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib d3d8.lib d3dx8d.lib strmiids.lib dxguid.lib /nologo /dll /incremental:yes /pdb:"Debug/ghost.pdb" /debug /machine:I386 /out:"Debug/ghost.dll" /implib:"Debug/ghost.lib" /pdbtype:sept 
+.\Debug\Audio.obj
+.\Debug\Button.obj
+.\Debug\Drag3Button.obj
+.\Debug\DragButton.obj
+.\Debug\Event.obj
+.\Debug\EventEVT.obj
+.\Debug\EVTSound.obj
+.\Debug\FileSystem.obj
+.\Debug\Font.obj
+.\Debug\ghost.obj
+.\Debug\Mask16.obj
+.\Debug\Mask24.obj
+.\Debug\Mask32.obj
+.\Debug\Mask8.obj
+.\Debug\Mouse.obj
+.\Debug\SinTable.obj
+.\Debug\Sound.obj
+.\Debug\Sprite.obj
+.\Debug\Suwak.obj
+.\Debug\YTable.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BA.tmp"
+<h3>Output Window</h3>
+Compiling...
+Sprite.cpp
+c:\eprojects\ghost\source\sprite.cpp(320) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+Linking...
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BB.tmp" with contents
+[
+/nologo /o"Debug/ghost.bsc" 
+.\Debug\Audio.sbr
+.\Debug\Button.sbr
+.\Debug\Drag3Button.sbr
+.\Debug\DragButton.sbr
+.\Debug\Event.sbr
+.\Debug\EventEVT.sbr
+.\Debug\EVTSound.sbr
+.\Debug\FileSystem.sbr
+.\Debug\Font.sbr
+.\Debug\ghost.sbr
+.\Debug\Mask16.sbr
+.\Debug\Mask24.sbr
+.\Debug\Mask32.sbr
+.\Debug\Mask8.sbr
+.\Debug\Mouse.sbr
+.\Debug\SinTable.sbr
+.\Debug\Sound.sbr
+.\Debug\Sprite.sbr
+.\Debug\Suwak.sbr
+.\Debug\YTable.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BB.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BC.bat" with contents
+[
+@echo off
+copy           debug\ghost.dll           c:\windows\
+copy           debug\ghost.lib           c:\windows\
+]
+Creating command line "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP1BC.bat"
+
+Liczba skopiowanych plik¢w:         1.
+Liczba skopiowanych plik¢w:         1.
+
+
+
+<h3>Results</h3>
+ghost.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

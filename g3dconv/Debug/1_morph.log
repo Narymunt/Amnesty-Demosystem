@@ -1,0 +1,325 @@
+....helium3d scene converter utility (.3ds to .scene)
+....helium3d (c) 2000-2001 acid.z51
+....usage: he3d_3ds2scene in.3ds out.scene [scale]
+....usage: he3d_3ds2scene in.3ds -extract meshname [outfilename]
+
+....loading 1_morph.3DS file
+....material CSAP loaded
+....mesh CHAMFERBOX loaded
+....mesh CHAMFERBO0 loaded
+....mesh CHAMFERBO1 loaded
+....mesh CHAMFERBO2 loaded
+....mesh CHAMFERBO3 loaded
+....mesh CHAMFERBO4 loaded
+....mesh CHAMFERBO5 loaded
+....mesh CHAMFERBO6 loaded
+....mesh CHAMFERBO7 loaded
+....mesh CHAMFERBO8 loaded
+....mesh CHAMFERBO9 loaded
+....mesh CHAMFERB10 loaded
+....mesh CHAMFERB11 loaded
+....mesh CHAMFERB12 loaded
+....mesh CHAMFERB13 loaded
+....mesh CHAMFERB14 loaded
+....mesh CHAMFERB15 loaded
+....mesh CHAMFERB16 loaded
+....mesh CHAMFERB17 loaded
+....mesh CHAMFERB18 loaded
+....mesh CHAMFERB19 loaded
+....mesh CHAMFERB20 loaded
+....mesh CHAMFERB21 loaded
+....mesh CHAMFERB22 loaded
+....mesh CHAMFERB23 loaded
+....mesh CHAMFERB24 loaded
+....mesh CHAMFERB25 loaded
+....mesh CHAMFERB26 loaded
+....mesh CHAMFERB27 loaded
+....mesh CHAMFERB28 loaded
+....mesh CHAMFERB29 loaded
+....mesh CHAMFERB30 loaded
+....mesh CHAMFERB31 loaded
+....mesh CHAMFERB32 loaded
+....mesh CHAMFERB33 loaded
+....mesh CHAMFERB34 loaded
+....mesh CHAMFERB35 loaded
+....mesh CHAMFERB36 loaded
+....mesh CHAMFERB37 loaded
+....mesh CHAMFERB38 loaded
+....mesh CHAMFERB39 loaded
+....mesh CHAMFERB40 loaded
+....mesh CHAMFERB41 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....keyframer of mesh CHAMFERBOX loaded
+....keyframer of mesh CHAMFERBO0 loaded
+....keyframer of mesh CHAMFERBO1 loaded
+....keyframer of mesh CHAMFERBO2 loaded
+....keyframer of mesh CHAMFERBO3 loaded
+....keyframer of mesh CHAMFERBO4 loaded
+....keyframer of mesh CHAMFERBO5 loaded
+....keyframer of mesh CHAMFERBO6 loaded
+....keyframer of mesh CHAMFERBO7 loaded
+....keyframer of mesh CHAMFERBO8 loaded
+....keyframer of mesh CHAMFERBO9 loaded
+....keyframer of mesh CHAMFERB10 loaded
+....keyframer of mesh CHAMFERB11 loaded
+....keyframer of mesh CHAMFERB12 loaded
+....keyframer of mesh CHAMFERB13 loaded
+....keyframer of mesh CHAMFERB14 loaded
+....keyframer of mesh CHAMFERB15 loaded
+....keyframer of mesh CHAMFERB16 loaded
+....keyframer of mesh CHAMFERB17 loaded
+....keyframer of mesh CHAMFERB18 loaded
+....keyframer of mesh CHAMFERB19 loaded
+....keyframer of mesh CHAMFERB20 loaded
+....keyframer of mesh CHAMFERB21 loaded
+....keyframer of mesh CHAMFERB22 loaded
+....keyframer of mesh CHAMFERB23 loaded
+....keyframer of mesh CHAMFERB24 loaded
+....keyframer of mesh CHAMFERB25 loaded
+....keyframer of mesh CHAMFERB26 loaded
+....keyframer of mesh CHAMFERB27 loaded
+....keyframer of mesh CHAMFERB28 loaded
+....keyframer of mesh CHAMFERB29 loaded
+....keyframer of mesh CHAMFERB30 loaded
+....keyframer of mesh CHAMFERB31 loaded
+....keyframer of mesh CHAMFERB32 loaded
+....keyframer of mesh CHAMFERB33 loaded
+....keyframer of mesh CHAMFERB34 loaded
+....keyframer of mesh CHAMFERB35 loaded
+....keyframer of mesh CHAMFERB36 loaded
+....keyframer of mesh CHAMFERB37 loaded
+....keyframer of mesh CHAMFERB38 loaded
+....keyframer of mesh CHAMFERB39 loaded
+....keyframer of mesh CHAMFERB40 loaded
+....keyframer of mesh CHAMFERB41 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+
+....saving 1_morph.out file
+....material CSAP saved
+	  + texture file name: 1234567.JPG
+....mesh CHAMFERBOX saved
+     + number of vertices: 77
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO0 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO1 saved
+     + number of vertices: 43
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO2 saved
+     + number of vertices: 43
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO3 saved
+     + number of vertices: 39
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO4 saved
+     + number of vertices: 39
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO5 saved
+     + number of vertices: 39
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO6 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO7 saved
+     + number of vertices: 39
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO8 saved
+     + number of vertices: 39
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERBO9 saved
+     + number of vertices: 42
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB10 saved
+     + number of vertices: 42
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB11 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB12 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB13 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB14 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB15 saved
+     + number of vertices: 36
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB16 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB17 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB18 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB19 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB20 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB21 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB22 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB23 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB24 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB25 saved
+     + number of vertices: 37
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB26 saved
+     + number of vertices: 36
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB27 saved
+     + number of vertices: 31
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB28 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB29 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB30 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB31 saved
+     + number of vertices: 36
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB32 saved
+     + number of vertices: 36
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB33 saved
+     + number of vertices: 36
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB34 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB35 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB36 saved
+     + number of vertices: 34
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB37 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB38 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB39 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB40 saved
+     + number of vertices: 35
+     + number of faces: 44
+     + number of group: 1
+....mesh CHAMFERB41 saved
+     + number of vertices: 32
+     + number of faces: 44
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [300.97,-274.94,-45.75]
+     + fov: 25.33
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [-29.97,-216.54,75.37]
+....keyframer tree saved
+     + node: CHAMFERBOX (mesh)
+      + node: CHAMFERBO0 (mesh)
+       + node: CHAMFERBO1 (mesh)
+        + node: CHAMFERBO2 (mesh)
+         + node: CHAMFERBO3 (mesh)
+          + node: CHAMFERBO4 (mesh)
+           + node: CHAMFERBO5 (mesh)
+            + node: CHAMFERBO6 (mesh)
+      + node: CHAMFERBO7 (mesh)
+       + node: CHAMFERBO8 (mesh)
+        + node: CHAMFERBO9 (mesh)
+         + node: CHAMFERB10 (mesh)
+          + node: CHAMFERB11 (mesh)
+           + node: CHAMFERB12 (mesh)
+            + node: CHAMFERB13 (mesh)
+      + node: CHAMFERB14 (mesh)
+       + node: CHAMFERB15 (mesh)
+        + node: CHAMFERB16 (mesh)
+         + node: CHAMFERB17 (mesh)
+          + node: CHAMFERB18 (mesh)
+           + node: CHAMFERB19 (mesh)
+            + node: CHAMFERB20 (mesh)
+      + node: CHAMFERB21 (mesh)
+       + node: CHAMFERB22 (mesh)
+        + node: CHAMFERB23 (mesh)
+         + node: CHAMFERB24 (mesh)
+          + node: CHAMFERB25 (mesh)
+           + node: CHAMFERB26 (mesh)
+            + node: CHAMFERB27 (mesh)
+      + node: CHAMFERB28 (mesh)
+       + node: CHAMFERB29 (mesh)
+        + node: CHAMFERB30 (mesh)
+         + node: CHAMFERB31 (mesh)
+          + node: CHAMFERB32 (mesh)
+           + node: CHAMFERB33 (mesh)
+            + node: CHAMFERB34 (mesh)
+      + node: CHAMFERB35 (mesh)
+       + node: CHAMFERB36 (mesh)
+        + node: CHAMFERB37 (mesh)
+         + node: CHAMFERB38 (mesh)
+          + node: CHAMFERB39 (mesh)
+           + node: CHAMFERB40 (mesh)
+            + node: CHAMFERB41 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
