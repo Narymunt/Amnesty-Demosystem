@@ -63,8 +63,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "Debug"
 # PROP Intermediate_Dir "Debug"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ  /c
-# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ  /c
+# ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
+# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
 # ADD BASE RSC /l 0x415 /d "_DEBUG"
 # ADD RSC /l 0x415 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -83,6 +83,18 @@ LIB32=link.exe -lib
 # Begin Group "Source Files"
 
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\source\Flare.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\source\FlareFrame.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\source\FlareTrack.cpp
+# End Source File
 # Begin Source File
 
 SOURCE=.\source\keyframer.cpp
@@ -113,6 +125,10 @@ SOURCE=.\source\SCENE.CPP
 # End Source File
 # Begin Source File
 
+SOURCE=.\source\Sprite.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\source\TEXTURE.CPP
 # End Source File
 # Begin Source File
@@ -127,6 +143,22 @@ SOURCE=.\source\VECTOR.CPP
 # Begin Group "Header Files"
 
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\include\Debug.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\include\Flare.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\include\FlareFrame.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\include\FlareTrack.h
+# End Source File
 # Begin Source File
 
 SOURCE=.\include\keyframer.h
@@ -150,6 +182,10 @@ SOURCE=.\include\OBJECT.H
 # Begin Source File
 
 SOURCE=.\include\SCENE.H
+# End Source File
+# Begin Source File
+
+SOURCE=.\include\Sprite.h
 # End Source File
 # Begin Source File
 

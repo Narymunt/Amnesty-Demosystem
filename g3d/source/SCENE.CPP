@@ -95,9 +95,6 @@ void G3D_CScene::Initialize( PDIRECT3DDEVICE8 pDevice, DWORD flags )
 	D3DDEVICE_CREATION_PARAMETERS	d3ddcp;
 	
 	pd3dDevice = pDevice;
-	
-	if( !pd3dDevice )
-		throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 
 	dwFlags = flags;
 	
@@ -109,13 +106,13 @@ void G3D_CScene::Initialize( PDIRECT3DDEVICE8 pDevice, DWORD flags )
 	if( pd3dDevice )
 	{		
 		if( FAILED( pd3dDevice->CreateVertexBuffer( 4*3*sizeof(FLOAT), D3DUSAGE_SOFTWAREPROCESSING, D3DFVF_XYZ, D3DPOOL_DEFAULT, &pvbFlare ) ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		if( FAILED( pd3dDevice->CreateIndexBuffer( 6*sizeof(WORD), D3DUSAGE_SOFTWAREPROCESSING, D3DFMT_INDEX16, D3DPOOL_DEFAULT, &pibFlare ) ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		if( FAILED( pvbFlare->Lock( 0, 0, (LPBYTE*)&vec, 0 ) ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		vec[0].x = -7.5f;
 		vec[0].y = 7.5f;
@@ -134,10 +131,10 @@ void G3D_CScene::Initialize( PDIRECT3DDEVICE8 pDevice, DWORD flags )
 		vec[3].z = 0.0f;
 		
 		if( FAILED( pvbFlare->Unlock() ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		if( FAILED( pibFlare->Lock( 0, 0, (LPBYTE*)&ind, 0 ) ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		ind[0] = 0;
 		ind[1] = 2;
@@ -148,10 +145,10 @@ void G3D_CScene::Initialize( PDIRECT3DDEVICE8 pDevice, DWORD flags )
 		ind[5] = 2;
 		
 		if( FAILED( pibFlare->Unlock() ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );
 		
 		if( FAILED( pd3dDevice->CreateVertexShader( vsdec, NULL, &hVS, D3DUSAGE_SOFTWAREPROCESSING ) ) )
-			throw G3D_CException( G3DERR_UNABLETOINITIALIZE );		
+			return; //throw G3D_CException( G3DERR_UNABLETOINITIALIZE );		
 	}
 }
 
@@ -257,6 +254,7 @@ void G3D_CScene::RenderFrame( FLOAT frame )
 {	
 	Transform( frame );
 	Render();
+	m_pFlareTrack->Render((unsigned long)frame);
 }
 
 void G3D_CScene::Transform( FLOAT frame )
@@ -273,8 +271,7 @@ void G3D_CScene::Transform( FLOAT frame )
 
 void G3D_CScene::Render()
 {
-	if( !pd3dDevice )
-		throw G3D_CException( G3DERR_NOTINITIALIZED );
+	if( !pd3dDevice ) return;
 
 	G3D_CObject*			object;	
 	
@@ -282,12 +279,12 @@ void G3D_CScene::Render()
 
 	while( object = nmObjectsList->GetNext() )
 		object->Render();	
+
 }
 	
 void G3D_CScene::CloseScene()
 {
-	if( !pd3dDevice )
-		throw G3D_CException( G3DERR_NOTINITIALIZED );
+	if( !pd3dDevice ) return;
 
 	for( DWORD i = 0; i < dwLightsCount ; i++ )
 		pd3dDevice->LightEnable( i, FALSE );
@@ -297,8 +294,7 @@ FLOAT ReadFloat( FILE* in )
 {
 	FLOAT					f;
 
-	if( feof( in ) )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( feof( in ) ) return NULL;
 
 	fread( &f, sizeof(FLOAT), 1, in );
 
@@ -309,8 +305,7 @@ WORD ReadWord( FILE* in )
 {
 	WORD					w;
 
-	if( feof( in ) )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( feof( in ) ) return NULL;
 
 	fread( &w, sizeof(WORD), 1, in );
 
@@ -321,8 +316,7 @@ DWORD ReadDword( FILE* in )
 {
 	DWORD					dw;
 
-	if( feof( in ) )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( feof( in ) ) return NULL;
 
 	fread( &dw, sizeof(DWORD), 1, in );
 
@@ -337,9 +331,7 @@ char* ReadString( FILE* in )
 
 	do 
 	{
-
-		if( feof( in ) )
-			throw G3D_CException( G3DERR_UNABLETOLOAD );
+		if( feof( in ) ) return NULL;
 
 		fread( &(buffer[i]), sizeof(char), 1, in );				
 
@@ -893,7 +885,7 @@ void ReadKeyframer( G3D_CScene* scene, G3D_CKeyframer* keyframer, FILE* in )
 }
 
 
-void G3D_CScene::Load( const char* filename )
+void G3D_CScene::Load(IDirect3DDevice8 *pDevice, const char* filename )
 {
 	if( !pd3dDevice )
 		throw G3D_CException( G3DERR_NOTINITIALIZED );
@@ -902,25 +894,27 @@ void G3D_CScene::Load( const char* filename )
 	char*					fileid = ReadString( in );
 	G3D_CObject*			obj;
 
-	if( strcmp( fileid, "FOX3D" ) )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( strcmp( fileid, "FOX3D" ) ) return;
 
 	delete fileid;
 
+	// wczytaj flarki
+
+	m_pFlareTrack = new CFlareTrack(pDevice, in);
+
+	// koniec czytania flarek
+
 	dwFramesCount = ReadDword( in );
 
-	if( ReadDword( in ) != ID_MATERIALBLOCK )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( ReadDword( in ) != ID_MATERIALBLOCK ) return;
 
 	ReadMaterialBlock( this, in );
 
-	if( ReadDword( in ) != ID_OBJECTBLOCK )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( ReadDword( in ) != ID_OBJECTBLOCK ) return;
 
 	ReadObjectBlock( this, in );
 
-	if( ReadDword( in ) != ID_KEYFRAMERBLOCK )
-		throw G3D_CException( G3DERR_UNABLETOLOAD );
+	if( ReadDword( in ) != ID_KEYFRAMERBLOCK ) return;
 
 	pkfRoot = new G3D_CKeyframer( this );
 	ReadKeyframer( this, pkfRoot, in );
@@ -936,7 +930,6 @@ void G3D_CScene::Load( const char* filename )
 			break;
 		}
 
-	if( !pcamCurrent )
-		throw G3D_CException( G3DERR_NOCAMERA );
+	if( !pcamCurrent ) return;
 }
 

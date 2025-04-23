@@ -131,9 +131,6 @@ G3D_CQuaternionTrack::~G3D_CQuaternionTrack()
 		delete pkKeys;
 }
 
-// well as you can see i use interpolation with angel greater than 2PI
-// correction wich comes from omen/dms article from hugi#20 funcking good
-// work indeed thanx!
 void G3D_CQuaternionTrack::InitTrack()
 {	
 	pkKeys->key = FromAxisAngle( pkKeys->axis, pkKeys->angle );

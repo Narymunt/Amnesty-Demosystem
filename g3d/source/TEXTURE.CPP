@@ -523,7 +523,7 @@ void CloseTextureSystem()
 {
 	dwInit		= 0;
 	delete pTextList;	
-};
+}; 
 
 int LoadTextureAutoAlpha( const char* filename, DWORD dwMip )
 {
@@ -534,9 +534,9 @@ int LoadTextureAutoAlpha( const char* filename, DWORD dwMip )
 	char				alpha[MAX_PATH];
 	char				path[MAX_PATH];
 
-	strnset( alpha, 0, strlen( filename ) + strlen( "_alpha" ) + 1 );
-	strncpy( alpha, filename, strlen( filename ) - strlen( ext ) - 1);
-	strcat( alpha, "_alpha.bmp" );	
+	strncpy(alpha,filename,strlen(filename));
+	alpha[strlen(filename)-3]='a';
+	alpha[strlen(filename)-2]=0;
 
 	FILE*				tmpFile = fopen( alpha, "rb" );
 
@@ -544,7 +544,6 @@ int LoadTextureAutoAlpha( const char* filename, DWORD dwMip )
 	{
 		fclose( tmpFile );
 		LoadTextureWithAlpha( filename, alpha, dwMip );		
-
 		return AAS_ALPHALOADED;
 	}
 	else
@@ -570,8 +569,7 @@ int LoadTextureAutoAlpha( const char* filename, DWORD dwMip )
 
 void LoadTexture( const char* filename, DWORD dwMip )
 {
-	if( !filename )
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+	if( !filename ) return;
 
 	if( GetTexture( filename ) != NULL )
 		return;
@@ -582,8 +580,7 @@ void LoadTexture( const char* filename, DWORD dwMip )
 	RECT					rect;
 	char					path[MAX_PATH];
 
-	if( !dwInit )
-		throw CTextureException( TEXERR_NOTINITIALIZED );
+	if( !dwInit ) return;
 
 	RAWIMAGE*			image = LoadImage( filename );
 
@@ -594,9 +591,7 @@ void LoadTexture( const char* filename, DWORD dwMip )
 		image = LoadImage( path );
 	}
 
-	if( !image )	
-		throw CTextureException( TEXERR_UNABLETOLOAD );
-
+	if( !image ) return;	
 
 	CTexture*			texture = new CTexture;	
 
@@ -605,11 +600,10 @@ void LoadTexture( const char* filename, DWORD dwMip )
 	for( width = 1 ; width < image->width ; width <<= 1 );
 	for( height = 1 ; height < image->height ; height <<= 1 );
 
-	if( FAILED( pDev->CreateTexture( width, height, dwMip, 0, (D3DFORMAT)dwFormat, D3DPOOL_MANAGED, &texture->text ) ) )
+	if( FAILED( pDev->CreateTexture( width, height, 4, 0, (D3DFORMAT)dwFormat, D3DPOOL_MANAGED, &texture->text ) ) )
 	{
 		delete image;
-		
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+		return;
 	}
 
 	rect.left	= 0;
@@ -625,11 +619,10 @@ void LoadTexture( const char* filename, DWORD dwMip )
 			texture->text = NULL;
 			
 			delete image;
-
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return;
 		}
 
-		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_LINEAR|D3DX_FILTER_DITHER, 0 ) ) )
+		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_TRIANGLE|D3DX_FILTER_DITHER, 0 ) ) )
 		{
 			surface->Release();
 
@@ -637,8 +630,7 @@ void LoadTexture( const char* filename, DWORD dwMip )
 			texture->text = NULL;
 
 			delete image;
-
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return;
 		}
 
 		surface->Release();
@@ -649,13 +641,12 @@ void LoadTexture( const char* filename, DWORD dwMip )
 
 void LoadAlphaToTexture( const char* filename, const char* texturename )
 {
-	throw CTextureException( TEXERR_UNABLETOLOAD );
+	return;
 }
 
 void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWORD dwMip )
 {
-	if( !texfilename || !alpfilename )
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+	if( !texfilename || !alpfilename ) return;
 
 	if( GetTexture( texfilename ) != NULL )
 		return;
@@ -667,7 +658,7 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 	char					path[MAX_PATH];
 
 	if( dwFormat != D3DFMT_A8R8G8B8 && dwFormat != D3DFMT_A4R4G4B4 && dwFormat != D3DFMT_A8R3G3B2 )
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+		return; 
 
 	RAWIMAGE*			image	= LoadImage( texfilename );
 	RAWIMAGE*			alpha	= Load8bitBMPFile( alpfilename );
@@ -686,8 +677,7 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 		alpha	= Load8bitBMPFile( path );
 	}
 
-	if( !image || !alpha )	
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+	if( !image || !alpha ) return;
 
 	MergeAlphaAndColor( image, alpha );	
 	
@@ -698,12 +688,12 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 	for( width = 1 ; width < image->width ; width <<= 1 );
 	for( height = 1 ; height < image->height ; height <<= 1 );
 
-	if( FAILED( pDev->CreateTexture( width, height, dwMip, 0, (D3DFORMAT)dwFormat, D3DPOOL_MANAGED, &texture->text ) ) )
+	if( FAILED( pDev->CreateTexture( width, height, 1, 0, (D3DFORMAT)dwFormat, D3DPOOL_MANAGED, &texture->text ) ) )
 	{
 		delete image;
 		delete alpha;
 
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+		return;
 	}
 	
 	rect.left	= 0;
@@ -721,10 +711,10 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 			delete image;
 			delete alpha;
 			
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return; 
 		}
 		
-		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_LINEAR|D3DX_FILTER_DITHER, 0 ) ) )
+		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_TRIANGLE|D3DX_FILTER_DITHER, 0 ) ) )
 		{
 			surface->Release();
 			
@@ -734,7 +724,7 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 			delete image;
 			delete alpha;
 			
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return;
 		}
 		
 		surface->Release();
@@ -746,8 +736,7 @@ void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWO
 
 void LoadAlphaTexture( const char* filename )
 {
-	if( !filename )
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+	if( !filename ) return;
 
 	if( GetTexture( filename ) != NULL )
 		return;
@@ -767,8 +756,8 @@ void LoadAlphaTexture( const char* filename )
 		image = Load8bitBMPFile( path );
 	}
 
-	if( !image )		
-		throw CTextureException( TEXERR_UNABLETOLOAD );
+	if( !image ) return;
+
 
 	ExtendAlphaTo32Bpp( image );
 
@@ -783,7 +772,7 @@ void LoadAlphaTexture( const char* filename )
 	{	
 		delete image;
 
-		throw CTextureException( TEXERR_UNABLETOLOAD );	
+		return;
 	}
 
 	rect.left	= 0;
@@ -800,10 +789,10 @@ void LoadAlphaTexture( const char* filename )
 
 			delete image;
 
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return;
 		}
 		
-		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_LINEAR|D3DX_FILTER_DITHER, 0 ) ) )
+		if( FAILED( D3DXLoadSurfaceFromMemory( surface, NULL, NULL, image->pPixels, D3DFMT_A8R8G8B8, image->width*sizeof(DWORD), NULL, &rect, D3DX_FILTER_TRIANGLE|D3DX_FILTER_DITHER, 0 ) ) )
 		{
 			surface->Release();
 
@@ -812,7 +801,7 @@ void LoadAlphaTexture( const char* filename )
 
 			delete image;
 
-			throw CTextureException( TEXERR_UNABLETOLOAD );
+			return;
 		}
 
 		surface->Release();

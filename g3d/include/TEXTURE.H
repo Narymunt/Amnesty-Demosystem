@@ -42,10 +42,10 @@ enum MIPMAPS
 void InitializeTextureSystem( PDIRECT3DDEVICE8 pdevice, DWORD format = D3DFMT_A8R8G8B8 );
 void CloseTextureSystem();
 void SetTexturePath( const char* path );
-int LoadTextureAutoAlpha( const char* filename, DWORD dwMip = MIP_NONE );
-void LoadTexture( const char* filename, DWORD dwMip = MIP_NONE );
+int LoadTextureAutoAlpha( const char* filename, DWORD dwMip = MIP_ONE );
+void LoadTexture( const char* filename, DWORD dwMip = MIP_ONE );
 void LoadAlphaToTexture( const char* filename, const char* texturename );
-void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWORD dwMip = MIP_NONE );
+void LoadTextureWithAlpha( const char* texfilename, const char* alpfilename, DWORD dwMip = MIP_ONE );
 void LoadAlphaTexture( const char* filename );
 void DeleteTexture( const char* name );
 PDIRECT3DTEXTURE8 GetTexture( const char* name );

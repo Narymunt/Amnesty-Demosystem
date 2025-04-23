@@ -9,7 +9,7 @@ G3D_CMatrix::G3D_CMatrix( FLOAT val  ) : _11( val ), _12( val ), _13( val ), _14
 										   _31( val ), _32( val ), _33( val ), _34( val ),
 										   _41( val ), _42( val ), _43( val ), _44( val )
 {
-
+ 
 }
 
 //	class:	CMatrix

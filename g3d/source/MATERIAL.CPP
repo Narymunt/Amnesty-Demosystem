@@ -105,6 +105,8 @@ void G3D_CMaterial::ApplyMaterial()
 		pScene->pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAOP, D3DTOP_SELECTARG1 );
 	else
 		pScene->pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAOP, D3DTOP_SELECTARG2 );
+
+	pScene->pd3dDevice->SetRenderState(D3DRS_DITHERENABLE, TRUE);
 }
 
 void G3D_CMaterial::RestoreMaterial()
@@ -151,7 +153,7 @@ G3D_CRenderedMaterial::G3D_CRenderedMaterial( G3D_CScene* scene, DWORD width, DW
 	}
 
 	if( dwOwnZBuffer )
-		scene->pd3dDevice->CreateDepthStencilSurface( width, height, D3DFMT_D24S8, D3DMULTISAMPLE_NONE, &psZBuffer );
+		scene->pd3dDevice->CreateDepthStencilSurface( width, height, D3DFMT_D24S8, D3DMULTISAMPLE_2_SAMPLES, &psZBuffer );
 }
 
 G3D_CRenderedMaterial::~G3D_CRenderedMaterial()

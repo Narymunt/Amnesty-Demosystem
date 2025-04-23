@@ -2,6 +2,8 @@
 #define __SCENE_H_
 
 #include <d3d8.h>
+#include "flaretrack.h"
+
 
 enum G3D_SCENEFLAGS
 {
@@ -132,9 +134,14 @@ public:
 	void Transform( FLOAT frame );
 	void Render();
 	
-	void Load( const char* filename );
+	void Load(IDirect3DDevice8 *pDevice, const char* filename );
 
 	void CloseScene();
+
+protected :
+
+	CFlareTrack		*m_pFlareTrack;
+
 };
 
 #endif

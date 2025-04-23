@@ -3,51 +3,37 @@
 <pre>
 <h1>Build Log</h1>
 <h3>
---------------------Configuration: G3D - Win32 Release--------------------
+--------------------Configuration: G3D - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP388.tmp" with contents
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP96.tmp" with contents
 [
-/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/G3D.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Tools\prj\G3D\source\keyframer.cpp"
-"C:\Tools\prj\G3D\source\MATERIAL.CPP"
-"C:\Tools\prj\G3D\source\MATRIX.CPP"
-"C:\Tools\prj\G3D\source\MTXSTACK.CPP"
-"C:\Tools\prj\G3D\source\OBJECT.CPP"
-"C:\Tools\prj\G3D\source\QUATERNION.CPP"
-"C:\Tools\prj\G3D\source\SCENE.CPP"
-"C:\Tools\prj\G3D\source\TEXTURE.CPP"
-"C:\Tools\prj\G3D\source\TRACK.CPP"
-"C:\Tools\prj\G3D\source\VECTOR.CPP"
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/G3D.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\jarek\islamabad\g3d\source\Flare.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP388.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP389.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP96.tmp" 
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP97.tmp" with contents
 [
-/nologo /out:"Release\G3D.lib" 
-.\Release\keyframer.obj
-.\Release\MATERIAL.OBJ
-.\Release\MATRIX.OBJ
-.\Release\MTXSTACK.OBJ
-.\Release\OBJECT.OBJ
-.\Release\QUATERNION.OBJ
-.\Release\SCENE.OBJ
-.\Release\TEXTURE.OBJ
-.\Release\TRACK.OBJ
-.\Release\VECTOR.OBJ
+/nologo /out:"Debug\G3D.lib" 
+.\Debug\Flare.obj
+.\Debug\FlareFrame.obj
+.\Debug\FlareTrack.obj
+.\Debug\keyframer.obj
+.\Debug\MATERIAL.OBJ
+.\Debug\MATRIX.OBJ
+.\Debug\MTXSTACK.OBJ
+.\Debug\OBJECT.OBJ
+.\Debug\QUATERNION.OBJ
+.\Debug\SCENE.OBJ
+.\Debug\Sprite.obj
+.\Debug\TEXTURE.OBJ
+.\Debug\TRACK.OBJ
+.\Debug\VECTOR.OBJ
 ]
-Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP389.tmp"
+Creating command line "link.exe -lib @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSP97.tmp"
 <h3>Output Window</h3>
 Compiling...
-keyframer.cpp
-MATERIAL.CPP
-MATRIX.CPP
-MTXSTACK.CPP
-OBJECT.CPP
-QUATERNION.CPP
-SCENE.CPP
-TEXTURE.CPP
-TRACK.CPP
-VECTOR.CPP
+Flare.cpp
 Creating library...
 
 
