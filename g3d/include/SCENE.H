@@ -130,11 +130,11 @@ public:
 	void SetVieport( FLOAT zmin, FLOAT zmax, FLOAT aspect );
 	void SetLightMaterial( G3D_CMaterial* mat );
 
-	void RenderFrame( FLOAT frame );
+	void RenderFrame( FLOAT frame, long lTimer );
 	void Transform( FLOAT frame );
 	void Render();
 	
-	void Load(IDirect3DDevice8 *pDevice, const char* filename );
+	void Load(IDirect3DDevice8 *pDevice, const char* filename,char cFlareFilename[] );
 
 	void CloseScene();
 

@@ -1,0 +1,64 @@
+﻿Build started 2010-08-28 00:00:57.
+     1>Project "c:\eProjects\g3d\G3D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\G3D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include" /IC:\dx8sdk\include /IC:\eProjects\g3d\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\MATERIAL.CPP source\OBJECT.CPP source\SCENE.CPP source\keyframer.cpp
+         SCENE.CPP
+     1>c:\eprojects\g3d\source\scene.cpp(341): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\eprojects\g3d\source\scene.cpp(893): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\eprojects\g3d\include\namemap.h(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+                 c:\eprojects\g3d\include\namemap.h(22) : while compiling class template member function 'CNameMap<T>::Node::Node(const char *,T *)'
+                 with
+                 [
+                     T=G3D_CMaterial
+                 ]
+                 c:\eprojects\g3d\include\namemap.h(49) : see reference to class template instantiation 'CNameMap<T>::Node' being compiled
+                 with
+                 [
+                     T=G3D_CMaterial
+                 ]
+                 c:\eprojects\g3d\include\namemap.h(46) : while compiling class template member function 'CNameMap<T>::~CNameMap(void)'
+                 with
+                 [
+                     T=G3D_CMaterial
+                 ]
+                 c:\eprojects\g3d\source\scene.cpp(56) : see reference to class template instantiation 'CNameMap<T>' being compiled
+                 with
+                 [
+                     T=G3D_CMaterial
+                 ]
+         Generating Code...
+         Compiling...
+         OBJECT.CPP
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         keyframer.cpp
+         MATERIAL.CPP
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\G3D.lib" /NOLOGO .\Debug\Flare.obj
+         .\Debug\FlareFrame.obj
+         .\Debug\FlareTrack.obj
+         .\Debug\keyframer.obj
+         .\Debug\MATERIAL.obj
+         .\Debug\MATRIX.obj
+         .\Debug\MTXSTACK.obj
+         .\Debug\OBJECT.obj
+         .\Debug\QUATERNION.obj
+         .\Debug\SCENE.obj
+         .\Debug\Sprite.obj
+         .\Debug\TEXTURE.obj
+         .\Debug\TRACK.obj
+         .\Debug\VECTOR.obj
+         G3D.vcxproj -> c:\eProjects\g3d\.\Debug\G3D.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\G3D.unsuccessfulbuild".
+         Touching ".\Debug\G3D.lastbuildstate".
+     1>Done Building Project "c:\eProjects\g3d\G3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43

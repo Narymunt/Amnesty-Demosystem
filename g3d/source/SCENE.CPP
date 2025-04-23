@@ -250,11 +250,11 @@ void G3D_CScene::SetLightMaterial( G3D_CMaterial* mat )
 	pmatLight = mat;
 }
 
-void G3D_CScene::RenderFrame( FLOAT frame )
+void G3D_CScene::RenderFrame( FLOAT frame, long lTimer )
 {	
 	Transform( frame );
 	Render();
-	m_pFlareTrack->Render((unsigned long)frame);
+	m_pFlareTrack->Render((unsigned long)frame,lTimer);
 }
 
 void G3D_CScene::Transform( FLOAT frame )
@@ -885,7 +885,7 @@ void ReadKeyframer( G3D_CScene* scene, G3D_CKeyframer* keyframer, FILE* in )
 }
 
 
-void G3D_CScene::Load(IDirect3DDevice8 *pDevice, const char* filename )
+void G3D_CScene::Load(IDirect3DDevice8 *pDevice, const char* filename, char cFlareFilename[] )
 {
 	if( !pd3dDevice )
 		throw G3D_CException( G3DERR_NOTINITIALIZED );
@@ -900,7 +900,7 @@ void G3D_CScene::Load(IDirect3DDevice8 *pDevice, const char* filename )
 
 	// wczytaj flarki
 
-	m_pFlareTrack = new CFlareTrack(pDevice, in);
+	m_pFlareTrack = new CFlareTrack(pDevice, in, cFlareFilename);
 
 	// koniec czytania flarek
 

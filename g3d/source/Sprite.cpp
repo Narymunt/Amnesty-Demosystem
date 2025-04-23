@@ -153,7 +153,7 @@ HRESULT CSprite::Render()
 						 m_ModulateColor);
 
 	m_pSprite->End();
-	
+
 	return S_OK;
 }
 

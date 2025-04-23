@@ -24,9 +24,13 @@ CFlare::~CFlare()
 	}
 }
 
-void CFlare::Render(int iX, int iY, float fZ)
+void CFlare::Render(int iX, int iY, float fZ, long lTimer)
 {
 	int iOffset;
+
+	float fXSize, fYSize;
+
+	fXSize = m_pFlare->G
 
 	if (iX>0 && iX<800 && iY>0 && iY<600)
 	{
@@ -37,7 +41,8 @@ void CFlare::Render(int iX, int iY, float fZ)
 	m_pFlare->SetRotationCenter((255*(fZ/50)/2),(255*(fZ/50)/2));
 	m_pFlare->SetScale(fZ/50,fZ/50);
 //	m_pFlare->SetModulate(fZ,255,255,255);
-	m_pFlare->AddRotation(0.1f);
+	m_pFlare->SetRotation(lTimer * 0.1f);
+//	m_pFlare->AddRotation(0.1f);
 	m_pFlare->Render();
 	}
 

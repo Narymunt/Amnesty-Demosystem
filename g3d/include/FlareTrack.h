@@ -11,10 +11,10 @@
 class CFlareTrack  
 {
 public:
-	CFlareTrack(IDirect3DDevice8 *pDevice,FILE *pFile);
+	CFlareTrack(IDirect3DDevice8 *pDevice,FILE *pFile, char cFlareFilename[]);
 	virtual ~CFlareTrack();
 	
-	virtual void Render(unsigned long ulFrameNo);
+	virtual void Render(unsigned long ulFrameNo, long lTimer);
 	
 
 protected: 

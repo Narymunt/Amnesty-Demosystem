@@ -8,7 +8,7 @@
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
 
-CFlareTrack::CFlareTrack(IDirect3DDevice8 *pDevice, FILE *pFile)
+CFlareTrack::CFlareTrack(IDirect3DDevice8 *pDevice, FILE *pFile, char cFlareFilename[])
 {
 
 	unsigned long ulFlaresPerFrame, ulIDFlare;
@@ -24,7 +24,6 @@ CFlareTrack::CFlareTrack(IDirect3DDevice8 *pDevice, FILE *pFile)
 	{
 		fread(&ulFlaresPerFrame,1,sizeof(unsigned long),pFile);	// numer klatki
 		fread(&ulFlaresPerFrame,1,sizeof(unsigned long),pFile); // ile flarek
-		
  
 		m_ppFlaresFrames[ulTemp] = new CFlareFrame(ulFlaresPerFrame);
 
@@ -40,7 +39,7 @@ CFlareTrack::CFlareTrack(IDirect3DDevice8 *pDevice, FILE *pFile)
 
 	}
 
-	m_pFlare = new CFlare(pDevice,"data\\flara1.png");
+	m_pFlare = new CFlare(pDevice,cFlareFilename);
 }
 
 CFlareTrack::~CFlareTrack()
@@ -57,22 +56,29 @@ CFlareTrack::~CFlareTrack()
 
 }
 
-void CFlareTrack::Render(unsigned long ulFrameNo)
+void CFlareTrack::Render(unsigned long ulFrameNo, long lTimer)
 {
 
 	unsigned long ulTemp;
 
-	if (ulFrameNo>=m_ulFramesCount)
-	{
-		ulFrameNo=m_ulFramesCount-1;
-	}
+	// dodatkowe sprawdzenie - jezeli nie ma trasy flarek to po prostu przeskakujemy
 
-	for (ulTemp=0; ulTemp<m_ppFlaresFrames[ulFrameNo]->ulGetFlaresCount(); ulTemp++)
+	if (m_ulFramesCount!=0)
 	{
 
-	m_pFlare->Render(m_ppFlaresFrames[ulFrameNo]->iGetFlareX(ulTemp), 
+		if (ulFrameNo>=m_ulFramesCount)
+		{
+			ulFrameNo=m_ulFramesCount-1;
+		}
+
+		for (ulTemp=0; ulTemp<m_ppFlaresFrames[ulFrameNo]->ulGetFlaresCount(); ulTemp++)
+		{
+			m_pFlare->Render(m_ppFlaresFrames[ulFrameNo]->iGetFlareX(ulTemp), 
 					 m_ppFlaresFrames[ulFrameNo]->iGetFlareY(ulTemp), 
-					 m_ppFlaresFrames[ulFrameNo]->fGetFlareZ(ulTemp));
+					 m_ppFlaresFrames[ulFrameNo]->fGetFlareZ(ulTemp),
+					 lTimer);
+		}
+
 	}
 
 }

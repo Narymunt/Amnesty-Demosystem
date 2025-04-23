@@ -73,7 +73,9 @@ public:
 
 	T* Get( const char* name )
 	{				
-		for( Node* tmp = root ; tmp && _stricmp( tmp->strName, name ) ; tmp = tmp->next );
+		Node*			tmp;
+
+		for( tmp = root ; tmp && _stricmp( tmp->strName, name ) ; tmp = tmp->next );
 
 		if( tmp )
 			return tmp->pTObj;

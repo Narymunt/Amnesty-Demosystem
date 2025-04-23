@@ -11,10 +11,10 @@
 
 CFlareFrame::CFlareFrame(unsigned long ulFlaresCount)
 {
-	m_piXFlare = new int[ulFlaresCount];//(int*) malloc(ulFlaresCount*sizeof(int));
-	m_piYFlare = new int[ulFlaresCount];//(int*) malloc(ulFlaresCount*sizeof(int));
-	m_pfZFlare = new float[ulFlaresCount];//(float*) malloc(ulFlaresCount*sizeof(float));
-	m_pulIDFlare = new unsigned long[ulFlaresCount];//(unsigned long*) malloc(ulFlaresCount*sizeof(unsigned long));
+	m_piXFlare = new int[1+ulFlaresCount];//(int*) malloc(ulFlaresCount*sizeof(int));
+	m_piYFlare = new int[1+ulFlaresCount];//(int*) malloc(ulFlaresCount*sizeof(int));
+	m_pfZFlare = new float[1+ulFlaresCount];//(float*) malloc(ulFlaresCount*sizeof(float));
+	m_pulIDFlare = new unsigned long[1+ulFlaresCount];//(unsigned long*) malloc(ulFlaresCount*sizeof(unsigned long));
 
 	m_ulFlaresCount=ulFlaresCount;
 }

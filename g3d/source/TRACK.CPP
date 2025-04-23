@@ -82,6 +82,9 @@ void G3D_CVectorTrack::InitTrack()
 
 G3D_CVector G3D_CVectorTrack::FrameVector( FLOAT frame )
 {
+
+	DWORD i;
+
 	if( dwKeysCount <= 1 )
 		return pkKeys[0].key;
 
@@ -91,7 +94,7 @@ G3D_CVector G3D_CVectorTrack::FrameVector( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return pkKeys[dwKeysCount-1].key;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
 
 	FLOAT					t, t2, t3;
 	FLOAT					h[4];
@@ -233,6 +236,7 @@ void G3D_CQuaternionTrack::InitTrack()
 G3D_CQuaternion G3D_CQuaternionTrack::FrameQuaternion( FLOAT frame )
 {
 	FLOAT					t;
+	DWORD					i;
 
 	if( dwKeysCount <= 1 )
 		return pkKeys[0].key;
@@ -243,7 +247,7 @@ G3D_CQuaternion G3D_CQuaternionTrack::FrameQuaternion( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return pkKeys[dwKeysCount-1].key;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );	
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );	
 
 	t = (frame - pkKeys[i].frame)/(pkKeys[i+1].frame - pkKeys[i].frame);
 	t = Ease( pkKeys[i].easefrom, pkKeys[i].easeto, t );
@@ -349,6 +353,8 @@ G3D_CValueEnvelope::~G3D_CValueEnvelope()
 
 FLOAT G3D_CValueEnvelope::EnvelopeValue( FLOAT frame )
 {	
+	DWORD i;
+
 	if( dwKeysCount <= 1 )
 		return pkKeys[0].key;
 
@@ -358,7 +364,7 @@ FLOAT G3D_CValueEnvelope::EnvelopeValue( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return pkKeys[dwKeysCount-1].key;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
 
 	FLOAT					t, t2, t3;
 	FLOAT					h[4];
@@ -385,6 +391,8 @@ G3D_CDataEnvelope::~G3D_CDataEnvelope()
 
 DWORD G3D_CDataEnvelope::PrevData( FLOAT frame )
 {
+	DWORD i;
+
 	if( dwKeysCount <= 1 )
 		return pkKeys[0].key;
 
@@ -394,13 +402,15 @@ DWORD G3D_CDataEnvelope::PrevData( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return pkKeys[dwKeysCount-1].key;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
 
 	return pkKeys[i].key;
 }
 
 DWORD G3D_CDataEnvelope::NextData( FLOAT frame )
 {
+	DWORD i;
+
 	if( dwKeysCount <= 1 )
 		return pkKeys[0].key;
 
@@ -410,13 +420,15 @@ DWORD G3D_CDataEnvelope::NextData( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return pkKeys[dwKeysCount-1].key;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
 
 	return pkKeys[i+1].key;
 }
 
 FLOAT G3D_CDataEnvelope::LocalTime( FLOAT frame )
 {
+	DWORD i;
+
 	if( dwKeysCount <= 1 )
 		return 0.0f;
 
@@ -426,7 +438,7 @@ FLOAT G3D_CDataEnvelope::LocalTime( FLOAT frame )
 	if( pkKeys[dwKeysCount-1].frame < frame )
 		return 1.0f;
 
-	for( DWORD i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
+	for( i = 0 ; i < dwKeysCount - 1  && pkKeys[i+1].frame < frame ; i++ );
 
 	FLOAT					t;
 

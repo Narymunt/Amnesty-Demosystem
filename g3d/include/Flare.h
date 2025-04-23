@@ -14,7 +14,7 @@ class CFlare
 public:
 	CFlare(IDirect3DDevice8 *pDevice,char cFilename[]);
 	virtual ~CFlare();
-	virtual void Render(int iX, int iY, float fZ);
+	virtual void Render(int iX, int iY, float fZ, long lTimer);
 
 protected:
 
