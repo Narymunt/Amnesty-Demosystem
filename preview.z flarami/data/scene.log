@@ -1,0 +1,170 @@
+
+....loading scene.3ds file
+....material KOLUMNA loaded
+....material ZIEMIA loaded
+....material MUREK2 loaded
+....material MUREK loaded
+....material TLO02 loaded
+....material TLO03 loaded
+....material TLO loaded
+....material SCIANA loaded
+....material LIGHT loaded
+....mesh KOLUMNA01 loaded
+....mesh ZIEMIA loaded
+....mesh MUREK loaded
+....mesh ZIEMIA01 loaded
+....mesh MUREK01 loaded
+....mesh KOLUMNA02 loaded
+....mesh KOLUMNA03 loaded
+....mesh KOLUMNA04 loaded
+....mesh KOLUMNA05 loaded
+....mesh SCIANA00X loaded
+....mesh SCIANA00X0 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh TLO loaded
+....mesh BOX01 loaded
+....mesh PLANE01 loaded
+....mesh PLANE02 loaded
+....mesh PLANE03 loaded
+....mesh PLANE04 loaded
+....mesh PLANE05 loaded
+....keyframer of mesh KOLUMNA01 loaded
+....keyframer of mesh ZIEMIA loaded
+....keyframer of mesh MUREK loaded
+....keyframer of mesh ZIEMIA01 loaded
+....keyframer of mesh MUREK01 loaded
+....keyframer of mesh KOLUMNA02 loaded
+....keyframer of mesh KOLUMNA03 loaded
+....keyframer of mesh KOLUMNA04 loaded
+....keyframer of mesh KOLUMNA05 loaded
+....keyframer of mesh SCIANA00X loaded
+....keyframer of mesh SCIANA00X0 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of mesh TLO loaded
+....keyframer of mesh BOX01 loaded
+....keyframer of mesh PLANE01 loaded
+....keyframer of mesh PLANE02 loaded
+....keyframer of mesh PLANE03 loaded
+....keyframer of mesh PLANE04 loaded
+....keyframer of mesh PLANE05 loaded
+
+....saving scene.g3d file
+....material KOLUMNA saved
+	  + texture file name: KOLUMNA.JPG
+....material ZIEMIA saved
+	  + texture file name: ZIEMIA.JPG
+....material MUREK2 saved
+	  + texture file name: MUREK2.JPG
+....material MUREK saved
+	  + texture file name: MUREK.JPG
+....material TLO02 saved
+	  + texture file name: TLO2.JPG
+....material TLO03 saved
+	  + texture file name: TLO3.JPG
+....material TLO saved
+	  + texture file name: TLO.JPG
+....material SCIANA saved
+	  + texture file name: SCIANA.JPG
+....material LIGHT saved
+	  + texture file name: LIGHT.JPG
+....mesh KOLUMNA01 saved
+     + number of vertices: 354
+     + number of faces: 620
+     + number of group: 1
+....mesh ZIEMIA saved
+     + number of vertices: 35
+     + number of faces: 48
+     + number of group: 1
+....mesh MUREK saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh ZIEMIA01 saved
+     + number of vertices: 35
+     + number of faces: 48
+     + number of group: 1
+....mesh MUREK01 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh KOLUMNA02 saved
+     + number of vertices: 354
+     + number of faces: 620
+     + number of group: 1
+....mesh KOLUMNA03 saved
+     + number of vertices: 354
+     + number of faces: 620
+     + number of group: 1
+....mesh KOLUMNA04 saved
+     + number of vertices: 354
+     + number of faces: 620
+     + number of group: 1
+....mesh KOLUMNA05 saved
+     + number of vertices: 354
+     + number of faces: 620
+     + number of group: 1
+....mesh SCIANA00X saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh SCIANA00X0 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [7.57,11.65,-46.47]
+     + fov: 53.33
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [-3.87,11.00,-20.72]
+....mesh TLO saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX01 saved
+     + number of vertices: 8
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE01 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh PLANE02 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh PLANE03 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh PLANE04 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh PLANE05 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....keyframer tree saved
+     + node: KOLUMNA01 (mesh)
+     + node: ZIEMIA (mesh)
+     + node: MUREK (mesh)
+     + node: ZIEMIA01 (mesh)
+     + node: MUREK01 (mesh)
+     + node: KOLUMNA02 (mesh)
+     + node: KOLUMNA03 (mesh)
+     + node: KOLUMNA04 (mesh)
+     + node: KOLUMNA05 (mesh)
+     + node: SCIANA00X (mesh)
+     + node: SCIANA00X0 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
+     + node: TLO (mesh)
+     + node: BOX01 (mesh)
+     + node: PLANE01 (mesh)
+     + node: PLANE02 (mesh)
+     + node: PLANE03 (mesh)
+     + node: PLANE04 (mesh)
+     + node: PLANE05 (mesh)

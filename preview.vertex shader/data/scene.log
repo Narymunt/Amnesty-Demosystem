@@ -1,0 +1,1274 @@
+
+....loading scene.3ds file
+....material PUSTYNIA loaded
+....material ZIEMIA loaded
+....material DACH loaded
+....material KRZAK loaded
+....material DONICA loaded
+....material BECZKA01 loaded
+....material SKRZYNIA loaded
+....material OKNO02 loaded
+....material OKNO loaded
+....material SCIANA02 loaded
+....material TRIM loaded
+....material SCIANA01 loaded
+....material NIEBO loaded
+....mesh ZIEMIA loaded
+....mesh ZIEMIAA loaded
+....mesh ZIEMIAA01 loaded
+....mesh KRZAK01 loaded
+....mesh DONICA loaded
+....mesh KRZAK02 loaded
+....mesh DONICA01 loaded
+....mesh KRZAK03 loaded
+....mesh DONICA02 loaded
+....mesh KRZAK05 loaded
+....mesh DONICA04 loaded
+....mesh KRZAK06 loaded
+....mesh DONICA05 loaded
+....mesh KRZAK07 loaded
+....mesh DONICA06 loaded
+....mesh KRZAK08 loaded
+....mesh DONICA07 loaded
+....mesh KRZAK09 loaded
+....mesh DONICA08 loaded
+....mesh KRZAK10 loaded
+....mesh DONICA09 loaded
+....mesh KRZAK11 loaded
+....mesh DONICA10 loaded
+....mesh BECZKA01 loaded
+....mesh BECZKA02 loaded
+....mesh BECZKA03 loaded
+....mesh BECZKA04 loaded
+....mesh BECZKA05 loaded
+....mesh BECZKA06 loaded
+....mesh SKRZYNIA01 loaded
+....mesh SKRZYNIA02 loaded
+....mesh SKRZYNIA03 loaded
+....mesh SKRZYNIA04 loaded
+....mesh SKRZYNIA05 loaded
+....mesh SKRZYNIA06 loaded
+....mesh SKRZYNIA07 loaded
+....mesh SKRZYNIA08 loaded
+....mesh SKRZYNIA09 loaded
+....mesh SKRZYNIA10 loaded
+....mesh SKRZYNIA11 loaded
+....mesh SKRZYNIA12 loaded
+....mesh SKRZYNIA13 loaded
+....mesh SKRZYNIA14 loaded
+....mesh SKRZYNIA15 loaded
+....mesh SKRZYNIA16 loaded
+....mesh SKRZYNIA17 loaded
+....mesh SKRZYNIA18 loaded
+....mesh SKRZYNIA19 loaded
+....mesh SKRZYNIA20 loaded
+....mesh OKNO01 loaded
+....mesh OKNO02 loaded
+....mesh BOX249 loaded
+....mesh BOX248 loaded
+....mesh BOX247 loaded
+....mesh BOX246 loaded
+....mesh BOX245 loaded
+....mesh PLANE49 loaded
+....mesh BOX239 loaded
+....mesh BOX238 loaded
+....mesh BOX237 loaded
+....mesh BOX236 loaded
+....mesh BOX235 loaded
+....mesh PLANE47 loaded
+....mesh BOX234 loaded
+....mesh BOX233 loaded
+....mesh BOX232 loaded
+....mesh BOX231 loaded
+....mesh BOX230 loaded
+....mesh PLANE46 loaded
+....mesh BOX229 loaded
+....mesh BOX228 loaded
+....mesh BOX227 loaded
+....mesh BOX226 loaded
+....mesh BOX225 loaded
+....mesh PLANE45 loaded
+....mesh BOX224 loaded
+....mesh BOX223 loaded
+....mesh BOX222 loaded
+....mesh BOX221 loaded
+....mesh BOX220 loaded
+....mesh PLANE44 loaded
+....mesh BOX214 loaded
+....mesh BOX213 loaded
+....mesh BOX212 loaded
+....mesh BOX211 loaded
+....mesh BOX210 loaded
+....mesh PLANE42 loaded
+....mesh BOX209 loaded
+....mesh BOX208 loaded
+....mesh BOX207 loaded
+....mesh BOX206 loaded
+....mesh BOX205 loaded
+....mesh PLANE41 loaded
+....mesh BOX204 loaded
+....mesh BOX203 loaded
+....mesh BOX202 loaded
+....mesh BOX201 loaded
+....mesh BOX200 loaded
+....mesh PLANE40 loaded
+....mesh BOX256 loaded
+....mesh BOX255 loaded
+....mesh BOX254 loaded
+....mesh BOX253 loaded
+....mesh BOX252 loaded
+....mesh BOX251 loaded
+....mesh PLANE50 loaded
+....mesh BOX250 loaded
+....mesh BOX184 loaded
+....mesh BOX183 loaded
+....mesh BOX182 loaded
+....mesh BOX181 loaded
+....mesh BOX180 loaded
+....mesh PLANE36 loaded
+....mesh BOX179 loaded
+....mesh BOX178 loaded
+....mesh BOX177 loaded
+....mesh BOX176 loaded
+....mesh PLANE35 loaded
+....mesh BOX175 loaded
+....mesh BOX174 loaded
+....mesh BOX173 loaded
+....mesh BOX172 loaded
+....mesh BOX171 loaded
+....mesh PLANE34 loaded
+....mesh BOX170 loaded
+....mesh BOX169 loaded
+....mesh BOX168 loaded
+....mesh BOX167 loaded
+....mesh BOX166 loaded
+....mesh BOX165 loaded
+....mesh PLANE33 loaded
+....mesh BOX164 loaded
+....mesh BOX163 loaded
+....mesh BOX162 loaded
+....mesh BOX161 loaded
+....mesh BOX160 loaded
+....mesh PLANE32 loaded
+....mesh BOX154 loaded
+....mesh BOX153 loaded
+....mesh BOX152 loaded
+....mesh BOX151 loaded
+....mesh BOX150 loaded
+....mesh PLANE30 loaded
+....mesh BOX149 loaded
+....mesh BOX148 loaded
+....mesh BOX147 loaded
+....mesh BOX146 loaded
+....mesh BOX145 loaded
+....mesh PLANE29 loaded
+....mesh BOX144 loaded
+....mesh BOX143 loaded
+....mesh BOX142 loaded
+....mesh PLANE28 loaded
+....mesh BOX141 loaded
+....mesh BOX140 loaded
+....mesh BOX139 loaded
+....mesh BOX138 loaded
+....mesh BOX137 loaded
+....mesh BOX136 loaded
+....mesh PLANE27 loaded
+....mesh BOX135 loaded
+....mesh BOX92 loaded
+....mesh BOX91 loaded
+....mesh BOX90 loaded
+....mesh BOX89 loaded
+....mesh BOX88 loaded
+....mesh PLANE18 loaded
+....mesh BOX77 loaded
+....mesh BOX76 loaded
+....mesh BOX75 loaded
+....mesh BOX74 loaded
+....mesh BOX73 loaded
+....mesh PLANE15 loaded
+....camera CAMERA01 loaded
+....target CAMERA01.TARGET loaded
+....mesh NIEBO loaded
+....keyframer of mesh ZIEMIA loaded
+....keyframer of mesh ZIEMIAA loaded
+....keyframer of mesh ZIEMIAA01 loaded
+....keyframer of mesh KRZAK01 loaded
+....keyframer of mesh DONICA loaded
+....keyframer of mesh KRZAK02 loaded
+....keyframer of mesh DONICA01 loaded
+....keyframer of mesh KRZAK03 loaded
+....keyframer of mesh DONICA02 loaded
+....keyframer of mesh KRZAK05 loaded
+....keyframer of mesh DONICA04 loaded
+....keyframer of mesh KRZAK06 loaded
+....keyframer of mesh DONICA05 loaded
+....keyframer of mesh KRZAK07 loaded
+....keyframer of mesh DONICA06 loaded
+....keyframer of mesh KRZAK08 loaded
+....keyframer of mesh DONICA07 loaded
+....keyframer of mesh KRZAK09 loaded
+....keyframer of mesh DONICA08 loaded
+....keyframer of mesh KRZAK10 loaded
+....keyframer of mesh DONICA09 loaded
+....keyframer of mesh KRZAK11 loaded
+....keyframer of mesh DONICA10 loaded
+....keyframer of mesh BECZKA01 loaded
+....keyframer of mesh BECZKA02 loaded
+....keyframer of mesh BECZKA03 loaded
+....keyframer of mesh BECZKA04 loaded
+....keyframer of mesh BECZKA05 loaded
+....keyframer of mesh BECZKA06 loaded
+....keyframer of mesh SKRZYNIA01 loaded
+....keyframer of mesh SKRZYNIA02 loaded
+....keyframer of mesh SKRZYNIA03 loaded
+....keyframer of mesh SKRZYNIA04 loaded
+....keyframer of mesh SKRZYNIA05 loaded
+....keyframer of mesh SKRZYNIA06 loaded
+....keyframer of mesh SKRZYNIA07 loaded
+....keyframer of mesh SKRZYNIA08 loaded
+....keyframer of mesh SKRZYNIA09 loaded
+....keyframer of mesh SKRZYNIA10 loaded
+....keyframer of mesh SKRZYNIA11 loaded
+....keyframer of mesh SKRZYNIA12 loaded
+....keyframer of mesh SKRZYNIA13 loaded
+....keyframer of mesh SKRZYNIA14 loaded
+....keyframer of mesh SKRZYNIA15 loaded
+....keyframer of mesh SKRZYNIA16 loaded
+....keyframer of mesh SKRZYNIA17 loaded
+....keyframer of mesh SKRZYNIA18 loaded
+....keyframer of mesh SKRZYNIA19 loaded
+....keyframer of mesh SKRZYNIA20 loaded
+....keyframer of mesh OKNO01 loaded
+....keyframer of mesh OKNO02 loaded
+....keyframer of mesh BOX249 loaded
+....keyframer of mesh BOX248 loaded
+....keyframer of mesh BOX247 loaded
+....keyframer of mesh BOX246 loaded
+....keyframer of mesh BOX245 loaded
+....keyframer of mesh PLANE49 loaded
+....keyframer of mesh BOX239 loaded
+....keyframer of mesh BOX238 loaded
+....keyframer of mesh BOX237 loaded
+....keyframer of mesh BOX236 loaded
+....keyframer of mesh BOX235 loaded
+....keyframer of mesh PLANE47 loaded
+....keyframer of mesh BOX234 loaded
+....keyframer of mesh BOX233 loaded
+....keyframer of mesh BOX232 loaded
+....keyframer of mesh BOX231 loaded
+....keyframer of mesh BOX230 loaded
+....keyframer of mesh PLANE46 loaded
+....keyframer of mesh BOX229 loaded
+....keyframer of mesh BOX228 loaded
+....keyframer of mesh BOX227 loaded
+....keyframer of mesh BOX226 loaded
+....keyframer of mesh BOX225 loaded
+....keyframer of mesh PLANE45 loaded
+....keyframer of mesh BOX224 loaded
+....keyframer of mesh BOX223 loaded
+....keyframer of mesh BOX222 loaded
+....keyframer of mesh BOX221 loaded
+....keyframer of mesh BOX220 loaded
+....keyframer of mesh PLANE44 loaded
+....keyframer of mesh BOX214 loaded
+....keyframer of mesh BOX213 loaded
+....keyframer of mesh BOX212 loaded
+....keyframer of mesh BOX211 loaded
+....keyframer of mesh BOX210 loaded
+....keyframer of mesh PLANE42 loaded
+....keyframer of mesh BOX209 loaded
+....keyframer of mesh BOX208 loaded
+....keyframer of mesh BOX207 loaded
+....keyframer of mesh BOX206 loaded
+....keyframer of mesh BOX205 loaded
+....keyframer of mesh PLANE41 loaded
+....keyframer of mesh BOX204 loaded
+....keyframer of mesh BOX203 loaded
+....keyframer of mesh BOX202 loaded
+....keyframer of mesh BOX201 loaded
+....keyframer of mesh BOX200 loaded
+....keyframer of mesh PLANE40 loaded
+....keyframer of mesh BOX256 loaded
+....keyframer of mesh BOX255 loaded
+....keyframer of mesh BOX254 loaded
+....keyframer of mesh BOX253 loaded
+....keyframer of mesh BOX252 loaded
+....keyframer of mesh BOX251 loaded
+....keyframer of mesh PLANE50 loaded
+....keyframer of mesh BOX250 loaded
+....keyframer of mesh BOX184 loaded
+....keyframer of mesh BOX183 loaded
+....keyframer of mesh BOX182 loaded
+....keyframer of mesh BOX181 loaded
+....keyframer of mesh BOX180 loaded
+....keyframer of mesh PLANE36 loaded
+....keyframer of mesh BOX179 loaded
+....keyframer of mesh BOX178 loaded
+....keyframer of mesh BOX177 loaded
+....keyframer of mesh BOX176 loaded
+....keyframer of mesh PLANE35 loaded
+....keyframer of mesh BOX175 loaded
+....keyframer of mesh BOX174 loaded
+....keyframer of mesh BOX173 loaded
+....keyframer of mesh BOX172 loaded
+....keyframer of mesh BOX171 loaded
+....keyframer of mesh PLANE34 loaded
+....keyframer of mesh BOX170 loaded
+....keyframer of mesh BOX169 loaded
+....keyframer of mesh BOX168 loaded
+....keyframer of mesh BOX167 loaded
+....keyframer of mesh BOX166 loaded
+....keyframer of mesh BOX165 loaded
+....keyframer of mesh PLANE33 loaded
+....keyframer of mesh BOX164 loaded
+....keyframer of mesh BOX163 loaded
+....keyframer of mesh BOX162 loaded
+....keyframer of mesh BOX161 loaded
+....keyframer of mesh BOX160 loaded
+....keyframer of mesh PLANE32 loaded
+....keyframer of mesh BOX154 loaded
+....keyframer of mesh BOX153 loaded
+....keyframer of mesh BOX152 loaded
+....keyframer of mesh BOX151 loaded
+....keyframer of mesh BOX150 loaded
+....keyframer of mesh PLANE30 loaded
+....keyframer of mesh BOX149 loaded
+....keyframer of mesh BOX148 loaded
+....keyframer of mesh BOX147 loaded
+....keyframer of mesh BOX146 loaded
+....keyframer of mesh BOX145 loaded
+....keyframer of mesh PLANE29 loaded
+....keyframer of mesh BOX144 loaded
+....keyframer of mesh BOX143 loaded
+....keyframer of mesh BOX142 loaded
+....keyframer of mesh PLANE28 loaded
+....keyframer of mesh BOX141 loaded
+....keyframer of mesh BOX140 loaded
+....keyframer of mesh BOX139 loaded
+....keyframer of mesh BOX138 loaded
+....keyframer of mesh BOX137 loaded
+....keyframer of mesh BOX136 loaded
+....keyframer of mesh PLANE27 loaded
+....keyframer of mesh BOX135 loaded
+....keyframer of mesh BOX92 loaded
+....keyframer of mesh BOX91 loaded
+....keyframer of mesh BOX90 loaded
+....keyframer of mesh BOX89 loaded
+....keyframer of mesh BOX88 loaded
+....keyframer of mesh PLANE18 loaded
+....keyframer of mesh BOX77 loaded
+....keyframer of mesh BOX76 loaded
+....keyframer of mesh BOX75 loaded
+....keyframer of mesh BOX74 loaded
+....keyframer of mesh BOX73 loaded
+....keyframer of mesh PLANE15 loaded
+....keyframer of camera CAMERA01 loaded
+....keyframer of target CAMERA01.TARGET loaded
+....keyframer of mesh NIEBO loaded
+
+....saving scene.3d file
+....material PUSTYNIA saved
+	  + texture file name: PIACH02.JPG
+....material ZIEMIA saved
+	  + texture file name: PIACH01.JPG
+....material DACH saved
+	  + texture file name: ADOBE03.JPG
+....material KRZAK saved
+	  + texture file name: KWIATY.JPG
+....material DONICA saved
+	  + texture file name: DONICA.JPG
+....material BECZKA01 saved
+	  + texture file name: BECZKA01.JPG
+....material SKRZYNIA saved
+	  + texture file name: SKRZYNIA.JPG
+....material OKNO02 saved
+	  + texture file name: OKNO02.JPG
+....material OKNO saved
+	  + texture file name: OKNO01.JPG
+....material SCIANA02 saved
+	  + texture file name: ADOBE01.JPG
+....material TRIM saved
+	  + texture file name: ADOBE.JPG
+....material SCIANA01 saved
+	  + texture file name: ADOBE02.JPG
+....material NIEBO saved
+	  + texture file name: NIEBO.JPG
+....mesh ZIEMIA saved
+     + number of vertices: 1110
+     + number of faces: 2076
+     + number of group: 1
+....mesh ZIEMIAA saved
+     + number of vertices: 216
+     + number of faces: 80
+     + number of group: 1
+....mesh ZIEMIAA01 saved
+     + number of vertices: 216
+     + number of faces: 80
+     + number of group: 1
+....mesh KRZAK01 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK02 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA01 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK03 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA02 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK05 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA04 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK06 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA05 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK07 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA06 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK08 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA07 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK09 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA08 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK10 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA09 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh KRZAK11 saved
+     + number of vertices: 609
+     + number of faces: 660
+     + number of group: 1
+....mesh DONICA10 saved
+     + number of vertices: 79
+     + number of faces: 48
+     + number of group: 1
+....mesh BECZKA01 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh BECZKA02 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh BECZKA03 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh BECZKA04 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh BECZKA05 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh BECZKA06 saved
+     + number of vertices: 244
+     + number of faces: 216
+     + number of group: 1
+....mesh SKRZYNIA01 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA02 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA03 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA04 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA05 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA06 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA07 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA08 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA09 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA10 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA11 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA12 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA13 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA14 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA15 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA16 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA17 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA18 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA19 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh SKRZYNIA20 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh OKNO01 saved
+     + number of vertices: 86
+     + number of faces: 48
+     + number of group: 1
+....mesh OKNO02 saved
+     + number of vertices: 86
+     + number of faces: 48
+     + number of group: 1
+....mesh BOX249 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX248 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX247 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX246 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX245 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE49 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX239 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX238 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX237 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX236 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX235 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE47 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX234 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX233 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX232 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX231 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX230 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE46 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX229 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX228 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX227 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX226 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX225 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE45 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX224 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX223 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX222 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX221 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX220 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE44 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX214 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX213 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX212 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX211 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX210 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE42 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX209 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX208 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX207 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX206 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX205 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE41 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX204 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX203 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX202 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX201 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX200 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE40 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX256 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX255 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX254 saved
+     + number of vertices: 29
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX253 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX252 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX251 saved
+     + number of vertices: 29
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE50 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX250 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX184 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX183 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX182 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX181 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX180 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE36 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX179 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX178 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX177 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX176 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE35 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX175 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX174 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX173 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX172 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX171 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE34 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX170 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX169 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX168 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX167 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX166 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX165 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE33 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX164 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX163 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX162 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX161 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX160 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE32 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX154 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX153 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX152 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX151 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX150 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE30 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX149 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX148 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX147 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX146 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX145 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE29 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX144 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX143 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX142 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE28 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX141 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX140 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX139 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX138 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX137 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX136 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE27 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX135 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX92 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX91 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX90 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX89 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX88 saved
+     + number of vertices: 30
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE18 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....mesh BOX77 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX76 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX75 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX74 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh BOX73 saved
+     + number of vertices: 32
+     + number of faces: 12
+     + number of group: 1
+....mesh PLANE15 saved
+     + number of vertices: 25
+     + number of faces: 32
+     + number of group: 1
+....camera CAMERA01 saved
+     + position: [-748.84,92.56,-324.69]
+     + fov: 53.33
+     + roll: 0.00
+....target CAMERA01.TARGET saved
+     + position: [-744.85,37.64,-333.36]
+....mesh NIEBO saved
+     + number of vertices: 107
+     + number of faces: 128
+     + number of group: 1
+....keyframer tree saved
+     + node: ZIEMIA (mesh)
+     + node: ZIEMIAA (mesh)
+     + node: ZIEMIAA01 (mesh)
+     + node: KRZAK01 (mesh)
+     + node: DONICA (mesh)
+     + node: KRZAK02 (mesh)
+     + node: DONICA01 (mesh)
+     + node: KRZAK03 (mesh)
+     + node: DONICA02 (mesh)
+     + node: KRZAK05 (mesh)
+     + node: DONICA04 (mesh)
+     + node: KRZAK06 (mesh)
+     + node: DONICA05 (mesh)
+     + node: KRZAK07 (mesh)
+     + node: DONICA06 (mesh)
+     + node: KRZAK08 (mesh)
+     + node: DONICA07 (mesh)
+     + node: KRZAK09 (mesh)
+     + node: DONICA08 (mesh)
+     + node: KRZAK10 (mesh)
+     + node: DONICA09 (mesh)
+     + node: KRZAK11 (mesh)
+     + node: DONICA10 (mesh)
+     + node: BECZKA01 (mesh)
+     + node: BECZKA02 (mesh)
+     + node: BECZKA03 (mesh)
+     + node: BECZKA04 (mesh)
+     + node: BECZKA05 (mesh)
+     + node: BECZKA06 (mesh)
+     + node: SKRZYNIA01 (mesh)
+     + node: SKRZYNIA02 (mesh)
+     + node: SKRZYNIA03 (mesh)
+     + node: SKRZYNIA04 (mesh)
+     + node: SKRZYNIA05 (mesh)
+     + node: SKRZYNIA06 (mesh)
+     + node: SKRZYNIA07 (mesh)
+     + node: SKRZYNIA08 (mesh)
+     + node: SKRZYNIA09 (mesh)
+     + node: SKRZYNIA10 (mesh)
+     + node: SKRZYNIA11 (mesh)
+     + node: SKRZYNIA12 (mesh)
+     + node: SKRZYNIA13 (mesh)
+     + node: SKRZYNIA14 (mesh)
+     + node: SKRZYNIA15 (mesh)
+     + node: SKRZYNIA16 (mesh)
+     + node: SKRZYNIA17 (mesh)
+     + node: SKRZYNIA18 (mesh)
+     + node: SKRZYNIA19 (mesh)
+     + node: SKRZYNIA20 (mesh)
+     + node: OKNO01 (mesh)
+     + node: OKNO02 (mesh)
+     + node: BOX249 (mesh)
+     + node: BOX248 (mesh)
+     + node: BOX247 (mesh)
+     + node: BOX246 (mesh)
+     + node: BOX245 (mesh)
+     + node: PLANE49 (mesh)
+     + node: BOX239 (mesh)
+     + node: BOX238 (mesh)
+     + node: BOX237 (mesh)
+     + node: BOX236 (mesh)
+     + node: BOX235 (mesh)
+     + node: PLANE47 (mesh)
+     + node: BOX234 (mesh)
+     + node: BOX233 (mesh)
+     + node: BOX232 (mesh)
+     + node: BOX231 (mesh)
+     + node: BOX230 (mesh)
+     + node: PLANE46 (mesh)
+     + node: BOX229 (mesh)
+     + node: BOX228 (mesh)
+     + node: BOX227 (mesh)
+     + node: BOX226 (mesh)
+     + node: BOX225 (mesh)
+     + node: PLANE45 (mesh)
+     + node: BOX224 (mesh)
+     + node: BOX223 (mesh)
+     + node: BOX222 (mesh)
+     + node: BOX221 (mesh)
+     + node: BOX220 (mesh)
+     + node: PLANE44 (mesh)
+     + node: BOX214 (mesh)
+     + node: BOX213 (mesh)
+     + node: BOX212 (mesh)
+     + node: BOX211 (mesh)
+     + node: BOX210 (mesh)
+     + node: PLANE42 (mesh)
+     + node: BOX209 (mesh)
+     + node: BOX208 (mesh)
+     + node: BOX207 (mesh)
+     + node: BOX206 (mesh)
+     + node: BOX205 (mesh)
+     + node: PLANE41 (mesh)
+     + node: BOX204 (mesh)
+     + node: BOX203 (mesh)
+     + node: BOX202 (mesh)
+     + node: BOX201 (mesh)
+     + node: BOX200 (mesh)
+     + node: PLANE40 (mesh)
+     + node: BOX256 (mesh)
+     + node: BOX255 (mesh)
+     + node: BOX254 (mesh)
+     + node: BOX253 (mesh)
+     + node: BOX252 (mesh)
+     + node: BOX251 (mesh)
+     + node: PLANE50 (mesh)
+     + node: BOX250 (mesh)
+     + node: BOX184 (mesh)
+     + node: BOX183 (mesh)
+     + node: BOX182 (mesh)
+     + node: BOX181 (mesh)
+     + node: BOX180 (mesh)
+     + node: PLANE36 (mesh)
+     + node: BOX179 (mesh)
+     + node: BOX178 (mesh)
+     + node: BOX177 (mesh)
+     + node: BOX176 (mesh)
+     + node: PLANE35 (mesh)
+     + node: BOX175 (mesh)
+     + node: BOX174 (mesh)
+     + node: BOX173 (mesh)
+     + node: BOX172 (mesh)
+     + node: BOX171 (mesh)
+     + node: PLANE34 (mesh)
+     + node: BOX170 (mesh)
+     + node: BOX169 (mesh)
+     + node: BOX168 (mesh)
+     + node: BOX167 (mesh)
+     + node: BOX166 (mesh)
+     + node: BOX165 (mesh)
+     + node: PLANE33 (mesh)
+     + node: BOX164 (mesh)
+     + node: BOX163 (mesh)
+     + node: BOX162 (mesh)
+     + node: BOX161 (mesh)
+     + node: BOX160 (mesh)
+     + node: PLANE32 (mesh)
+     + node: BOX154 (mesh)
+     + node: BOX153 (mesh)
+     + node: BOX152 (mesh)
+     + node: BOX151 (mesh)
+     + node: BOX150 (mesh)
+     + node: PLANE30 (mesh)
+     + node: BOX149 (mesh)
+     + node: BOX148 (mesh)
+     + node: BOX147 (mesh)
+     + node: BOX146 (mesh)
+     + node: BOX145 (mesh)
+     + node: PLANE29 (mesh)
+     + node: BOX144 (mesh)
+     + node: BOX143 (mesh)
+     + node: BOX142 (mesh)
+     + node: PLANE28 (mesh)
+     + node: BOX141 (mesh)
+     + node: BOX140 (mesh)
+     + node: BOX139 (mesh)
+     + node: BOX138 (mesh)
+     + node: BOX137 (mesh)
+     + node: BOX136 (mesh)
+     + node: PLANE27 (mesh)
+     + node: BOX135 (mesh)
+     + node: BOX92 (mesh)
+     + node: BOX91 (mesh)
+     + node: BOX90 (mesh)
+     + node: BOX89 (mesh)
+     + node: BOX88 (mesh)
+     + node: PLANE18 (mesh)
+     + node: BOX77 (mesh)
+     + node: BOX76 (mesh)
+     + node: BOX75 (mesh)
+     + node: BOX74 (mesh)
+     + node: BOX73 (mesh)
+     + node: PLANE15 (mesh)
+     + node: CAMERA01 (camera)
+     + node: CAMERA01.TARGET (target)
+     + node: NIEBO (mesh)
