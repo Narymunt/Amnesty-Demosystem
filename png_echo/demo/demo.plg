@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSPE8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/demo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\jarek\islamabad\demo\demo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSPE8.tmp" 
+Creating temporary file "C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSPE9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib d3d8.lib d3dx8.lib strmiids.lib dxguid.lib bass.lib g3d.lib ijl15.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/demo.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /out:"Debug/demo.exe" /pdbtype:sept 
+.\Debug\BASSPLAYER.OBJ
+.\Debug\demo.obj
+.\Debug\Font.obj
+.\Debug\fxtemp.obj
+.\Debug\GRAPHICS.OBJ
+.\Debug\LoadScreen.obj
+.\Debug\MarchingCubes.obj
+.\Debug\Metaballs.obj
+.\Debug\MetaballsFX.obj
+.\Debug\RadialZoom.obj
+.\Debug\Scene3d.obj
+.\Debug\UTILS.OBJ
+.\Debug\VShader.obj
+.\Debug\demo.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Jarek\USTAWI~1\Temp\RSPE9.tmp"
+<h3>Output Window</h3>
+Compiling...
+demo.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

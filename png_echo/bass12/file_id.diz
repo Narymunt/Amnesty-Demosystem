@@ -1,0 +1,13 @@
+           BASS v1.2
+/---------=> Win32 <=---------\
+    Audio library providing
+     WAV/MPx/user samples,
+ MPx/OGG/WAV file and internet
+    streaming, Shout/Icecast
+   streaming, user streaming,
+  MO3/XM/IT/MOD/S3M/MTM music
+   and CD playback functions
+    with 3D/A3D/EAX support
+    plus FX/DSP/sync/etc...
+/ C/C++, VB, Delphi, TMT APIs \
+\-----------------------------/

@@ -1,0 +1,23 @@
+#include <windows.h>
+#include "multi.h"
+
+1000 DIALOG DISCARDABLE  100, 100, 201, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BASS multiple output example"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "click here to open a file...",ID_OPEN,10,10,180,14
+    GROUPBOX        "device 1",-1,5,0,190,29
+    PUSHBUTTON      "click here to open a file...",ID_OPEN2,10,40,180,14
+    GROUPBOX        "device 2",-1,5,31,190,29
+END
+
+// Device selector dialog
+2000 DIALOG DISCARDABLE  20, 20, 170, 60
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "BASS output device selector"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         ID_DEVLIST,5,5,160,35,LBS_NOINTEGRALHEIGHT | WS_VSCROLL|WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,100,44,60,12,WS_TABSTOP
+END
